@@ -1,0 +1,8 @@
+fileclassificationstatus
+tables/01_pepc_candidate_classification.tsv candidate classificationcomplete
+tables/01_all_species_PEPC_detailed_evidence.tsv detailed evidencecomplete
+tables/03_tree_tip_metadata.tsv final tree metadatacomplete
+figures/PEPC_corrected_translated.treefile final PEPC treecomplete
+figures/03_iTOL_maize_coordinate_text.txt iTOL coordinate datasetcomplete
+figures/PO_PEPC_Figure3B_like_final_primary_PEPC.pdf PO expression heatmapcomplete
+figures/SS_PEPC_Figure3B_like_final_primary_PEPC.pdf SS expression heatmapcomplete
