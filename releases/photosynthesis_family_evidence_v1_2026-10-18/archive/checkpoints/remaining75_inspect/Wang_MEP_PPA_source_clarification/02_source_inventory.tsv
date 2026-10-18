@@ -1,0 +1,6 @@
+file	source_class	provenance	bytes	sha256
+sources/Wang2023_article.xml	WANG_PRIMARY	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10663116/fullTextXML	199588	ea14c10751b2bc508cf16578195a4f40c1f2424a28376ce4657602675a5c409c
+sources/Wang2023_supplements.zip	WANG_PRIMARY	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10663116/supplementaryFiles	4676668	83211cad119b0b609cba8d7659ca50dc2a5e8a81caa05c3e2826587c8cb5ca70
+extracted/83211cad11_3.zip	WANG_PRIMARY	sources/Wang2023_supplements.zip::kiad451_supplementary_data.zip	3940800	0ed21c93e74576de871d14656cb4418ff5720190fc5bc6a0e80a4afcd6f4cc08
+extracted/0ed21c93e7_0.pdf	WANG_PRIMARY	extracted/83211cad11_3.zip::Supplementary information.pdf	3978848	abcf1aa85553a279ada3aeb836681f25389f339262cf7750a456b48b193528e3
+extracted/0ed21c93e7_1.xlsx	WANG_PRIMARY	extracted/83211cad11_3.zip::Supplementary table.xlsx	1011049	d3fcf843059c79e871df945220d9f522d033b7d97915bacc89c2049288ab342a

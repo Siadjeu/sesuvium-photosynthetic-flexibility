@@ -1,0 +1,5 @@
+sequence_id	length_aa	domain_hits	models	union_protein_coverage	interpretation
+TD029	365	1	PF02902.26	0.315068	REVIEW_ONLY; shared domains do not establish specificity; no hit does not prove absence
+REF__Q8LG88	540	3	PF00939.26;PF03600.23	0.848148	REVIEW_ONLY; shared domains do not establish specificity; no hit does not prove absence
+REF__Q9FMF7	563	2	PF00939.26;PF03600.23	0.831261	REVIEW_ONLY; shared domains do not establish specificity; no hit does not prove absence
+REF__Q9LXV3	557	3	PF00939.26;PF03600.23	0.834829	REVIEW_ONLY; shared domains do not establish specificity; no hit does not prove absence

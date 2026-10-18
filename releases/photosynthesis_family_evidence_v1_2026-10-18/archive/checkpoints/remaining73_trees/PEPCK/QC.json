@@ -1,0 +1,11 @@
+{
+  "group": "PEPCK",
+  "candidate_records": 22,
+  "main_candidates": 12,
+  "partial_or_architecture_candidates": 1,
+  "outside_core_candidates": 9,
+  "main_references": 2,
+  "core_columns": 468,
+  "status": "ALIGNED_LIMITED_PANEL_NO_SPECIFICITY_TREE",
+  "error": ""
+}

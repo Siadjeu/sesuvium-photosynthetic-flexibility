@@ -1,0 +1,2 @@
+record_number	suspect_id	species	nucleotide_like_length	translation_length	translation_internal_stops	translation_status	matching_protein_ids	matching_record_numbers	same_stem_matches	locus_status
+246306	SS__both_agree_g52699	SS	537	179	0	NO_EXACT_PROTEIN_MATCH				REQUIRES_SOURCE_OR_ANNOTATION_MAPPING

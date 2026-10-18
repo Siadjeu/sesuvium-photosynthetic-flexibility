@@ -1,0 +1,2077 @@
+
+FILE: 08_focused_families/validation/step25kz17.5/release/FORMAL_QC.tsv
+metric	value
+checkpoint	step25kz17.5_beta_CA_rescue_and_missing_reference_audit
+status	COMPLETE_REVIEW_ONLY
+beta_CA_policy	review-only_pending_formal_threshold_support
+reference_rescue_policy	missing references reported; not fabricated
+PEPC_reference_state	frozen_and_not_modified
+candidate_interpretation	rescue_candidates_are_not_formal_tree_inputs
+next_action	manual_review_then_reference_completion_and_tree_building
+
+FILE: 08_focused_families/validation/step25kz17.5/release/BETA_CA/06_BETA_CA_rescue_QC.tsv
+metric	value
+primary_proteome	<ABS_PATH>
+reference_file	<ABS_PATH>
+diamond_hit_records	706
+unique_rescue_candidates	109
+review_supported_candidates	108
+review_weak_candidates	1
+formal_beta_CA_acceptance	NOT_PERFORMED
+beta_CA_interpretation	REVIEW_ONLY
+status	COMPLETE_REVIEW_ONLY
+
+FILE: 08_focused_families/validation/step25kz17.5/release/00_reference_rescue_requirements.tsv
+family	reference_status	reference_file	tree_action	interpretation
+BETA_CA	AVAILABLE_REVIEW_ONLY	<ABS_PATH>	RESCUE_SCREENING	Reference available; candidate rescue remains review-only pending formal thresholds.
+PPDK	AVAILABLE	<ABS_PATH>	BUILD_TREE	Reference inventory available for downstream tree construction.
+PEPC_KINASE	AVAILABLE	<ABS_PATH>	BUILD_TREE	Reference inventory available for downstream tree construction.
+TDT	MISSING	<ABS_PATH>	REFERENCE_REQUIRED	No validated reference inventory found; obtain or curate family-specific reference proteins before tree construction.
+DIC	MISSING	<ABS_PATH>	REFERENCE_REQUIRED	No validated reference inventory found; obtain or curate family-specific reference proteins before tree construction.
+DTC	MISSING	<ABS_PATH>	REFERENCE_REQUIRED	No validated reference inventory found; obtain or curate family-specific reference proteins before tree construction.
+ALMT	AVAILABLE	<ABS_PATH>	BUILD_TREE	Reference inventory available for downstream tree construction.
+V_ATPASE	AVAILABLE	<ABS_PATH>	BUILD_TREE	Reference inventory available for downstream tree construction.
+V_PPASE	AVAILABLE	<ABS_PATH>	BUILD_TREE	Reference inventory available for downstream tree construction.
+STARCH_DEPHOSPHORYLATION	REVIEW_REQUIRED	<ABS_PATH>	REFERENCE_REQUIRED	Reference inventory exists but requires manual review.
+
+FILE: 08_focused_families/validation/step25kz17.4d/release/FORMAL_QC.tsv
+metric	value
+checkpoint	step25kz17.4d_pepc_count_and_status_correction
+status	COMPLETE
+pepc_identifier_rule	OUR__ or direct species-prefixed identifiers
+pepc_source	frozen corrected PEPC tree metadata
+beta_ca_zero_rule	REVIEW_ONLY_NO_ACCEPTED_PRIMARY_SET
+ppdk_re_zero_rule	NO_ACCEPTED_PRIMARY_SET
+missing_input_rule	NA, not zero
+combined_family_rule	TDT_DTC_DIC marked NOT_COMPARABLE
+candidate_vs_total_rule	never interpreted as biological difference
+total_annotation_counts	NOT_GENERATED_IN_THIS_STEP
+
+FILE: 08_focused_families/validation/step25kz17.4c/release/FORMAL_QC.tsv
+metric	value
+checkpoint	step25kz17.4c_corrected_count_interpretation
+status	COMPLETE
+pepc_metadata_parser	identifier field detected dynamically
+missing_input_value	NA, not zero
+missing_input_status	PROJECT_INPUT_MISSING
+candidate_comparison_status	CANDIDATE_VS_TOTAL_NOT_DIRECT
+combined_family_status	NOT_COMPARABLE
+wang_reference_table	Wang et al. supplementary Table S6
+total_count_status	NOT_GENERATED_IN_THIS_STEP
+next_required_step	complete-proteome family-specific profile counting
+
+FILE: 08_focused_families/validation/step25kz17.4b/release/FORMAL_QC.tsv
+metric	value
+checkpoint	step25kz17.4b_corrected_family_count_comparison
+status	COMPLETE
+wang_reference_table	Wang et al. supplementary Table S6
+project_count_unit	validated gene identifiers
+transcript_rule	transcript records are not counted as separate genes
+duplicate_rule	genuine duplicate loci retained; identical sequences are not collapsed
+PEPC_source	frozen corrected PEPC tree metadata
+combined_family_rule	TDT_DTC_DIC is not assigned to separate families
+zero_count_interpretation	zero in a validated input is not equivalent to biological absence
+missing_input_interpretation	missing validated input is not equivalent to zero genes
+Wang_comparison_species	PO, BV, AT, and maize benchmark rows
+
+FILE: 08_focused_families/validation/step25kz17.4/release/FORMAL_QC.tsv
+metric	value
+checkpoint	step25kz17.4_expanded_c4_cam_family_counts
+status	COMPLETE
+expanded_family_count	24
+species_count	8
+candidate_inventory_records	4670
+count_unit	gene identifiers; transcript duplicates are not counted as independent genes
+duplicate_sequence_rule	identical ungapped protein sequences are retained as separate gene records and reported separately
+combined_family_rule	TDT_DTC_DIC records are not silently assigned to separate DIC, DTC, or TDT families
+beta_CA_policy	review-only; counts reported but excluded from formal tree interpretation
+PEPC_reference_state	frozen and not modified
+interpretation	NO_RECORD_FOUND means no matching source FASTA was found; it does not prove biological absence
+
+FILE: 08_focused_families/validation/step25kz17.4/release/03_expanded_family_summary.tsv
+family	description	policy	total_gene_records	species_with_records	unique_sequence_count	identical_sequence_copy_count	source_status
+BETA_CA	beta carbonic anhydrase	REVIEW_ONLY	90	AT,BV,MC,PO,SLP_Hap1,SP_Hex,SP_Tet,SS	64	26	RECORDS_FOUND
+PEPC	phosphoenolpyruvate carboxylase	FROZEN	1650	AT,BV,MC,PO,SLP_Hap1,SP_Hex,SP_Tet,SS	1206	444	RECORDS_FOUND
+PPDK	pyruvate phosphate dikinase	FORMAL	123	AT,BV,MC,PO,SLP_Hap1,SP_Hex,SP_Tet,SS	81	42	RECORDS_FOUND
+PPDK_RE	PPDK regulatory protein	FORMAL	9	AT,SS	3	6	RECORDS_FOUND
+PEPCK	phosphoenolpyruvate carboxykinase	FORMAL	0	NONE	0	0	NO_RECORD_FOUND
+NAD_ME	NAD-dependent malic enzyme	FORMAL	0	NONE	0	0	NO_RECORD_FOUND
+NADP_ME	NADP-dependent malic enzyme	FORMAL	0	NONE	0	0	NO_RECORD_FOUND
+MDH	malate dehydrogenase	FORMAL	0	NONE	0	0	NO_RECORD_FOUND
+ASPAT	aspartate aminotransferase	FORMAL	0	NONE	0	0	NO_RECORD_FOUND
+ALAAT	alanine aminotransferase	FORMAL	0	NONE	0	0	NO_RECORD_FOUND
+BASS2	BASS2 pyruvate transporter	FORMAL	0	NONE	0	0	NO_RECORD_FOUND
+MEP	MEP-related metabolite transporter	REVIEW_REQUIRED	0	NONE	0	0	REVIEW_REQUIRED
+DIT2	dicarboxylate transporter 2	FORMAL	0	NONE	0	0	NO_RECORD_FOUND
+DIC	dicarboxylate transporter	FORMAL	0	NONE	0	0	NO_RECORD_FOUND
+DTC	dicarboxylate translocator	FORMAL	0	NONE	0	0	NO_RECORD_FOUND
+MPC	mitochondrial pyruvate carrier	FORMAL	0	NONE	0	0	NO_RECORD_FOUND
+ALMT	aluminum-activated malate transporter	FORMAL	616	AT,BV,MC,PO,SLP_Hap1,SP_Hex,SP_Tet,SS	292	324	RECORDS_FOUND
+TDT	tonoplast dicarboxylate transporter	FORMAL	0	NONE	0	0	NO_RECORD_FOUND
+PPA	inorganic pyrophosphatase	REVIEW_REQUIRED	262	AT,BV,MC,PO,SLP_Hap1,SP_Hex,SP_Tet,SS	119	143	RECORDS_FOUND
+PPT	phosphoenolpyruvate/phosphate translocator	FORMAL	439	AT,BV,MC,PO,SLP_Hap1,SP_Hex,SP_Tet,SS	422	17	RECORDS_FOUND
+V_ATPASE	vacuolar H+-ATPase	FORMAL	1035	AT,BV,MC,PO,SLP_Hap1,SP_Hex,SP_Tet,SS	508	527	RECORDS_FOUND
+V_PPASE	vacuolar H+-pyrophosphatase	FORMAL	262	AT,BV,MC,PO,SLP_Hap1,SP_Hex,SP_Tet,SS	119	143	RECORDS_FOUND
+PEPC_KINASE	PEPC kinase	FORMAL	81	AT,BV,MC,PO,SLP_Hap1,SP_Hex,SP_Tet,SS	51	30	RECORDS_FOUND
+TDT_DTC_DIC	combined TDT/DTC/DIC family	LEGACY_COMBINED	103	AT,BV,MC,PO,SLP_Hap1,SP_Hex,SP_Tet,SS	69	34	RECORDS_FOUND
+
+FILE: 08_focused_families/validation/step25kz17.3/release/FORMAL_QC.tsv
+metric	value
+checkpoint	step25kz17.3_family_specific_protein_trees
+status	COMPLETE
+formal_family_count	10
+tree_method	MAFFT auto followed by IQ-TREE MFP
+bootstrap_replicates	1000
+SH_aLRT_replicates	1000
+PEPC_reference_state	frozen and not modified
+beta_CA_policy	review-only; excluded from formal family tree set
+missing_reference_policy	family reported as REFERENCE_REQUIRED and tree not built
+
+FILE: 08_focused_families/validation/step25kz17.3/release/00_family_tree_summary.tsv
+family	primary_candidate_count	reference_count	reference_status	tree_status
+PPDK	16	3	AVAILABLE	COMPLETE
+PEPC_KINASE	27	0	MISSING	NOT_BUILT
+TDT_DTC_DIC	34	0	MISSING	NOT_BUILT
+ALMT	139	19	AVAILABLE	COMPLETE
+V_ATPASE	170	73	AVAILABLE	COMPLETE
+V_PPASE	40	29	AVAILABLE	COMPLETE
+AMYLASE	272	26	AVAILABLE	COMPLETE
+STARCH_SYNTHESIS	16	34	AVAILABLE	COMPLETE
+STARCH_PHOSPHORYLATION	14	9	AVAILABLE	COMPLETE
+STARCH_DEPHOSPHORYLATION	35	0	MISSING	NOT_BUILT
+
+FILE: 08_focused_families/validation/step25kz17.3/release/STARCH_DEPHOSPHORYLATION/FORMAL_QC.tsv
+metric	value
+family	STARCH_DEPHOSPHORYLATION
+status	REFERENCE_REQUIRED
+primary_candidate_count	35
+reference_status	MISSING
+tree_status	NOT_BUILT
+interpretation	Curate family-specific references before formal tree construction.
+
+FILE: 08_focused_families/validation/step25kz17.3/release/STARCH_PHOSPHORYLATION/FORMAL_QC.tsv
+metric	value
+family	STARCH_PHOSPHORYLATION
+status	COMPLETE
+primary_candidate_count	14
+reference_count	9
+tree_input_count	23
+alignment	STARCH_PHOSPHORYLATION_alignment.faa
+treefile	STARCH_PHOSPHORYLATION.treefile
+bootstrap_replicates	1000
+SH_aLRT_replicates	1000
+tree_status	COMPLETE
+
+FILE: 08_focused_families/validation/step25kz17.3/release/STARCH_SYNTHESIS/FORMAL_QC.tsv
+metric	value
+family	STARCH_SYNTHESIS
+status	COMPLETE
+primary_candidate_count	16
+reference_count	34
+tree_input_count	50
+alignment	STARCH_SYNTHESIS_alignment.faa
+treefile	STARCH_SYNTHESIS.treefile
+bootstrap_replicates	1000
+SH_aLRT_replicates	1000
+tree_status	COMPLETE
+
+FILE: 08_focused_families/validation/step25kz17.3/release/AMYLASE/FORMAL_QC.tsv
+metric	value
+family	AMYLASE
+status	COMPLETE
+primary_candidate_count	272
+reference_count	26
+tree_input_count	298
+alignment	AMYLASE_alignment.faa
+treefile	AMYLASE.treefile
+bootstrap_replicates	1000
+SH_aLRT_replicates	1000
+tree_status	COMPLETE
+
+FILE: 08_focused_families/validation/step25kz17.3/release/V_PPASE/FORMAL_QC.tsv
+metric	value
+family	V_PPASE
+status	COMPLETE
+primary_candidate_count	40
+reference_count	29
+tree_input_count	69
+alignment	V_PPASE_alignment.faa
+treefile	V_PPASE.treefile
+bootstrap_replicates	1000
+SH_aLRT_replicates	1000
+tree_status	COMPLETE
+
+FILE: 08_focused_families/validation/step25kz17.3/release/V_ATPASE/FORMAL_QC.tsv
+metric	value
+family	V_ATPASE
+status	COMPLETE
+primary_candidate_count	170
+reference_count	73
+tree_input_count	243
+alignment	V_ATPASE_alignment.faa
+treefile	V_ATPASE.treefile
+bootstrap_replicates	1000
+SH_aLRT_replicates	1000
+tree_status	COMPLETE
+
+FILE: 08_focused_families/validation/step25kz17.3/release/ALMT/FORMAL_QC.tsv
+metric	value
+family	ALMT
+status	COMPLETE
+primary_candidate_count	139
+reference_count	19
+tree_input_count	158
+alignment	ALMT_alignment.faa
+treefile	ALMT.treefile
+bootstrap_replicates	1000
+SH_aLRT_replicates	1000
+tree_status	COMPLETE
+
+FILE: 08_focused_families/validation/step25kz17.3/release/TDT_DTC_DIC/FORMAL_QC.tsv
+metric	value
+family	TDT_DTC_DIC
+status	REFERENCE_REQUIRED
+primary_candidate_count	34
+reference_status	MISSING
+tree_status	NOT_BUILT
+interpretation	Curate family-specific references before formal tree construction.
+
+FILE: 08_focused_families/validation/step25kz17.3/release/PEPC_KINASE/FORMAL_QC.tsv
+metric	value
+family	PEPC_KINASE
+status	REFERENCE_REQUIRED
+primary_candidate_count	27
+reference_status	MISSING
+tree_status	NOT_BUILT
+interpretation	Curate family-specific references before formal tree construction.
+
+FILE: 08_focused_families/validation/step25kz17.3/release/PPDK/FORMAL_QC.tsv
+metric	value
+family	PPDK
+status	COMPLETE
+primary_candidate_count	16
+reference_count	3
+tree_input_count	19
+alignment	PPDK_alignment.faa
+treefile	PPDK.treefile
+bootstrap_replicates	1000
+SH_aLRT_replicates	1000
+tree_status	COMPLETE
+
+FILE: 08_focused_families/validation/step25kz17.2/release/FORMAL_QC.tsv
+metric	value
+checkpoint	step25kz17.2_family_candidate_normalization_domain_length_qc
+status	COMPLETE
+formal_family_count	10
+beta_CA_policy	review-only; excluded from formal family count
+normalization_rule	family__original_id identifiers with source mapping retained
+primary_rule	accepted records without sensitivity or fragment indicators
+sensitivity_rule	accepted records explicitly marked relaxed, fragment, partial, review, or sensitivity
+domain_rule	generic sequence QC completed; family profiles deferred to tree construction
+invalid_residue_rule	records retained and flagged for review
+short_sequence_rule	sequences shorter than 100 aa flagged as REVIEW_SHORT
+PEPC_reference_state	frozen and not modified
+
+FILE: 08_focused_families/validation/step25kz17.2/release/00_family_qc_summary.tsv
+family	accepted_input_files	unique_sequence_count	primary_candidate_count	sensitivity_candidate_count	candidate_validation_tables	reference_status	status
+PPDK	1	16	16	0	1	AVAILABLE	COMPLETE
+PEPC_KINASE	1	27	27	0	1	AVAILABLE	COMPLETE
+TDT_DTC_DIC	1	34	34	0	1	AVAILABLE	COMPLETE
+ALMT	1	139	139	0	1	AVAILABLE	COMPLETE
+V_ATPASE	1	170	170	0	1	AVAILABLE	COMPLETE
+V_PPASE	1	40	40	0	1	AVAILABLE	COMPLETE
+AMYLASE	1	272	272	0	1	AVAILABLE	COMPLETE
+STARCH_SYNTHESIS	1	16	16	0	1	AVAILABLE	COMPLETE
+STARCH_PHOSPHORYLATION	1	14	14	0	1	AVAILABLE	COMPLETE
+STARCH_DEPHOSPHORYLATION	1	35	35	0	1	MISSING	COMPLETE
+
+FILE: 08_focused_families/validation/step25kz17.2/release/STARCH_DEPHOSPHORYLATION/FORMAL_QC.tsv
+metric	value
+family	STARCH_DEPHOSPHORYLATION
+status	COMPLETE
+accepted_input_files	1
+primary_candidate_count	35
+sensitivity_candidate_count	0
+candidate_validation_tables	1
+reference_file	NA
+domain_rule	generic residue QC; family profile validation deferred to tree step
+beta_CA_status	not included; review-only branch
+
+FILE: 08_focused_families/validation/step25kz17.2/release/STARCH_DEPHOSPHORYLATION/domain_length_qc.tsv
+family	tree_id	original_id	source_file	length_aa	ambiguous_aa_count	internal_stop_count	maximum_residue_fraction	invalid_residues	length_status	domain_status
+STARCH_DEPHOSPHORYLATION	STARCH_DEPHOSPHORYLATION__AT|AT__gene-LOC130803222	AT|AT__gene-LOC130803222	08_focused_families/validation/step25kn/results/STARCH_DEPHOSPHORYLATION/STARCH_DEPHOSPHORYLATION.accepted.proteins.fa	282	0	0	0.0922	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_DEPHOSPHORYLATION	STARCH_DEPHOSPHORYLATION__AT|AT__gene-LOC130823788	AT|AT__gene-LOC130823788	08_focused_families/validation/step25kn/results/STARCH_DEPHOSPHORYLATION/STARCH_DEPHOSPHORYLATION.accepted.proteins.fa	375	0	0	0.0880	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_DEPHOSPHORYLATION	STARCH_DEPHOSPHORYLATION__AT|AT__gene-LOC130828943	AT|AT__gene-LOC130828943	08_focused_families/validation/step25kn/results/STARCH_DEPHOSPHORYLATION/STARCH_DEPHOSPHORYLATION.accepted.proteins.fa	575	0	0	0.0800	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_DEPHOSPHORYLATION	STARCH_DEPHOSPHORYLATION__BV|BV__Bv2_037110_zwop	BV|BV__Bv2_037110_zwop	08_focused_families/validation/step25kn/results/STARCH_DEPHOSPHORYLATION/STARCH_DEPHOSPHORYLATION.accepted.proteins.fa	287	0	0	0.0906	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_DEPHOSPHORYLATION	STARCH_DEPHOSPHORYLATION__BV|BV__Bv4_109650_scan	BV|BV__Bv4_109650_scan	08_focused_families/validation/step25kn/results/STARCH_DEPHOSPHORYLATION/STARCH_DEPHOSPHORYLATION.accepted.proteins.fa	571	0	0	0.0876	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_DEPHOSPHORYLATION	STARCH_DEPHOSPHORYLATION__BV|BV__Bv8_232600_hneu	BV|BV__Bv8_232600_hneu	08_focused_families/validation/step25kn/results/STARCH_DEPHOSPHORYLATION/STARCH_DEPHOSPHORYLATION.accepted.proteins.fa	375	0	0	0.0827	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_DEPHOSPHORYLATION	STARCH_DEPHOSPHORYLATION__MC|MC__gene_12839	MC|MC__gene_12839	08_focused_families/validation/step25kn/results/STARCH_DEPHOSPHORYLATION/STARCH_DEPHOSPHORYLATION.accepted.proteins.fa	577	0	0	0.0849	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_DEPHOSPHORYLATION	STARCH_DEPHOSPHORYLATION__MC|MC__gene_24368	MC|MC__gene_24368	08_focused_families/validation/step25kn/results/STARCH_DEPHOSPHORYLATION/STARCH_DEPHOSPHORYLATION.accepted.proteins.fa	287	0	0	0.1010	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_DEPHOSPHORYLATION	STARCH_DEPHOSPHORYLATION__MC|MC__gene_603	MC|MC__gene_603	08_focused_families/validation/step25kn/results/STARCH_DEPHOSPHORYLATION/STARCH_DEPHOSPHORYLATION.accepted.proteins.fa	374	0	0	0.1016	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_DEPHOSPHORYLATION	STARCH_DEPHOSPHORYLATION__PO|PO__evm.TU.LG01.824	PO|PO__evm.TU.LG01.824	08_focused_families/validation/step25kn/results/STARCH_DEPHOSPHORYLATION/STARCH_DEPHOSPHORYLATION.accepted.proteins.fa	475	0	0	0.1032	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_DEPHOSPHORYLATION	STARCH_DEPHOSPHORYLATION__PO|PO__evm.TU.LG04.2516	PO|PO__evm.TU.LG04.2516	08_focused_families/validation/step25kn/results/STARCH_DEPHOSPHORYLATION/STARCH_DEPHOSPHORYLATION.accepted.proteins.fa	578	0	0	0.0917	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_DEPHOSPHORYLATION	STARCH_DEPHOSPHORYLATION__PO|PO__evm.TU.LG05.490	PO|PO__evm.TU.LG05.490	08_focused_families/validation/step25kn/results/STARCH_DEPHOSPHORYLATION/STARCH_DEPHOSPHORYLATION.accepted.proteins.fa	287	0	0	0.0871	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_DEPHOSPHORYLATION	STARCH_DEPHOSPHORYLATION__PO|PO__evm.TU.LG08.94	PO|PO__evm.TU.LG08.94	08_focused_families/validation/step25kn/results/STARCH_DEPHOSPHORYLATION/STARCH_DEPHOSPHORYLATION.accepted.proteins.fa	575	0	0	0.0904	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_DEPHOSPHORYLATION	STARCH_DEPHOSPHORYLATION__PO|PO__evm.TU.LG23.184	PO|PO__evm.TU.LG23.184	08_focused_families/validation/step25kn/results/STARCH_DEPHOSPHORYLATION/STARCH_DEPHOSPHORYLATION.accepted.proteins.fa	387	0	0	0.0904	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_DEPHOSPHORYLATION	STARCH_DEPHOSPHORYLATION__PO|PO__evm.TU.LG25.833	PO|PO__evm.TU.LG25.833	08_focused_families/validation/step25kn/results/STARCH_DEPHOSPHORYLATION/STARCH_DEPHOSPHORYLATION.accepted.proteins.fa	287	0	0	0.0871	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_DEPHOSPHORYLATION	STARCH_DEPHOSPHORYLATION__SLP_Hap1|SLP_Hap1__SP6G00860	SLP_Hap1|SLP_Hap1__SP6G00860	08_focused_families/validation/step25kn/results/STARCH_DEPHOSPHORYLATION/STARCH_DEPHOSPHORYLATION.accepted.proteins.fa	287	0	0	0.0871	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_DEPHOSPHORYLATION	STARCH_DEPHOSPHORYLATION__SLP_Hap1|SLP_Hap1__SP7G01090	SLP_Hap1|SLP_Hap1__SP7G01090	08_focused_families/validation/step25kn/results/STARCH_DEPHOSPHORYLATION/STARCH_DEPHOSPHORYLATION.accepted.proteins.fa	344	0	0	0.0959	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_DEPHOSPHORYLATION	STARCH_DEPHOSPHORYLATION__SLP_Hap1|SLP_Hap1__SP9G00767	SLP_Hap1|SLP_Hap1__SP9G00767	08_focused_families/validation/step25kn/results/STARCH_DEPHOSPHORYLATION/STARCH_DEPHOSPHORYLATION.accepted.proteins.fa	577	0	0	0.0832	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_DEPHOSPHORYLATION	STARCH_DEPHOSPHORYLATION__SP_Hex|SP_Hex__gene_Spor0000440.1	SP_Hex|SP_Hex__gene_Spor0000440.1	08_focused_families/validation/step25kn/results/STARCH_DEPHOSPHORYLATION/STARCH_DEPHOSPHORYLATION.accepted.proteins.fa	317	0	0	0.0852	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_DEPHOSPHORYLATION	STARCH_DEPHOSPHORYLATION__SP_Hex|SP_Hex__gene_Spor0028260.1	SP_Hex|SP_Hex__gene_Spor0028260.1	08_focused_families/validation/step25kn/results/STARCH_DEPHOSPHORYLATION/STARCH_DEPHOSPHORYLATION.accepted.proteins.fa	377	0	0	0.0822	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_DEPHOSPHORYLATION	STARCH_DEPHOSPHORYLATION__SP_Hex|SP_Hex__gene_Spor0095890.1	SP_Hex|SP_Hex__gene_Spor0095890.1	08_focused_families/validation/step25kn/results/STARCH_DEPHOSPHORYLATION/STARCH_DEPHOSPHORYLATION.accepted.proteins.fa	529	0	0	0.0870	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_DEPHOSPHORYLATION	STARCH_DEPHOSPHORYLATION__SP_Hex|SP_Hex__gene_Spor0107230.1	SP_Hex|SP_Hex__gene_Spor0107230.1	08_focused_families/validation/step25kn/results/STARCH_DEPHOSPHORYLATION/STARCH_DEPHOSPHORYLATION.accepted.proteins.fa	317	0	0	0.0820	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_DEPHOSPHORYLATION	STARCH_DEPHOSPHORYLATION__SP_Hex|SP_Hex__gene_Spor0240780.1	SP_Hex|SP_Hex__gene_Spor0240780.1	08_focused_families/validation/step25kn/results/STARCH_DEPHOSPHORYLATION/STARCH_DEPHOSPHORYLATION.accepted.proteins.fa	317	0	0	0.0852	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_DEPHOSPHORYLATION	STARCH_DEPHOSPHORYLATION__SP_Hex|SP_Hex__gene_Spor0527290.1	SP_Hex|SP_Hex__gene_Spor0527290.1	08_focused_families/validation/step25kn/results/STARCH_DEPHOSPHORYLATION/STARCH_DEPHOSPHORYLATION.accepted.proteins.fa	578	0	0	0.0969	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_DEPHOSPHORYLATION	STARCH_DEPHOSPHORYLATION__SP_Hex|SP_Hex__gene_Spor0572650.1	SP_Hex|SP_Hex__gene_Spor0572650.1	08_focused_families/validation/step25kn/results/STARCH_DEPHOSPHORYLATION/STARCH_DEPHOSPHORYLATION.accepted.proteins.fa	578	0	0	0.0917	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_DEPHOSPHORYLATION	STARCH_DEPHOSPHORYLATION__SP_Tet|SP_Tet__g17944	SP_Tet|SP_Tet__g17944	08_focused_families/validation/step25kn/results/STARCH_DEPHOSPHORYLATION/STARCH_DEPHOSPHORYLATION.accepted.proteins.fa	290	0	0	0.0897	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_DEPHOSPHORYLATION	STARCH_DEPHOSPHORYLATION__SP_Tet|SP_Tet__g21994	SP_Tet|SP_Tet__g21994	08_focused_families/validation/step25kn/results/STARCH_DEPHOSPHORYLATION/STARCH_DEPHOSPHORYLATION.accepted.proteins.fa	378	0	0	0.0767	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_DEPHOSPHORYLATION	STARCH_DEPHOSPHORYLATION__SP_Tet|SP_Tet__g2883	SP_Tet|SP_Tet__g2883	08_focused_families/validation/step25kn/results/STARCH_DEPHOSPHORYLATION/STARCH_DEPHOSPHORYLATION.accepted.proteins.fa	578	0	0	0.0969	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_DEPHOSPHORYLATION	STARCH_DEPHOSPHORYLATION__SP_Tet|SP_Tet__g29095	SP_Tet|SP_Tet__g29095	08_focused_families/validation/step25kn/results/STARCH_DEPHOSPHORYLATION/STARCH_DEPHOSPHORYLATION.accepted.proteins.fa	290	0	0	0.0897	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_DEPHOSPHORYLATION	STARCH_DEPHOSPHORYLATION__SP_Tet|SP_Tet__g33616	SP_Tet|SP_Tet__g33616	08_focused_families/validation/step25kn/results/STARCH_DEPHOSPHORYLATION/STARCH_DEPHOSPHORYLATION.accepted.proteins.fa	578	0	0	0.0934	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_DEPHOSPHORYLATION	STARCH_DEPHOSPHORYLATION__SP_Tet|SP_Tet__g4747	SP_Tet|SP_Tet__g4747	08_focused_families/validation/step25kn/results/STARCH_DEPHOSPHORYLATION/STARCH_DEPHOSPHORYLATION.accepted.proteins.fa	377	0	0	0.0822	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_DEPHOSPHORYLATION	STARCH_DEPHOSPHORYLATION__SS|SS__g18679	SS|SS__g18679	08_focused_families/validation/step25kn/results/STARCH_DEPHOSPHORYLATION/STARCH_DEPHOSPHORYLATION.accepted.proteins.fa	580	0	0	0.1000	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_DEPHOSPHORYLATION	STARCH_DEPHOSPHORYLATION__SS|SS__g25843	SS|SS__g25843	08_focused_families/validation/step25kn/results/STARCH_DEPHOSPHORYLATION/STARCH_DEPHOSPHORYLATION.accepted.proteins.fa	576	0	0	0.0990	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_DEPHOSPHORYLATION	STARCH_DEPHOSPHORYLATION__SS|SS__g36773	SS|SS__g36773	08_focused_families/validation/step25kn/results/STARCH_DEPHOSPHORYLATION/STARCH_DEPHOSPHORYLATION.accepted.proteins.fa	289	0	0	0.0865	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_DEPHOSPHORYLATION	STARCH_DEPHOSPHORYLATION__SS|SS__g40232	SS|SS__g40232	08_focused_families/validation/step25kn/results/STARCH_DEPHOSPHORYLATION/STARCH_DEPHOSPHORYLATION.accepted.proteins.fa	378	0	0	0.0873	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+
+FILE: 08_focused_families/validation/step25kz17.2/release/STARCH_PHOSPHORYLATION/FORMAL_QC.tsv
+metric	value
+family	STARCH_PHOSPHORYLATION
+status	COMPLETE
+accepted_input_files	1
+primary_candidate_count	14
+sensitivity_candidate_count	0
+candidate_validation_tables	1
+reference_file	08_focused_families/validation/step25kn/references/STARCH_PHOSPHORYLATION.faa
+domain_rule	generic residue QC; family profile validation deferred to tree step
+beta_CA_status	not included; review-only branch
+
+FILE: 08_focused_families/validation/step25kz17.2/release/STARCH_PHOSPHORYLATION/domain_length_qc.tsv
+family	tree_id	original_id	source_file	length_aa	ambiguous_aa_count	internal_stop_count	maximum_residue_fraction	invalid_residues	length_status	domain_status
+STARCH_PHOSPHORYLATION	STARCH_PHOSPHORYLATION__AT|AT__gene-LOC130820450	AT|AT__gene-LOC130820450	08_focused_families/validation/step25kn/results/STARCH_PHOSPHORYLATION/STARCH_PHOSPHORYLATION.accepted.proteins.fa	1457	0	0	0.0988	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_PHOSPHORYLATION	STARCH_PHOSPHORYLATION__BV|BV__Bv6_182710_rdsf	BV|BV__Bv6_182710_rdsf	08_focused_families/validation/step25kn/results/STARCH_PHOSPHORYLATION/STARCH_PHOSPHORYLATION.accepted.proteins.fa	1468	0	0	0.1022	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_PHOSPHORYLATION	STARCH_PHOSPHORYLATION__MC|MC__gene_3616	MC|MC__gene_3616	08_focused_families/validation/step25kn/results/STARCH_PHOSPHORYLATION/STARCH_PHOSPHORYLATION.accepted.proteins.fa	1575	0	0	0.0921	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_PHOSPHORYLATION	STARCH_PHOSPHORYLATION__PO|PO__evm.TU.LG03.424	PO|PO__evm.TU.LG03.424	08_focused_families/validation/step25kn/results/STARCH_PHOSPHORYLATION/STARCH_PHOSPHORYLATION.accepted.proteins.fa	1475	0	0	0.0983	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_PHOSPHORYLATION	STARCH_PHOSPHORYLATION__PO|PO__evm.TU.LG12.1281	PO|PO__evm.TU.LG12.1281	08_focused_families/validation/step25kn/results/STARCH_PHOSPHORYLATION/STARCH_PHOSPHORYLATION.accepted.proteins.fa	1475	0	0	0.0997	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_PHOSPHORYLATION	STARCH_PHOSPHORYLATION__PO|PO__evm.TU.LG13.173	PO|PO__evm.TU.LG13.173	08_focused_families/validation/step25kn/results/STARCH_PHOSPHORYLATION/STARCH_PHOSPHORYLATION.accepted.proteins.fa	1385	0	0	0.1011	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_PHOSPHORYLATION	STARCH_PHOSPHORYLATION__SLP_Hap1|SLP_Hap1__SP10G00165	SLP_Hap1|SLP_Hap1__SP10G00165	08_focused_families/validation/step25kn/results/STARCH_PHOSPHORYLATION/STARCH_PHOSPHORYLATION.accepted.proteins.fa	1378	0	0	0.0987	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_PHOSPHORYLATION	STARCH_PHOSPHORYLATION__SLP_Hap1|SLP_Hap1__SP2G00165	SLP_Hap1|SLP_Hap1__SP2G00165	08_focused_families/validation/step25kn/results/STARCH_PHOSPHORYLATION/STARCH_PHOSPHORYLATION.accepted.proteins.fa	1466	0	0	0.1003	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_PHOSPHORYLATION	STARCH_PHOSPHORYLATION__SP_Hex|SP_Hex__gene_Spor0376150.1	SP_Hex|SP_Hex__gene_Spor0376150.1	08_focused_families/validation/step25kn/results/STARCH_PHOSPHORYLATION/STARCH_PHOSPHORYLATION.accepted.proteins.fa	1427	0	0	0.1016	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_PHOSPHORYLATION	STARCH_PHOSPHORYLATION__SP_Hex|SP_Hex__gene_Spor0513390.1	SP_Hex|SP_Hex__gene_Spor0513390.1	08_focused_families/validation/step25kn/results/STARCH_PHOSPHORYLATION/STARCH_PHOSPHORYLATION.accepted.proteins.fa	1512	0	0	0.1038	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_PHOSPHORYLATION	STARCH_PHOSPHORYLATION__SP_Tet|SP_Tet__g23979	SP_Tet|SP_Tet__g23979	08_focused_families/validation/step25kn/results/STARCH_PHOSPHORYLATION/STARCH_PHOSPHORYLATION.accepted.proteins.fa	1476	0	0	0.0989	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_PHOSPHORYLATION	STARCH_PHOSPHORYLATION__SP_Tet|SP_Tet__g6022	SP_Tet|SP_Tet__g6022	08_focused_families/validation/step25kn/results/STARCH_PHOSPHORYLATION/STARCH_PHOSPHORYLATION.accepted.proteins.fa	1478	0	0	0.0988	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_PHOSPHORYLATION	STARCH_PHOSPHORYLATION__SS|SS__g17554	SS|SS__g17554	08_focused_families/validation/step25kn/results/STARCH_PHOSPHORYLATION/STARCH_PHOSPHORYLATION.accepted.proteins.fa	1475	0	0	0.1003	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_PHOSPHORYLATION	STARCH_PHOSPHORYLATION__SS|SS__g19716	SS|SS__g19716	08_focused_families/validation/step25kn/results/STARCH_PHOSPHORYLATION/STARCH_PHOSPHORYLATION.accepted.proteins.fa	1474	0	0	0.0997	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+
+FILE: 08_focused_families/validation/step25kz17.2/release/STARCH_SYNTHESIS/FORMAL_QC.tsv
+metric	value
+family	STARCH_SYNTHESIS
+status	COMPLETE
+accepted_input_files	1
+primary_candidate_count	16
+sensitivity_candidate_count	0
+candidate_validation_tables	1
+reference_file	08_focused_families/validation/step25kn/references/STARCH_SYNTHESIS.faa
+domain_rule	generic residue QC; family profile validation deferred to tree step
+beta_CA_status	not included; review-only branch
+
+FILE: 08_focused_families/validation/step25kz17.2/release/STARCH_SYNTHESIS/domain_length_qc.tsv
+family	tree_id	original_id	source_file	length_aa	ambiguous_aa_count	internal_stop_count	maximum_residue_fraction	invalid_residues	length_status	domain_status
+STARCH_SYNTHESIS	STARCH_SYNTHESIS__AT|AT__gene-LOC130800484	AT|AT__gene-LOC130800484	08_focused_families/validation/step25kn/results/STARCH_SYNTHESIS/STARCH_SYNTHESIS.accepted.proteins.fa	672	0	0	0.1369	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_SYNTHESIS	STARCH_SYNTHESIS__AT|AT__gene-LOC130814674	AT|AT__gene-LOC130814674	08_focused_families/validation/step25kn/results/STARCH_SYNTHESIS/STARCH_SYNTHESIS.accepted.proteins.fa	1262	0	0	0.0880	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_SYNTHESIS	STARCH_SYNTHESIS__AT|AT__gene-LOC130823619	AT|AT__gene-LOC130823619	08_focused_families/validation/step25kn/results/STARCH_SYNTHESIS/STARCH_SYNTHESIS.accepted.proteins.fa	1258	0	0	0.0866	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_SYNTHESIS	STARCH_SYNTHESIS__BV|BV__Bv5_138020_kfkn	BV|BV__Bv5_138020_kfkn	08_focused_families/validation/step25kn/results/STARCH_SYNTHESIS/STARCH_SYNTHESIS.accepted.proteins.fa	662	0	0	0.1239	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_SYNTHESIS	STARCH_SYNTHESIS__BV|BV__Bv8_225800_hqgk	BV|BV__Bv8_225800_hqgk	08_focused_families/validation/step25kn/results/STARCH_SYNTHESIS/STARCH_SYNTHESIS.accepted.proteins.fa	1295	0	0	0.0903	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_SYNTHESIS	STARCH_SYNTHESIS__MC|MC__gene_23665	MC|MC__gene_23665	08_focused_families/validation/step25kn/results/STARCH_SYNTHESIS/STARCH_SYNTHESIS.accepted.proteins.fa	666	0	0	0.1186	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_SYNTHESIS	STARCH_SYNTHESIS__PO|PO__evm.TU.LG07.968	PO|PO__evm.TU.LG07.968	08_focused_families/validation/step25kn/results/STARCH_SYNTHESIS/STARCH_SYNTHESIS.accepted.proteins.fa	675	0	0	0.1259	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_SYNTHESIS	STARCH_SYNTHESIS__PO|PO__evm.TU.LG14.1068	PO|PO__evm.TU.LG14.1068	08_focused_families/validation/step25kn/results/STARCH_SYNTHESIS/STARCH_SYNTHESIS.accepted.proteins.fa	1290	0	0	0.0822	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_SYNTHESIS	STARCH_SYNTHESIS__PO|PO__evm.TU.LG15.888	PO|PO__evm.TU.LG15.888	08_focused_families/validation/step25kn/results/STARCH_SYNTHESIS/STARCH_SYNTHESIS.accepted.proteins.fa	671	0	0	0.1222	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_SYNTHESIS	STARCH_SYNTHESIS__SLP_Hap1|SLP_Hap1__SP10G01731	SLP_Hap1|SLP_Hap1__SP10G01731	08_focused_families/validation/step25kn/results/STARCH_SYNTHESIS/STARCH_SYNTHESIS.accepted.proteins.fa	1264	0	0	0.0815	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_SYNTHESIS	STARCH_SYNTHESIS__SLP_Hap1|SLP_Hap1__SP5G01971	SLP_Hap1|SLP_Hap1__SP5G01971	08_focused_families/validation/step25kn/results/STARCH_SYNTHESIS/STARCH_SYNTHESIS.accepted.proteins.fa	668	0	0	0.1332	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_SYNTHESIS	STARCH_SYNTHESIS__SP_Hex|SP_Hex__gene_Spor0001190.1	SP_Hex|SP_Hex__gene_Spor0001190.1	08_focused_families/validation/step25kn/results/STARCH_SYNTHESIS/STARCH_SYNTHESIS.accepted.proteins.fa	670	0	0	0.1134	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_SYNTHESIS	STARCH_SYNTHESIS__SP_Hex|SP_Hex__gene_Spor0460600.1	SP_Hex|SP_Hex__gene_Spor0460600.1	08_focused_families/validation/step25kn/results/STARCH_SYNTHESIS/STARCH_SYNTHESIS.accepted.proteins.fa	862	0	0	0.0824	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_SYNTHESIS	STARCH_SYNTHESIS__SP_Tet|SP_Tet__g18021	SP_Tet|SP_Tet__g18021	08_focused_families/validation/step25kn/results/STARCH_SYNTHESIS/STARCH_SYNTHESIS.accepted.proteins.fa	677	0	0	0.1167	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_SYNTHESIS	STARCH_SYNTHESIS__SS|SS__g21255	SS|SS__g21255	08_focused_families/validation/step25kn/results/STARCH_SYNTHESIS/STARCH_SYNTHESIS.accepted.proteins.fa	677	0	0	0.1167	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+STARCH_SYNTHESIS	STARCH_SYNTHESIS__SS|SS__g36677	SS|SS__g36677	08_focused_families/validation/step25kn/results/STARCH_SYNTHESIS/STARCH_SYNTHESIS.accepted.proteins.fa	674	0	0	0.1157	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+
+FILE: 08_focused_families/validation/step25kz17.2/release/AMYLASE/FORMAL_QC.tsv
+metric	value
+family	AMYLASE
+status	COMPLETE
+accepted_input_files	1
+primary_candidate_count	272
+sensitivity_candidate_count	0
+candidate_validation_tables	1
+reference_file	08_focused_families/validation/step25kn/references/AMYLASE.faa
+domain_rule	generic residue QC; family profile validation deferred to tree step
+beta_CA_status	not included; review-only branch
+
+FILE: 08_focused_families/validation/step25kz17.2/release/AMYLASE/domain_length_qc.tsv
+family	tree_id	original_id	source_file	length_aa	ambiguous_aa_count	internal_stop_count	maximum_residue_fraction	invalid_residues	length_status	domain_status
+AMYLASE	AMYLASE__AT|AT__gene-LOC130797455	AT|AT__gene-LOC130797455	08_focused_families/validation/step25kn/results/AMYLASE/AMYLASE.accepted.proteins.fa	413	0	0	0.0920	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+AMYLASE	AMYLASE__AT|AT__gene-LOC130798276	AT|AT__gene-LOC130798276	08_focused_families/validation/step25kn/results/AMYLASE/AMYLASE.accepted.proteins.fa	424	0	0	0.0896	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+AMYLASE	AMYLASE__AT|AT__gene-LOC130798286	AT|AT__gene-LOC130798286	08_focused_families/validation/step25kn/results/AMYLASE/AMYLASE.accepted.proteins.fa	428	0	0	0.0981	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+AMYLASE	AMYLASE__AT|AT__gene-LOC130798293	AT|AT__gene-LOC130798293	08_focused_families/validation/step25kn/results/AMYLASE/AMYLASE.accepted.proteins.fa	430	0	0	0.0953	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+AMYLASE	AMYLASE__AT|AT__gene-LOC130798302	AT|AT__gene-LOC130798302	08_focused_families/validation/step25kn/results/AMYLASE/AMYLASE.accepted.proteins.fa	431	0	0	0.0974	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+AMYLASE	AMYLASE__AT|AT__gene-LOC130798311	AT|AT__gene-LOC130798311	08_focused_families/validation/step25kn/results/AMYLASE/AMYLASE.accepted.proteins.fa	428	0	0	0.0981	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+AMYLASE	AMYLASE__AT|AT__gene-LOC130798339	AT|AT__gene-LOC130798339	08_focused_families/validation/step25kn/results/AMYLASE/AMYLASE.accepted.proteins.fa	425	0	0	0.0988	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+AMYLASE	AMYLASE__AT|AT__gene-LOC130799162	AT|AT__gene-LOC130799162	08_focused_families/validation/step25kn/results/AMYLASE/AMYLASE.accepted.proteins.fa	560	0	0	0.0893	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+AMYLASE	AMYLASE__AT|AT__gene-LOC130799163	AT|AT__gene-LOC130799163	08_focused_families/validation/step25kn/results/AMYLASE/AMYLASE.accepted.proteins.fa	582	0	0	0.0945	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+AMYLASE	AMYLASE__AT|AT__gene-LOC130799647	AT|AT__gene-LOC130799647	08_focused_families/validation/step25kn/results/AMYLASE/AMYLASE.accepted.proteins.fa	542	0	0	0.0849	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+AMYLASE	AMYLASE__AT|AT__gene-LOC130801281	AT|AT__gene-LOC130801281	08_focused_families/validation/step25kn/results/AMYLASE/AMYLASE.accepted.proteins.fa	540	0	0	0.0889	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+AMYLASE	AMYLASE__AT|AT__gene-LOC130803924	AT|AT__gene-LOC130803924	08_focused_families/validation/step25kn/results/AMYLASE/AMYLASE.accepted.proteins.fa	858	0	0	0.1049	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+AMYLASE	AMYLASE__AT|AT__gene-LOC130804664	AT|AT__gene-LOC130804664	08_focused_families/validation/step25kn/results/AMYLASE/AMYLASE.accepted.proteins.fa	679	0	0	0.0839	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+AMYLASE	AMYLASE__AT|AT__gene-LOC130804862	AT|AT__gene-LOC130804862	08_focused_families/validation/step25kn/results/AMYLASE/AMYLASE.accepted.proteins.fa	522	0	0	0.0785	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+AMYLASE	AMYLASE__AT|AT__gene-LOC130805267	AT|AT__gene-LOC130805267	08_focused_families/validation/step25kn/results/AMYLASE/AMYLASE.accepted.proteins.fa	603	0	0	0.0813	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+AMYLASE	AMYLASE__AT|AT__gene-LOC130807034	AT|AT__gene-LOC130807034	08_focused_families/validation/step25kn/results/AMYLASE/AMYLASE.accepted.proteins.fa	522	0	0	0.0843	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+AMYLASE	AMYLASE__AT|AT__gene-LOC130809898	AT|AT__gene-LOC130809898	08_focused_families/validation/step25kn/results/AMYLASE/AMYLASE.accepted.proteins.fa	560	0	0	0.0946	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+AMYLASE	AMYLASE__AT|AT__gene-LOC130811270	AT|AT__gene-LOC130811270	08_focused_families/validation/step25kn/results/AMYLASE/AMYLASE.accepted.proteins.fa	781	0	0	0.0794	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+AMYLASE	AMYLASE__AT|AT__gene-LOC130811286	AT|AT__gene-LOC130811286	08_focused_families/validation/step25kn/results/AMYLASE/AMYLASE.accepted.proteins.fa	942	0	0	0.0892	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+AMYLASE	AMYLASE__AT|AT__gene-LOC130811307	AT|AT__gene-LOC130811307	08_focused_families/validation/step25kn/results/AMYLASE/AMYLASE.accepted.proteins.fa	700	0	0	0.0843	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+AMYLASE	AMYLASE__AT|AT__gene-LOC130812947	AT|AT__gene-LOC130812947	08_focused_families/validation/step25kn/results/AMYLASE/AMYLASE.accepted.proteins.fa	879	0	0	0.0808	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+AMYLASE	AMYLASE__AT|AT__gene-LOC130813197	AT|AT__gene-LOC130813197	08_focused_families/validation/step25kn/results/AMYLASE/AMYLASE.accepted.proteins.fa	578	0	0	0.0969	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+AMYLASE	AMYLASE__AT|AT__gene-LOC130814792	AT|AT__gene-LOC130814792	08_focused_families/validation/step25kn/results/AMYLASE/AMYLASE.accepted.proteins.fa	796	0	0	0.0879	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+AMYLASE	AMYLASE__AT|AT__gene-LOC130818255	AT|AT__gene-LOC130818255	08_focused_families/validation/step25kn/results/AMYLASE/AMYLASE.accepted.proteins.fa	896	0	0	0.0938	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+AMYLASE	AMYLASE__AT|AT__gene-LOC130818386	AT|AT__gene-LOC130818386	08_focused_families/validation/step25kn/results/AMYLASE/AMYLASE.accepted.proteins.fa	519	0	0	0.1079	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+AMYLASE	AMYLASE__AT|AT__gene-LOC130821821	AT|AT__gene-LOC130821821	08_focused_families/validation/step25kn/results/AMYLASE/AMYLASE.accepted.proteins.fa	909	0	0	0.0825	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+AMYLASE	AMYLASE__AT|AT__gene-LOC130825185	AT|AT__gene-LOC130825185	08_focused_families/validation/step25kn/results/AMYLASE/AMYLASE.accepted.proteins.fa	538	0	0	0.0985	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+AMYLASE	AMYLASE__AT|AT__gene-LOC130827274	AT|AT__gene-LOC130827274	08_focused_families/validation/step25kn/results/AMYLASE/AMYLASE.accepted.proteins.fa	585	0	0	0.0838	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+AMYLASE	AMYLASE__AT|AT__gene-LOC130827537	AT|AT__gene-LOC130827537	08_focused_families/validation/step25kn/results/AMYLASE/AMYLASE.accepted.proteins.fa	583	0	0	0.0806	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+AMYLASE	AMYLASE__BV|BV__Bv1_004670_hxrm	BV|BV__Bv1_004670_hxrm	08_focused_families/validation/step25kn/results/AMYLASE/AMYLASE.accepted.proteins.fa	574	0	0	0.0993	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+AMYLASE	AMYLASE__BV|BV__Bv1_004690_ryuo	BV|BV__Bv1_004690_ryuo	08_focused_families/validation/step25kn/results/AMYLASE/AMYLASE.accepted.proteins.fa	703	0	0	0.0811	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+AMYLASE	AMYLASE__BV|BV__Bv1_012540_wfuk	BV|BV__Bv1_012540_wfuk	08_focused_families/validation/step25kn/results/AMYLASE/AMYLASE.accepted.proteins.fa	759	0	0	0.0883	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+AMYLASE	AMYLASE__BV|BV__Bv1_023250_kmjg	BV|BV__Bv1_023250_kmjg	08_focused_families/validation/step25kn/results/AMYLASE/AMYLASE.accepted.proteins.fa	867	0	0	0.0761	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+AMYLASE	AMYLASE__BV|BV__Bv1_024710_ccxs	BV|BV__Bv1_024710_ccxs	08_focused_families/validation/step25kn/results/AMYLASE/AMYLASE.accepted.proteins.fa	422	0	0	0.0806	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+AMYLASE	AMYLASE__BV|BV__Bv3_075590_iyka	BV|BV__Bv3_075590_iyka	08_focused_families/validation/step25kn/results/AMYLASE/AMYLASE.accepted.proteins.fa	863	0	0	0.1182	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+AMYLASE	AMYLASE__BV|BV__Bv3_079340_qnmf	BV|BV__Bv3_079340_qnmf	08_focused_families/validation/step25kn/results/AMYLASE/AMYLASE.accepted.proteins.fa	539	0	0	0.0946	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+AMYLASE	AMYLASE__BV|BV__Bv4_118760_hpuw	BV|BV__Bv4_118760_hpuw	08_focused_families/validation/step25kn/results/AMYLASE/AMYLASE.accepted.proteins.fa	897	0	0	0.0948	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+AMYLASE	AMYLASE__BV|BV__Bv4_120800_idsy	BV|BV__Bv4_120800_idsy	08_focused_families/validation/step25kn/results/AMYLASE/AMYLASE.accepted.proteins.fa	524	0	0	0.1031	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+AMYLASE	AMYLASE__BV|BV__Bv5_126990_cuzi	BV|BV__Bv5_126990_cuzi	08_focused_families/validation/step25kn/results/AMYLASE/AMYLASE.accepted.proteins.fa	673	0	0	0.0817	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+
+FILE: 08_focused_families/validation/step25kz17.2/release/V_PPASE/FORMAL_QC.tsv
+metric	value
+family	V_PPASE
+status	COMPLETE
+accepted_input_files	1
+primary_candidate_count	40
+sensitivity_candidate_count	0
+candidate_validation_tables	1
+reference_file	08_focused_families/validation/step25kn/references/V_PPASE.faa
+domain_rule	generic residue QC; family profile validation deferred to tree step
+beta_CA_status	not included; review-only branch
+
+FILE: 08_focused_families/validation/step25kz17.2/release/V_PPASE/domain_length_qc.tsv
+family	tree_id	original_id	source_file	length_aa	ambiguous_aa_count	internal_stop_count	maximum_residue_fraction	invalid_residues	length_status	domain_status
+V_PPASE	V_PPASE__AT|AT__gene-LOC130812591	AT|AT__gene-LOC130812591	08_focused_families/validation/step25kn/results/V_PPASE/V_PPASE.accepted.proteins.fa	762	0	0	0.1273	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_PPASE	V_PPASE__AT|AT__gene-LOC130812762	AT|AT__gene-LOC130812762	08_focused_families/validation/step25kn/results/V_PPASE/V_PPASE.accepted.proteins.fa	798	0	0	0.1165	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_PPASE	V_PPASE__AT|AT__gene-LOC130815985	AT|AT__gene-LOC130815985	08_focused_families/validation/step25kn/results/V_PPASE/V_PPASE.accepted.proteins.fa	764	0	0	0.1204	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_PPASE	V_PPASE__AT|AT__gene-LOC130827889	AT|AT__gene-LOC130827889	08_focused_families/validation/step25kn/results/V_PPASE/V_PPASE.accepted.proteins.fa	798	0	0	0.1115	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_PPASE	V_PPASE__AT|AT__gene-LOC130828224	AT|AT__gene-LOC130828224	08_focused_families/validation/step25kn/results/V_PPASE/V_PPASE.accepted.proteins.fa	837	0	0	0.1111	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_PPASE	V_PPASE__BV|BV__Bv7_209960_gzfm	BV|BV__Bv7_209960_gzfm	08_focused_families/validation/step25kn/results/V_PPASE/V_PPASE.accepted.proteins.fa	798	0	0	0.1153	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_PPASE	V_PPASE__BV|BV__Bv8_243430_cnng	BV|BV__Bv8_243430_cnng	08_focused_families/validation/step25kn/results/V_PPASE/V_PPASE.accepted.proteins.fa	764	0	0	0.1270	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_PPASE	V_PPASE__BV|BV__Bv9_271870_zhcs	BV|BV__Bv9_271870_zhcs	08_focused_families/validation/step25kn/results/V_PPASE/V_PPASE.accepted.proteins.fa	762	0	0	0.1234	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_PPASE	V_PPASE__MC|MC__gene_26220	MC|MC__gene_26220	08_focused_families/validation/step25kn/results/V_PPASE/V_PPASE.accepted.proteins.fa	763	0	0	0.1311	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_PPASE	V_PPASE__MC|MC__gene_8950	MC|MC__gene_8950	08_focused_families/validation/step25kn/results/V_PPASE/V_PPASE.accepted.proteins.fa	765	0	0	0.1307	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_PPASE	V_PPASE__PO|PO__evm.TU.LG03.1221	PO|PO__evm.TU.LG03.1221	08_focused_families/validation/step25kn/results/V_PPASE/V_PPASE.accepted.proteins.fa	909	0	0	0.1045	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_PPASE	V_PPASE__PO|PO__evm.TU.LG12.559	PO|PO__evm.TU.LG12.559	08_focused_families/validation/step25kn/results/V_PPASE/V_PPASE.accepted.proteins.fa	797	0	0	0.1167	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_PPASE	V_PPASE__PO|PO__evm.TU.LG15.1365	PO|PO__evm.TU.LG15.1365	08_focused_families/validation/step25kn/results/V_PPASE/V_PPASE.accepted.proteins.fa	762	0	0	0.1247	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_PPASE	V_PPASE__PO|PO__evm.TU.LG16.1602	PO|PO__evm.TU.LG16.1602	08_focused_families/validation/step25kn/results/V_PPASE/V_PPASE.accepted.proteins.fa	764	0	0	0.1230	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_PPASE	V_PPASE__PO|PO__evm.TU.LG23.1168	PO|PO__evm.TU.LG23.1168	08_focused_families/validation/step25kn/results/V_PPASE/V_PPASE.accepted.proteins.fa	775	0	0	0.1032	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_PPASE	V_PPASE__PO|PO__evm.TU.LG26.66	PO|PO__evm.TU.LG26.66	08_focused_families/validation/step25kn/results/V_PPASE/V_PPASE.accepted.proteins.fa	764	0	0	0.1217	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_PPASE	V_PPASE__SLP_Hap1|SLP_Hap1__SP1G00585	SLP_Hap1|SLP_Hap1__SP1G00585	08_focused_families/validation/step25kn/results/V_PPASE/V_PPASE.accepted.proteins.fa	762	0	0	0.1247	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_PPASE	V_PPASE__SLP_Hap1|SLP_Hap1__SP2G00618	SLP_Hap1|SLP_Hap1__SP2G00618	08_focused_families/validation/step25kn/results/V_PPASE/V_PPASE.accepted.proteins.fa	798	0	0	0.1165	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_PPASE	V_PPASE__SLP_Hap1|SLP_Hap1__SP3G02701	SLP_Hap1|SLP_Hap1__SP3G02701	08_focused_families/validation/step25kn/results/V_PPASE/V_PPASE.accepted.proteins.fa	768	0	0	0.1315	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_PPASE	V_PPASE__SLP_Hap1|SLP_Hap1__SP8G01483	SLP_Hap1|SLP_Hap1__SP8G01483	08_focused_families/validation/step25kn/results/V_PPASE/V_PPASE.accepted.proteins.fa	763	0	0	0.1193	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_PPASE	V_PPASE__SP_Hex|SP_Hex__gene_Spor0062550.1	SP_Hex|SP_Hex__gene_Spor0062550.1	08_focused_families/validation/step25kn/results/V_PPASE/V_PPASE.accepted.proteins.fa	798	0	0	0.1153	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_PPASE	V_PPASE__SP_Hex|SP_Hex__gene_Spor0142280.1	SP_Hex|SP_Hex__gene_Spor0142280.1	08_focused_families/validation/step25kn/results/V_PPASE/V_PPASE.accepted.proteins.fa	762	0	0	0.1207	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_PPASE	V_PPASE__SP_Hex|SP_Hex__gene_Spor0177660.1	SP_Hex|SP_Hex__gene_Spor0177660.1	08_focused_families/validation/step25kn/results/V_PPASE/V_PPASE.accepted.proteins.fa	765	0	0	0.1242	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_PPASE	V_PPASE__SP_Hex|SP_Hex__gene_Spor0276560.1	SP_Hex|SP_Hex__gene_Spor0276560.1	08_focused_families/validation/step25kn/results/V_PPASE/V_PPASE.accepted.proteins.fa	823	0	0	0.1142	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_PPASE	V_PPASE__SP_Hex|SP_Hex__gene_Spor0352720.1	SP_Hex|SP_Hex__gene_Spor0352720.1	08_focused_families/validation/step25kn/results/V_PPASE/V_PPASE.accepted.proteins.fa	806	0	0	0.1154	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_PPASE	V_PPASE__SP_Hex|SP_Hex__gene_Spor0473630.1	SP_Hex|SP_Hex__gene_Spor0473630.1	08_focused_families/validation/step25kn/results/V_PPASE/V_PPASE.accepted.proteins.fa	762	0	0	0.1207	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_PPASE	V_PPASE__SP_Hex|SP_Hex__gene_Spor0498820.1	SP_Hex|SP_Hex__gene_Spor0498820.1	08_focused_families/validation/step25kn/results/V_PPASE/V_PPASE.accepted.proteins.fa	765	0	0	0.1242	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_PPASE	V_PPASE__SP_Tet|SP_Tet__g22599	SP_Tet|SP_Tet__g22599	08_focused_families/validation/step25kn/results/V_PPASE/V_PPASE.accepted.proteins.fa	798	0	0	0.1153	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_PPASE	V_PPASE__SP_Tet|SP_Tet__g25073	SP_Tet|SP_Tet__g25073	08_focused_families/validation/step25kn/results/V_PPASE/V_PPASE.accepted.proteins.fa	765	0	0	0.1242	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_PPASE	V_PPASE__SP_Tet|SP_Tet__g26080	SP_Tet|SP_Tet__g26080	08_focused_families/validation/step25kn/results/V_PPASE/V_PPASE.accepted.proteins.fa	798	0	0	0.1153	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_PPASE	V_PPASE__SP_Tet|SP_Tet__g27326	SP_Tet|SP_Tet__g27326	08_focused_families/validation/step25kn/results/V_PPASE/V_PPASE.accepted.proteins.fa	766	0	0	0.1253	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_PPASE	V_PPASE__SP_Tet|SP_Tet__g30465	SP_Tet|SP_Tet__g30465	08_focused_families/validation/step25kn/results/V_PPASE/V_PPASE.accepted.proteins.fa	762	0	0	0.1220	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_PPASE	V_PPASE__SP_Tet|SP_Tet__g31642	SP_Tet|SP_Tet__g31642	08_focused_families/validation/step25kn/results/V_PPASE/V_PPASE.accepted.proteins.fa	762	0	0	0.1194	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_PPASE	V_PPASE__SS|SS__g11458	SS|SS__g11458	08_focused_families/validation/step25kn/results/V_PPASE/V_PPASE.accepted.proteins.fa	798	0	0	0.1165	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_PPASE	V_PPASE__SS|SS__g1570	SS|SS__g1570	08_focused_families/validation/step25kn/results/V_PPASE/V_PPASE.accepted.proteins.fa	762	0	0	0.1207	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_PPASE	V_PPASE__SS|SS__g25939	SS|SS__g25939	08_focused_families/validation/step25kn/results/V_PPASE/V_PPASE.accepted.proteins.fa	762	0	0	0.1207	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_PPASE	V_PPASE__SS|SS__g28508	SS|SS__g28508	08_focused_families/validation/step25kn/results/V_PPASE/V_PPASE.accepted.proteins.fa	766	0	0	0.1227	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_PPASE	V_PPASE__SS|SS__g31583	SS|SS__g31583	08_focused_families/validation/step25kn/results/V_PPASE/V_PPASE.accepted.proteins.fa	762	0	0	0.1207	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_PPASE	V_PPASE__SS|SS__g8927	SS|SS__g8927	08_focused_families/validation/step25kn/results/V_PPASE/V_PPASE.accepted.proteins.fa	766	0	0	0.1227	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+
+FILE: 08_focused_families/validation/step25kz17.2/release/V_ATPASE/FORMAL_QC.tsv
+metric	value
+family	V_ATPASE
+status	COMPLETE
+accepted_input_files	1
+primary_candidate_count	170
+sensitivity_candidate_count	0
+candidate_validation_tables	1
+reference_file	08_focused_families/validation/step25kn/references/V_ATPASE.faa
+domain_rule	generic residue QC; family profile validation deferred to tree step
+beta_CA_status	not included; review-only branch
+
+FILE: 08_focused_families/validation/step25kz17.2/release/V_ATPASE/domain_length_qc.tsv
+family	tree_id	original_id	source_file	length_aa	ambiguous_aa_count	internal_stop_count	maximum_residue_fraction	invalid_residues	length_status	domain_status
+V_ATPASE	V_ATPASE__AT|AT__gene-LOC130797042	AT|AT__gene-LOC130797042	08_focused_families/validation/step25kn/results/V_ATPASE/V_ATPASE.accepted.proteins.fa	466	0	0	0.1266	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_ATPASE	V_ATPASE__AT|AT__gene-LOC130799499	AT|AT__gene-LOC130799499	08_focused_families/validation/step25kn/results/V_ATPASE/V_ATPASE.accepted.proteins.fa	228	0	0	0.1184	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_ATPASE	V_ATPASE__AT|AT__gene-LOC130799639	AT|AT__gene-LOC130799639	08_focused_families/validation/step25kn/results/V_ATPASE/V_ATPASE.accepted.proteins.fa	487	0	0	0.0883	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_ATPASE	V_ATPASE__AT|AT__gene-LOC130801190	AT|AT__gene-LOC130801190	08_focused_families/validation/step25kn/results/V_ATPASE/V_ATPASE.accepted.proteins.fa	229	0	0	0.1135	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_ATPASE	V_ATPASE__AT|AT__gene-LOC130801565	AT|AT__gene-LOC130801565	08_focused_families/validation/step25kn/results/V_ATPASE/V_ATPASE.accepted.proteins.fa	178	0	0	0.1517	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_ATPASE	V_ATPASE__AT|AT__gene-LOC130801907	AT|AT__gene-LOC130801907	08_focused_families/validation/step25kn/results/V_ATPASE/V_ATPASE.accepted.proteins.fa	487	0	0	0.0883	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_ATPASE	V_ATPASE__AT|AT__gene-LOC130802667	AT|AT__gene-LOC130802667	08_focused_families/validation/step25kn/results/V_ATPASE/V_ATPASE.accepted.proteins.fa	623	0	0	0.0963	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_ATPASE	V_ATPASE__AT|AT__gene-LOC130802751	AT|AT__gene-LOC130802751	08_focused_families/validation/step25kn/results/V_ATPASE/V_ATPASE.accepted.proteins.fa	166	0	0	0.1566	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_ATPASE	V_ATPASE__AT|AT__gene-LOC130804077	AT|AT__gene-LOC130804077	08_focused_families/validation/step25kn/results/V_ATPASE/V_ATPASE.accepted.proteins.fa	623	0	0	0.0963	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_ATPASE	V_ATPASE__AT|AT__gene-LOC130806633	AT|AT__gene-LOC130806633	08_focused_families/validation/step25kn/results/V_ATPASE/V_ATPASE.accepted.proteins.fa	375	0	0	0.1173	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_ATPASE	V_ATPASE__AT|AT__gene-LOC130807407	AT|AT__gene-LOC130807407	08_focused_families/validation/step25kn/results/V_ATPASE/V_ATPASE.accepted.proteins.fa	263	0	0	0.1179	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_ATPASE	V_ATPASE__AT|AT__gene-LOC130807904	AT|AT__gene-LOC130807904	08_focused_families/validation/step25kn/results/V_ATPASE/V_ATPASE.accepted.proteins.fa	200	0	0	0.1350	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_ATPASE	V_ATPASE__AT|AT__gene-LOC130811543	AT|AT__gene-LOC130811543	08_focused_families/validation/step25kn/results/V_ATPASE/V_ATPASE.accepted.proteins.fa	166	0	0	0.1566	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_ATPASE	V_ATPASE__AT|AT__gene-LOC130811544	AT|AT__gene-LOC130811544	08_focused_families/validation/step25kn/results/V_ATPASE/V_ATPASE.accepted.proteins.fa	166	0	0	0.1566	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_ATPASE	V_ATPASE__AT|AT__gene-LOC130811546	AT|AT__gene-LOC130811546	08_focused_families/validation/step25kn/results/V_ATPASE/V_ATPASE.accepted.proteins.fa	166	0	0	0.1566	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_ATPASE	V_ATPASE__AT|AT__gene-LOC130813021	AT|AT__gene-LOC130813021	08_focused_families/validation/step25kn/results/V_ATPASE/V_ATPASE.accepted.proteins.fa	260	0	0	0.1077	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_ATPASE	V_ATPASE__AT|AT__gene-LOC130813194	AT|AT__gene-LOC130813194	08_focused_families/validation/step25kn/results/V_ATPASE/V_ATPASE.accepted.proteins.fa	247	0	0	0.1093	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_ATPASE	V_ATPASE__AT|AT__gene-LOC130817915	AT|AT__gene-LOC130817915	08_focused_families/validation/step25kn/results/V_ATPASE/V_ATPASE.accepted.proteins.fa	466	0	0	0.1330	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_ATPASE	V_ATPASE__AT|AT__gene-LOC130818021	AT|AT__gene-LOC130818021	08_focused_families/validation/step25kn/results/V_ATPASE/V_ATPASE.accepted.proteins.fa	178	0	0	0.1517	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_ATPASE	V_ATPASE__AT|AT__gene-LOC130821273	AT|AT__gene-LOC130821273	08_focused_families/validation/step25kn/results/V_ATPASE/V_ATPASE.accepted.proteins.fa	260	0	0	0.1077	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_ATPASE	V_ATPASE__BV|BV__Bv1_004950_isam	BV|BV__Bv1_004950_isam	08_focused_families/validation/step25kn/results/V_ATPASE/V_ATPASE.accepted.proteins.fa	165	0	0	0.1515	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_ATPASE	V_ATPASE__BV|BV__Bv2_045360_jgtu	BV|BV__Bv2_045360_jgtu	08_focused_families/validation/step25kn/results/V_ATPASE/V_ATPASE.accepted.proteins.fa	623	0	0	0.0931	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_ATPASE	V_ATPASE__BV|BV__Bv2_057300_msgr	BV|BV__Bv2_057300_msgr	08_focused_families/validation/step25kn/results/V_ATPASE/V_ATPASE.accepted.proteins.fa	177	0	0	0.1525	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_ATPASE	V_ATPASE__BV|BV__Bv3_067790_xqtu	BV|BV__Bv3_067790_xqtu	08_focused_families/validation/step25kn/results/V_ATPASE/V_ATPASE.accepted.proteins.fa	375	0	0	0.1067	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_ATPASE	V_ATPASE__BV|BV__Bv4_093380_jzzm	BV|BV__Bv4_093380_jzzm	08_focused_families/validation/step25kn/results/V_ATPASE/V_ATPASE.accepted.proteins.fa	465	0	0	0.1247	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_ATPASE	V_ATPASE__BV|BV__Bv5_124190_tzkz	BV|BV__Bv5_124190_tzkz	08_focused_families/validation/step25kn/results/V_ATPASE/V_ATPASE.accepted.proteins.fa	229	0	0	0.1179	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_ATPASE	V_ATPASE__BV|BV__Bv5_134600_onqs	BV|BV__Bv5_134600_onqs	08_focused_families/validation/step25kn/results/V_ATPASE/V_ATPASE.accepted.proteins.fa	487	0	0	0.0903	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_ATPASE	V_ATPASE__BV|BV__Bv7_190170_cnmy	BV|BV__Bv7_190170_cnmy	08_focused_families/validation/step25kn/results/V_ATPASE/V_ATPASE.accepted.proteins.fa	243	0	0	0.1111	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_ATPASE	V_ATPASE__BV|BV__Bv7_207750_mcdr	BV|BV__Bv7_207750_mcdr	08_focused_families/validation/step25kn/results/V_ATPASE/V_ATPASE.accepted.proteins.fa	260	0	0	0.1038	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_ATPASE	V_ATPASE__BV|BV__Bv9_268520_mrfn	BV|BV__Bv9_268520_mrfn	08_focused_families/validation/step25kn/results/V_ATPASE/V_ATPASE.accepted.proteins.fa	165	0	0	0.1515	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_ATPASE	V_ATPASE__MC|MC__gene_10147	MC|MC__gene_10147	08_focused_families/validation/step25kn/results/V_ATPASE/V_ATPASE.accepted.proteins.fa	504	0	0	0.1290	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_ATPASE	V_ATPASE__MC|MC__gene_11085	MC|MC__gene_11085	08_focused_families/validation/step25kn/results/V_ATPASE/V_ATPASE.accepted.proteins.fa	179	0	0	0.0950	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_ATPASE	V_ATPASE__MC|MC__gene_12961	MC|MC__gene_12961	08_focused_families/validation/step25kn/results/V_ATPASE/V_ATPASE.accepted.proteins.fa	623	0	0	0.0947	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_ATPASE	V_ATPASE__MC|MC__gene_14684	MC|MC__gene_14684	08_focused_families/validation/step25kn/results/V_ATPASE/V_ATPASE.accepted.proteins.fa	226	0	0	0.1150	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_ATPASE	V_ATPASE__MC|MC__gene_16116	MC|MC__gene_16116	08_focused_families/validation/step25kn/results/V_ATPASE/V_ATPASE.accepted.proteins.fa	375	0	0	0.1013	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_ATPASE	V_ATPASE__MC|MC__gene_20440	MC|MC__gene_20440	08_focused_families/validation/step25kn/results/V_ATPASE/V_ATPASE.accepted.proteins.fa	225	0	0	0.1156	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_ATPASE	V_ATPASE__MC|MC__gene_21307	MC|MC__gene_21307	08_focused_families/validation/step25kn/results/V_ATPASE/V_ATPASE.accepted.proteins.fa	356	0	0	0.1067	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_ATPASE	V_ATPASE__MC|MC__gene_21703	MC|MC__gene_21703	08_focused_families/validation/step25kn/results/V_ATPASE/V_ATPASE.accepted.proteins.fa	165	0	0	0.1455	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+V_ATPASE	V_ATPASE__MC|MC__gene_2178	MC|MC__gene_2178	08_focused_families/validation/step25kn/results/V_ATPASE/V_ATPASE.accepted.proteins.fa	539	0	0	0.1020	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+
+FILE: 08_focused_families/validation/step25kz17.2/release/ALMT/FORMAL_QC.tsv
+metric	value
+family	ALMT
+status	COMPLETE
+accepted_input_files	1
+primary_candidate_count	139
+sensitivity_candidate_count	0
+candidate_validation_tables	1
+reference_file	08_focused_families/validation/step25kn/references/ALMT.faa
+domain_rule	generic residue QC; family profile validation deferred to tree step
+beta_CA_status	not included; review-only branch
+
+FILE: 08_focused_families/validation/step25kz17.2/release/ALMT/domain_length_qc.tsv
+family	tree_id	original_id	source_file	length_aa	ambiguous_aa_count	internal_stop_count	maximum_residue_fraction	invalid_residues	length_status	domain_status
+ALMT	ALMT__AT|AT__gene-LOC130797668	AT|AT__gene-LOC130797668	08_focused_families/validation/step25kn/results/ALMT/ALMT.accepted.proteins.fa	553	0	0	0.1103	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+ALMT	ALMT__AT|AT__gene-LOC130800736	AT|AT__gene-LOC130800736	08_focused_families/validation/step25kn/results/ALMT/ALMT.accepted.proteins.fa	550	0	0	0.1200	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+ALMT	ALMT__AT|AT__gene-LOC130801424	AT|AT__gene-LOC130801424	08_focused_families/validation/step25kn/results/ALMT/ALMT.accepted.proteins.fa	534	0	0	0.1030	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+ALMT	ALMT__AT|AT__gene-LOC130803639	AT|AT__gene-LOC130803639	08_focused_families/validation/step25kn/results/ALMT/ALMT.accepted.proteins.fa	510	0	0	0.0941	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+ALMT	ALMT__AT|AT__gene-LOC130805397	AT|AT__gene-LOC130805397	08_focused_families/validation/step25kn/results/ALMT/ALMT.accepted.proteins.fa	483	0	0	0.1014	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+ALMT	ALMT__AT|AT__gene-LOC130807465	AT|AT__gene-LOC130807465	08_focused_families/validation/step25kn/results/ALMT/ALMT.accepted.proteins.fa	600	0	0	0.1033	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+ALMT	ALMT__AT|AT__gene-LOC130809653	AT|AT__gene-LOC130809653	08_focused_families/validation/step25kn/results/ALMT/ALMT.accepted.proteins.fa	497	0	0	0.0986	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+ALMT	ALMT__AT|AT__gene-LOC130812916	AT|AT__gene-LOC130812916	08_focused_families/validation/step25kn/results/ALMT/ALMT.accepted.proteins.fa	260	0	0	0.1115	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+ALMT	ALMT__AT|AT__gene-LOC130812957	AT|AT__gene-LOC130812957	08_focused_families/validation/step25kn/results/ALMT/ALMT.accepted.proteins.fa	455	0	0	0.1143	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+ALMT	ALMT__AT|AT__gene-LOC130813271	AT|AT__gene-LOC130813271	08_focused_families/validation/step25kn/results/ALMT/ALMT.accepted.proteins.fa	517	0	0	0.0909	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+ALMT	ALMT__BV|BV__Bv1_002710_jitd	BV|BV__Bv1_002710_jitd	08_focused_families/validation/step25kn/results/ALMT/ALMT.accepted.proteins.fa	496	0	0	0.0988	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+ALMT	ALMT__BV|BV__Bv3_067060_rukx	BV|BV__Bv3_067060_rukx	08_focused_families/validation/step25kn/results/ALMT/ALMT.accepted.proteins.fa	498	0	0	0.1024	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+ALMT	ALMT__BV|BV__Bv5_123040_cpcs	BV|BV__Bv5_123040_cpcs	08_focused_families/validation/step25kn/results/ALMT/ALMT.accepted.proteins.fa	508	0	0	0.1004	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+ALMT	ALMT__BV|BV__Bv5_132150_pdus	BV|BV__Bv5_132150_pdus	08_focused_families/validation/step25kn/results/ALMT/ALMT.accepted.proteins.fa	543	0	0	0.1252	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+ALMT	ALMT__BV|BV__Bv5_141830_fsfm	BV|BV__Bv5_141830_fsfm	08_focused_families/validation/step25kn/results/ALMT/ALMT.accepted.proteins.fa	617	0	0	0.1232	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+ALMT	ALMT__BV|BV__Bv6_172770_psiy	BV|BV__Bv6_172770_psiy	08_focused_families/validation/step25kn/results/ALMT/ALMT.accepted.proteins.fa	593	0	0	0.0995	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+ALMT	ALMT__BV|BV__Bv7_213420_ynza	BV|BV__Bv7_213420_ynza	08_focused_families/validation/step25kn/results/ALMT/ALMT.accepted.proteins.fa	459	0	0	0.1176	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+ALMT	ALMT__BV|BV__Bv7_213460_tdnk	BV|BV__Bv7_213460_tdnk	08_focused_families/validation/step25kn/results/ALMT/ALMT.accepted.proteins.fa	458	0	0	0.1114	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+ALMT	ALMT__BV|BV__Bv7_213480_aeas	BV|BV__Bv7_213480_aeas	08_focused_families/validation/step25kn/results/ALMT/ALMT.accepted.proteins.fa	488	0	0	0.1189	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+ALMT	ALMT__MC|MC__gene_14061	MC|MC__gene_14061	08_focused_families/validation/step25kn/results/ALMT/ALMT.accepted.proteins.fa	537	0	0	0.1266	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+ALMT	ALMT__MC|MC__gene_14693	MC|MC__gene_14693	08_focused_families/validation/step25kn/results/ALMT/ALMT.accepted.proteins.fa	534	0	0	0.0936	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+ALMT	ALMT__MC|MC__gene_14995	MC|MC__gene_14995	08_focused_families/validation/step25kn/results/ALMT/ALMT.accepted.proteins.fa	782	0	0	0.0972	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+ALMT	ALMT__MC|MC__gene_15241	MC|MC__gene_15241	08_focused_families/validation/step25kn/results/ALMT/ALMT.accepted.proteins.fa	528	0	0	0.0947	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+ALMT	ALMT__MC|MC__gene_1613	MC|MC__gene_1613	08_focused_families/validation/step25kn/results/ALMT/ALMT.accepted.proteins.fa	610	0	0	0.0885	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+ALMT	ALMT__MC|MC__gene_3989	MC|MC__gene_3989	08_focused_families/validation/step25kn/results/ALMT/ALMT.accepted.proteins.fa	624	0	0	0.0994	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+ALMT	ALMT__MC|MC__gene_5721	MC|MC__gene_5721	08_focused_families/validation/step25kn/results/ALMT/ALMT.accepted.proteins.fa	484	0	0	0.0971	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+ALMT	ALMT__MC|MC__gene_5722	MC|MC__gene_5722	08_focused_families/validation/step25kn/results/ALMT/ALMT.accepted.proteins.fa	452	0	0	0.1106	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+ALMT	ALMT__MC|MC__gene_5723	MC|MC__gene_5723	08_focused_families/validation/step25kn/results/ALMT/ALMT.accepted.proteins.fa	437	0	0	0.1098	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+ALMT	ALMT__MC|MC__gene_5724	MC|MC__gene_5724	08_focused_families/validation/step25kn/results/ALMT/ALMT.accepted.proteins.fa	492	0	0	0.1179	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+ALMT	ALMT__MC|MC__gene_5725	MC|MC__gene_5725	08_focused_families/validation/step25kn/results/ALMT/ALMT.accepted.proteins.fa	491	0	0	0.1018	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+ALMT	ALMT__MC|MC__gene_5726	MC|MC__gene_5726	08_focused_families/validation/step25kn/results/ALMT/ALMT.accepted.proteins.fa	492	0	0	0.1098	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+ALMT	ALMT__PO|PO__evm.TU.LG01.2311	PO|PO__evm.TU.LG01.2311	08_focused_families/validation/step25kn/results/ALMT/ALMT.accepted.proteins.fa	529	0	0	0.1078	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+ALMT	ALMT__PO|PO__evm.TU.LG02.260	PO|PO__evm.TU.LG02.260	08_focused_families/validation/step25kn/results/ALMT/ALMT.accepted.proteins.fa	567	0	0	0.1146	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+ALMT	ALMT__PO|PO__evm.TU.LG03.68	PO|PO__evm.TU.LG03.68	08_focused_families/validation/step25kn/results/ALMT/ALMT.accepted.proteins.fa	581	0	0	0.1170	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+ALMT	ALMT__PO|PO__evm.TU.LG03.720	PO|PO__evm.TU.LG03.720	08_focused_families/validation/step25kn/results/ALMT/ALMT.accepted.proteins.fa	420	0	0	0.0976	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+ALMT	ALMT__PO|PO__evm.TU.LG03.721	PO|PO__evm.TU.LG03.721	08_focused_families/validation/step25kn/results/ALMT/ALMT.accepted.proteins.fa	425	0	0	0.1176	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+ALMT	ALMT__PO|PO__evm.TU.LG04.2124	PO|PO__evm.TU.LG04.2124	08_focused_families/validation/step25kn/results/ALMT/ALMT.accepted.proteins.fa	495	0	0	0.0929	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+ALMT	ALMT__PO|PO__evm.TU.LG04.2786	PO|PO__evm.TU.LG04.2786	08_focused_families/validation/step25kn/results/ALMT/ALMT.accepted.proteins.fa	515	0	0	0.0971	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+ALMT	ALMT__PO|PO__evm.TU.LG04.3085	PO|PO__evm.TU.LG04.3085	08_focused_families/validation/step25kn/results/ALMT/ALMT.accepted.proteins.fa	505	0	0	0.1188	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+
+FILE: 08_focused_families/validation/step25kz17.2/release/TDT_DTC_DIC/FORMAL_QC.tsv
+metric	value
+family	TDT_DTC_DIC
+status	COMPLETE
+accepted_input_files	1
+primary_candidate_count	34
+sensitivity_candidate_count	0
+candidate_validation_tables	1
+reference_file	08_focused_families/validation/step25kn/references/TDT_DTC_DIC.faa
+domain_rule	generic residue QC; family profile validation deferred to tree step
+beta_CA_status	not included; review-only branch
+
+FILE: 08_focused_families/validation/step25kz17.2/release/TDT_DTC_DIC/domain_length_qc.tsv
+family	tree_id	original_id	source_file	length_aa	ambiguous_aa_count	internal_stop_count	maximum_residue_fraction	invalid_residues	length_status	domain_status
+TDT_DTC_DIC	TDT_DTC_DIC__AT|AT__gene-LOC130796727	AT|AT__gene-LOC130796727	08_focused_families/validation/step25kn/results/TDT_DTC_DIC/TDT_DTC_DIC.accepted.proteins.fa	562	0	0	0.1406	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+TDT_DTC_DIC	TDT_DTC_DIC__AT|AT__gene-LOC130800036	AT|AT__gene-LOC130800036	08_focused_families/validation/step25kn/results/TDT_DTC_DIC/TDT_DTC_DIC.accepted.proteins.fa	557	0	0	0.1526	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+TDT_DTC_DIC	TDT_DTC_DIC__AT|AT__gene-LOC130805216	AT|AT__gene-LOC130805216	08_focused_families/validation/step25kn/results/TDT_DTC_DIC/TDT_DTC_DIC.accepted.proteins.fa	559	0	0	0.1431	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+TDT_DTC_DIC	TDT_DTC_DIC__BV|BV__Bv4_091240_xckh	BV|BV__Bv4_091240_xckh	08_focused_families/validation/step25kn/results/TDT_DTC_DIC/TDT_DTC_DIC.accepted.proteins.fa	560	0	0	0.1357	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+TDT_DTC_DIC	TDT_DTC_DIC__BV|BV__Bv9_267500_prze	BV|BV__Bv9_267500_prze	08_focused_families/validation/step25kn/results/TDT_DTC_DIC/TDT_DTC_DIC.accepted.proteins.fa	559	0	0	0.1628	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+TDT_DTC_DIC	TDT_DTC_DIC__BV|BV__Bv9_267510_dukz	BV|BV__Bv9_267510_dukz	08_focused_families/validation/step25kn/results/TDT_DTC_DIC/TDT_DTC_DIC.accepted.proteins.fa	282	0	0	0.1028	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+TDT_DTC_DIC	TDT_DTC_DIC__MC|MC__gene_26610	MC|MC__gene_26610	08_focused_families/validation/step25kn/results/TDT_DTC_DIC/TDT_DTC_DIC.accepted.proteins.fa	297	0	0	0.1145	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+TDT_DTC_DIC	TDT_DTC_DIC__MC|MC__gene_26611	MC|MC__gene_26611	08_focused_families/validation/step25kn/results/TDT_DTC_DIC/TDT_DTC_DIC.accepted.proteins.fa	583	0	0	0.1475	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+TDT_DTC_DIC	TDT_DTC_DIC__PO|PO__evm.TU.LG02.1954	PO|PO__evm.TU.LG02.1954	08_focused_families/validation/step25kn/results/TDT_DTC_DIC/TDT_DTC_DIC.accepted.proteins.fa	570	0	0	0.1421	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+TDT_DTC_DIC	TDT_DTC_DIC__PO|PO__evm.TU.LG08.1715	PO|PO__evm.TU.LG08.1715	08_focused_families/validation/step25kn/results/TDT_DTC_DIC/TDT_DTC_DIC.accepted.proteins.fa	466	0	0	0.1459	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+TDT_DTC_DIC	TDT_DTC_DIC__PO|PO__evm.TU.LG08.920	PO|PO__evm.TU.LG08.920	08_focused_families/validation/step25kn/results/TDT_DTC_DIC/TDT_DTC_DIC.accepted.proteins.fa	569	0	0	0.1564	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+TDT_DTC_DIC	TDT_DTC_DIC__PO|PO__evm.TU.LG09.9	PO|PO__evm.TU.LG09.9	08_focused_families/validation/step25kn/results/TDT_DTC_DIC/TDT_DTC_DIC.accepted.proteins.fa	575	0	0	0.1374	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+TDT_DTC_DIC	TDT_DTC_DIC__PO|PO__evm.TU.LG18.1765	PO|PO__evm.TU.LG18.1765	08_focused_families/validation/step25kn/results/TDT_DTC_DIC/TDT_DTC_DIC.accepted.proteins.fa	560	0	0	0.1464	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+TDT_DTC_DIC	TDT_DTC_DIC__PO|PO__evm.TU.LG20.132	PO|PO__evm.TU.LG20.132	08_focused_families/validation/step25kn/results/TDT_DTC_DIC/TDT_DTC_DIC.accepted.proteins.fa	561	0	0	0.1462	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+TDT_DTC_DIC	TDT_DTC_DIC__PO|PO__evm.TU.LG22.1002	PO|PO__evm.TU.LG22.1002	08_focused_families/validation/step25kn/results/TDT_DTC_DIC/TDT_DTC_DIC.accepted.proteins.fa	569	0	0	0.1511	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+TDT_DTC_DIC	TDT_DTC_DIC__PO|PO__evm.TU.LG22.643	PO|PO__evm.TU.LG22.643	08_focused_families/validation/step25kn/results/TDT_DTC_DIC/TDT_DTC_DIC.accepted.proteins.fa	429	0	0	0.1305	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+TDT_DTC_DIC	TDT_DTC_DIC__PO|PO__evm.TU.LG22.644	PO|PO__evm.TU.LG22.644	08_focused_families/validation/step25kn/results/TDT_DTC_DIC/TDT_DTC_DIC.accepted.proteins.fa	598	0	0	0.1421	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+TDT_DTC_DIC	TDT_DTC_DIC__SLP_Hap1|SLP_Hap1__SP1G00096	SLP_Hap1|SLP_Hap1__SP1G00096	08_focused_families/validation/step25kn/results/TDT_DTC_DIC/TDT_DTC_DIC.accepted.proteins.fa	588	0	0	0.1293	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+TDT_DTC_DIC	TDT_DTC_DIC__SLP_Hap1|SLP_Hap1__SP3G00264	SLP_Hap1|SLP_Hap1__SP3G00264	08_focused_families/validation/step25kn/results/TDT_DTC_DIC/TDT_DTC_DIC.accepted.proteins.fa	571	0	0	0.1541	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+TDT_DTC_DIC	TDT_DTC_DIC__SLP_Hap1|SLP_Hap1__SP3G01528	SLP_Hap1|SLP_Hap1__SP3G01528	08_focused_families/validation/step25kn/results/TDT_DTC_DIC/TDT_DTC_DIC.accepted.proteins.fa	560	0	0	0.1321	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+TDT_DTC_DIC	TDT_DTC_DIC__SLP_Hap1|SLP_Hap1__SP8G00964	SLP_Hap1|SLP_Hap1__SP8G00964	08_focused_families/validation/step25kn/results/TDT_DTC_DIC/TDT_DTC_DIC.accepted.proteins.fa	563	0	0	0.1456	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+TDT_DTC_DIC	TDT_DTC_DIC__SP_Hex|SP_Hex__gene_Spor0138840.1	SP_Hex|SP_Hex__gene_Spor0138840.1	08_focused_families/validation/step25kn/results/TDT_DTC_DIC/TDT_DTC_DIC.accepted.proteins.fa	289	0	0	0.1142	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+TDT_DTC_DIC	TDT_DTC_DIC__SP_Hex|SP_Hex__gene_Spor0209360.1	SP_Hex|SP_Hex__gene_Spor0209360.1	08_focused_families/validation/step25kn/results/TDT_DTC_DIC/TDT_DTC_DIC.accepted.proteins.fa	394	0	0	0.1447	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+TDT_DTC_DIC	TDT_DTC_DIC__SP_Hex|SP_Hex__gene_Spor0349060.1	SP_Hex|SP_Hex__gene_Spor0349060.1	08_focused_families/validation/step25kn/results/TDT_DTC_DIC/TDT_DTC_DIC.accepted.proteins.fa	197	0	0	0.0964	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+TDT_DTC_DIC	TDT_DTC_DIC__SP_Hex|SP_Hex__gene_Spor0469860.1	SP_Hex|SP_Hex__gene_Spor0469860.1	08_focused_families/validation/step25kn/results/TDT_DTC_DIC/TDT_DTC_DIC.accepted.proteins.fa	565	0	0	0.1681	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+TDT_DTC_DIC	TDT_DTC_DIC__SP_Tet|SP_Tet__g20690	SP_Tet|SP_Tet__g20690	08_focused_families/validation/step25kn/results/TDT_DTC_DIC/TDT_DTC_DIC.accepted.proteins.fa	560	0	0	0.1482	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+TDT_DTC_DIC	TDT_DTC_DIC__SP_Tet|SP_Tet__g30859	SP_Tet|SP_Tet__g30859	08_focused_families/validation/step25kn/results/TDT_DTC_DIC/TDT_DTC_DIC.accepted.proteins.fa	555	0	0	0.1604	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+TDT_DTC_DIC	TDT_DTC_DIC__SP_Tet|SP_Tet__g31271	SP_Tet|SP_Tet__g31271	08_focused_families/validation/step25kn/results/TDT_DTC_DIC/TDT_DTC_DIC.accepted.proteins.fa	563	0	0	0.1634	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+TDT_DTC_DIC	TDT_DTC_DIC__SP_Tet|SP_Tet__g777	SP_Tet|SP_Tet__g777	08_focused_families/validation/step25kn/results/TDT_DTC_DIC/TDT_DTC_DIC.accepted.proteins.fa	556	0	0	0.1529	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+TDT_DTC_DIC	TDT_DTC_DIC__SS|SS__g2061	SS|SS__g2061	08_focused_families/validation/step25kn/results/TDT_DTC_DIC/TDT_DTC_DIC.accepted.proteins.fa	563	0	0	0.1616	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+TDT_DTC_DIC	TDT_DTC_DIC__SS|SS__g22710	SS|SS__g22710	08_focused_families/validation/step25kn/results/TDT_DTC_DIC/TDT_DTC_DIC.accepted.proteins.fa	562	0	0	0.1495	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+TDT_DTC_DIC	TDT_DTC_DIC__SS|SS__g26334	SS|SS__g26334	08_focused_families/validation/step25kn/results/TDT_DTC_DIC/TDT_DTC_DIC.accepted.proteins.fa	565	0	0	0.1593	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+TDT_DTC_DIC	TDT_DTC_DIC__SS|SS__g27479	SS|SS__g27479	08_focused_families/validation/step25kn/results/TDT_DTC_DIC/TDT_DTC_DIC.accepted.proteins.fa	562	0	0	0.1495	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+TDT_DTC_DIC	TDT_DTC_DIC__SS|SS__g3505	SS|SS__g3505	08_focused_families/validation/step25kn/results/TDT_DTC_DIC/TDT_DTC_DIC.accepted.proteins.fa	562	0	0	0.1495	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+
+FILE: 08_focused_families/validation/step25kz17.2/release/PEPC_KINASE/FORMAL_QC.tsv
+metric	value
+family	PEPC_KINASE
+status	COMPLETE
+accepted_input_files	1
+primary_candidate_count	27
+sensitivity_candidate_count	0
+candidate_validation_tables	1
+reference_file	08_focused_families/validation/step25kn/references/PEPC_KINASE.faa
+domain_rule	generic residue QC; family profile validation deferred to tree step
+beta_CA_status	not included; review-only branch
+
+FILE: 08_focused_families/validation/step25kz17.2/release/PEPC_KINASE/domain_length_qc.tsv
+family	tree_id	original_id	source_file	length_aa	ambiguous_aa_count	internal_stop_count	maximum_residue_fraction	invalid_residues	length_status	domain_status
+PEPC_KINASE	PEPC_KINASE__AT|AT__gene-LOC130809422	AT|AT__gene-LOC130809422	08_focused_families/validation/step25kn/results/PEPC_KINASE/PEPC_KINASE.accepted.proteins.fa	291	0	0	0.1065	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+PEPC_KINASE	PEPC_KINASE__AT|AT__gene-LOC130818144	AT|AT__gene-LOC130818144	08_focused_families/validation/step25kn/results/PEPC_KINASE/PEPC_KINASE.accepted.proteins.fa	275	0	0	0.0873	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+PEPC_KINASE	PEPC_KINASE__AT|AT__gene-LOC130828271	AT|AT__gene-LOC130828271	08_focused_families/validation/step25kn/results/PEPC_KINASE/PEPC_KINASE.accepted.proteins.fa	279	0	0	0.0968	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+PEPC_KINASE	PEPC_KINASE__BV|BV__Bv3_060480_psio	BV|BV__Bv3_060480_psio	08_focused_families/validation/step25kn/results/PEPC_KINASE/PEPC_KINASE.accepted.proteins.fa	292	0	0	0.1027	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+PEPC_KINASE	PEPC_KINASE__BV|BV__Bv4_103540_djwd	BV|BV__Bv4_103540_djwd	08_focused_families/validation/step25kn/results/PEPC_KINASE/PEPC_KINASE.accepted.proteins.fa	282	0	0	0.0851	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+PEPC_KINASE	PEPC_KINASE__MC|MC__gene_11565	MC|MC__gene_11565	08_focused_families/validation/step25kn/results/PEPC_KINASE/PEPC_KINASE.accepted.proteins.fa	279	0	0	0.1039	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+PEPC_KINASE	PEPC_KINASE__MC|MC__gene_15966	MC|MC__gene_15966	08_focused_families/validation/step25kn/results/PEPC_KINASE/PEPC_KINASE.accepted.proteins.fa	288	0	0	0.1042	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+PEPC_KINASE	PEPC_KINASE__MC|MC__gene_9940	MC|MC__gene_9940	08_focused_families/validation/step25kn/results/PEPC_KINASE/PEPC_KINASE.accepted.proteins.fa	279	0	0	0.1039	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+PEPC_KINASE	PEPC_KINASE__PO|PO__evm.TU.LG08.451	PO|PO__evm.TU.LG08.451	08_focused_families/validation/step25kn/results/PEPC_KINASE/PEPC_KINASE.accepted.proteins.fa	305	0	0	0.0984	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+PEPC_KINASE	PEPC_KINASE__PO|PO__evm.TU.LG11.1432	PO|PO__evm.TU.LG11.1432	08_focused_families/validation/step25kn/results/PEPC_KINASE/PEPC_KINASE.accepted.proteins.fa	296	0	0	0.1216	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+PEPC_KINASE	PEPC_KINASE__PO|PO__evm.TU.LG22.1479	PO|PO__evm.TU.LG22.1479	08_focused_families/validation/step25kn/results/PEPC_KINASE/PEPC_KINASE.accepted.proteins.fa	305	0	0	0.0951	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+PEPC_KINASE	PEPC_KINASE__SLP_Hap1|SLP_Hap1__SP2G02971	SLP_Hap1|SLP_Hap1__SP2G02971	08_focused_families/validation/step25kn/results/PEPC_KINASE/PEPC_KINASE.accepted.proteins.fa	281	0	0	0.1103	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+PEPC_KINASE	PEPC_KINASE__SLP_Hap1|SLP_Hap1__SP3G00915	SLP_Hap1|SLP_Hap1__SP3G00915	08_focused_families/validation/step25kn/results/PEPC_KINASE/PEPC_KINASE.accepted.proteins.fa	302	0	0	0.0861	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+PEPC_KINASE	PEPC_KINASE__SLP_Hap1|SLP_Hap1__SP8G00863	SLP_Hap1|SLP_Hap1__SP8G00863	08_focused_families/validation/step25kn/results/PEPC_KINASE/PEPC_KINASE.accepted.proteins.fa	282	0	0	0.0993	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+PEPC_KINASE	PEPC_KINASE__SP_Hex|SP_Hex__gene_Spor0090480.1	SP_Hex|SP_Hex__gene_Spor0090480.1	08_focused_families/validation/step25kn/results/PEPC_KINASE/PEPC_KINASE.accepted.proteins.fa	279	0	0	0.1326	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+PEPC_KINASE	PEPC_KINASE__SP_Hex|SP_Hex__gene_Spor0207580.1	SP_Hex|SP_Hex__gene_Spor0207580.1	08_focused_families/validation/step25kn/results/PEPC_KINASE/PEPC_KINASE.accepted.proteins.fa	283	0	0	0.1025	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+PEPC_KINASE	PEPC_KINASE__SP_Hex|SP_Hex__gene_Spor0259740.1	SP_Hex|SP_Hex__gene_Spor0259740.1	08_focused_families/validation/step25kn/results/PEPC_KINASE/PEPC_KINASE.accepted.proteins.fa	283	0	0	0.0989	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+PEPC_KINASE	PEPC_KINASE__SP_Hex|SP_Hex__gene_Spor0566630.1	SP_Hex|SP_Hex__gene_Spor0566630.1	08_focused_families/validation/step25kn/results/PEPC_KINASE/PEPC_KINASE.accepted.proteins.fa	286	0	0	0.1224	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+PEPC_KINASE	PEPC_KINASE__SP_Hex|SP_Hex__gene_Spor0593180.1	SP_Hex|SP_Hex__gene_Spor0593180.1	08_focused_families/validation/step25kn/results/PEPC_KINASE/PEPC_KINASE.accepted.proteins.fa	284	0	0	0.1021	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+PEPC_KINASE	PEPC_KINASE__SP_Tet|SP_Tet__g20848	SP_Tet|SP_Tet__g20848	08_focused_families/validation/step25kn/results/PEPC_KINASE/PEPC_KINASE.accepted.proteins.fa	283	0	0	0.0954	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+PEPC_KINASE	PEPC_KINASE__SP_Tet|SP_Tet__g33043	SP_Tet|SP_Tet__g33043	08_focused_families/validation/step25kn/results/PEPC_KINASE/PEPC_KINASE.accepted.proteins.fa	286	0	0	0.1224	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+PEPC_KINASE	PEPC_KINASE__SP_Tet|SP_Tet__g955	SP_Tet|SP_Tet__g955	08_focused_families/validation/step25kn/results/PEPC_KINASE/PEPC_KINASE.accepted.proteins.fa	284	0	0	0.1021	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+PEPC_KINASE	PEPC_KINASE__SS|SS__g20508	SS|SS__g20508	08_focused_families/validation/step25kn/results/PEPC_KINASE/PEPC_KINASE.accepted.proteins.fa	284	0	0	0.1303	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+PEPC_KINASE	PEPC_KINASE__SS|SS__g20509	SS|SS__g20509	08_focused_families/validation/step25kn/results/PEPC_KINASE/PEPC_KINASE.accepted.proteins.fa	637	0	0	0.0973	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+PEPC_KINASE	PEPC_KINASE__SS|SS__g29400	SS|SS__g29400	08_focused_families/validation/step25kn/results/PEPC_KINASE/PEPC_KINASE.accepted.proteins.fa	284	0	0	0.1338	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+PEPC_KINASE	PEPC_KINASE__SS|SS__g32157	SS|SS__g32157	08_focused_families/validation/step25kn/results/PEPC_KINASE/PEPC_KINASE.accepted.proteins.fa	282	0	0	0.0957	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+PEPC_KINASE	PEPC_KINASE__SS|SS__g3304	SS|SS__g3304	08_focused_families/validation/step25kn/results/PEPC_KINASE/PEPC_KINASE.accepted.proteins.fa	282	0	0	0.0993	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+
+FILE: 08_focused_families/validation/step25kz17.2/release/PPDK/FORMAL_QC.tsv
+metric	value
+family	PPDK
+status	COMPLETE
+accepted_input_files	1
+primary_candidate_count	16
+sensitivity_candidate_count	0
+candidate_validation_tables	1
+reference_file	08_focused_families/validation/step25kn/references/PPDK.faa
+domain_rule	generic residue QC; family profile validation deferred to tree step
+beta_CA_status	not included; review-only branch
+
+FILE: 08_focused_families/validation/step25kz17.2/release/PPDK/domain_length_qc.tsv
+family	tree_id	original_id	source_file	length_aa	ambiguous_aa_count	internal_stop_count	maximum_residue_fraction	invalid_residues	length_status	domain_status
+PPDK	PPDK__AT|AT__gene-LOC130798039	AT|AT__gene-LOC130798039	08_focused_families/validation/step25kn/results/PPDK/PPDK.accepted.proteins.fa	956	0	0	0.0962	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+PPDK	PPDK__BV|BV__Bv1_021280_fjqs	BV|BV__Bv1_021280_fjqs	08_focused_families/validation/step25kn/results/PPDK/PPDK.accepted.proteins.fa	955	0	0	0.0953	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+PPDK	PPDK__MC|MC__gene_4175	MC|MC__gene_4175	08_focused_families/validation/step25kn/results/PPDK/PPDK.accepted.proteins.fa	884	0	0	0.0928	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+PPDK	PPDK__PO|PO__evm.TU.LG03.2055	PO|PO__evm.TU.LG03.2055	08_focused_families/validation/step25kn/results/PPDK/PPDK.accepted.proteins.fa	952	0	0	0.0903	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+PPDK	PPDK__PO|PO__evm.TU.LG07.612	PO|PO__evm.TU.LG07.612	08_focused_families/validation/step25kn/results/PPDK/PPDK.accepted.proteins.fa	884	0	0	0.0916	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+PPDK	PPDK__PO|PO__evm.TU.LG14.356	PO|PO__evm.TU.LG14.356	08_focused_families/validation/step25kn/results/PPDK/PPDK.accepted.proteins.fa	952	0	0	0.0903	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+PPDK	PPDK__PO|PO__evm.TU.LG15.326	PO|PO__evm.TU.LG15.326	08_focused_families/validation/step25kn/results/PPDK/PPDK.accepted.proteins.fa	885	0	0	0.0915	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+PPDK	PPDK__SLP_Hap1|SLP_Hap1__SP9G00461	SLP_Hap1|SLP_Hap1__SP9G00461	08_focused_families/validation/step25kn/results/PPDK/PPDK.accepted.proteins.fa	963	0	0	0.0903	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+PPDK	PPDK__SLP_Hap1|SLP_Hap1__SP9G01190	SLP_Hap1|SLP_Hap1__SP9G01190	08_focused_families/validation/step25kn/results/PPDK/PPDK.accepted.proteins.fa	885	0	0	0.0983	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+PPDK	PPDK__SP_Hex|SP_Hex__gene_Spor0218990.1	SP_Hex|SP_Hex__gene_Spor0218990.1	08_focused_families/validation/step25kn/results/PPDK/PPDK.accepted.proteins.fa	959	0	0	0.0970	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+PPDK	PPDK__SP_Hex|SP_Hex__gene_Spor0288080.1	SP_Hex|SP_Hex__gene_Spor0288080.1	08_focused_families/validation/step25kn/results/PPDK/PPDK.accepted.proteins.fa	989	0	0	0.1122	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+PPDK	PPDK__SP_Hex|SP_Hex__gene_Spor0298520.1	SP_Hex|SP_Hex__gene_Spor0298520.1	08_focused_families/validation/step25kn/results/PPDK/PPDK.accepted.proteins.fa	959	0	0	0.0970	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+PPDK	PPDK__SP_Hex|SP_Hex__gene_Spor0596180.1	SP_Hex|SP_Hex__gene_Spor0596180.1	08_focused_families/validation/step25kn/results/PPDK/PPDK.accepted.proteins.fa	959	0	0	0.0980	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+PPDK	PPDK__SP_Tet|SP_Tet__g1214	SP_Tet|SP_Tet__g1214	08_focused_families/validation/step25kn/results/PPDK/PPDK.accepted.proteins.fa	959	0	0	0.0980	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+PPDK	PPDK__SP_Tet|SP_Tet__g13762	SP_Tet|SP_Tet__g13762	08_focused_families/validation/step25kn/results/PPDK/PPDK.accepted.proteins.fa	959	0	0	0.0970	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+PPDK	PPDK__SS|SS__g2993	SS|SS__g2993	08_focused_families/validation/step25kn/results/PPDK/PPDK.accepted.proteins.fa	959	0	0	0.0991	NONE	PASS_NONEMPTY	PENDING_PROFILE_CHECK
+
+FILE: 08_focused_families/validation/step25kz17.1/release/FORMAL_QC.tsv
+metric	value
+checkpoint	step25kz17.1_master_multi_family_inventory
+status	COMPLETE
+families_in_scope	11
+families_with_accepted_inputs	10
+families_requiring_rescue	BETA_CA
+candidate_inventory_records	3064
+evidence_source_files	1675
+PEPC_reference_state	frozen and not modified by this step
+beta_CA_policy	review-only pending formal threshold support
+empty_CAFE5_intersections	reported as valid results, not gene loss
+path_policy	relative paths only
+
+FILE: 08_focused_families/validation/step25kz17.1/release/03_family_input_summary.tsv
+family	accepted_protein_records	accepted_protein_files	candidate_validation_files	reference_files	phylogeny_input_files	rescue_required	interpretation
+BETA_CA	0	1	1	1	0	YES	No accepted protein records; whole-proteome rescue or family-specific recovery required before tree construction.
+PPDK	16	2	2	1	0	NO	Candidate set available for domain QC, tree construction, and evidence integration.
+PEPC_KINASE	27	1	1	0	0	NO	Candidate set available for domain QC, tree construction, and evidence integration.
+TDT_DTC_DIC	34	1	1	0	0	NO	Candidate set available for domain QC, tree construction, and evidence integration.
+ALMT	139	1	1	0	0	NO	Candidate set available for domain QC, tree construction, and evidence integration.
+V_ATPASE	170	1	1	0	0	NO	Candidate set available for domain QC, tree construction, and evidence integration.
+V_PPASE	40	1	1	0	0	NO	Candidate set available for domain QC, tree construction, and evidence integration.
+AMYLASE	272	1	1	0	0	NO	Candidate set available for domain QC, tree construction, and evidence integration.
+STARCH_SYNTHESIS	16	1	1	0	0	NO	Candidate set available for domain QC, tree construction, and evidence integration.
+STARCH_PHOSPHORYLATION	14	1	1	0	0	NO	Candidate set available for domain QC, tree construction, and evidence integration.
+STARCH_DEPHOSPHORYLATION	35	1	1	0	0	NO	Candidate set available for domain QC, tree construction, and evidence integration.
+
+FILE: 08_focused_families/validation/step25kz16.16/release/FORMAL_QC.tsv
+metric	value
+checkpoint	step25kz16.16_corrected_all_species_pepc_statistics
+status	COMPLETE
+corrected_annotation_records	54
+merged_records	54
+detailed_statistics_matched	16
+detailed_statistics_unavailable	38
+SS_g24599_in_output	NO
+authoritative_annotation_source	step25kz16.14c
+detailed_statistics_source	step25kz16_PO_SS_PEPC_DE_WGD
+unavailable_statistics_rule	NA_for_records_absent_from_detailed_PO_SS_table
+CAFE5_interpretation	NO_PEPC_GENE_PASSED_DE_WGD_CAFE5_STRICT_FILTER
+AT_gene_count	4
+AT_WGD_segmental_yes	3
+AT_CAFE5_yes	0
+AT_positive_selection_yes	0
+AT_DE_yes	0
+BV_gene_count	3
+BV_WGD_segmental_yes	0
+BV_CAFE5_yes	0
+BV_positive_selection_yes	0
+BV_DE_yes	0
+MC_gene_count	3
+MC_WGD_segmental_yes	0
+MC_CAFE5_yes	0
+MC_positive_selection_yes	0
+MC_DE_yes	0
+PO_gene_count	13
+PO_WGD_segmental_yes	10
+PO_CAFE5_yes	0
+PO_positive_selection_yes	0
+PO_DE_yes	13
+SLP_Hap1_gene_count	8
+SLP_Hap1_WGD_segmental_yes	2
+SLP_Hap1_CAFE5_yes	0
+SLP_Hap1_positive_selection_yes	0
+SLP_Hap1_DE_yes	0
+SP_Hex_gene_count	8
+SP_Hex_WGD_segmental_yes	8
+SP_Hex_CAFE5_yes	0
+
+FILE: 08_focused_families/validation/step25kz16.16/release/02_PEPC_species_evidence_summary_n_over_nt.tsv
+species	evidence	n	nt	percentage
+AT	WGD_segmental	3	4	75.0
+AT	CAFE5	0	4	0.0
+AT	positive_selection	0	4	0.0
+AT	differential_expression	NA	NA	NA
+BV	WGD_segmental	0	3	0.0
+BV	CAFE5	0	3	0.0
+BV	positive_selection	0	3	0.0
+BV	differential_expression	NA	NA	NA
+MC	WGD_segmental	0	3	0.0
+MC	CAFE5	0	3	0.0
+MC	positive_selection	0	3	0.0
+MC	differential_expression	NA	NA	NA
+PO	WGD_segmental	10	13	76.9
+PO	CAFE5	0	13	0.0
+PO	positive_selection	0	13	0.0
+PO	differential_expression	13	13	100.0
+SLP_Hap1	WGD_segmental	2	8	25.0
+SLP_Hap1	CAFE5	0	8	0.0
+SLP_Hap1	positive_selection	0	8	0.0
+SLP_Hap1	differential_expression	NA	NA	NA
+SP_Hex	WGD_segmental	8	8	100.0
+SP_Hex	CAFE5	0	8	0.0
+SP_Hex	positive_selection	0	8	0.0
+SP_Hex	differential_expression	NA	NA	NA
+SP_Tet	WGD_segmental	6	6	100.0
+SP_Tet	CAFE5	0	6	0.0
+SP_Tet	positive_selection	0	6	0.0
+SP_Tet	differential_expression	NA	NA	NA
+SS	WGD_segmental	6	9	66.7
+SS	CAFE5	0	9	0.0
+SS	positive_selection	0	9	0.0
+SS	differential_expression	5	9	55.6
+
+FILE: 08_focused_families/validation/step25kz16.15c/release/FORMAL_QC.tsv
+metric	value
+checkpoint	step25kz16.15c_exact_maize_coordinate_windows
+status	COMPLETE
+tree_tip_count	87
+coordinate_positions	519,780,890
+coordinate_windows	517-521,778-782,888-892
+extraction_rule	exact maize residue columns, not contiguous columns
+translation_status	validated before coordinate extraction
+
+FILE: 08_focused_families/validation/step25kz16.15b/release/FORMAL_QC.tsv
+metric	value
+checkpoint	step25kz16.15b_corrected_pepc_itol
+status	COMPLETE
+tree_terminal_count	87
+ascii_safe_tree	YES
+species_colorstrip_created	YES
+evidence_binary_created	YES
+coordinate_text_created	YES
+coordinate_reference	maize PEPC
+coordinate_positions	519,780,890
+SS_g24599	EXCLUDED
+SS_g8156	TRANSLATED_BEFORE_ALIGNMENT
+
+FILE: 08_focused_families/validation/step25kz16.15/release/FORMAL_QC.tsv
+metric	value
+checkpoint	step25kz16.15_translated_pepc_rebuild
+status	COMPLETE
+alignment_tip_count	87
+tree_terminal_count	87
+SS_g8156_in_alignment	YES
+SS_g8156_alignment_length	2165
+SS_g24599	EXCLUDED
+coordinate_reference	maize PEPC
+coordinate_positions	519,780,890
+translation_rule	DNA-like sequences translated frame 1
+window_rule	five aligned amino acids centered on maize position
+
+FILE: 08_focused_families/validation/step25kz16.15/release/FORMAL_QC_pre_alignment.tsv
+metric	value
+SS_g8156_original_length	1125
+SS_g8156_final_length	375
+SS_g8156_translation_status	TRANSLATED
+input_records	87
+retained_records_after_translation_dedup	87
+
+FILE: 08_focused_families/validation/step25kz16.15/release/01_translation_QC.tsv
+id	original_length	final_length	input_type	translation_status	terminal_stop_removed	internal_stops_replaced_X
+OUR__REF__REF_PPC_1__sp_Q9MAH0_CAPP1_ARATH	967	967	PROTEIN	ALREADY_PROTEIN	NO	0
+OUR__REF__REF_PPC_2__sp_Q5GM68_CAPP2_ARATH	963	963	PROTEIN	ALREADY_PROTEIN	NO	0
+OUR__REF__REF_PPC_3__sp_Q84VW9_CAPP3_ARATH	968	968	PROTEIN	ALREADY_PROTEIN	NO	0
+OUR__REF__REF_PPC_4__sp_Q8GVE8_CAPP4_ARATH	1032	1032	PROTEIN	ALREADY_PROTEIN	NO	0
+OUR__AT__gene-LOC130806734	966	966	PROTEIN	ALREADY_PROTEIN	NO	0
+OUR__AT__gene-LOC130807487	965	965	PROTEIN	ALREADY_PROTEIN	NO	0
+OUR__AT__gene-LOC130817473	966	966	PROTEIN	ALREADY_PROTEIN	NO	0
+OUR__AT__gene-LOC130821049	1026	1026	PROTEIN	ALREADY_PROTEIN	NO	0
+OUR__BV__Bv4_112300_ihek	967	967	PROTEIN	ALREADY_PROTEIN	NO	0
+OUR__BV__Bv6_171660_yout	1034	1034	PROTEIN	ALREADY_PROTEIN	NO	0
+OUR__BV__Bv9_260510_xeaz	966	966	PROTEIN	ALREADY_PROTEIN	NO	0
+OUR__MC__gene_21178	966	966	PROTEIN	ALREADY_PROTEIN	NO	0
+OUR__MC__gene_3958	1041	1041	PROTEIN	ALREADY_PROTEIN	NO	0
+OUR__MC__gene_7534	960	960	PROTEIN	ALREADY_PROTEIN	NO	0
+OUR__PO__evm.TU.LG02.787	960	960	PROTEIN	ALREADY_PROTEIN	NO	0
+OUR__PO__evm.TU.LG03.2406	965	965	PROTEIN	ALREADY_PROTEIN	NO	0
+OUR__PO__evm.TU.LG03.2407	965	965	PROTEIN	ALREADY_PROTEIN	NO	0
+OUR__PO__evm.TU.LG03.46	1017	1017	PROTEIN	ALREADY_PROTEIN	NO	0
+OUR__PO__evm.TU.LG03.97	1034	1034	PROTEIN	ALREADY_PROTEIN	NO	0
+OUR__PO__evm.TU.LG05.829	951	951	PROTEIN	ALREADY_PROTEIN	NO	0
+OUR__PO__evm.TU.LG06.1001	966	966	PROTEIN	ALREADY_PROTEIN	NO	0
+OUR__PO__evm.TU.LG06.677	966	966	PROTEIN	ALREADY_PROTEIN	NO	0
+OUR__PO__evm.TU.LG09.1958	960	960	PROTEIN	ALREADY_PROTEIN	NO	0
+OUR__PO__evm.TU.LG11.259	966	966	PROTEIN	ALREADY_PROTEIN	NO	0
+OUR__PO__evm.TU.LG17.1452	964	964	PROTEIN	ALREADY_PROTEIN	NO	0
+OUR__PO__evm.TU.LG17.1453	965	965	PROTEIN	ALREADY_PROTEIN	NO	0
+OUR__PO__evm.TU.LG25.499	951	951	PROTEIN	ALREADY_PROTEIN	NO	0
+OUR__SLP_Hap1__SP10G01662	942	942	PROTEIN	ALREADY_PROTEIN	NO	0
+OUR__SLP_Hap1__SP1G00882	966	966	PROTEIN	ALREADY_PROTEIN	NO	0
+OUR__SLP_Hap1__SP1G00883	942	942	PROTEIN	ALREADY_PROTEIN	NO	0
+OUR__SLP_Hap1__SP1G00884	942	942	PROTEIN	ALREADY_PROTEIN	NO	0
+OUR__SLP_Hap1__SP1G00885	942	942	PROTEIN	ALREADY_PROTEIN	NO	0
+OUR__SLP_Hap1__SP1G00887	934	934	PROTEIN	ALREADY_PROTEIN	NO	0
+OUR__SLP_Hap1__SP2G00467	1061	1061	PROTEIN	ALREADY_PROTEIN	NO	0
+OUR__SLP_Hap1__SP3G01743	966	966	PROTEIN	ALREADY_PROTEIN	NO	0
+OUR__SP_Hex__gene_Spor0042710.1	966	966	PROTEIN	ALREADY_PROTEIN	NO	0
+OUR__SP_Hex__gene_Spor0168910.1	892	892	PROTEIN	ALREADY_PROTEIN	NO	0
+OUR__SP_Hex__gene_Spor0380090.1	1113	1113	PROTEIN	ALREADY_PROTEIN	NO	0
+OUR__SP_Hex__gene_Spor0428090.1	966	966	PROTEIN	ALREADY_PROTEIN	NO	0
+
+FILE: 08_focused_families/validation/step25kz16.14c/release/FORMAL_QC.tsv
+metric	value
+checkpoint	step25kz16.14c_final_pepc_evidence_heatmap
+status	COMPLETE
+species_count	8
+cell_format	n/nt first line; percentage second line
+color_scale	blue-white-red based on percentage
+WGD_source	Step25kz16.8b validated metadata
+DE_source	Step25kz16.14b PO/SS values
+DE_assessed_species	PO,SS
+DE_other_species	NA
+SS_g24599	EXCLUDED
+duplicate_gene_rule	identical SS copies retained separately
+output_formats	PDF, SVG, PNG, 300 dpi
+
+FILE: 08_focused_families/validation/step25kz16.14c/release/02_PEPC_species_summary_n_over_nt_final.tsv
+species	evidence	n	nt	percentage
+AT	WGD/segmental	3	4	75.0
+AT	CAFE5	0	4	0.0
+AT	Positive selection	0	4	0.0
+AT	Differential expression	NA	NA	NA
+BV	WGD/segmental	0	3	0.0
+BV	CAFE5	0	3	0.0
+BV	Positive selection	0	3	0.0
+BV	Differential expression	NA	NA	NA
+MC	WGD/segmental	0	3	0.0
+MC	CAFE5	0	3	0.0
+MC	Positive selection	0	3	0.0
+MC	Differential expression	NA	NA	NA
+PO	WGD/segmental	10	13	76.9
+PO	CAFE5	0	13	0.0
+PO	Positive selection	0	13	0.0
+PO	Differential expression	13	13	100.0
+SLP_Hap1	WGD/segmental	2	8	25.0
+SLP_Hap1	CAFE5	0	8	0.0
+SLP_Hap1	Positive selection	0	8	0.0
+SLP_Hap1	Differential expression	NA	NA	NA
+SP_Hex	WGD/segmental	8	8	100.0
+SP_Hex	CAFE5	0	8	0.0
+SP_Hex	Positive selection	0	8	0.0
+SP_Hex	Differential expression	NA	NA	NA
+SP_Tet	WGD/segmental	6	6	100.0
+SP_Tet	CAFE5	0	6	0.0
+SP_Tet	Positive selection	0	6	0.0
+SP_Tet	Differential expression	NA	NA	NA
+SS	WGD/segmental	6	9	66.7
+SS	CAFE5	0	9	0.0
+SS	Positive selection	0	9	0.0
+SS	Differential expression	5	9	55.6
+
+FILE: 08_focused_families/validation/step25kz16.14b/release/FORMAL_QC.tsv
+metric	value
+checkpoint	step25kz16.14b_corrected_pepc_evidence_heatmap
+status	COMPLETE
+species_count	8
+cell_format	n/nt on first line; percentage below
+color_scale	blue-white-red based on percentage
+authoritative_WGD_field	direct_WGD_segmental
+authoritative_CAFE5_field	direct_robust_CAFE5
+authoritative_DE_field	primary_DE_contrasts
+DE_assessed_species	PO,SS
+DE_other_species	NA
+SS_g24599	EXCLUDED
+duplicate_gene_rule	SS duplicate copies inherit representative evidence
+cell_border	black, 1.15 pt
+output_formats	PDF, SVG, PNG, 300 dpi
+
+FILE: 08_focused_families/validation/step25kz16.14b/release/03_PEPC_species_summary_n_over_nt_corrected.tsv
+species	evidence	n	nt	percentage
+AT	WGD/segmental	0	4	0.0
+AT	CAFE5	0	4	0.0
+AT	Positive selection	0	4	0.0
+AT	Differential expression	NA	NA	NA
+BV	WGD/segmental	0	3	0.0
+BV	CAFE5	0	3	0.0
+BV	Positive selection	0	3	0.0
+BV	Differential expression	NA	NA	NA
+MC	WGD/segmental	0	3	0.0
+MC	CAFE5	0	3	0.0
+MC	Positive selection	0	3	0.0
+MC	Differential expression	NA	NA	NA
+PO	WGD/segmental	10	13	76.9
+PO	CAFE5	0	13	0.0
+PO	Positive selection	0	13	0.0
+PO	Differential expression	13	13	100.0
+SLP_Hap1	WGD/segmental	0	8	0.0
+SLP_Hap1	CAFE5	0	8	0.0
+SLP_Hap1	Positive selection	0	8	0.0
+SLP_Hap1	Differential expression	NA	NA	NA
+SP_Hex	WGD/segmental	0	8	0.0
+SP_Hex	CAFE5	0	8	0.0
+SP_Hex	Positive selection	0	8	0.0
+SP_Hex	Differential expression	NA	NA	NA
+SP_Tet	WGD/segmental	6	6	100.0
+SP_Tet	CAFE5	0	6	0.0
+SP_Tet	Positive selection	0	6	0.0
+SP_Tet	Differential expression	NA	NA	NA
+SS	WGD/segmental	6	9	66.7
+SS	CAFE5	0	9	0.0
+SS	Positive selection	0	9	0.0
+SS	Differential expression	5	9	55.6
+
+FILE: 08_focused_families/validation/step25kz16.14/release/FORMAL_QC_16.14b.tsv
+metric	value
+checkpoint	step25kz16.14b_pepc_n_over_nt_percentage_heatmap
+status	COMPLETE
+species_count	8
+cell_format	n/nt on first line; percentage below
+color_scale	blue-white-red based on percentage
+DE_assessed_species	PO,SS
+DE_other_species	NA
+duplicate_gene_rule	identical protein copies retained as separate rows
+cell_border	black, 1.15 pt
+output_formats	PDF, SVG, PNG, 300 dpi
+
+FILE: 08_focused_families/validation/step25kz16.14/release/05_PEPC_species_summary_n_over_nt.tsv
+species	evidence	n	nt	percentage
+AT	WGD/segmental	0	4	0.0
+AT	CAFE5	0	4	0.0
+AT	Positive selection	0	4	0.0
+AT	Differential expression	NA	NA	NA
+BV	WGD/segmental	0	3	0.0
+BV	CAFE5	0	3	0.0
+BV	Positive selection	0	3	0.0
+BV	Differential expression	NA	NA	NA
+MC	WGD/segmental	0	3	0.0
+MC	CAFE5	0	3	0.0
+MC	Positive selection	0	3	0.0
+MC	Differential expression	NA	NA	NA
+PO	WGD/segmental	10	13	76.9
+PO	CAFE5	0	13	0.0
+PO	Positive selection	0	13	0.0
+PO	Differential expression	0	13	0.0
+SLP_Hap1	WGD/segmental	0	8	0.0
+SLP_Hap1	CAFE5	0	8	0.0
+SLP_Hap1	Positive selection	0	8	0.0
+SLP_Hap1	Differential expression	NA	NA	NA
+SP_Hex	WGD/segmental	0	8	0.0
+SP_Hex	CAFE5	0	8	0.0
+SP_Hex	Positive selection	0	8	0.0
+SP_Hex	Differential expression	NA	NA	NA
+SP_Tet	WGD/segmental	6	6	100.0
+SP_Tet	CAFE5	0	6	0.0
+SP_Tet	Positive selection	0	6	0.0
+SP_Tet	Differential expression	NA	NA	NA
+SS	WGD/segmental	1	9	11.1
+SS	CAFE5	0	9	0.0
+SS	Positive selection	0	9	0.0
+SS	Differential expression	0	9	0.0
+
+FILE: 08_focused_families/validation/step25kz16.14/release/FORMAL_QC.tsv
+metric	value
+checkpoint	step25kz16.14_all_species_pepc_heatmaps
+status	COMPLETE
+species_count	8
+gene_rows_in_heatmap	54
+SS_g24599_in_heatmap	NO
+SS_g29856_in_heatmap	YES
+SS_g7519_in_heatmap	YES
+DE_assessed_species	PO,SS
+DE_other_species	NA_not_zero
+duplicate_gene_rule	identical protein copies retained as separate heatmap rows
+figure_settings	PDF SVG PNG, 300 dpi, black cell borders, grouped species rows
+
+FILE: 08_focused_families/validation/step25kz16.14/release/03_PEPC_species_evidence_summary.tsv
+species	gene_count	WGD_segmental_percent	CAFE5_percent	positive_selection_percent	DE_percent_PO_SS_only
+AT	4	NA	NA	NA	NA
+BV	3	NA	NA	NA	NA
+MC	3	NA	NA	NA	NA
+PO	13	76.9	0.0	0.0	100.0
+SLP_Hap1	8	NA	NA	NA	NA
+SP_Hex	8	NA	NA	NA	NA
+SP_Tet	6	100.0	0.0	0.0	NA
+SS	9	100.0	0.0	0.0	100.0
+
+FILE: 08_focused_families/validation/step25kz16.11b/release/FORMAL_QC.tsv
+metric	value
+checkpoint	step25kz16.11b_corrected_translated_pepc_tree
+status	COMPLETE
+project_records_retained_before_dedup	58
+maize_records_added	1
+wang_s7_records_added	30
+excluded_ss_g24599	1
+final_deduplicated_records	87
+duplicate_records_removed	2
+id_normalization	OUR, WANG_S7, and ZM prefixes standardized
+translation_status	Wang S7 CDS records were translated before this step
+alignment_tip_count	87
+tree_terminal_count	87
+maize_anchor	ZM__tr|Q84KR7|Q84KR7_MAIZE
+ss_g24599_in_tree	NO
+coordinate_positions	519,780,890
+coordinate_rule	five maize residues from coordinate minus two through plus two
+tree_status	COMPLETE
+
+FILE: 08_focused_families/validation/step25kz16.11/release/FORMAL_QC.tsv
+metric	value
+checkpoint	step25kz16.11_translated_s7_pepc_tree
+status	PASS_PENDING_TREE
+wang_input_rule	all Wang S7 records retained after translation
+translation_rule	best of three forward reading frames by DIAMOND PEPC similarity
+deduplication_rule	identical ungapped amino-acid sequences collapsed globally
+excluded_sequence	OUR__SS__g24599
+excluded_basis	no independent PEPC homology support
+final_pre_alignment_records	87
+duplicate_records_removed	2
+
+FILE: 08_focused_families/validation/step25kz16.11/release/00_Wang_S7_translation_QC.tsv
+original_id	selected_frame	input_length_nt	translated_length_aa	best_hit	best_hit_bitscore	best_hit_pident	best_hit_query_coverage	status
+KJ161565.1	2	1153	384	AT__gene-LOC130806734	294.0	46.4	100.0	BEST_FRAME_SUPPORTED_BY_DIAMOND
+KJ161566.1	2	1131	376	SP_Hex__gene_Spor0457440.1	207.0	86.0	30.3	BEST_FRAME_SUPPORTED_BY_DIAMOND
+KJ161575.1	3	1898	632	SP_Hex__gene_Spor0434450.1	658.0	58.8	100.0	BEST_FRAME_SUPPORTED_BY_DIAMOND
+KJ161576.1	2	761	253	PO__evm.TU.LG06.677	206.0	85.8	44.7	BEST_FRAME_SUPPORTED_BY_DIAMOND
+KJ161610.1	1	1975	658	SLP_Hap1__SP1G00885	367.0	84.3	31.9	BEST_FRAME_SUPPORTED_BY_DIAMOND
+KJ161611.1	2	1176	391	SLP_Hap1__SP1G00883	191.0	78.9	29.2	BEST_FRAME_SUPPORTED_BY_DIAMOND
+KJ161630.1	1	732	244	SP_Tet__g9073	278.0	59.4	100.0	BEST_FRAME_SUPPORTED_BY_DIAMOND
+KJ161631.1	2	751	250	BV__Bv9_260510_xeaz	319.0	64.4	100.0	BEST_FRAME_SUPPORTED_BY_DIAMOND
+KJ161740.1	3	1272	423	SS__g29856.t1	540.0	95.7	65.7	BEST_FRAME_SUPPORTED_BY_DIAMOND
+KJ161741.1	2	1317	438	SP_Hex__gene_Spor0451220.1	535.0	94.6	63.5	BEST_FRAME_SUPPORTED_BY_DIAMOND
+KJ161805.1	2	760	253	BV__Bv6_171660_yout	459.0	87.4	100.0	BEST_FRAME_SUPPORTED_BY_DIAMOND
+KJ161806.1	2	760	253	BV__Bv6_171660_yout	454.0	87.4	100.0	BEST_FRAME_SUPPORTED_BY_DIAMOND
+KJ161568.1	1	2344	781	SP_Hex__gene_Spor0434450.1	381.0	37.1	100.0	BEST_FRAME_SUPPORTED_BY_DIAMOND
+KJ161613.1	1	2390	796	SLP_Hap1__SP1G00885	354.0	85.4	25.0	BEST_FRAME_SUPPORTED_BY_DIAMOND
+KJ161633.1	1	2283	761	AT__gene-LOC130806734	352.0	84.4	26.1	BEST_FRAME_SUPPORTED_BY_DIAMOND
+KJ161651.1	2	1308	435	SP_Hex__gene_Spor0434450.1	198.0	82.5	26.2	BEST_FRAME_SUPPORTED_BY_DIAMOND
+KJ161746.1	2	1325	441	SS__g9483.t1	528.0	93.9	63.0	BEST_FRAME_SUPPORTED_BY_DIAMOND
+KJ161810.1	2	760	253	PO__evm.TU.LG03.46	447.0	87.0	100.0	BEST_FRAME_SUPPORTED_BY_DIAMOND
+
+FILE: 08_focused_families/validation/step25kz16.13/release/FORMAL_QC.tsv
+metric	value
+checkpoint	step25kz16.13_itol_ascii_tree_conversion
+status	COMPLETE
+tree_terminal_count	87
+tree_format	plain_ASCII_Newick
+special_tip_characters_removed	YES
+topology_changed	NO
+branch_lengths_preserved	YES
+annotation_ids_synchronized	YES
+source_tree	step25kz16.12b/PEPC_translated_S7_for_iTOL.treefile
+
+FILE: 08_focused_families/validation/step25kz16.12b/release/FORMAL_QC.tsv
+metric	value
+checkpoint	step25kz16.12b_corrected_maize_coordinate_windows
+status	COMPLETE
+tree_terminal_count	87
+maize_anchor	ZM__tr|Q84KR7|Q84KR7_MAIZE
+coordinate_positions	519,780,890
+coordinate_window_definition	five maize residues centered on each coordinate
+coordinate_mapping_rule	separate alignment columns for maize residues c-2 through c+2
+all_gap_rule	reported as NO_COV
+ambiguous_rule	windows containing X reported as AMBIGUOUS_COVERAGE
+519_FULL_COVERAGE	70
+519_NO_COVERAGE	17
+780_AMBIGUOUS_COVERAGE	4
+780_FULL_COVERAGE	78
+780_NO_COVERAGE	2
+780_PARTIAL_COVERAGE	3
+890_AMBIGUOUS_COVERAGE	2
+890_FULL_COVERAGE	77
+890_NO_COVERAGE	8
+
+FILE: 08_focused_families/validation/step25kz16.12/release/FORMAL_QC.tsv
+metric	value
+checkpoint	step25kz16.12_translated_pepc_itol_annotation
+status	COMPLETE
+tree_terminal_count	87
+tree_source	step25kz16.11
+excluded_sequence	OUR__SS__g24599
+species_colorstrip_created	YES
+evidence_binary_created	YES
+coordinate_text_created	YES
+coordinate_reference	maize PEPC
+coordinate_positions	519,780,890
+window_definition	two amino acids before and after each maize position
+no_coverage_rule	reported as NO_COV, not as amino-acid substitutions
+ambiguous_translation_rule	windows containing X are marked with _AMB
+
+FILE: 08_focused_families/validation/step25kz16.10/release/FORMAL_QC.tsv
+metric	value
+checkpoint	step25kz16.10_itol_pepc_coordinate_annotation
+status	COMPLETE
+tree_terminal_count	87
+tree_source	step25kz16.9e
+excluded_sequence	OUR__SS__g24599
+species_colorstrip_created	YES
+evidence_binary_dataset_created	YES
+coordinate_text_dataset_created	YES
+coordinate_reference	maize PEPC
+coordinate_positions	519,780,890
+coordinate_window_definition	two residues before and after each maize position
+519_FULL_COVERAGE	65
+519_PARTIAL_COVERAGE	0
+519_NO_COVERAGE	22
+780_FULL_COVERAGE	71
+780_PARTIAL_COVERAGE	2
+780_NO_COVERAGE	14
+890_FULL_COVERAGE	64
+890_PARTIAL_COVERAGE	0
+890_NO_COVERAGE	23
+
+FILE: 08_focused_families/validation/step25kz16.9e/release/FORMAL_QC.tsv
+metric	value
+checkpoint	step25kz16.9e_pepc_tree_without_ss_g24599
+status	COMPLETE
+excluded_sequence	OUR__SS__g24599
+exclusion_basis	no DIAMOND hit, no significant HMMER hit, and coordinate gaps
+retained_candidate_rule	all deduplicated PEPC sequences except reviewed non-PEPC candidate
+excluded_candidate_preserved_separately	YES
+alignment_tip_count	87
+tree_terminal_count	87
+maize_coordinate_anchor	ZM__tr|Q84KR7|Q84KR7_MAIZE
+coordinate_window_definition	two residues before and after maize positions 519, 780, and 890
+SS_g24599_in_primary_alignment	NO
+SS_g24599_preserved_as_excluded_candidate	YES
+tree_status	COMPLETE
+
+FILE: 08_focused_families/validation/step25kz16.9d/release/FORMAL_QC.tsv
+metric	value
+checkpoint	step25kz16.9d_ss_g24599_homology_audit
+status	COMPLETE_REVIEW_REQUIRED
+purpose	independent PEPC homology assessment for SS__g24599
+methods	DIAMOND plus HMMER PEPC profile search
+decision_rule	retain in tree but do not interpret unsupported coordinate windows
+
+FILE: 08_focused_families/validation/step25kz16.9d/release/04_SS_g24599_homology_summary.tsv
+metric	value
+query	OUR__SS__g24599
+diamond_hit_count	0
+diamond_interpretation	NO_DIAMOND_HITS
+hmmer_result	inspect_03_SS_g24599_HMMER_search.txt_and_domains_tbl
+coordinate_interpretation	NO_COVERAGE_windows_are_not_substitutions
+
+FILE: 08_focused_families/validation/step25kz16.9c/release/FORMAL_QC.tsv
+metric	value
+checkpoint	step25kz16.9c_all_pepc_deduplicated_tree
+status	COMPLETE
+all_input_records	59
+wang_s7_input_records	30
+maize_input_records	1
+deduplicated_tree_records	88
+duplicate_records_removed	2
+wang_s7_records_retained	30
+wang_s7_duplicates_removed	0
+deduplication_rule	identical ungapped amino-acid sequences collapsed globally
+retention_priority	maize anchor, then our corrected sequences, then Wang S7
+wang_inclusion_rule	all records from pepc_36_genes.fasta retained unless identical
+alignment_tip_count	88
+tree_terminal_count	88
+maize_anchor	ZM__tr|Q84KR7|Q84KR7_MAIZE
+maize_coordinate_519_alignment_column	2457
+maize_coordinate_780_alignment_column	3547
+maize_coordinate_890_alignment_column	3662
+coordinate_window_definition	two residues before and after each maize coordinate
+all_gap_windows	reported as NO_COVERAGE and not biological substitutions
+
+FILE: 08_focused_families/validation/step25kz16.9/release/FORMAL_QC.tsv
+metric	value
+checkpoint	step25kz16.9_large_pepc_coordinate_tree
+status	COMPLETE
+alignment_tip_count	90
+tree_terminal_count	90
+our_corrected_records	59
+wang_s7_records	30
+maize_coordinate_records	1
+maize_coordinate_519_alignment_column	2433
+maize_coordinate_780_alignment_column	3527
+maize_coordinate_890_alignment_column	3642
+coordinate_window_definition	two_alignment_positions_before_and_after_maize_coordinate
+reference_definition	maize PEPC1 used as coordinate anchor and tree tip
+wang_reference_definition	Caryophyllales PEPC sequences from Wang 2023 Supplementary Table S7
+tree_support	1000 ultrafast bootstrap and 1000 SH-aLRT replicates
+
+FILE: 08_focused_families/validation/step25kz16.8b/release/FORMAL_QC.tsv
+metric	value
+checkpoint	step25kz16.8b_corrected_tree_annotation
+status	COMPLETE
+tree_terminal_count	59
+SS_g24599_present	YES
+SS_g24599_length_aa	1098
+SS_g24599_classification	PRIMARY_FULL_LENGTH_PEPC
+metadata_sequence_source	corrected primary tree input FASTA
+
+FILE: 08_focused_families/validation/step25kz16.8b/release/04_PEPC_tree_species_summary.tsv
+species	primary_tree_tips	WGD_segmental	CAFE5	positive_selection	differential_expression
+AT	4	3	0	0	4
+BV	3	0	0	0	3
+MC	3	0	0	0	3
+PO	13	10	0	0	13
+REF	4	0	0	0	0
+SLP_Hap1	8	2	0	0	8
+SP_Hex	8	8	0	0	8
+SP_Tet	6	6	0	0	6
+SS	10	7	0	1	7
+
+FILE: 08_focused_families/validation/step25kz16.8/release/FORMAL_QC.tsv
+metric	value
+checkpoint	step25kz16.8_pepc_tree_annotation
+status	COMPLETE
+tree_terminal_count	59
+SS_g24599_present	YES
+species_colorstrip_created	YES
+evidence_binary_dataset_created	YES
+
+FILE: 08_focused_families/validation/step25kz16.8/release/04_PEPC_tree_species_summary.tsv
+species	primary_tree_tips	WGD_segmental	CAFE5	positive_selection	differential_expression
+AT	4	3	0	0	4
+BV	3	0	0	0	3
+MC	3	0	0	0	3
+PO	13	10	0	0	13
+REF	4	0	0	0	0
+SLP_Hap1	8	2	0	0	8
+SP_Hex	8	8	0	0	8
+SP_Tet	6	6	0	0	6
+SS	10	7	0	1	7
+
+FILE: 08_focused_families/validation/step25kz16.7b/release/FORMAL_QC.tsv
+metric	value
+checkpoint	step25kz16.7b_corrected_all_species_pepc_tree
+status	COMPLETE
+reference_class	canonical_PPC_only
+noncanonical_references_excluded	YES
+SS_g24599_in_tree	YES
+bootstrap_replicates	1000
+SH_aLRT_replicates	1000
+
+FILE: 08_focused_families/validation/step25kz16.7b/release/00_corrected_tree_input_qc.tsv
+metric	value
+primary_candidate_count	55
+corrected_reference_count	4
+total_tree_tips	59
+SS_g24599_present	YES
+reference_set	canonical_CAPP1_to_CAPP4_PPC1_to_PPC4
+
+FILE: 08_focused_families/validation/step25kz16.7/release/reference_curation/FORMAL_QC.tsv
+metric	value
+input_reference	08_focused_families/validation/step25kn/references/PEPC.faa
+original_reference_count	11
+corrected_canonical_PPC_count	4
+excluded_noncanonical_count	7
+included_reference_class	canonical_plant_type_PPC_only
+excluded_classes	PPCK;PEPK;CPPM;ZHD
+status	PASS
+
+FILE: 08_focused_families/validation/step25kz16.6/release/FORMAL_QC.tsv
+metric	value
+checkpoint	step25kz16.6_pepc_classification_alignment_tree
+status	COMPLETE
+primary_PO_PEPC_count	13
+primary_SS_PEPC_count	10
+sensitivity_candidate_count	86
+excluded_candidate_count	109
+SS_g24599_in_primary_tree	YES
+primary_rule	800-1300 aa plus relaxed PEPC similarity or validated registry
+sensitivity_rule	300-1300 aa plus relaxed PEPC similarity or validated registry
+reference_rule	PEPC.faa reference proteins included in both trees
+
+FILE: 08_focused_families/validation/step25kz16.5/release/FORMAL_QC.tsv
+metric	value
+checkpoint	step25kz16.5_complete_pepc_recovery_audit
+status	PASS_PENDING_TREE_VALIDATION
+PO_PEPC_candidate_count	113
+SS_PEPC_candidate_count	105
+Wang_reported_PO_reference_count	13
+Wang_count_interpretation	external benchmark only; not an inclusion filter
+SS_g24599_recovered	YES
+candidate_rule	PEPC keyword OR DIAMOND similarity against primary proteomes
+input_rule	only primary PO and SS protein FASTAs were used
+
+FILE: 08_focused_families/validation/step25kz16/release/FORMAL_QC.tsv
+metric	value
+status	PASS_STEP25KZ16_PEPC_EVIDENCE_EXTRACTION
+PO_SS_PEPC_records	28
+PO_DE_WGD_records	11
+SS_DE_WGD_records	8
+PO_DE_WGD_CAFE5_records	0
+SS_DE_WGD_CAFE5_records	0
+DE_definition	primary_DE_contrasts_not_empty_or_NONE
+WGD_definition	direct_WGD_segmental=YES
+CAFE5_definition	direct_robust_CAFE5=YES
+empty_CAFE5_intersection_interpretation	NO_PEPC_GENE_PASSED_ALL_THREE_FILTERS
+
+FILE: 08_focused_families/validation/step25kz15/release/FORMAL_QC.tsv
+metric	value
+status	PASS_STEP25KZ15_PEPC_HEATMAPS_V2
+PO_panel	CREATED
+SS_panel	CREATED
+annotation_cell_boundaries	SOLID_BLACK
+annotation_alignment	HEATMAP_WIDTH_ONLY
+figure_title	REMOVED
+PO_condition_and_time	AVAILABLE
+SS_condition_and_time	NOT_AVAILABLE
+SS_available_contrasts	COTYLEDON_DAY_NIGHT;LEAF_DAY
+functional_validation_authorized	NO
+causal_WGD_claim_authorized	NO
+
+FILE: 08_focused_families/validation/step25kz14/release/FORMAL_QC.tsv
+metric	value
+status	PASS_STEP25KZ14_SPECIES_SEPARATE_PEPC_EXPRESSION
+PO_PEPC_records	18
+SS_PEPC_records	10
+PO_primary_drought_contrasts	6
+SS_primary_diel_and_tissue_contrasts	2
+PO_heat_contrasts	NOT_AVAILABLE
+SS_heat_contrasts	NOT_AVAILABLE
+normalized_expression_source	DESeq2_normalized_counts
+expression_scale	log2_count_plus_one_gene_zscore
+functional_validation_authorized	NO
+causal_WGD_claim_authorized	NO
+missing_expression_interpreted_as_gene_loss	NO
+
+FILE: 08_focused_families/validation/step25kz14/release/SS_PEPC_DE_summary.tsv
+species	contrast_id	contrast_id	priority	species_code	gene_id	numerator_group	denominator_group	numerator_normalized_mean	denominator_normalized_mean	baseMean	log2FoldChange_MLE	lfcSE_MLE	stat	pvalue	padj_within_contrast	log2FoldChange_apeglm	lfcSE_apeglm	independent_filter_flag	cooks_outlier_or_undefined_flag	padj_global_14_contrasts	significant_within_FDR05	significant_global_FDR05	stringent_global_FDR05_abs_shrunken_LFC_ge1	direction
+SS	SS_COTYLEDON_NIGHT_VS_DAY	SS_COTYLEDON_NIGHT_VS_DAY	PRIMARY	SS	SS__g11076	cotyledons_night	cotyledons_day	2357.03974465896	1273.81215808775	2974.72609303596	0.887899855771275	0.654772336350159	1.35604362994414	0.175085286582241	0.335888473128424	0.553100370896135	0.567358829625382	FALSE	FALSE	0.287870124060872	FALSE	FALSE	FALSE	UP_IN_NUMERATOR
+SS	SS_COTYLEDON_NIGHT_VS_DAY	SS_COTYLEDON_NIGHT_VS_DAY	PRIMARY	SS	SS__g12931	cotyledons_night	cotyledons_day	213.427035059011	52.9258238365184	102.534296902959	2.00956821332139	0.934735098427058	2.14987991432335	0.0315647147954938	0.0952927507399439	1.16696486737538	1.0133805272793	FALSE	FALSE	0.0724588797154284	FALSE	FALSE	FALSE	UP_IN_NUMERATOR
+SS	SS_COTYLEDON_NIGHT_VS_DAY	SS_COTYLEDON_NIGHT_VS_DAY	PRIMARY	SS	SS__g16160	cotyledons_night	cotyledons_day	110.36832927197	21.2527927595472	182.020643192656	2.38524556819261	0.788484258699321	3.02510233004181	0.00248549018221137	0.0126103580668114	1.87464363419466	0.864271376373891	FALSE	FALSE	0.00835711840714994	TRUE	TRUE	TRUE	UP_IN_NUMERATOR
+SS	SS_COTYLEDON_NIGHT_VS_DAY	SS_COTYLEDON_NIGHT_VS_DAY	PRIMARY	SS	SS__g17009	cotyledons_night	cotyledons_day	17.2529817626312	13.7365195806747	40.9410393016058	0.328619733624733	0.857003317565722	0.38345211376563	0.701384569437513	0.825933306719086	0.145307448898589	0.569121872878761	FALSE	FALSE	0.79747349165749	FALSE	FALSE	FALSE	UP_IN_NUMERATOR
+SS	SS_COTYLEDON_NIGHT_VS_DAY	SS_COTYLEDON_NIGHT_VS_DAY	PRIMARY	SS	SS__g24599	cotyledons_night	cotyledons_day	144.773406800419	519.706459613096	255.134937749984	-1.84573166999066	0.546085317600263	-3.37993278797828	0.000725035577931127	0.00452325146108684	-1.57958781286864	0.56660272706909	FALSE	FALSE	0.00285122656500459	TRUE	TRUE	TRUE	DOWN_IN_NUMERATOR
+SS	SS_COTYLEDON_NIGHT_VS_DAY	SS_COTYLEDON_NIGHT_VS_DAY	PRIMARY	SS	SS__g29856	cotyledons_night	cotyledons_day	1974.7859350993	2910.42698280636	3985.11968965538	-0.559485824589759	0.391817842855185	-1.42792329341812	0.153313938227869	0.306454835893404	-0.454263941750873	0.363875658756402	FALSE	FALSE	0.259693945621913	FALSE	FALSE	FALSE	DOWN_IN_NUMERATOR
+SS	SS_COTYLEDON_NIGHT_VS_DAY	SS_COTYLEDON_NIGHT_VS_DAY	PRIMARY	SS	SS__g32916	cotyledons_night	cotyledons_day	11447.1501177499	14144.89740269	9882.96540438551	-0.305337807182951	0.499166936390898	-0.611694775680896	0.540739719047898	0.707862915963283	-0.206600428982545	0.421649653475736	FALSE	FALSE	0.666530723243646	FALSE	FALSE	FALSE	DOWN_IN_NUMERATOR
+SS	SS_COTYLEDON_NIGHT_VS_DAY	SS_COTYLEDON_NIGHT_VS_DAY	PRIMARY	SS	SS__g7519	cotyledons_night	cotyledons_day	69.4262537859382	38.858378333049	153.304455831888	0.833132339937939	0.758523841670209	1.09836012287161	0.272047267996889	0.455598781676114	0.440866330588543	0.597721936493229	FALSE	FALSE	0.403551960991164	FALSE	FALSE	FALSE	UP_IN_NUMERATOR
+SS	SS_COTYLEDON_NIGHT_VS_DAY	SS_COTYLEDON_NIGHT_VS_DAY	PRIMARY	SS	SS__g8156	cotyledons_night	cotyledons_day	441.585984496969	1215.25196549906	747.394548670649	-1.45962084608175	0.230181764012324	-6.34116630544026	2.28032220632635e-10	7.89916993135251e-09	-1.4102903949358	0.231313598048316	FALSE	FALSE	3.24492971780153e-09	TRUE	TRUE	TRUE	DOWN_IN_NUMERATOR
+SS	SS_COTYLEDON_NIGHT_VS_DAY	SS_COTYLEDON_NIGHT_VS_DAY	PRIMARY	SS	SS__g9483	cotyledons_night	cotyledons_day	427.79606389128	116.258890044107	194.760909217341	1.87805579681175	1.12929481566183	1.66303410833522	0.0963056081370166	0.220251469908838	0.707502519806798	0.935559133003	FALSE	FALSE	0.17979963285145	FALSE	FALSE	FALSE	UP_IN_NUMERATOR
+SS	SS_LEAF_VS_COTYLEDON_DAY	SS_LEAF_VS_COTYLEDON_DAY	PRIMARY	SS	SS__g11076	leaves_day	cotyledons_day	5293.32637636117	1273.81215808775	2974.72609303596	2.05494940739182	0.654668519179494	3.13891587450596	0.00169574122574401	0.0055230486635267	1.76481156712019	0.668863261528882	FALSE	FALSE	0.00599614808204336	TRUE	TRUE	TRUE	UP_IN_NUMERATOR
+SS	SS_LEAF_VS_COTYLEDON_DAY	SS_LEAF_VS_COTYLEDON_DAY	PRIMARY	SS	SS__g12931	leaves_day	cotyledons_day	41.250031813349	52.9258238365184	102.534296902959	-0.374582872450199	0.942771423403206	-0.397320986987529	0.691130773037077	0.780389782218714	-0.201833109434706	0.702596017664222	FALSE	FALSE	0.789758745355148	FALSE	FALSE	FALSE	DOWN_IN_NUMERATOR
+SS	SS_LEAF_VS_COTYLEDON_DAY	SS_LEAF_VS_COTYLEDON_DAY	PRIMARY	SS	SS__g16160	leaves_day	cotyledons_day	414.440807546451	21.2527927595472	182.020643192656	4.29280202126621	0.785876037389365	5.46244167913129	4.69629844823758e-08	4.18604318431142e-07	4.02088038443148	0.811105147279866	FALSE	FALSE	4.58914510743159e-07	TRUE	TRUE	TRUE	UP_IN_NUMERATOR
+SS	SS_LEAF_VS_COTYLEDON_DAY	SS_LEAF_VS_COTYLEDON_DAY	PRIMARY	SS	SS__g17009	leaves_day	cotyledons_day	91.8336165615114	13.7365195806747	40.9410393016058	2.72924810222619	0.839651510564375	3.25045339392258	0.00115221152364935	0.00392086774758352	2.28950012624994	0.88382191286935	FALSE	FALSE	0.00427861504268849	TRUE	TRUE	TRUE	UP_IN_NUMERATOR
+SS	SS_LEAF_VS_COTYLEDON_DAY	SS_LEAF_VS_COTYLEDON_DAY	PRIMARY	SS	SS__g24599	leaves_day	cotyledons_day	100.924946836438	519.706459613096	255.134937749984	-2.36654317470816	0.548690212724124	-4.31307706940643	1.60997963910858e-05	8.75799252328292e-05	-2.17055343677539	0.559162186058578	FALSE	FALSE	9.5432075942563e-05	TRUE	TRUE	TRUE	DOWN_IN_NUMERATOR
+SS	SS_LEAF_VS_COTYLEDON_DAY	SS_LEAF_VS_COTYLEDON_DAY	PRIMARY	SS	SS__g29856	leaves_day	cotyledons_day	7070.14615106047	2910.42698280636	3985.11968965538	1.28069094540403	0.391531009514364	3.27098215539182	0.00107174672909029	0.00368272508386152	1.17461292484821	0.388306033654425	FALSE	FALSE	0.00401671697460995	TRUE	TRUE	TRUE	UP_IN_NUMERATOR
+SS	SS_LEAF_VS_COTYLEDON_DAY	SS_LEAF_VS_COTYLEDON_DAY	PRIMARY	SS	SS__g32916	leaves_day	cotyledons_day	4056.84869271655	14144.89740269	9882.96540438551	-1.80195805027926	0.499293304551733	-3.60901705240583	0.00030735940771008	0.00122805078636109	-1.6095793008548	0.503727113986168	FALSE	FALSE	0.00133661244009385	TRUE	TRUE	TRUE	DOWN_IN_NUMERATOR
+SS	SS_LEAF_VS_COTYLEDON_DAY	SS_LEAF_VS_COTYLEDON_DAY	PRIMARY	SS	SS__g7519	leaves_day	cotyledons_day	351.628735376675	38.858378333049	153.304455831888	3.17110377243369	0.753726287397271	4.2072352065416	2.58514038590373e-05	0.000133819031740899	2.85666980443	0.782903387014718	FALSE	FALSE	0.000146241307151941	TRUE	TRUE	TRUE	UP_IN_NUMERATOR
+SS	SS_LEAF_VS_COTYLEDON_DAY	SS_LEAF_VS_COTYLEDON_DAY	PRIMARY	SS	SS__g8156	leaves_day	cotyledons_day	585.345696015918	1215.25196549906	747.394548670649	-1.05210957635757	0.229728987896482	-4.5797858859312	4.65452175436011e-06	2.84430727693656e-05	-1.01688363006137	0.228357441756704	FALSE	FALSE	3.10684189809588e-05	TRUE	TRUE	TRUE	DOWN_IN_NUMERATOR
+SS	SS_LEAF_VS_COTYLEDON_DAY	SS_LEAF_VS_COTYLEDON_DAY	PRIMARY	SS	SS__g9483	leaves_day	cotyledons_day	40.2277737166351	116.258890044107	194.760909217341	-1.53848565875399	1.13679370673355	-1.35335518629379	0.175942186724954	0.277465371941135	-0.771837951707064	0.936492492550907	FALSE	FALSE	0.288965652510919	FALSE	FALSE	FALSE	DOWN_IN_NUMERATOR
+
+FILE: 08_focused_families/validation/step25kz14/release/PO_PEPC_DE_summary.tsv
+species	contrast_id	contrast_id	priority	species_code	gene_id	numerator_group	denominator_group	numerator_normalized_mean	denominator_normalized_mean	baseMean	log2FoldChange_MLE	lfcSE_MLE	stat	pvalue	padj_within_contrast	log2FoldChange_apeglm	lfcSE_apeglm	independent_filter_flag	cooks_outlier_or_undefined_flag	padj_global_14_contrasts	significant_within_FDR05	significant_global_FDR05	stringent_global_FDR05_abs_shrunken_LFC_ge1	direction
+PO	PO_DROUGHT_LEAF_08H	PO_DROUGHT_LEAF_08H	PRIMARY	PO	PO__evm.TU.LG02.787	leaf_drought_08	leaf_well_watered_08	7.36326915727308	8.33968062467695	343.868314918305	0.0850607134867014	0.538971997921075	0.157820283455908	0.874598415073064	0.911393211879268	0.0390346165876248	0.443041419295658	FALSE	FALSE	0.919811732638384	FALSE	FALSE	FALSE	UP_IN_NUMERATOR
+PO	PO_DROUGHT_LEAF_08H	PO_DROUGHT_LEAF_08H	PRIMARY	PO	PO__evm.TU.LG02.787	leaf_drought_08	leaf_well_watered_08	68.6829288383951	123.494185773649	85.0415885538408	-0.866430974467176	0.253660835724872	-3.41570653582066	0.000636167657577333	0.00241137933137783	-0.812022280573627	0.251657279218315	FALSE	FALSE	0.00254110726197516	TRUE	TRUE	FALSE	DOWN_IN_NUMERATOR
+PO	PO_DROUGHT_LEAF_08H	PO_DROUGHT_LEAF_08H	PRIMARY	PO	PO__evm.TU.LG02.787	leaf_drought_08	leaf_well_watered_08	8.70291274753954	6.77468002415639	7.44113806196318	0.154494261982293	0.825722563324094	0.1871019018305	0.851580737046529	0.894407761263347	0.0778195203362006	0.572525584217942	FALSE	FALSE	0.904443031310859	FALSE	FALSE	FALSE	UP_IN_NUMERATOR
+PO	PO_DROUGHT_LEAF_08H	PO_DROUGHT_LEAF_08H	PRIMARY	PO	PO__evm.TU.LG02.787	leaf_drought_08	leaf_well_watered_08	22.1514802923422	201.854758339025	37.7360280942223	-3.15884676089573	0.472768454998316	-6.68159376434491	2.3635747228964e-11	3.53323321405605e-10	-3.02145255231399	0.476489458278518	FALSE	FALSE	3.87194382075212e-10	TRUE	TRUE	TRUE	DOWN_IN_NUMERATOR
+PO	PO_DROUGHT_LEAF_08H	PO_DROUGHT_LEAF_08H	PRIMARY	PO	PO__evm.TU.LG02.787	leaf_drought_08	leaf_well_watered_08	91.4541797001412	85.3660567691808	147.737577137876	0.138061269303004	0.270566990906992	0.510266492007012	0.609864774512425	0.703966739322554	0.124873238664084	0.255207254883866	FALSE	FALSE	0.725119980709921	FALSE	FALSE	FALSE	UP_IN_NUMERATOR
+PO	PO_DROUGHT_LEAF_08H	PO_DROUGHT_LEAF_08H	PRIMARY	PO	PO__evm.TU.LG02.787	leaf_drought_08	leaf_well_watered_08	131.264998683924	1352.23944254928	273.940658948303	-3.3306390490792	0.319404817323348	-10.4276418777599	1.85433117192369e-25	1.20612918573807e-23	-3.27008364718451	0.319505776557278	FALSE	FALSE	1.38625916493207e-23	TRUE	TRUE	TRUE	DOWN_IN_NUMERATOR
+PO	PO_DROUGHT_LEAF_08H	PO_DROUGHT_LEAF_08H	PRIMARY	PO	PO__evm.TU.LG02.787	leaf_drought_08	leaf_well_watered_08	19.9640881504347	2.7354989512709	12.3317756512877	3.100175795024	1.2420575341306	2.49600015283834	0.0125602547419326	0.0311656350006763	1.96044030789382	1.39559440707094	FALSE	FALSE	0.0335015028794851	TRUE	TRUE	TRUE	UP_IN_NUMERATOR
+PO	PO_DROUGHT_LEAF_08H	PO_DROUGHT_LEAF_08H	PRIMARY	PO	PO__evm.TU.LG02.787	leaf_drought_08	leaf_well_watered_08	68.1375279799082	151.811901308483	110.472333713044	-1.17599756013442	0.311702943445113	-3.7728150627538	0.000161415937219927	0.000722081557719751	-1.08767605621321	0.312330094285624	FALSE	FALSE	0.000754209982113462	TRUE	TRUE	TRUE	DOWN_IN_NUMERATOR
+PO	PO_DROUGHT_LEAF_08H	PO_DROUGHT_LEAF_08H	PRIMARY	PO	PO__evm.TU.LG02.787	leaf_drought_08	leaf_well_watered_08	49.1596382965875	16.0202051210564	130.909123757067	1.65205680745915	0.364715297332164	4.5297162459148	5.90629556648784e-06	3.69094741093886e-05	1.53348672043357	0.359248328367258	FALSE	FALSE	3.8570784601227e-05	TRUE	TRUE	TRUE	UP_IN_NUMERATOR
+PO	PO_DROUGHT_LEAF_08H	PO_DROUGHT_LEAF_08H	PRIMARY	PO	PO__evm.TU.LG02.787	leaf_drought_08	leaf_well_watered_08	493.482604065935	998.695984947714	704.64473226283	-1.0088890702914	0.270920207198613	-3.72393436696209	0.000196141937745892	0.00085971009055983	-0.944562049523233	0.268700986419405	FALSE	FALSE	0.000897474012482105	TRUE	TRUE	FALSE	DOWN_IN_NUMERATOR
+PO	PO_DROUGHT_LEAF_08H	PO_DROUGHT_LEAF_08H	PRIMARY	PO	PO__evm.TU.LG02.787	leaf_drought_08	leaf_well_watered_08	437.181113418274	107.173746158386	329.861203640966	2.01781555452014	0.274136311308701	7.36062853143123	1.83046288532485e-13	3.64413939956348e-12	1.95929032520184	0.276069981296357	FALSE	FALSE	3.96961735659816e-12	TRUE	TRUE	TRUE	UP_IN_NUMERATOR
+PO	PO_DROUGHT_LEAF_08H	PO_DROUGHT_LEAF_08H	PRIMARY	PO	PO__evm.TU.LG02.787	leaf_drought_08	leaf_well_watered_08	50.1927794737857	79.1284599842549	69.7214324879523	-0.608762173314145	0.430459492291501	-1.41421477331925	0.157298851607223	0.247185981803172	-0.486717997888033	0.397726627729278	FALSE	FALSE	0.264976881839785	FALSE	FALSE	FALSE	DOWN_IN_NUMERATOR
+PO	PO_DROUGHT_LEAF_08H	PO_DROUGHT_LEAF_08H	PRIMARY	PO	PO__evm.TU.LG02.787	leaf_drought_08	leaf_well_watered_08	0.915783860111681	0	2.79738694072936	1.46023810204165	1.70660456647719	0.855639396920111	0.392197271182893	0.504939356843823	0.3412375569114	0.833463374434225	FALSE	FALSE	0.529871968652389	FALSE	FALSE	FALSE	UP_IN_NUMERATOR
+PO	PO_DROUGHT_LEAF_08H	PO_DROUGHT_LEAF_08H	PRIMARY	PO	PO__evm.TU.LG02.787	leaf_drought_08	leaf_well_watered_08	63.5527056177242	41.0602894025669	131.114260111004	0.766562992363918	0.281089355475038	2.72711498117186	0.00638907713023056	0.0175985743565831	0.702358687547377	0.274992730060172	FALSE	FALSE	0.0188463711399175	TRUE	TRUE	FALSE	UP_IN_NUMERATOR
+PO	PO_DROUGHT_LEAF_08H	PO_DROUGHT_LEAF_08H	PRIMARY	PO	PO__evm.TU.LG02.787	leaf_drought_08	leaf_well_watered_08	135.927916147779	69.5129023714667	161.973831769343	1.03066113563955	0.253549018877047	4.06493837051426	4.8045155828839e-05	0.000246429352312162	0.976145985693095	0.251459506319202	FALSE	FALSE	0.000255228140628435	TRUE	TRUE	FALSE	UP_IN_NUMERATOR
+PO	PO_DROUGHT_LEAF_08H	PO_DROUGHT_LEAF_08H	PRIMARY	PO	PO__evm.TU.LG02.787	leaf_drought_08	leaf_well_watered_08	119.63295176175	177.607031210275	161.460039257449	-0.55993214690537	0.235209956818714	-2.3805631125426	0.0172861996358873	0.0406685678325359	-0.520670222454332	0.229864265293744	FALSE	FALSE	0.0438668602669454	TRUE	TRUE	FALSE	DOWN_IN_NUMERATOR
+PO	PO_DROUGHT_LEAF_08H	PO_DROUGHT_LEAF_08H	PRIMARY	PO	PO__evm.TU.LG02.787	leaf_drought_08	leaf_well_watered_08	6.72739329387673	0.790626235960621	14.2200209326219	3.24851984793146	1.28968038902542	2.5188565132686	0.0117736624822909	0.029556754263892	2.09889739456384	1.26908489761054	FALSE	FALSE	0.0317162977088402	TRUE	TRUE	TRUE	UP_IN_NUMERATOR
+PO	PO_DROUGHT_LEAF_08H	PO_DROUGHT_LEAF_08H	PRIMARY	PO	PO__evm.TU.LG02.787	leaf_drought_08	leaf_well_watered_08	110.563840829662	250.948098853162	339.628596558639	-1.15763487888611	0.268222323310445	-4.31595276857789	1.58915958788358e-05	9.04984565310544e-05	-1.09349102626099	0.267664497347754	FALSE	FALSE	9.43096484101778e-05	TRUE	TRUE	TRUE	DOWN_IN_NUMERATOR
+PO	PO_DROUGHT_LEAF_08H	PO_DROUGHT_LEAF_08H	PRIMARY	PO	PO__evm.TU.LG02.787	leaf_drought_08	leaf_well_watered_08	46.7559027651961	26.3600182745258	48.6570864807447	0.834255181589662	0.327142177502095	2.55013030713326	0.0107682662567382	0.0274096205248998	0.746095524687675	0.317154628060097	FALSE	FALSE	0.0294184066070009	TRUE	TRUE	FALSE	UP_IN_NUMERATOR
+PO	PO_DROUGHT_LEAF_08H	PO_DROUGHT_LEAF_08H	PRIMARY	PO	PO__evm.TU.LG02.787	leaf_drought_08	leaf_well_watered_08	78.2110942701345	63.321076254646	88.6292542133031	0.284718345959911	0.269177585372485	1.05773422986138	0.290176625067121	0.399631885896342	0.256937280083724	0.2573666732551	FALSE	FALSE	0.423802705627981	FALSE	FALSE	FALSE	UP_IN_NUMERATOR
+PO	PO_DROUGHT_LEAF_08H	PO_DROUGHT_LEAF_08H	PRIMARY	PO	PO__evm.TU.LG02.787	leaf_drought_08	leaf_well_watered_08	216.999074066107	204.999665455389	200.522545483556	0.0775403077209282	0.186362562922984	0.416072340414057	0.677357069073012	0.759992722213066	0.0744287262973675	0.181696050074691	FALSE	FALSE	0.779050719307703	FALSE	FALSE	FALSE	UP_IN_NUMERATOR
+PO	PO_DROUGHT_LEAF_08H	PO_DROUGHT_LEAF_08H	PRIMARY	PO	PO__evm.TU.LG02.787	leaf_drought_08	leaf_well_watered_08	17.3379617171064	2.13160263645556	8.19163491839332	2.95753353435638	1.13777476814063	2.59940158383864	0.00933864523627144	0.0242783406245492	2.06730058129453	1.18233752726293	FALSE	FALSE	0.0260593066224753	TRUE	TRUE	TRUE	UP_IN_NUMERATOR
+PO	PO_DROUGHT_LEAF_08H	PO_DROUGHT_LEAF_08H	PRIMARY	PO	PO__evm.TU.LG02.787	leaf_drought_08	leaf_well_watered_08	2505.14625660145	65.5127292406627	391.858794658998	5.28896004911525	0.391467664567882	13.5105923881438	1.35427307268558e-41	2.92137273014827e-39	5.23412780809083	0.394917350561201	FALSE	FALSE	3.31044765846865e-39	TRUE	TRUE	TRUE	UP_IN_NUMERATOR
+PO	PO_DROUGHT_LEAF_08H	PO_DROUGHT_LEAF_08H	PRIMARY	PO	PO__evm.TU.LG02.787	leaf_drought_08	leaf_well_watered_08	132.97000888009	182.531198201466	160.113209318713	-0.480783128748825	0.202712358323859	-2.37175045825628	0.0177040431950563	0.0414798174343234	-0.455245678942926	0.199997348648341	FALSE	FALSE	0.0447431219743849	TRUE	TRUE	FALSE	DOWN_IN_NUMERATOR
+PO	PO_DROUGHT_LEAF_08H	PO_DROUGHT_LEAF_08H	PRIMARY	PO	PO__evm.TU.LG02.787	leaf_drought_08	leaf_well_watered_08	63.4640070400275	85.0216733432893	64.4220032660855	-0.476362395383281	0.254641421300669	-1.87071841238592	0.0613841213481882	0.115480212392245	-0.436298434397967	0.247637835205537	FALSE	FALSE	0.125036348523016	FALSE	FALSE	FALSE	DOWN_IN_NUMERATOR
+PO	PO_DROUGHT_LEAF_08H	PO_DROUGHT_LEAF_08H	PRIMARY	PO	PO__evm.TU.LG02.787	leaf_drought_08	leaf_well_watered_08	16.4324954488573	10.8803237191022	17.0342508564945	0.814758049288649	0.596039128239491	1.36695396440697	0.171639735525966	0.264597996559387	0.561123753865553	0.525576376175137	FALSE	FALSE	0.283428938734645	FALSE	FALSE	FALSE	UP_IN_NUMERATOR
+PO	PO_DROUGHT_LEAF_08H	PO_DROUGHT_LEAF_08H	PRIMARY	PO	PO__evm.TU.LG02.787	leaf_drought_08	leaf_well_watered_08	93.0156394065266	63.428168555208	71.2040672441331	0.548371666802286	0.288123717570771	1.90325069878217	0.0570078405671499	0.108875839406599	0.494101385295621	0.278891671433209	FALSE	FALSE	0.117782091741277	FALSE	FALSE	FALSE	UP_IN_NUMERATOR
+PO	PO_DROUGHT_LEAF_08H	PO_DROUGHT_LEAF_08H	PRIMARY	PO	PO__evm.TU.LG02.787	leaf_drought_08	leaf_well_watered_08	46.2518565306627	44.3430616454943	76.4242792012001	0.0922910168158558	0.303819464916748	0.30376926916498	0.761303680703932	0.827698279033849	0.0809063024716618	0.281643468407868	FALSE	FALSE	0.84193144196443	FALSE	FALSE	FALSE	UP_IN_NUMERATOR
+PO	PO_DROUGHT_LEAF_08H	PO_DROUGHT_LEAF_08H	PRIMARY	PO	PO__evm.TU.LG02.787	leaf_drought_08	leaf_well_watered_08	51.7957382549519	53.5689075445912	52.565939944985	-0.0231051134505288	0.331059903564039	-0.0697913374642768	0.94435974206851	0.962230585617968	-0.0179779634494322	0.306646791302271	FALSE	FALSE	0.965523137069813	FALSE	FALSE	FALSE	DOWN_IN_NUMERATOR
+PO	PO_DROUGHT_LEAF_08H	PO_DROUGHT_LEAF_08H	PRIMARY	PO	PO__evm.TU.LG02.787	leaf_drought_08	leaf_well_watered_08	135.028151313495	71.0974902430093	123.159508182472	0.859500008199762	0.208556992335251	4.12117569675216	3.76943809747798e-05	0.000197895500117594	0.8225676368469	0.205886162069339	FALSE	FALSE	0.000205293786173221	TRUE	TRUE	FALSE	UP_IN_NUMERATOR
+PO	PO_DROUGHT_LEAF_08H	PO_DROUGHT_LEAF_08H	PRIMARY	PO	PO__evm.TU.LG02.787	leaf_drought_08	leaf_well_watered_08	277.382401977386	235.375758278595	271.525300180608	0.240553593260329	0.191731121481432	1.25464030774798	0.209609364071279	0.310114856780023	0.227937997300152	0.18733417892091	FALSE	FALSE	0.330672244280561	FALSE	FALSE	FALSE	UP_IN_NUMERATOR
+PO	PO_DROUGHT_LEAF_08H	PO_DROUGHT_LEAF_08H	PRIMARY	PO	PO__evm.TU.LG02.787	leaf_drought_08	leaf_well_watered_08	369.15065123743	1077.98504321683	361.008491770083	-1.55303274941897	0.202774913581034	-7.65889982144337	1.87532603892747e-14	4.18577193089489e-13	-1.51348943256244	0.2037650953655	FALSE	FALSE	4.58654123198129e-13	TRUE	TRUE	TRUE	DOWN_IN_NUMERATOR
+PO	PO_DROUGHT_LEAF_08H	PO_DROUGHT_LEAF_08H	PRIMARY	PO	PO__evm.TU.LG02.787	leaf_drought_08	leaf_well_watered_08	37.0918683441753	40.0019324152011	33.4455699008121	-0.148089265814693	0.387248006887297	-0.382414533272969	0.702153912108584	0.780672379265923	-0.119447008221496	0.349993387738991	FALSE	FALSE	0.798075586156742	FALSE	FALSE	FALSE	DOWN_IN_NUMERATOR
+PO	PO_DROUGHT_LEAF_08H	PO_DROUGHT_LEAF_08H	PRIMARY	PO	PO__evm.TU.LG02.787	leaf_drought_08	leaf_well_watered_08	39.8761891095585	7.78933046014264	30.7515899482615	2.34790237805342	0.528045846118919	4.44639872713752	8.73218042535107e-06	5.2657272724211e-05	2.14109294031079	0.522324209197111	FALSE	FALSE	5.49349940844631e-05	TRUE	TRUE	TRUE	UP_IN_NUMERATOR
+PO	PO_DROUGHT_LEAF_08H	PO_DROUGHT_LEAF_08H	PRIMARY	PO	PO__evm.TU.LG02.787	leaf_drought_08	leaf_well_watered_08	54.8353777352409	26.5287826610692	51.0580097404514	1.15789146682173	0.352879662624573	3.28126437837141	0.001033428281096	0.00367528136251647	1.04954743458599	0.348910011103194	FALSE	FALSE	0.00389054713987965	TRUE	TRUE	TRUE	UP_IN_NUMERATOR
+PO	PO_DROUGHT_LEAF_08H	PO_DROUGHT_LEAF_08H	PRIMARY	PO	PO__evm.TU.LG02.787	leaf_drought_08	leaf_well_watered_08	44.5663038610853	49.9211518485981	55.5941168787451	-0.124436197892758	0.259275514433856	-0.479938100458397	0.631271408287378	0.721831227854488	-0.113417719859981	0.246827709845695	FALSE	FALSE	0.742381438290987	FALSE	FALSE	FALSE	DOWN_IN_NUMERATOR
+PO	PO_DROUGHT_LEAF_08H	PO_DROUGHT_LEAF_08H	PRIMARY	PO	PO__evm.TU.LG02.787	leaf_drought_08	leaf_well_watered_08	2.0147244922457	0	3.2826232570516	2.47440422253417	1.64078081424682	1.50806506332171	0.131537875711918	0.214200996568662	0.616269799615182	1.01516699456775	FALSE	FALSE	0.230314352498509	FALSE	FALSE	FALSE	UP_IN_NUMERATOR
+PO	PO_DROUGHT_LEAF_08H	PO_DROUGHT_LEAF_08H	PRIMARY	PO	PO__evm.TU.LG02.787	leaf_drought_08	leaf_well_watered_08	16.0209012682758	2.68195280098987	18.8874555612849	2.45290656541018	0.783266091029113	3.1316389072676	0.00173833531259181	0.00577519080408098	2.00957138477769	0.735166879345352	FALSE	FALSE	0.00612629237214543	TRUE	TRUE	TRUE	UP_IN_NUMERATOR
+PO	PO_DROUGHT_LEAF_08H	PO_DROUGHT_LEAF_08H	PRIMARY	PO	PO__evm.TU.LG02.787	leaf_drought_08	leaf_well_watered_08	5.82803070908267	3.27772318010488	5.58140466696075	1.29704420755789	1.03716891366786	1.25056217021681	0.211094259730216	0.31179742814236	0.564225519698705	0.742232066757187	FALSE	FALSE	0.332459501497564	FALSE	FALSE	FALSE	UP_IN_NUMERATOR
+[Byte-limited excerpt]
+
+FILE: 08_focused_families/validation/step25kz13/release/FORMAL_QC.tsv
+metric	value
+status	PASS_STEP25KZ13_PEPC_MULTI_EVIDENCE_INTEGRATION
+PEPC_records_integrated	74
+tree_supported_provisional_records	6
+WGD_source	step25kr_PEPC_integration
+DE_source	candidate_multiomics_integration
+CAFE5_source	candidate_multiomics_integration
+positive_selection_source	absrel_integration
+formal_CAM_PEPC1E1c_transfer	UNCHANGED
+functional_validation_authorized	NO
+causal_WGD_claim_authorized	NO
+missing_evidence_interpreted_as_gene_loss	NO
+failures	NONE
+
+FILE: 08_focused_families/validation/step25kz13/release/PEPC_evidence_summary_by_species.tsv
+species	PEPC_records	tree_supported_records	WGD_supported_records	CAFE5_supported_records	positive_selection_records	DE_supported_records
+Amaranthus hypochondriacus	4	0	0	0	0	0
+Amaranthus tricolor	4	0	0	0	0	0
+Anacampseros retusa	1	0	0	0	0	0
+Beta vulgaris	3	0	0	0	0	0
+Mesembryanthemum crystallinum	3	0	0	0	0	0
+Other	5	0	0	0	0	0
+Pereskia	2	0	0	0	0	0
+Portulaca amilis	4	0	0	0	0	0
+Portulaca oleracea	13	0	10	0	0	13
+Selenicereus megalanthus	9	6	0	0	0	0
+Sesuvium portulacastrum hexaploid	8	0	0	0	0	0
+Sesuvium portulacastrum tetraploid	6	0	6	0	0	0
+Sesuvium sesuvioides	6	0	6	0	0	5
+Zea mays	6	0	0	0	0	0
+
+FILE: 08_focused_families/validation/step25kz13/release/PEPC_evidence_summary_by_subtype.tsv
+phylogenetic_subtype	pepc_records	species_count	wgd_supported_records	positive_selection_records	cafe5_records	differentially_expressed_records
+UNASSIGNED	74	14	59	0	0	0
+
+FILE: 08_focused_families/validation/step25kz12/release/FORMAL_QC.tsv
+metric	value
+status	PASS_STEP25KZ12_COMPREHENSIVE_PEPC_TREE
+all_input_sequences	92
+primary_tree_length_threshold	500_aa
+functional_site_alignment	PRIMARY_MIN500
+bootstrap_replicates	1000
+display_bootstrap_threshold	50
+functional_coordinates	519;780;890
+formal_subtype_threshold_unchanged	YES
+functional_validation_authorized	NO
+causal_WGD_claim_authorized	NO
+
+FILE: 08_focused_families/validation/step25kz11/release/subtype_nonassignment_summary.tsv
+family	requested_subtype	provisional_assignments	reason	best_anchor_mrca_sh_alrt	best_anchor_mrca_ufboot
+BETA_CA	CAM_BETA_CA	0	ANCHOR_MRCA_UFBOOT_67_BELOW_95_THRESHOLD	87.0	67.0
+PEPC	PEPC1E1a_prime	0	SUPPORTED_ANCHOR_MRCA_CONTAINS_ONLY_PO_ANCHORS;NEXT_CANDIDATE_BRANCH_SUPPORT_30.2/32	100.0	100.0
+
+FILE: 08_focused_families/validation/step25kz11/release/FORMAL_QC.tsv
+metric	value
+status	PASS_STEP25KZ11_EVIDENCE_REGISTRATION
+tree_supported_provisional_records	6
+provisional_CAM_PEPC1E1c_records	6
+provisional_CAM_BETA_CA_records	0
+CAM_BETA_CA_anchor_group_status	REVIEW_ONLY_INSUFFICIENT_SUPPORT
+missing_optional_evidence_tables	2
+functional_validation_authorized	NO
+causal_WGD_claim_authorized	NO
+missing_evidence_interpreted_as_gene_loss	NO
+
+FILE: 08_focused_families/validation/step25kz10/release/FORMAL_QC.tsv
+metric	value
+status	REVIEW_STEP25KZ10_BETA_CA_ONLY_SENSITIVITY
+alignment_trimming_variants	4
+cam_beta_ca_anchor_count	2
+required_sh_alrt	80
+required_ufboot	95
+all_variants_pass_80_95	NO
+cam_beta_ca_transfer_authorized	NO
+functional_validation_authorized	NO
+causal_WGD_claim_authorized	NO
+
+FILE: 08_focused_families/validation/step25kz9/release/FORMAL_QC.tsv
+metric	value
+status	PASS_STEP25KZ9_PROVISIONAL_SUBTYPE_REGISTRATION
+anchor_subtype_records_preserved	15
+provisional_subtype_assignments	6
+provisional_assignment_species	1
+provisional_CAM_PEPC1E1c	6
+provisional_PEPC1E1a_prime	0
+provisional_CAM_BETA_CA	0
+duplicate_current_ids	0
+assignment_evidence_tier	TREE_SUPPORTED_PROVISIONAL
+functional_validation_authorized	NO
+causal_WGD_claim_authorized	NO
+failures	NONE
+
+FILE: 08_focused_families/validation/step25kz9/release/subtype_nonassignment_summary.tsv
+family	requested_subtype	provisional_assignments	reason	best_anchor_mrca_sh_alrt	best_anchor_mrca_ufboot
+BETA_CA	CAM_BETA_CA	0	ANCHOR_MRCA_UFBOOT_67_BELOW_95_THRESHOLD	87.0	67.0
+PEPC	PEPC1E1a_prime	0	SUPPORTED_ANCHOR_MRCA_CONTAINS_ONLY_PO_ANCHORS;NEXT_CANDIDATE_BRANCH_SUPPORT_30.2/32	100.0	100.0
+
+FILE: 08_focused_families/validation/step25kz8/release/FORMAL_QC.tsv
+metric	value
+status	PASS_STEP25KZ8_REVISED_TOPOLOGY_REVIEW
+subtype_clades_reviewed	3
+supported_anchor_defined_clades	2
+clades_with_conflicting_anchors	0
+ambiguous_ca_candidates	3
+support_rule	SH_aLRT_GE_80_AND_UFBoot_GE_95
+subtype_transfer_authorized	NO_MANUAL_TOPOLOGY_REVIEW_REQUIRED
+functional_validation_authorized	NO
+causal_WGD_claim_authorized	NO
+failures	NONE
+
+FILE: 08_focused_families/validation/step25kz7/release/FORMAL_QC.tsv
+metric	value
+status	PASS_STEP25KZ7_REVISED_BETA_CA_TREE
+beta_ca_input_sequences	60
+beta_ca_trimmed_sequences	60
+previous_beta_ca_candidates	45
+extended_beta_ca_candidates_added	1
+revised_beta_ca_candidates	46
+ca_reference_sequences	14
+required_tips_present	3
+partial_beta_ca_excluded	1
+beta_ca_fragment_excluded	1
+subtype_transfer_authorized	NO_REVISED_TOPOLOGY_REVIEW_REQUIRED
+functional_validation_authorized	NO
+causal_WGD_claim_authorized	NO
+failures	NONE
+
+FILE: 08_focused_families/validation/step25kz6/release_v2/FORMAL_QC.tsv
+metric	value
+status	PASS_STEP25KZ6_V2_COMBINED_SUPPORT_REVIEW
+subtype_clades_reviewed	3
+supported_anchor_defined_clades	2
+clades_with_conflicting_anchors	0
+ambiguous_ca_candidates	3
+support_rule	SH_aLRT_GE_80_AND_UFBoot_GE_95
+subtype_transfer_authorized	NO_MANUAL_TOPOLOGY_REVIEW_REQUIRED
+functional_validation_authorized	NO
+causal_WGD_claim_authorized	NO
+failures	NONE
+
+FILE: 08_focused_families/validation/step25kz6/release/FORMAL_QC.tsv
+metric	value
+status	PASS_STEP25KZ6_TOPOLOGY_REVIEW_COMPLETE
+subtype_clades_reviewed	3
+supported_anchor_defined_clades	0
+clades_with_conflicting_anchors	0
+ambiguous_ca_candidates	3
+support_rule	SH_aLRT_GE_80_AND_UFBoot_GE_95
+subtype_transfer_authorized	NO_MANUAL_TOPOLOGY_REVIEW_REQUIRED
+functional_validation_authorized	NO
+causal_WGD_claim_authorized	NO
+failures	NONE
+
+FILE: 08_focused_families/validation/step25kz5/release/FORMAL_QC.tsv
+metric	value
+status	PASS_STEP25KZ5_CORRECTED_PEPC_BETA_CA_TREES
+beta_ca_input_sequences	59
+beta_ca_trimmed_sequences	59
+beta_ca_wang_anchors_in_tree	2
+pepc_input_sequences	56
+pepc_trimmed_sequences	56
+pepc_wang_anchors_in_tree	6
+pepc_curated_references	4
+pepc_contaminant_references_removed	7
+subtype_transfer_authorized	NO_TREE_REVIEW_REQUIRED
+functional_validation_authorized	NO
+causal_WGD_claim_authorized	NO
+failures	NONE
+
+FILE: 08_focused_families/validation/step25kz5/release/candidate_recovery_summary.tsv
+metric	value
+beta_ca_candidates_accepted	45
+alpha_ca_candidates_rejected	60
+ambiguous_ca_candidates	3
+beta_ca_wang_anchors_recovered	2
+pepc_candidates_retained	52
+pepc_wang_anchors_recovered	6
+beta_ca_candidates_AT	3
+beta_ca_candidates_BV	3
+beta_ca_candidates_MC	3
+beta_ca_candidates_PO	11
+beta_ca_candidates_SLP_Hap1	5
+beta_ca_candidates_SP_Hex	8
+beta_ca_candidates_SP_Tet	6
+beta_ca_candidates_SS	6
+
+FILE: 08_focused_families/validation/step25kz4/release/beta_ca_similarity_summary.tsv
+gene_id	primary_transcript	exact_similarity_hits	best_evalue	best_bitscore	evidence_status
+evm.TU.LG03.404	evm.model.LG03.404	6	4.2e-129	359.0	PASS_EXACT_QUERY_BETA_CA_SIMILARITY
+evm.TU.LG12.1303	evm.model.LG12.1303	6	3.38e-127	355.0	PASS_EXACT_QUERY_BETA_CA_SIMILARITY
+
+FILE: 08_focused_families/validation/step25kz4/release/FORMAL_QC.tsv
+metric	value
+status	PASS_STEP25KZ4_COMPLETE_WANG2023_SUBTYPE_REGISTRATION
+anchor_records	15
+anchors_mapped_original_exact_id	13
+anchors_mapped_recovered_exact_annotation	2
+anchors_unmapped_or_ambiguous	0
+subtype_assignment_records	15
+explicit_subtype_anchors_mapped	8
+cam_beta_ca_anchors_mapped	2
+duplicate_current_ids	0
+causal_WGD_claim_authorized	NO
+functional_validation_authorized	NO
+failures	NONE
+
+FILE: 08_focused_families/validation/step25kz3/release_v2/FORMAL_QC.tsv
+metric	value
+status	PASS_STEP25KZ3_V2_EXACT_BETA_CA_EVIDENCE
+anchors_expected	2
+anchors_with_exact_beta_ca_similarity_hits	2
+total_exact_similarity_hits	12
+protein_length_anchor_1	255
+protein_length_anchor_2	255
+subtype_source	Wang2023_Tables_S8_S9
+subtype_label	CAM_BETA_CA
+functional_validation_authorized	NO
+causal_WGD_claim_authorized	NO
+failures	NONE
+
+FILE: 08_focused_families/validation/step25kz3/release_v2/beta_ca_similarity_summary.tsv
+gene_id	primary_transcript	exact_similarity_hits	best_evalue	best_bitscore	evidence_status
+evm.TU.LG03.404	evm.model.LG03.404	6	4.2e-129	359.0	PASS_EXACT_QUERY_BETA_CA_SIMILARITY
+evm.TU.LG12.1303	evm.model.LG12.1303	6	3.38e-127	355.0	PASS_EXACT_QUERY_BETA_CA_SIMILARITY
+
+FILE: 08_focused_families/validation/step25kz3/release_v2/recovered_protein_qc.tsv
+gene_id	primary_transcript	mapping_records	protein_records	protein_lengths	protein_status
+evm.TU.LG03.404	evm.model.LG03.404	1	1	255	PASS_EXACTLY_ONE_NONEMPTY_PROTEIN
+evm.TU.LG12.1303	evm.model.LG12.1303	1	1	255	PASS_EXACTLY_ONE_NONEMPTY_PROTEIN
+
+FILE: 08_focused_families/validation/step25kz3/release/FORMAL_QC.tsv
+metric	value
+status	PASS_STEP25KZ3_BETA_CA_PROTEINS_RECOVERED
+anchors_expected	2
+anchors_with_primary_isoform_mapping	2
+anchors_with_exactly_one_protein	2
+anchors_with_existing_beta_ca_similarity_hit	2
+subtype_source	Wang2023_Tables_S8_S9
+subtype_label	CAM_BETA_CA
+functional_validation_authorized	NO
+causal_WGD_claim_authorized	NO
+failures	NONE
+
+FILE: 08_focused_families/validation/step25kz3/release/recovered_protein_qc.tsv
+gene_id	primary_transcript	mapping_records	protein_records	protein_lengths	protein_status
+evm.TU.LG03.404	evm.model.LG03.404	1	1	255	PASS_EXACTLY_ONE_NONEMPTY_PROTEIN
+evm.TU.LG12.1303	evm.model.LG12.1303	1	1	255	PASS_EXACTLY_ONE_NONEMPTY_PROTEIN
+
+FILE: 08_focused_families/validation/step25kz2/targeted_v4/FORMAL_QC.tsv
+metric	value
+status	PASS_STEP25KZ2_TARGETED_TRACE
+manifest_records	9
+inputs_existing	9
+inputs_missing	0
+files_scanned	9
+records_scanned	1091923
+scan_errors	0
+exact_anchor_occurrences	10
+nearby_id_occurrences	1167
+large_integrated_tables_scanned	0
+genome_fasta_files_scanned	0
+current_id_assignment_authorized	NO_MANUAL_EVIDENCE_REVIEW_REQUIRED
+failures	NONE
+
+FILE: 08_focused_families/validation/step25kz2/targeted_v4/input_qc.tsv
+input_role	relative_path	exists	file_size_bytes	records_scanned	scan_status
+historical_anchor_table	step25kz1_v1/wang2023_subtype_anchors.tsv	YES	1545	16	PASS
+po_raw_annotation	01_inputs/raw/PO/user_supplied/gff3.Portulaca_oleracea.gff3	YES	102753478	617278	PASS
+po_longest_proteins	01_inputs/raw/PO/user_supplied/protein_all.Portulaca_oleracea.longest.aa.fa	YES	20489920	388065	PASS
+po_primary_isoform_map	03_harmonized/primary_v1/PO/PO.all_isoform_mapping.tsv	YES	5901262	45218	PASS
+po_annotation_ids	02_qc/work/eggnog_primary_v1/PO_18791627_3/annotation.ids	YES	821594	40248	PASS
+beta_ca_blast_results	08_focused_families/validation/step25kn/results/BETA_CA/protein_all_Portulaca_oleracea_longest_aa.daa.tsv	YES	6718	106	PASS
+beta_ca_reference	08_focused_families/validation/step25kn/references/BETA_CA.faa	YES	5619	89	PASS
+beta_ca_phylogeny_input	08_focused_families/validation/step25ko/phylogeny_inputs/BETA_CA.faa	YES	4757	89	PASS
+candidate_alias_map	08_focused_families/validation/step25kq2/inputs/candidate_alias_map.tsv	YES	79244	814	PASS
+
+FILE: 08_focused_families/validation/step25kz1/release/FORMAL_QC.tsv
+metric	value
+status	PASS_STEP25KZ1_WANG2023_SUBTYPE_ANCHOR_REGISTRATION
+anchor_records	15
+anchors_mapped_exact_normalized_id	13
+anchors_unmapped_or_ambiguous	2
+explicit_subtype_anchors_mapped	6
+study_pepc_catalog_records	13
+study_beta_ca_subtype_anchor_records	2
+causal_WGD_claim_authorized	NO
+functional_validation_authorized	NO
+failures	UNMAPPED_OR_AMBIGUOUS_ANCHORS_REVIEW_REQUIRED
+
+FILE: 08_focused_families/validation/step25kz1/release_v1/FORMAL_QC.tsv
+metric	value
+status	PASS_STEP25KZ1_WANG2023_SUBTYPE_ANCHOR_REGISTRATION
+anchor_records	15
+anchors_mapped_exact_normalized_id	0
+anchors_unmapped_or_ambiguous	15
+explicit_subtype_anchors_mapped	0
+study_pepc_catalog_records	13
+study_beta_ca_subtype_anchor_records	2
+causal_WGD_claim_authorized	NO
+functional_validation_authorized	NO
+failures	UNMAPPED_OR_AMBIGUOUS_ANCHORS_REVIEW_REQUIRED
+
+FILE: 08_focused_families/validation/step25ky_family/release/FORMAL_QC.tsv
+metric	value
+status	PASS_STEP25KYF_FAMILY_RESOLVED_COPY_RESPONSE
+family_mapping_mode	FULL_CANDIDATE_IDENTIFIER
+families_requested	15
+families_with_tested_pairs	11
+copy_specific_test_rows	1743
+family_mapped_rows	1743
+family_unmapped_or_conflicting_rows	0
+species_mapping_diagnostics_rows	2
+tested_pair_rows	1743
+significant_pair_rows_padj_lt_0.05	676
+family_species_heatmaps	21
+causal_WGD_claim_authorized	NO
+functional_validation_authorized	NO
+failures	NONE
+
+FILE: 08_focused_families/validation/step25ky_family/release/family_summary.tsv
+family	tested_rows	significant_rows	significant_percent	unique_orthogroups	status
+ALMT	201	60	29.8507462686567	7	TESTED
+TDT_DTC_DIC	96	26	27.0833333333333	2	TESTED
+V_ATPASE	429	144	33.5664335664336	9	TESTED
+V_PPASE	39	7	17.9487179487179	3	TESTED
+AMYLASE	327	76	23.2415902140673	16	TESTED
+STARCH_SYNTHESIS	15	4	26.6666666666667	1	TESTED
+STARCH_PHOSPHORYLATION	39	8	20.5128205128205	1	TESTED
+STARCH_DEPHOSPHORYLATION	39	6	15.3846153846154	3	TESTED
+PPDK	72	47	65.2777777777778	1	TESTED
+PEPC_KINASE	18	4	22.2222222222222	2	TESTED
+PEPC	468	294	62.8205128205128	3	TESTED
+BETA_CA	0	0	NA	0	NOT_TESTED_REFERENCE_ONLY
+PPDK_RP	0	0	NA	0	NOT_TESTED_REFERENCE_ONLY
+DPE	0	0	NA	0	NOT_TESTED_REFERENCE_ONLY
+STARCH_PHOSPHORYLASE	0	0	NA	0	NOT_TESTED_REFERENCE_ONLY
+
+FILE: 08_focused_families/validation/step25ky_family/release/family_species_class_contrast_summary.tsv
+family	species	duplication_class	contrast_id	total_pair_rows	significant_pair_rows	significant_percent	unique_orthogroups	minimum_padj	direction_A_higher	direction_B_higher
+PEPC	PO	DISPERSED	PO_DROUGHT_LEAF_08H	4	0	0	1	0.0567510611598153	3	1
+ALMT	PO	PROXIMAL	PO_DROUGHT_LEAF_08H	4	0	0	1	0.174645993041005	0	4
+AMYLASE	PO	PROXIMAL	PO_DROUGHT_LEAF_08H	3	0	0	3	0.0565467584885611	2	1
+V_ATPASE	PO	PROXIMAL	PO_DROUGHT_LEAF_08H	3	1	33.3333333333333	1	0.0302726900907971	2	1
+ALMT	PO	TANDEM	PO_DROUGHT_LEAF_08H	2	1	50	1	0.0125112586565321	0	2
+AMYLASE	PO	TANDEM	PO_DROUGHT_LEAF_08H	2	1	50	1	0.0106129383340965	0	2
+PEPC	PO	TANDEM	PO_DROUGHT_LEAF_08H	8	6	75	1	0.000160818097864614	2	6
+ALMT	PO	WGD_SEGMENTAL	PO_DROUGHT_LEAF_08H	10	4	40	6	0.00481026049956854	6	4
+AMYLASE	PO	WGD_SEGMENTAL	PO_DROUGHT_LEAF_08H	16	4	25	10	0.003196280216111	7	9
+PEPC	PO	WGD_SEGMENTAL	PO_DROUGHT_LEAF_08H	26	20	76.9230769230769	3	0.000160818097864614	11	15
+PEPC_KINASE	PO	WGD_SEGMENTAL	PO_DROUGHT_LEAF_08H	1	0	0	1	0.187610419394188	0	1
+PPDK	PO	WGD_SEGMENTAL	PO_DROUGHT_LEAF_08H	6	3	50	1	0.00481026049956854	1	5
+STARCH_DEPHOSPHORYLATION	PO	WGD_SEGMENTAL	PO_DROUGHT_LEAF_08H	3	0	0	3	0.295263346631654	3	0
+STARCH_PHOSPHORYLATION	PO	WGD_SEGMENTAL	PO_DROUGHT_LEAF_08H	3	1	33.3333333333333	1	0.0282757965894229	2	1
+STARCH_SYNTHESIS	PO	WGD_SEGMENTAL	PO_DROUGHT_LEAF_08H	1	0	0	1	0.501628665107238	1	0
+TDT_DTC_DIC	PO	WGD_SEGMENTAL	PO_DROUGHT_LEAF_08H	7	0	0	2	0.310403544164491	4	3
+V_ATPASE	PO	WGD_SEGMENTAL	PO_DROUGHT_LEAF_08H	26	10	38.4615384615385	7	0.00564040669711723	12	14
+V_PPASE	PO	WGD_SEGMENTAL	PO_DROUGHT_LEAF_08H	2	0	0	2	0.191246940296297	0	2
+PEPC	PO	DISPERSED	PO_DROUGHT_LEAF_16H	4	1	25	1	0.042769265860166	0	4
+ALMT	PO	PROXIMAL	PO_DROUGHT_LEAF_16H	4	1	25	1	0.0393694295956115	3	1
+AMYLASE	PO	PROXIMAL	PO_DROUGHT_LEAF_16H	3	0	0	3	0.394453629517355	2	1
+V_ATPASE	PO	PROXIMAL	PO_DROUGHT_LEAF_16H	3	0	0	1	0.151178862529097	1	2
+ALMT	PO	TANDEM	PO_DROUGHT_LEAF_16H	2	0	0	1	0.290519310421659	1	1
+AMYLASE	PO	TANDEM	PO_DROUGHT_LEAF_16H	2	0	0	1	0.469763429535281	0	2
+PEPC	PO	TANDEM	PO_DROUGHT_LEAF_16H	8	5	62.5	1	0.000160818097864614	3	5
+ALMT	PO	WGD_SEGMENTAL	PO_DROUGHT_LEAF_16H	10	0	0	6	0.234386270566438	6	4
+AMYLASE	PO	WGD_SEGMENTAL	PO_DROUGHT_LEAF_16H	16	5	31.25	10	0.0173729015550882	9	7
+PEPC	PO	WGD_SEGMENTAL	PO_DROUGHT_LEAF_16H	26	16	61.5384615384615	3	0.000168680878550042	13	13
+PEPC_KINASE	PO	WGD_SEGMENTAL	PO_DROUGHT_LEAF_16H	1	0	0	1	0.336047361023831	1	0
+PPDK	PO	WGD_SEGMENTAL	PO_DROUGHT_LEAF_16H	6	4	66.6666666666667	1	0.000662956876658747	2	4
+STARCH_DEPHOSPHORYLATION	PO	WGD_SEGMENTAL	PO_DROUGHT_LEAF_16H	3	1	33.3333333333333	3	0.0192481833015348	1	2
+STARCH_PHOSPHORYLATION	PO	WGD_SEGMENTAL	PO_DROUGHT_LEAF_16H	3	0	0	1	0.155851864920791	3	0
+STARCH_SYNTHESIS	PO	WGD_SEGMENTAL	PO_DROUGHT_LEAF_16H	1	1	100	1	0.0246120424142805	1	0
+TDT_DTC_DIC	PO	WGD_SEGMENTAL	PO_DROUGHT_LEAF_16H	7	2	28.5714285714286	2	0.010544020710496	4	3
+V_ATPASE	PO	WGD_SEGMENTAL	PO_DROUGHT_LEAF_16H	26	8	30.7692307692308	7	0.00324105117704603	12	14
+V_PPASE	PO	WGD_SEGMENTAL	PO_DROUGHT_LEAF_16H	2	0	0	2	0.767176365705945	1	1
+PEPC	PO	DISPERSED	PO_DROUGHT_LEAF_24H	4	1	25	1	0.00471431246797305	2	2
+ALMT	PO	PROXIMAL	PO_DROUGHT_LEAF_24H	4	0	0	1	0.684576418797066	1	3
+AMYLASE	PO	PROXIMAL	PO_DROUGHT_LEAF_24H	3	0	0	3	0.0648440681577143	2	1
+
+FILE: 08_focused_families/validation/step25ky/release/FORMAL_QC.tsv
+metric	value
+status	PASS_STEP25KY_ORTHOGROUP_COPY_RESPONSE_SYNTHESIS
+orthogroup_summary_rows	672
+species_class_contrast_summary_rows	57
+species_class_contrast_family_summary_rows	57
+unique_orthogroups	48
+significant_pair_rows_padj_lt_0.05	676
+causal_WGD_claim_authorized	NO
+functional_validation_authorized	NO
+failures	NONE
+
+FILE: 08_focused_families/validation/step25ky/release/species_class_contrast_family_summary.tsv
+species	duplication_class	contrast_id	contrast_tested_gene_families	significant_gene_families	total_gene_families_duplication_class	significant_percent
+PO	DISPERSED	PO_DROUGHT_LEAF_08H	1	0	1	0
+PO	DISPERSED	PO_LEAF_VS_STEM_WELL_WATERED_16H	1	1	1	100
+PO	DISPERSED	PO_LEAF_VS_STEM_DROUGHT_16H	1	0	1	0
+PO	DISPERSED	PO_DROUGHT_STEM_16H	1	0	1	0
+PO	DISPERSED	PO_DROUGHT_LEAF_16H	1	1	1	100
+PO	DISPERSED	PO_LEAF_VS_STEM_WELL_WATERED_24H	1	1	1	100
+PO	DISPERSED	PO_LEAF_VS_STEM_DROUGHT_24H	1	1	1	100
+PO	DISPERSED	PO_DROUGHT_STEM_24H	1	1	1	100
+PO	DISPERSED	PO_DROUGHT_LEAF_24H	1	1	1	100
+PO	DISPERSED	PO_LEAF_VS_STEM_WELL_WATERED_08H	1	1	1	100
+PO	DISPERSED	PO_LEAF_VS_STEM_DROUGHT_08H	1	1	1	100
+PO	DISPERSED	PO_DROUGHT_STEM_08H	1	0	1	0
+PO	PROXIMAL	PO_DROUGHT_LEAF_24H	5	1	5	20
+PO	PROXIMAL	PO_DROUGHT_STEM_08H	5	2	5	40
+PO	PROXIMAL	PO_DROUGHT_LEAF_08H	5	1	5	20
+PO	PROXIMAL	PO_LEAF_VS_STEM_WELL_WATERED_16H	5	1	5	20
+PO	PROXIMAL	PO_LEAF_VS_STEM_DROUGHT_16H	5	1	5	20
+PO	PROXIMAL	PO_DROUGHT_STEM_16H	5	1	5	20
+PO	PROXIMAL	PO_DROUGHT_LEAF_16H	5	1	5	20
+PO	PROXIMAL	PO_LEAF_VS_STEM_WELL_WATERED_24H	5	2	5	40
+PO	PROXIMAL	PO_LEAF_VS_STEM_DROUGHT_24H	5	1	5	20
+PO	PROXIMAL	PO_DROUGHT_STEM_24H	5	0	5	0
+PO	PROXIMAL	PO_LEAF_VS_STEM_WELL_WATERED_08H	5	2	5	40
+PO	PROXIMAL	PO_LEAF_VS_STEM_DROUGHT_08H	5	1	5	20
+PO	TANDEM	PO_DROUGHT_STEM_24H	3	2	3	66.6666666666667
+PO	TANDEM	PO_DROUGHT_LEAF_24H	3	2	3	66.6666666666667
+PO	TANDEM	PO_LEAF_VS_STEM_DROUGHT_08H	3	3	3	100
+PO	TANDEM	PO_DROUGHT_STEM_08H	3	1	3	33.3333333333333
+PO	TANDEM	PO_DROUGHT_LEAF_08H	3	3	3	100
+PO	TANDEM	PO_LEAF_VS_STEM_WELL_WATERED_16H	3	1	3	33.3333333333333
+PO	TANDEM	PO_LEAF_VS_STEM_DROUGHT_16H	3	2	3	66.6666666666667
+PO	TANDEM	PO_DROUGHT_STEM_16H	3	0	3	0
+PO	TANDEM	PO_DROUGHT_LEAF_16H	3	1	3	33.3333333333333
+PO	TANDEM	PO_LEAF_VS_STEM_WELL_WATERED_24H	3	2	3	66.6666666666667
+PO	TANDEM	PO_LEAF_VS_STEM_DROUGHT_24H	3	1	3	33.3333333333333
+PO	TANDEM	PO_LEAF_VS_STEM_WELL_WATERED_08H	3	1	3	33.3333333333333
+PO	WGD_SEGMENTAL	PO_LEAF_VS_STEM_DROUGHT_24H	37	15	37	40.5405405405405
+PO	WGD_SEGMENTAL	PO_DROUGHT_STEM_24H	37	8	37	21.6216216216216
+PO	WGD_SEGMENTAL	PO_DROUGHT_LEAF_24H	37	15	37	40.5405405405405
+
+FILE: 08_focused_families/validation/step25ky/release/species_class_contrast_summary.tsv
+species	duplication_class	contrast_id	total_pair_rows	significant_pair_rows	significant_percent	unique_gene_pairs	minimum_padj	median_copy_difference_log2FC	direction_A_higher	direction_B_higher
+PO	DISPERSED	PO_DROUGHT_LEAF_08H	4	0	0	4	0.0567510611598153	3.85178856179029	3	1
+PO	PROXIMAL	PO_DROUGHT_LEAF_08H	10	1	10	10	0.0302726900907971	-0.350265275801998	4	6
+PO	TANDEM	PO_DROUGHT_LEAF_08H	12	8	66.6666666666667	12	0.000160818097864614	-3.84246043869399	2	10
+PO	WGD_SEGMENTAL	PO_DROUGHT_LEAF_08H	101	42	41.5841584158416	101	0.000160818097864614	-0.0561251345476608	47	54
+PO	DISPERSED	PO_DROUGHT_LEAF_16H	4	1	25	4	0.042769265860166	-2.13238883095874	0	4
+PO	PROXIMAL	PO_DROUGHT_LEAF_16H	10	1	10	10	0.0393694295956115	0.0721755705114064	6	4
+PO	TANDEM	PO_DROUGHT_LEAF_16H	12	5	41.6666666666667	12	0.000160818097864614	-0.461809373283619	4	8
+PO	WGD_SEGMENTAL	PO_DROUGHT_LEAF_16H	101	37	36.6336633663366	101	0.000168680878550042	0.010994089986435	53	48
+PO	DISPERSED	PO_DROUGHT_LEAF_24H	4	1	25	4	0.00471431246797305	0.07056505006379	2	2
+PO	PROXIMAL	PO_DROUGHT_LEAF_24H	10	1	10	10	0.00893488593059428	-0.172052275129753	3	7
+PO	TANDEM	PO_DROUGHT_LEAF_24H	12	8	66.6666666666667	12	0	-0.910918266019844	4	7
+PO	WGD_SEGMENTAL	PO_DROUGHT_LEAF_24H	101	47	46.5346534653465	101	8.02816911784144e-05	-0.0404213184799383	47	54
+PO	DISPERSED	PO_DROUGHT_STEM_08H	4	0	0	4	0.0698224219891092	4.31702948616137	4	0
+PO	PROXIMAL	PO_DROUGHT_STEM_08H	10	3	30	10	0.0170476175524372	-0.575389460331411	3	7
+PO	TANDEM	PO_DROUGHT_STEM_08H	12	6	50	12	0.00267430895050813	-0.682573916630814	3	9
+PO	WGD_SEGMENTAL	PO_DROUGHT_STEM_08H	101	42	41.5841584158416	101	0.000190855943983974	-0.0247812574874491	49	52
+PO	DISPERSED	PO_DROUGHT_STEM_16H	4	0	0	4	0.102830871344527	-1.00862565446714	0	4
+PO	PROXIMAL	PO_DROUGHT_STEM_16H	10	2	20	10	0.0383263934198372	-0.385763590603373	0	10
+PO	TANDEM	PO_DROUGHT_STEM_16H	12	0	0	12	0.0720916020139516	-0.08317634456297	6	6
+PO	WGD_SEGMENTAL	PO_DROUGHT_STEM_16H	101	35	34.6534653465347	101	0	-0.0307535215346777	46	54
+PO	DISPERSED	PO_DROUGHT_STEM_24H	4	1	25	4	0.0431163125262101	0.480676927552512	3	1
+PO	PROXIMAL	PO_DROUGHT_STEM_24H	10	0	0	10	0.146398241031836	0.025861161061583	5	5
+PO	TANDEM	PO_DROUGHT_STEM_24H	12	3	25	12	0.005455305653589	-0.14627436204281	5	7
+PO	WGD_SEGMENTAL	PO_DROUGHT_STEM_24H	101	20	19.8019801980198	101	0.00141120571909306	-0.0103226982377514	49	52
+PO	DISPERSED	PO_LEAF_VS_STEM_DROUGHT_08H	4	3	75	4	0.000160818097864614	-4.89920976466556	0	4
+PO	PROXIMAL	PO_LEAF_VS_STEM_DROUGHT_08H	10	3	30	10	0.0078227933714267	0.246540754724477	6	4
+PO	TANDEM	PO_LEAF_VS_STEM_DROUGHT_08H	12	8	66.6666666666667	12	7.73243722519124e-05	3.39948778967662	7	5
+PO	WGD_SEGMENTAL	PO_LEAF_VS_STEM_DROUGHT_08H	101	35	34.6534653465347	101	0.000150790062012476	-0.0775277938563289	44	57
+PO	DISPERSED	PO_LEAF_VS_STEM_DROUGHT_16H	4	0	0	4	0.0893858544229538	-2.90898851572726	1	3
+PO	PROXIMAL	PO_LEAF_VS_STEM_DROUGHT_16H	10	1	10	10	0.0177172202266901	0.00803732857721085	5	5
+PO	TANDEM	PO_LEAF_VS_STEM_DROUGHT_16H	12	7	58.3333333333333	12	0.000195887660153513	3.78394354610821	10	2
+PO	WGD_SEGMENTAL	PO_LEAF_VS_STEM_DROUGHT_16H	101	50	49.5049504950495	101	8.02816911784144e-05	-0.0349405734348043	49	52
+PO	DISPERSED	PO_LEAF_VS_STEM_DROUGHT_24H	4	2	50	4	0.00711415295945603	-2.79406311012275	1	3
+PO	PROXIMAL	PO_LEAF_VS_STEM_DROUGHT_24H	10	3	30	10	0.0156954051042953	-0.246181168325517	3	7
+PO	TANDEM	PO_LEAF_VS_STEM_DROUGHT_24H	12	7	58.3333333333333	12	0.000618334922636727	3.10891259412002	10	2
+PO	WGD_SEGMENTAL	PO_LEAF_VS_STEM_DROUGHT_24H	101	40	39.6039603960396	101	0.000303982610526629	-0.0143487795831597	50	51
+PO	DISPERSED	PO_LEAF_VS_STEM_WELL_WATERED_08H	4	2	50	4	0.0366395475502659	-4.43008763802357	2	2
+PO	PROXIMAL	PO_LEAF_VS_STEM_WELL_WATERED_08H	10	4	40	10	0.00370164855920202	-0.358085682233751	4	6
+PO	TANDEM	PO_LEAF_VS_STEM_WELL_WATERED_08H	12	7	58.3333333333333	12	0.000160818097864614	5.37885007485954	10	2
+
+FILE: 08_focused_families/validation/step25ky/release/orthogroup_copy_specific_summary.tsv
+orthogroup	species	duplication_class	contrast_id	total_pair_rows	significant_pair_rows	significant_percent	unique_gene_pairs	minimum_padj	median_copy_difference_log2FC	direction_A_higher	direction_B_higher
+OG0000986	PO	DISPERSED	PO_DROUGHT_LEAF_08H	4	0	0	4	0.0567510611598153	3.85178856179029	3	1
+OG0000258	PO	PROXIMAL	PO_DROUGHT_LEAF_08H	1	0	0	1	0.515952652938244	-1.32998211177869	0	1
+OG0000656	PO	PROXIMAL	PO_DROUGHT_LEAF_08H	3	1	33.3333333333333	3	0.0302726900907971	0.0108970536441222	2	1
+OG0004183	PO	PROXIMAL	PO_DROUGHT_LEAF_08H	4	0	0	4	0.174645993041005	-0.927345420400582	0	4
+OG0008761	PO	PROXIMAL	PO_DROUGHT_LEAF_08H	1	0	0	1	0.487082877773168	0.320392778852646	1	0
+OG0011682	PO	PROXIMAL	PO_DROUGHT_LEAF_08H	1	0	0	1	0.0565467584885611	1.06946161856623	1	0
+OG0000986	PO	TANDEM	PO_DROUGHT_LEAF_08H	8	6	75	8	0.000160818097864614	-4.83217822116693	2	6
+OG0001256	PO	TANDEM	PO_DROUGHT_LEAF_08H	2	1	50	2	0.0106129383340965	-2.04450076044772	0	2
+OG0017927	PO	TANDEM	PO_DROUGHT_LEAF_08H	2	1	50	2	0.0125112586565321	-4.82048307142701	0	2
+OG0000656	PO	WGD_SEGMENTAL	PO_DROUGHT_LEAF_08H	3	2	66.6666666666667	3	0.00564040669711723	-0.740539379249282	0	3
+OG0000830	PO	WGD_SEGMENTAL	PO_DROUGHT_LEAF_08H	6	4	66.6666666666667	6	0.0289158873197224	1.04259962787136	4	2
+OG0000986	PO	WGD_SEGMENTAL	PO_DROUGHT_LEAF_08H	24	19	79.1666666666667	24	0.000160818097864614	-0.378635361455555	11	13
+OG0001029	PO	WGD_SEGMENTAL	PO_DROUGHT_LEAF_08H	1	0	0	1	0.550335440267995	0.0806124263199754	1	0
+OG0001256	PO	WGD_SEGMENTAL	PO_DROUGHT_LEAF_08H	4	1	25	4	0.012383017823427	-0.85349227957109	1	3
+OG0001290	PO	WGD_SEGMENTAL	PO_DROUGHT_LEAF_08H	1	0	0	1	0.504116713966262	-0.158468513984446	0	1
+OG0002198	PO	WGD_SEGMENTAL	PO_DROUGHT_LEAF_08H	6	2	33.3333333333333	6	0.0192481833015348	0.168415809290248	3	3
+OG0002971	PO	WGD_SEGMENTAL	PO_DROUGHT_LEAF_08H	3	0	0	3	0.166685373965182	0.316572543417082	3	0
+OG0003355	PO	WGD_SEGMENTAL	PO_DROUGHT_LEAF_08H	1	1	100	1	0.00481026049956854	-1.95302069017263	0	1
+OG0003593	PO	WGD_SEGMENTAL	PO_DROUGHT_LEAF_08H	1	0	0	1	0.187610419394188	-0.491729790746051	0	1
+OG0003648	PO	WGD_SEGMENTAL	PO_DROUGHT_LEAF_08H	1	0	0	1	0.428781876078753	0.431690376518535	1	0
+OG0004003	PO	WGD_SEGMENTAL	PO_DROUGHT_LEAF_08H	6	0	0	6	0.310403544164491	0.167829670168339	4	2
+OG0004077	PO	WGD_SEGMENTAL	PO_DROUGHT_LEAF_08H	6	3	50	6	0.00481026049956854	-0.786904481150271	1	5
+OG0004183	PO	WGD_SEGMENTAL	PO_DROUGHT_LEAF_08H	2	0	0	2	0.78959068758385	-0.0753805802308425	1	1
+OG0004212	PO	WGD_SEGMENTAL	PO_DROUGHT_LEAF_08H	1	0	0	1	0.191246940296297	0.241593929050737	1	0
+OG0004249	PO	WGD_SEGMENTAL	PO_DROUGHT_LEAF_08H	6	2	33.3333333333333	6	0.0364409866823514	-0.0921097996818738	1	5
+OG0005277	PO	WGD_SEGMENTAL	PO_DROUGHT_LEAF_08H	1	0	0	1	0.191246940296297	-0.572837635244496	0	1
+OG0005321	PO	WGD_SEGMENTAL	PO_DROUGHT_LEAF_08H	1	0	0	1	0.78959068758385	0.402215598994103	1	0
+OG0005426	PO	WGD_SEGMENTAL	PO_DROUGHT_LEAF_08H	1	0	0	1	0.206625805796476	-0.55807730787825	0	1
+OG0005584	PO	WGD_SEGMENTAL	PO_DROUGHT_LEAF_08H	3	3	100	3	0.003196280216111	-1.45901998992666	1	2
+OG0006002	PO	WGD_SEGMENTAL	PO_DROUGHT_LEAF_08H	1	0	0	1	0.764271229975057	0.0399746567989432	1	0
+OG0006670	PO	WGD_SEGMENTAL	PO_DROUGHT_LEAF_08H	1	0	0	1	0.806301269653905	0.0901938361860727	1	0
+OG0006726	PO	WGD_SEGMENTAL	PO_DROUGHT_LEAF_08H	3	1	33.3333333333333	3	0.0282757965894229	3.16718755333613	2	1
+OG0008831	PO	WGD_SEGMENTAL	PO_DROUGHT_LEAF_08H	1	0	0	1	0.429884541484593	-0.229275287261741	0	1
+OG0009887	PO	WGD_SEGMENTAL	PO_DROUGHT_LEAF_08H	1	0	0	1	0.347189186340259	0.869816820579488	1	0
+OG0010081	PO	WGD_SEGMENTAL	PO_DROUGHT_LEAF_08H	1	1	100	1	0.0176139815875888	-0.937591996381889	0	1
+OG0010465	PO	WGD_SEGMENTAL	PO_DROUGHT_LEAF_08H	1	0	0	1	0.782787177330241	-0.252347185437356	0	1
+OG0010641	PO	WGD_SEGMENTAL	PO_DROUGHT_LEAF_08H	1	0	0	1	0.853827202407362	-0.0797473224164367	0	1
+OG0010862	PO	WGD_SEGMENTAL	PO_DROUGHT_LEAF_08H	1	0	0	1	0.618300630253122	0.307017509732106	1	0
+OG0011682	PO	WGD_SEGMENTAL	PO_DROUGHT_LEAF_08H	2	0	0	2	0.542109172684669	-0.683778206152074	0	2
+
+FILE: 08_focused_families/validation/step25kx/release/FORMAL_QC.tsv
+metric	value
+status	PASS_STEP25KX_COPY_SPECIFIC_EXPRESSION_TESTING
+pair_contrast_rows	1743
+tested_rows	1743
+significant_copy_specific_rows_padj_lt_0.05	676
+wgd_segmental_rows	1410
+tandem_control_rows	159
+dispersed_control_rows	54
+unique_orthogroups	48
+causal_WGD_claim_authorized	NO
+functional_validation_authorized	NO
+failures	NONE
+
+FILE: 08_focused_families/validation/step25kx/release/copy_specific_expression_summary.tsv
+duplication_class	contrast_id	tested	significant
+DISPERSED	PO_DROUGHT_LEAF_08H	4	0
+PROXIMAL	PO_DROUGHT_LEAF_08H	10	1
+TANDEM	PO_DROUGHT_LEAF_08H	12	8
+WGD_SEGMENTAL	PO_DROUGHT_LEAF_08H	101	42
+DISPERSED	PO_DROUGHT_LEAF_16H	4	1
+PROXIMAL	PO_DROUGHT_LEAF_16H	10	1
+TANDEM	PO_DROUGHT_LEAF_16H	12	5
+WGD_SEGMENTAL	PO_DROUGHT_LEAF_16H	101	37
+DISPERSED	PO_DROUGHT_LEAF_24H	4	1
+PROXIMAL	PO_DROUGHT_LEAF_24H	10	1
+TANDEM	PO_DROUGHT_LEAF_24H	12	8
+WGD_SEGMENTAL	PO_DROUGHT_LEAF_24H	101	47
+DISPERSED	PO_DROUGHT_STEM_08H	4	0
+PROXIMAL	PO_DROUGHT_STEM_08H	10	3
+TANDEM	PO_DROUGHT_STEM_08H	12	6
+WGD_SEGMENTAL	PO_DROUGHT_STEM_08H	101	42
+DISPERSED	PO_DROUGHT_STEM_16H	4	0
+PROXIMAL	PO_DROUGHT_STEM_16H	10	2
+TANDEM	PO_DROUGHT_STEM_16H	12	0
+WGD_SEGMENTAL	PO_DROUGHT_STEM_16H	101	35
+DISPERSED	PO_DROUGHT_STEM_24H	4	1
+PROXIMAL	PO_DROUGHT_STEM_24H	10	0
+TANDEM	PO_DROUGHT_STEM_24H	12	3
+WGD_SEGMENTAL	PO_DROUGHT_STEM_24H	101	20
+DISPERSED	PO_LEAF_VS_STEM_DROUGHT_08H	4	3
+PROXIMAL	PO_LEAF_VS_STEM_DROUGHT_08H	10	3
+TANDEM	PO_LEAF_VS_STEM_DROUGHT_08H	12	8
+WGD_SEGMENTAL	PO_LEAF_VS_STEM_DROUGHT_08H	101	35
+DISPERSED	PO_LEAF_VS_STEM_DROUGHT_16H	4	0
+PROXIMAL	PO_LEAF_VS_STEM_DROUGHT_16H	10	1
+TANDEM	PO_LEAF_VS_STEM_DROUGHT_16H	12	7
+WGD_SEGMENTAL	PO_LEAF_VS_STEM_DROUGHT_16H	101	50
+DISPERSED	PO_LEAF_VS_STEM_DROUGHT_24H	4	2
+PROXIMAL	PO_LEAF_VS_STEM_DROUGHT_24H	10	3
+TANDEM	PO_LEAF_VS_STEM_DROUGHT_24H	12	7
+WGD_SEGMENTAL	PO_LEAF_VS_STEM_DROUGHT_24H	101	40
+DISPERSED	PO_LEAF_VS_STEM_WELL_WATERED_08H	4	2
+PROXIMAL	PO_LEAF_VS_STEM_WELL_WATERED_08H	10	4
+TANDEM	PO_LEAF_VS_STEM_WELL_WATERED_08H	12	7

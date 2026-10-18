@@ -1,0 +1,104 @@
+{
+  "status": "BATCH_SCREEN_COMPLETE_WITH_EXPLICIT_BLOCKS",
+  "families_screened": [
+    "NAD-ME",
+    "NADP-ME",
+    "ASPAT",
+    "AlaAT",
+    "PEPCK",
+    "BASS2",
+    "MPC"
+  ],
+  "families_blocked": [
+    "MDH",
+    "MEP",
+    "PPA"
+  ],
+  "reference_sequences": 54,
+  "shared_rows": 3222,
+  "unique_screen_candidates": 788,
+  "family_summary": [
+    {
+      "wang_family": "NAD-ME",
+      "screen_status": "SCREENED_REVIEW_ONLY",
+      "screened_candidate_records": 106,
+      "positive_hit_records": 101,
+      "shared_table_recovered": 0,
+      "similarity_categories": "{\"COMPARATOR_FAVORED\": 58, \"COMPARATOR_ONLY\": 5, \"POSITIVE_FAVORED\": 31, \"POSITIVE_ONLY\": 12}"
+    },
+    {
+      "wang_family": "NADP-ME",
+      "screen_status": "SCREENED_REVIEW_ONLY",
+      "screened_candidate_records": 106,
+      "positive_hit_records": 94,
+      "shared_table_recovered": 0,
+      "similarity_categories": "{\"COMPARATOR_FAVORED\": 31, \"COMPARATOR_ONLY\": 12, \"POSITIVE_FAVORED\": 58, \"POSITIVE_ONLY\": 5}"
+    },
+    {
+      "wang_family": "MDH",
+      "screen_status": "BLOCKED",
+      "screened_candidate_records": "NA",
+      "positive_hit_records": "NA",
+      "shared_table_recovered": 180,
+      "similarity_categories": ""
+    },
+    {
+      "wang_family": "ASPAT",
+      "screen_status": "SCREENED_REVIEW_ONLY",
+      "screened_candidate_records": 528,
+      "positive_hit_records": 284,
+      "shared_table_recovered": 0,
+      "similarity_categories": "{\"COMPARATOR_FAVORED\": 156, \"COMPARATOR_ONLY\": 244, \"POSITIVE_FAVORED\": 70, \"POSITIVE_ONLY\": 58}"
+    },
+    {
+      "wang_family": "AlaAT",
+      "screen_status": "SCREENED_REVIEW_ONLY",
+      "screened_candidate_records": 528,
+      "positive_hit_records": 241,
+      "shared_table_recovered": 0,
+      "similarity_categories": "{\"COMPARATOR_FAVORED\": 182, \"COMPARATOR_ONLY\": 287, \"POSITIVE_FAVORED\": 54, \"POSITIVE_ONLY\": 4, \"TIED\": 1}"
+    },
+    {
+      "wang_family": "PEPCK",
+      "screen_status": "SCREENED_REVIEW_ONLY",
+      "screened_candidate_records": 22,
+      "positive_hit_records": 19,
+      "shared_table_recovered": 0,
+      "similarity_categories": "{\"COMPARATOR_ONLY\": 3, \"POSITIVE_ONLY\": 19}"
+    },
+    {
+      "wang_family": "BASS2",
+      "screen_status": "SCREENED_REVIEW_ONLY",
+      "screened_candidate_records": 85,
+      "positive_hit_records": 61,
+      "shared_table_recovered": 0,
+      "similarity_categories": "{\"COMPARATOR_FAVORED\": 42, \"COMPARATOR_ONLY\": 24, \"POSITIVE_FAVORED\": 19}"
+    },
+    {
+      "wang_family": "MPC",
+      "screen_status": "SCREENED_REVIEW_ONLY",
+      "screened_candidate_records": 47,
+      "positive_hit_records": 47,
+      "shared_table_recovered": 0,
+      "similarity_categories": "{\"POSITIVE_ONLY\": 47}"
+    },
+    {
+      "wang_family": "MEP",
+      "screen_status": "BLOCKED",
+      "screened_candidate_records": "NA",
+      "positive_hit_records": "NA",
+      "shared_table_recovered": 0,
+      "similarity_categories": ""
+    },
+    {
+      "wang_family": "PPA",
+      "screen_status": "BLOCKED",
+      "screened_candidate_records": "NA",
+      "positive_hit_records": "NA",
+      "shared_table_recovered": 0,
+      "similarity_categories": ""
+    }
+  ],
+  "integrated_records": 1560,
+  "final_counts": false
+}

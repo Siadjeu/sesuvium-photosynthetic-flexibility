@@ -1,0 +1,3 @@
+protein_id	gene_id	exact_sequence_matching_annotation_ids	annotation_protein_status	alignment_review	annotation_review	family_membership	model_limitation
+SP_Hex__gene_Spor0168910.1	gene_Spor0168910.1	Spor0168910.1	EXACT_SEQUENCE_CONFIRMED	PENDING	PENDING	PENDING	
+SP_Hex__gene_Spor0380090.1	gene_Spor0380090.1	Spor0380090.1	EXACT_SEQUENCE_CONFIRMED	PENDING	PENDING	PENDING	

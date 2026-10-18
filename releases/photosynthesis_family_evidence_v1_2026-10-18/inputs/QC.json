@@ -1,0 +1,19 @@
+{
+  "status": "EVIDENCE_REPORT_AND_BOUNDED_REVIEW_COMPLETE",
+  "integrated_records": 3193,
+  "integrated_families": 21,
+  "report_families": 23,
+  "species": 8,
+  "matrix_cells": 184,
+  "ASPat_support_limited_loci": 80,
+  "ASPat_architecture_flags": 2,
+  "Wang_source_values": 345,
+  "ledger_unchanged": true,
+  "new_searches": 0,
+  "new_trees": 0,
+  "formal_counts": false,
+  "definition_gaps": [
+    "MEP_REFERENCE_MEMBERSHIP",
+    "PPA_EXACT_SCOPE"
+  ]
+}

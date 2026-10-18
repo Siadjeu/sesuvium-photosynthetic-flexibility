@@ -1,0 +1,11 @@
+{
+  "group": "MPC",
+  "candidate_records": 47,
+  "main_candidates": 40,
+  "partial_or_architecture_candidates": 6,
+  "outside_core_candidates": 1,
+  "main_references": 4,
+  "core_columns": 99,
+  "status": "ALIGNED_LIMITED_PANEL_NO_SPECIFICITY_TREE",
+  "error": ""
+}

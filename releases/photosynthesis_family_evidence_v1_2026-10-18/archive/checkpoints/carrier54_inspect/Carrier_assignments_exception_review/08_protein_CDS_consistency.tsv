@@ -1,0 +1,5 @@
+candidate_id	mapped_transcript	protein_id	cds_id	source_protein_found	source_CDS_found	protein_matches_candidate	cds_nt	frame_remainder	translation_matches_source_protein	translation_matches_candidate	internal_stops	ambiguous_amino_acids	start_codon	terminal_codon	interpretation
+PO__evm.TU.LG05.272	evm.model.LG05.272	evm.model.LG05.272	evm.model.LG05.272	True	True	True	996	0	True	True	0	0	ATG	TGA	ANNOTATION_CONSISTENCY_NOT_GENOME_OR_READ_VALIDATION
+PO__evm.TU.LG25.1042	evm.model.LG25.1042	evm.model.LG25.1042	evm.model.LG25.1042	True	True	True	993	0	True	True	0	0	ATG	TGA	ANNOTATION_CONSISTENCY_NOT_GENOME_OR_READ_VALIDATION
+SP_Hex__gene_Spor0293270.1	Spor0293270.1	Spor0293270.1	Spor0293270.1	True	True	True	813	0	True	True	0	0	ATG	TAG	ANNOTATION_CONSISTENCY_NOT_GENOME_OR_READ_VALIDATION
+SS__g18155.t1	g18155.t1	g18155.t1	g18155.t1	True	True	True	363	0	True	True	0	0	ATG	TTG	ANNOTATION_CONSISTENCY_NOT_GENOME_OR_READ_VALIDATION

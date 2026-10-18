@@ -1,0 +1,9 @@
+species	annotated_candidate_loci	supported_no_priority_flag	family_supported_model_caveat	unresolved_fragment_records	suspected_split_regions	status
+AT	5	5	0	0	0	NOT_FINAL_GENE_COUNTS
+BV	3	3	0	0	0	NOT_FINAL_GENE_COUNTS
+MC	3	2	1	0	0	NOT_FINAL_GENE_COUNTS
+PO	9	5	2	2	1	NOT_FINAL_GENE_COUNTS
+SLP_Hap1	4	4	0	0	0	NOT_FINAL_GENE_COUNTS
+SP_Hex	9	8	1	0	0	NOT_FINAL_GENE_COUNTS
+SP_Tet	6	6	0	0	0	NOT_FINAL_GENE_COUNTS
+SS	9	7	0	2	0	NOT_FINAL_GENE_COUNTS

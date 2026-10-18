@@ -1,0 +1,69 @@
+{
+  "step62_manifest_sha256": "9f3cce327753837f3054576455e211a0a30f8f8ed59e768ae264b119f3c0edb3",
+  "step61_manifest_sha256": "5c69bcdeea43750b377f6cb78197fcaf4a0fbf2441aa6f08170edf3c9b7b4082",
+  "pfam_sha256": "4b0da6399b97d2b23329de82190b2e5705bde1dea4cb2d028a52712d5966739e",
+  "commands": [
+    [
+      "hmmsearch",
+      "--cpu",
+      "4",
+      "--cut_ga",
+      "--noali",
+      "--domtblout",
+      "<RELEASE>/04_pfam.domtbl",
+      "<WORKDIR>/my_interproscan/interproscan-5.78-109.0/data/pfam/38.2/pfam_a.hmm",
+      "<RELEASE>/03_recovered_SS_proteins.faa"
+    ],
+    [
+      "diamond",
+      "makedb",
+      "--threads",
+      "4",
+      "--in",
+      "<RELEASE>/02_ALMT_positive_references.faa",
+      "--db",
+      "<RELEASE>/work/ALMT"
+    ],
+    [
+      "diamond",
+      "blastp",
+      "--threads",
+      "4",
+      "--query",
+      "<RELEASE>/03_recovered_SS_proteins.faa",
+      "--db",
+      "<RELEASE>/work/ALMT",
+      "--out",
+      "<RELEASE>/05_positive_reference_hits.tsv",
+      "--very-sensitive",
+      "--evalue",
+      "1e-3",
+      "--max-target-seqs",
+      "0",
+      "--max-hsps",
+      "1",
+      "--outfmt",
+      "6",
+      "qseqid",
+      "sseqid",
+      "pident",
+      "length",
+      "qlen",
+      "slen",
+      "qstart",
+      "qend",
+      "sstart",
+      "send",
+      "evalue",
+      "bitscore"
+    ],
+    [
+      "hmmsearch",
+      "-h"
+    ],
+    [
+      "diamond",
+      "version"
+    ]
+  ]
+}

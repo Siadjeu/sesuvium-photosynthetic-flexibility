@@ -1,0 +1,17 @@
+{
+  "status": "TDT_DTC_DIC_BOUNDED_SCREEN_REVIEW_REQUIRED",
+  "historical_registry_records": 35,
+  "historical_accepted_records": 34,
+  "corrected_screened_proteins": 35,
+  "provenance_status": {
+    "UNAMBIGUOUS_CORRECTED_PROTEIN": 35
+  },
+  "best_panel_families": {
+    "DIT1": 16,
+    "DIT2": 19
+  },
+  "reference_controls": 8,
+  "reference_controls_without_Pfam_hits": 0,
+  "whole_genome_completeness": "NOT_TESTED",
+  "final_counts": false
+}

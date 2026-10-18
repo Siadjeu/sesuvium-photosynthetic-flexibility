@@ -1,0 +1,20 @@
+{
+  "status": "BOUNDED_PEPC_PROVENANCE_CORRECTION_COMPLETE_REVIEW_REQUIRED",
+  "PEPC_loci": 55,
+  "registry_matched_loci": 47,
+  "classification_matched_loci": 55,
+  "historical_sequences": 55,
+  "corrected_proteins": 53,
+  "sequence_relations": {
+    "EXACT_NORMALIZED_MATCH": 53,
+    "HISTORICAL_SEQUENCE_EQUALS_RECOVERY_CDS": 2
+  },
+  "provenance_categories": {
+    "TRACEABLE_SEQUENCE_AND_REGISTRY": 45,
+    "PROVENANCE_EXCEPTION": 10
+  },
+  "collection_issues": 0,
+  "integrated_ledger_unchanged": true,
+  "analysis_rerun": false,
+  "final_counts": false
+}

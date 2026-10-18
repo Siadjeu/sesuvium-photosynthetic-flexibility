@@ -1,0 +1,6 @@
+{
+  "source_sha256": "4b0da6399b97d2b23329de82190b2e5705bde1dea4cb2d028a52712d5966739e",
+  "uncompressed_sha256": "4b0da6399b97d2b23329de82190b2e5705bde1dea4cb2d028a52712d5966739e",
+  "pfam_models": 30134,
+  "method": "hmmsearch --cut_ga"
+}

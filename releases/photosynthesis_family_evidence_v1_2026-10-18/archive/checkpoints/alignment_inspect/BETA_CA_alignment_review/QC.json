@@ -1,0 +1,41 @@
+{
+  "status": "COMPLETE_ALIGNMENT_REVIEW_ONLY",
+  "proposed_loci": 45,
+  "species_locus_counts": {
+    "AT": 4,
+    "BV": 3,
+    "MC": 3,
+    "PO": 11,
+    "SLP_Hap1": 5,
+    "SP_Hex": 7,
+    "SP_Tet": 6,
+    "SS": 6
+  },
+  "alignments": {
+    "main": {
+      "tips": 51,
+      "alignment_columns": 504,
+      "diagnostic_core_columns": 269,
+      "reference_sites_consistent": true,
+      "inspection_flags": 0
+    },
+    "domain_sensitivity": {
+      "tips": 52,
+      "alignment_columns": 473,
+      "diagnostic_core_columns": 266,
+      "reference_sites_consistent": true,
+      "inspection_flags": 0
+    }
+  },
+  "inputs_sha256": {
+    "08_focused_families/validation/step25kz17.7/release_20542927_20261015T175448Z/05_all_screened_candidates.faa": "137c3e59e62ade959543bc40bfe98c7f3ad234d21ee79cb60653a1714e561545",
+    "08_focused_families/validation/step25kz17.7/release_20542927_20261015T175448Z/BETA_CA/references.faa": "92d69700d22cadf720d690e02464a106e0d2ef2a017a40d75e6725c843ef3f83",
+    "08_focused_families/validation/step25kz17.7/release_20542927_20261015T175448Z/03_domain_evidence.tsv": "495bffd2356025305857128bf791a19a480b47a687eb19650b89ca603946ddd1",
+    "08_focused_families/validation/step25kz17.7/release_20542927_20261015T175448Z/02_CA_family_specific_review.tsv": "2d2bf840a076cea7d55a3277abc890504c5fc6ae7d3cc12679edd9788dc08ad0",
+    "08_focused_families/validation/step25kz17.11/release_20543194_20261015T185439Z/01_AT_isoforms.faa": "31c8b3b464e7e16dcf3567caf673f8fade5edb6af861e77abf96722b91ed55e0",
+    "08_focused_families/validation/step25kz17.11/release_20543194_20261015T185439Z/03_AT_isoform_review.tsv": "7f39cabf72041b6aff668cc13aab1aa89021e32ca1402c978af64326494dee53",
+    "08_focused_families/validation/step25kz17.11/release_20543194_20261015T185439Z/04_consolidated_CA_review.tsv": "e64dd3b2296036cf9d2d32de6ea80497aa0eef791b3ba6ae0fce88cabbe89fc1",
+    "08_focused_families/validation/step25kz17.11/release_20543194_20261015T185439Z/QC.json": "da8195cc46cf0de0832ea25eb317446bebbcb7e1d3e476af5e4869d3109767fb",
+    "08_focused_families/validation/step25kz17.11/release_20543194_20261015T185439Z/COMPLETE.txt": "e19fbc4667781b2e51cbda995da658db3dbbe0e3297f35f4cd8ac5f1db65ce45"
+  }
+}

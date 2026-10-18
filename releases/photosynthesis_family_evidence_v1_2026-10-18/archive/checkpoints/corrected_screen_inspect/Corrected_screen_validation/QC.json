@@ -1,0 +1,13 @@
+{
+  "status": "CORRECTED_SCREEN_COMPLETE_REVIEW_ONLY",
+  "protein_records": 287197,
+  "candidates": 5804,
+  "previous_reconciliation": {
+    "RETAINED_IDENTICAL": 5803
+  },
+  "hit_changes": {
+    "SHARED": 6170,
+    "NEW_HIT": 1
+  },
+  "final_gene_counts": false
+}

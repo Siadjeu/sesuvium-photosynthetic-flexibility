@@ -1,0 +1,5 @@
+reference_id	description	taxon_id	sequence_sha256	source_url	role
+P22988	L-lactate dehydrogenase A	4513	38a653ca572e0a1a893c603f46126143b087fbc54d7806b7ad4642a0e7ec5a90	https://www.uniprot.org/uniprotkb/P22988	MDH_COMPARATOR_REVIEWED_PLANT_LDH
+P22989	L-lactate dehydrogenase B	4513	ad82e48009bdbbf5420a06bfe3a6fc8b6982cea167e9f1e2e06f70ae82bc9e04	https://www.uniprot.org/uniprotkb/P22989	MDH_COMPARATOR_REVIEWED_PLANT_LDH
+P29038	L-lactate dehydrogenase	4577	a29796d1404303c30a11b3cac4db8aa9e8ada6001253b7857f817830a32cdae5	https://www.uniprot.org/uniprotkb/P29038	MDH_COMPARATOR_REVIEWED_PLANT_LDH
+P93052	L-lactate dehydrogenase	38881	4d73a31fe01d2cd31884a8ce240776915fca55858d1a82dc45cb1cd5bf3dc809	https://www.uniprot.org/uniprotkb/P93052	MDH_COMPARATOR_REVIEWED_PLANT_LDH

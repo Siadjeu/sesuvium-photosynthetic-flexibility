@@ -1,0 +1,25 @@
+{
+  "status": "DIT_DOMAIN_COMPLETENESS_REVIEW_READY",
+  "candidates": 38,
+  "controls": 3,
+  "exception_candidates": 9,
+  "candidate_groups": {
+    "DIT1": 17,
+    "DIT2": 21
+  },
+  "control_domains": {
+    "REF__Q8LG88": [
+      "PF00939",
+      "PF03600"
+    ],
+    "REF__Q9FMF7": [
+      "PF00939",
+      "PF03600"
+    ],
+    "REF__Q9LXV3": [
+      "PF00939",
+      "PF03600"
+    ]
+  },
+  "final_counts": false
+}

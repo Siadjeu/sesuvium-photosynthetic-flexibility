@@ -1,0 +1,10 @@
+candidate_id	mapped_transcript	protein_id	cds_id	source_protein_found	source_CDS_found	protein_matches_candidate	cds_nt	frame_remainder	translation_matches_source_protein	translation_matches_candidate	internal_stops	ambiguous_amino_acids	start_codon	terminal_codon	interpretation
+BV__Bv9_267510_dukz	Bv9_267510_dukz.t1	Bv9_267510_dukz.t1	Bv9_267510_dukz.t1	True	True	True	849	0	True	True	0	0	ATG	TGA	ANNOTATION_CONSISTENCY_NOT_GENOME_OR_READ_VALIDATION
+MC__gene_26610	braker_1_g15288.t1	braker_1_g15288.t1	braker_1_g15288.t1	True	True	True	894	0	True	True	0	0	ATG	TAG	ANNOTATION_CONSISTENCY_NOT_GENOME_OR_READ_VALIDATION
+PO__evm.TU.LG08.1714	evm.model.LG08.1714	evm.model.LG08.1714	evm.model.LG08.1714	True	True	True	2760	0	True	True	0	0	ATG	TGA	ANNOTATION_CONSISTENCY_NOT_GENOME_OR_READ_VALIDATION
+PO__evm.TU.LG08.1715	evm.model.LG08.1715	evm.model.LG08.1715	evm.model.LG08.1715	True	True	True	1401	0	True	True	0	0	ATG	TGA	ANNOTATION_CONSISTENCY_NOT_GENOME_OR_READ_VALIDATION
+PO__evm.TU.LG22.643	evm.model.LG22.643	evm.model.LG22.643	evm.model.LG22.643	True	True	True	1290	0	True	True	0	0	ATG	TGA	ANNOTATION_CONSISTENCY_NOT_GENOME_OR_READ_VALIDATION
+SP_Hex__gene_Spor0138840.1	Spor0138840.1	Spor0138840.1	Spor0138840.1	True	True	True	870	0	True	True	0	0	ATG	TAA	ANNOTATION_CONSISTENCY_NOT_GENOME_OR_READ_VALIDATION
+SP_Hex__gene_Spor0209360.1	Spor0209360.1	Spor0209360.1	Spor0209360.1	True	True	True	1185	0	True	True	0	0	ATG	TAA	ANNOTATION_CONSISTENCY_NOT_GENOME_OR_READ_VALIDATION
+SP_Hex__gene_Spor0261400.1	Spor0261400.1	Spor0261400.1	Spor0261400.1	True	True	True	1242	0	True	True	0	0	ATG	TAA	ANNOTATION_CONSISTENCY_NOT_GENOME_OR_READ_VALIDATION
+SP_Hex__gene_Spor0349060.1	Spor0349060.1	Spor0349060.1	Spor0349060.1	True	True	True	594	0	True	True	0	0	ATG	TAA	ANNOTATION_CONSISTENCY_NOT_GENOME_OR_READ_VALIDATION

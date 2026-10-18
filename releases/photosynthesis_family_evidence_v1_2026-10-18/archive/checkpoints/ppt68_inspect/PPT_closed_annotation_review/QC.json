@@ -1,0 +1,56 @@
+{
+  "status": "PPT_BOUNDED_REVIEW_CLOSED_WITH_CAVEATS",
+  "integrated_records": 1560,
+  "integrated_families": 13,
+  "PPT_tiers": {
+    "OUTSIDE_FAMILY_SET": 385,
+    "LIMITED_PANEL_CAVEAT": 25,
+    "EXCLUDED": 37,
+    "MODEL_CAVEAT": 1,
+    "PARTIAL": 3
+  },
+  "main_associated": 26,
+  "partial_associated": 3,
+  "annotation_outcomes": [
+    {
+      "protein_id": "PO__evm.TU.LG01.2472",
+      "mapped_isoforms": 1,
+      "matching_source_proteins": 1,
+      "consistent_CDS_records": 1,
+      "annotation_status": "PROTEIN_CDS_CONSISTENT_CAVEAT_RETAINED",
+      "remaining_limitation": "LONG_FULL_PROTEIN",
+      "closure": "BOUNDED_REVIEW_COMPLETE_NO_READ_VALIDATION"
+    },
+    {
+      "protein_id": "SP_Hex__gene_Spor0301920.1",
+      "mapped_isoforms": 1,
+      "matching_source_proteins": 1,
+      "consistent_CDS_records": 1,
+      "annotation_status": "PROTEIN_CDS_CONSISTENT_CAVEAT_RETAINED",
+      "remaining_limitation": "PARTIAL_SEQUENCE",
+      "closure": "BOUNDED_REVIEW_COMPLETE_NO_READ_VALIDATION"
+    },
+    {
+      "protein_id": "SP_Tet__g13815",
+      "mapped_isoforms": 1,
+      "matching_source_proteins": 1,
+      "consistent_CDS_records": 1,
+      "annotation_status": "PROTEIN_CDS_CONSISTENT_CAVEAT_RETAINED",
+      "remaining_limitation": "PARTIAL_SEQUENCE",
+      "closure": "BOUNDED_REVIEW_COMPLETE_NO_READ_VALIDATION"
+    },
+    {
+      "protein_id": "SP_Tet__g13816",
+      "mapped_isoforms": 1,
+      "matching_source_proteins": 1,
+      "consistent_CDS_records": 1,
+      "annotation_status": "PROTEIN_CDS_CONSISTENT_CAVEAT_RETAINED",
+      "remaining_limitation": "PARTIAL_SEQUENCE",
+      "closure": "BOUNDED_REVIEW_COMPLETE_NO_READ_VALIDATION"
+    }
+  ],
+  "cross_family_overlap_flags": 0,
+  "families_without_integrated_ledger": 10,
+  "new_tree_runs": 0,
+  "final_counts": false
+}

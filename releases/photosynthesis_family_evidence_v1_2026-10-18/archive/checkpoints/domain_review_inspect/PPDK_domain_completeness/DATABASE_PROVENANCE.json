@@ -1,0 +1,8 @@
+{
+  "database_filename": "pfam_a.hmm",
+  "compressed_or_source_sha256": "4b0da6399b97d2b23329de82190b2e5705bde1dea4cb2d028a52712d5966739e",
+  "uncompressed_sha256": "4b0da6399b97d2b23329de82190b2e5705bde1dea4cb2d028a52712d5966739e",
+  "profiles": 30134,
+  "method": "hmmsearch --cut_ga",
+  "database_release": "Confirm from local installation metadata; hash pins exact bytes"
+}

@@ -1,0 +1,11 @@
+{
+  "status": "CARRIER_ALIGNMENT_ARCHITECTURE_REVIEW_READY",
+  "candidates": 85,
+  "references": 43,
+  "alignment_columns": 1934,
+  "proposed_core_columns": 264,
+  "core_requires_review": true,
+  "flagged_candidates": 18,
+  "low_core_occupancy_candidates": 1,
+  "final_counts": false
+}

@@ -1,0 +1,6 @@
+{
+  "source_release": "08_focused_families/validation/step25kz17.28/release_20546653_20261016T125038259949Z",
+  "source_manifest_sha256": "af9a7bd23eca6c54cca8dc1db9195b0665eda5508043056a1ba48abb4fe3acdc",
+  "miniprot_version": "0.18-r281",
+  "alignment_options": "-G 20000 --gff --aln --outs=0.5"
+}

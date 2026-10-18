@@ -1,0 +1,35 @@
+{
+  "status": "PEPC_LEDGER_AND_TWO_TREES_READY_FOR_REVIEW",
+  "ledger_loci": 55,
+  "categories": {
+    "PEPC_DOMAIN_SUPPORTED_BROAD_COVERAGE": 51,
+    "PEPC_FAMILY_SUPPORTED_MODEL_CAVEAT": 2,
+    "EXCLUDED_HISTORICAL_CDS_RECORD": 2
+  },
+  "trees": [
+    {
+      "analysis": "main",
+      "candidates": 51,
+      "references": 4,
+      "raw_alignment_columns": 1173,
+      "core_columns": 965,
+      "tree_tips": 55,
+      "seed": 174301,
+      "rooting": "UNROOTED",
+      "review_status": "PENDING"
+    },
+    {
+      "analysis": "sensitivity",
+      "candidates": 53,
+      "references": 4,
+      "raw_alignment_columns": 1357,
+      "core_columns": 965,
+      "tree_tips": 57,
+      "seed": 174302,
+      "rooting": "UNROOTED",
+      "review_status": "PENDING"
+    }
+  ],
+  "final_counts": false,
+  "phylogenetic_acceptance": "PENDING_REVIEW"
+}

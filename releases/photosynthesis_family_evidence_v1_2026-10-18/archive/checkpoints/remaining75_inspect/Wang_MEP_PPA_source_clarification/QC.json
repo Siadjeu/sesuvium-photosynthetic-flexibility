@@ -1,0 +1,14 @@
+{
+  "status": "SOURCE_CLARIFICATION_COLLECTION_COMPLETE_REVIEW_REQUIRED",
+  "downloaded": 2,
+  "retrieval_failures": 2,
+  "source_files": 5,
+  "parse_failures": 0,
+  "passages": 2,
+  "identifier_leads": 0,
+  "passage_limit_reached": false,
+  "ledger_unchanged": true,
+  "automatic_definition_acceptance": false,
+  "new_searches": 0,
+  "new_trees": 0
+}

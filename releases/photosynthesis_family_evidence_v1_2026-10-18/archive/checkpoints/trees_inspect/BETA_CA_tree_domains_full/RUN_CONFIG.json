@@ -1,0 +1,33 @@
+{
+  "scenario": "domains_full",
+  "source_alignment_sha256": "a38b34925ad1b7243e85236e32d81869eaf16c6b3a8dd7c2e5b80d7092e51be8",
+  "input_sha256": "50e7417eba69033b6b69e9b8f50e886778d9fc06edd090fe103dfe2dfff38090",
+  "seed": 251715,
+  "command_options": [
+    "-s",
+    "input.faa",
+    "-st",
+    "AA",
+    "-m",
+    "MFP",
+    "-bb",
+    "1000",
+    "-bnni",
+    "-alrt",
+    "1000",
+    "-nt",
+    "4",
+    "-mem",
+    "6G",
+    "-seed",
+    "251715",
+    "-keep-ident",
+    "-pre",
+    "tree"
+  ],
+  "iqtree_version": "IQ-TREE version 3.1.3 for Linux x86 64-bit built Jul 26 2026\nDeveloped by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren\nContributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,\nOlga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt\n\n",
+  "tips": 52,
+  "columns": 473,
+  "rooting": "UNROOTED_NO_BIOLOGICAL_OUTGROUP_SPECIFIED",
+  "status": "RESEARCH_TREE_NOT_FINAL_FAMILY_COUNTS"
+}

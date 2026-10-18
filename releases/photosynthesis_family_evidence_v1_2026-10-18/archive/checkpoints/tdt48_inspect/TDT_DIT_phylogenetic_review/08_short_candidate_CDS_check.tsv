@@ -1,0 +1,2 @@
+protein_id	cds_length	protein_length	frame_remainder	start_codon	stop_codon	internal_stops	ambiguous_residues	translation_matches	candidate_matches	interpretation
+SP_Hex__gene_Spor0444110.1	1359	452	0	ATG	TGA	0	0	True	True	ANNOTATION_CONSISTENCY_ONLY_NOT_GENOME_OR_READ_VALIDATION

@@ -1,0 +1,14 @@
+{
+  "status": "DOMAIN_REVIEW_READY",
+  "candidate_proteins": 53,
+  "reference_controls": 4,
+  "diagnostic_fragments": 2,
+  "all_reference_controls_have_PF00311": true,
+  "candidate_categories": {
+    "DOMAIN_SUPPORTED_NO_PRIORITY_FLAG": 40,
+    "REVIEW_REQUIRED": 13
+  },
+  "candidate_PF00311_hits": 53,
+  "whole_genome_completeness": "NOT_TESTED",
+  "final_counts": false
+}

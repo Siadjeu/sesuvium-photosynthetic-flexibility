@@ -1,0 +1,3 @@
+candidate_id	alternative_protein_id	length_aa	translation_consistent	internal_stops	terminal_codon	source_folder
+SS__g16509.t2	SS__g16509.t1	195	True	0	TAC	annotation/E04
+SS__g17774.t2	SS__g17774.t1	195	True	0	TAC	annotation/E05

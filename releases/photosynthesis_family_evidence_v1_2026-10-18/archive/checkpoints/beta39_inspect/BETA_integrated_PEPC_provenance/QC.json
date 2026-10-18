@@ -1,0 +1,19 @@
+{
+  "status": "BETA_INTEGRATED_PEPC_PROVENANCE_REVIEW_REQUIRED",
+  "integrated_records": 820,
+  "beta_categories": {
+    "BETA_SUPPORTED_SCREEN_EVIDENCE": 45,
+    "BETA_SUPPORTED_WITH_REVIEW_CAVEAT": 2,
+    "BETA_PARTIAL_UNRESOLVED": 2,
+    "OUTSIDE_SUPPORTED_BETA_SET": 61
+  },
+  "PEPC_loci": 55,
+  "PEPC_sources": 9,
+  "PEPC_matching_rows": 110,
+  "PEPC_provenance_status": {
+    "TREE_ONLY_OR_NO_ADDITIONAL_RECORDS": 55
+  },
+  "collection_issues": 1,
+  "analysis_rerun": false,
+  "final_counts": false
+}

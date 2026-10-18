@@ -1,0 +1,55 @@
+reference_id	genes	description	taxon_id	ec_numbers	length_aa	sequence_sha256	entry_url	query_groups
+Q9SIU0	NAD-ME1	NAD-dependent malic enzyme 1, mitochondrial	3702	1.1.1.39	623	6ea78ebae465e12e5ec5ce10f8ff4f4f230d04d8c0ad99dff0fb59a38494ed22	https://www.uniprot.org/uniprotkb/Q9SIU0	NAD-ME
+Q8L7K9	NAD-ME2	NAD-dependent malic enzyme 2, mitochondrial	3702	1.1.1.39	607	76102b963ea52d277e253fcd8a212dd07c95eef4f680b6e0ceb6780956a965d9	https://www.uniprot.org/uniprotkb/Q8L7K9	NAD-ME
+Q9CA83	NADP-ME4	NADP-dependent malic enzyme 4, chloroplastic	3702	1.1.1.40	646	1dd7a6c7340f41b66fd1d1d93613dd9e70469706f69752fd450f4ee02fa6c754	https://www.uniprot.org/uniprotkb/Q9CA83	NADP-ME
+Q9XGZ0	NADP-ME3	NADP-dependent malic enzyme 3	3702	1.1.1.40	588	cd4256ce577ca25e6de862872087e359276a0b64bb7429854cf9c996e3518813	https://www.uniprot.org/uniprotkb/Q9XGZ0	NADP-ME
+Q9LYG3	NADP-ME2	NADP-dependent malic enzyme 2	3702	1.1.1.40	588	939fbc9711450157926a9a067d01b75700fe34b0b5fca81c3fdfef43fb74fb8d	https://www.uniprot.org/uniprotkb/Q9LYG3	NADP-ME
+O82191	NADP-ME1	NADP-dependent malic enzyme 1	3702	1.1.1.40	581	c306a72c5372388dec2dd4e1c98d306815fcce8c0397d2f43cf508ba1fb0a77a	https://www.uniprot.org/uniprotkb/O82191	NADP-ME
+P93819	MDH1	Malate dehydrogenase 1, cytoplasmic	3702	1.1.1.37	332	4cee3e365ddb66e07ba91aabd8b2d1540e6dbf3ddb9035403e3aa55bb5c0eaa5	https://www.uniprot.org/uniprotkb/P93819	MDH_NAD
+Q9LKA3		Malate dehydrogenase 2, mitochondrial	3702	1.1.1.37	341	f6bdda94c19b9f5f8c9dd7565753cb83333df3252e072fe880d0065ad1120e9d	https://www.uniprot.org/uniprotkb/Q9LKA3	MDH_NAD
+Q9SN86		Malate dehydrogenase, chloroplastic	3702	1.1.1.37	403	d1c83fb7e65a7c639ce37d0d75fc7924b5d7200460028af1d4c869c3d53d6aa2	https://www.uniprot.org/uniprotkb/Q9SN86	MDH_NAD
+Q9ZP06		Malate dehydrogenase 1, mitochondrial	3702	1.1.1.37	341	bca11ab1b76ffecf28aa3ee14b7a42512b429338e36bd73046dd1615be7789bd	https://www.uniprot.org/uniprotkb/Q9ZP06	MDH_NAD
+O82399	PMDH1	Malate dehydrogenase 1, peroxisomal	3702	1.1.1.37	354	c2f64f908110eb33219e3e7d546095e26b5f257632969bf84d1e50f8e730039b	https://www.uniprot.org/uniprotkb/O82399	MDH_NAD
+Q9ZP05	PMDH2	Malate dehydrogenase 2, peroxisomal	3702	1.1.1.37	354	4bbb53af01467e434a5dbe2526f8deb4948ee58765cffe5874e96e61766d34f4	https://www.uniprot.org/uniprotkb/Q9ZP05	MDH_NAD
+P57106	MDH2	Malate dehydrogenase 2, cytoplasmic	3702	1.1.1.37	332	fe0abc228fb4b960a896feca6793e758b0ae78311491a9537f42ed1ebc552582	https://www.uniprot.org/uniprotkb/P57106	MDH_NAD
+Q9FJU0	MDH3	Malate dehydrogenase 3, cytoplasmic	3702	1.1.1.37	339	871ef1ab9ea8636932ff74a68ee8e46570c335b074cf5ba27f7035fc9d1b86be	https://www.uniprot.org/uniprotkb/Q9FJU0	MDH_NAD
+Q8H1E2		Malate dehydrogenase [NADP], chloroplastic	3702	1.1.1.82	443	5ddf55c9d25cff8c13a7aa228e88e78d7ce28a00913ea049963e091918008faf	https://www.uniprot.org/uniprotkb/Q8H1E2	MDH_NADP
+P46644	ASP3	Aspartate aminotransferase 3, chloroplastic	3702	2.6.1.1	449	d11be7c3d0938002536ee895fdd4018c6662d2522329ee356791c0bd9175bcff	https://www.uniprot.org/uniprotkb/P46644	ASPAT
+P46248	ASP5	Aspartate aminotransferase, chloroplastic	3702	2.6.1.1	453	20a6dc4de7f1ee656147e0f37b9b6d1b46701a3be190e121795a5b28029c8e07	https://www.uniprot.org/uniprotkb/P46248	ASPAT
+P46643	ASP1	Aspartate aminotransferase, mitochondrial	3702	2.6.1.1	430	bbb5089dff34bb10e61c2949fb5a02bfbf00f9e2eedcb9e23e70f9aaae8a9c0e	https://www.uniprot.org/uniprotkb/P46643	ASPAT
+P46645	ASP2	Aspartate aminotransferase, cytoplasmic isozyme 1	3702	2.6.1.1	405	401e609d63b28a64408503c7a9ff58af4d65886f71232ddd89a070fc005083ec	https://www.uniprot.org/uniprotkb/P46645	ASPAT
+Q9SIE1	PAT	Bifunctional aspartate aminotransferase and glutamate/aspartate-prephenate aminotransferase	3702	2.6.1.1;2.6.1.78;2.6.1.79	475	90d2932c1bd35950e64d0a5e7d49c0788d0831c744b6f834cb8cacbbb43c5fdb	https://www.uniprot.org/uniprotkb/Q9SIE1	ASPAT
+P46646	ASP4	Aspartate aminotransferase, cytoplasmic isozyme 2	3702	2.6.1.1	403	474e27648e51b1a8ca8a2ce270238f6c2bf4e95e5025cc081f2871498570fab5	https://www.uniprot.org/uniprotkb/P46646	ASPAT
+F4I7I0	ALAAT1	Alanine aminotransferase 1, mitochondrial	3702	2.6.1.-;2.6.1.2	543	73e72c02722346a33e868671fd1786a205468823fbe2cf5eba9bda2da500de31	https://www.uniprot.org/uniprotkb/F4I7I0	AlaAT
+Q9LDV4	ALAAT2	Alanine aminotransferase 2, mitochondrial	3702	2.6.1.-;2.6.1.2	540	66aaf18e02944085544f36fc3315b15c8b4f3e581f6374bfea6eeba2946a8224	https://www.uniprot.org/uniprotkb/Q9LDV4	AlaAT
+Q9LR30	GGAT1	Glutamate--glyoxylate aminotransferase 1	3702	2.6.1.-;2.6.1.2;2.6.1.4;2.6.1.44	481	0919c31a26897078ba57b25d45038caacd444c4b7e4f71324fa1d7e05b07e5ba	https://www.uniprot.org/uniprotkb/Q9LR30	AMINO_COMPARATOR
+Q9S7E9	GGAT2	Glutamate--glyoxylate aminotransferase 2	3702	2.6.1.-;2.6.1.2;2.6.1.4;2.6.1.44	481	3f2db344cf2bcb08f6de8ff7fda9a2663a0fa7ffb718aaebfaf18df32ddfb9d7	https://www.uniprot.org/uniprotkb/Q9S7E9	AMINO_COMPARATOR
+Q9C969	ISS1	Aromatic aminotransferase ISS1	3702	2.6.1.27;2.6.1.5;2.6.1.88	394	42ff716398888d3d38626471e5a71662df1a0fd46ab5f8e16355e5444e4ad059	https://www.uniprot.org/uniprotkb/Q9C969	AMINO_COMPARATOR
+Q56YA5	AGT1	Serine--glyoxylate aminotransferase	3702	2.6.1.-;2.6.1.44;2.6.1.45;2.6.1.51	401	018df9fb3b7ce6ccf0ed3c0c17a1552487d875dd5a9594c59d76be217fb90ed3	https://www.uniprot.org/uniprotkb/Q56YA5	AMINO_COMPARATOR
+Q9LPM9	BCAT6	Branched-chain-amino-acid aminotransferase 6	3702	2.6.1.42	356	0d366b1d3ac792ea3074713c41398aaedf30f32f5648ccb8443aa87e3ffa0af0	https://www.uniprot.org/uniprotkb/Q9LPM9	AMINO_COMPARATOR
+Q9M439	BCAT2	Branched-chain-amino-acid aminotransferase 2, chloroplastic	3702	2.6.1.42	388	77dba33e1206460e1647eeae0f9e1e32371a8fe33baf3bef60d55850c5e4f0c9	https://www.uniprot.org/uniprotkb/Q9M439	AMINO_COMPARATOR
+Q9M401	BCAT3	Branched-chain-amino-acid aminotransferase 3, chloroplastic	3702	2.6.1.42;2.6.1.88	413	52ddca883d525fffed3377a32910e67bf59eee5152504a4f47916919881c57aa	https://www.uniprot.org/uniprotkb/Q9M401	AMINO_COMPARATOR
+Q9LVY1	TAT	Tyrosine aminotransferase	3702	2.6.1.5	420	795bd871368708d9cd1f132dc6c6f34a34cd4164023a5efc22f342ca820d794d	https://www.uniprot.org/uniprotkb/Q9LVY1	AMINO_COMPARATOR
+Q940M2	AGT2	Alanine--glyoxylate aminotransferase 2 homolog 1, mitochondrial	3702	2.6.1.44	476	fd1e7f0368173c93768e79a9bfef3fce8570f7466707ccff75768f9d1a6f6e13	https://www.uniprot.org/uniprotkb/Q940M2	AMINO_COMPARATOR
+Q93Y32	BCAT1	Branched-chain-amino-acid aminotransferase 1, mitochondrial	3702	2.6.1.42	384	a1781d9ce132fec0cc6aa27d92a8702aea0be868286237ef42343d18cdd707bd	https://www.uniprot.org/uniprotkb/Q93Y32	AMINO_COMPARATOR
+Q9FYA6	BCAT5	Branched-chain-amino-acid aminotransferase 5, chloroplastic	3702	2.6.1.42	415	e1f9234b86736788e393c97903b6b4ff8a74e06ae722025c57b3dadafb12d574	https://www.uniprot.org/uniprotkb/Q9FYA6	AMINO_COMPARATOR
+Q94AL9	AGT3	Alanine--glyoxylate aminotransferase 2 homolog 2, mitochondrial	3702	2.6.1.44	477	1e52c7f8bfeb88d2fc0f214a4bda6054f4204adaa04df67586189f95691eb187	https://www.uniprot.org/uniprotkb/Q94AL9	AMINO_COMPARATOR
+Q9SR86		Alanine--glyoxylate aminotransferase 2 homolog 3, mitochondrial	3702	2.6.1.44	481	695af1269fe9c77c017078c66049926a712ffcd48781d8064dcf0d8219342138	https://www.uniprot.org/uniprotkb/Q9SR86	AMINO_COMPARATOR
+Q9T074	PCK1	Phosphoenolpyruvate carboxykinase (ATP) 1	3702	4.1.1.49	671	f1fab7b28e273580d86e6b57ed3e9d4d021d5639dcfa19d2b826e00035571047	https://www.uniprot.org/uniprotkb/Q9T074	PEPCK
+B5X574	PCK2	Phosphoenolpyruvate carboxykinase (ATP) 2	3702	4.1.1.49	670	c577341d3589a9e67b87533389b8f2aa9a31c22fc3b262ac52439274ed9ac9aa	https://www.uniprot.org/uniprotkb/B5X574	PEPCK
+Q9MAH0	PPC1	Phosphoenolpyruvate carboxylase 1	3702	4.1.1.31	967	b33afc2c01ea7e37179f60eef15f3909ebdc477dddafd51641f0b92b3ff76220	https://www.uniprot.org/uniprotkb/Q9MAH0	PEPC_CONTEXT
+Q5GM68	PPC2	Phosphoenolpyruvate carboxylase 2	3702	4.1.1.31	963	e6718bf8d42e93b12ad950eec2e15815110847e0551fb12d98e9c001a67ab2b9	https://www.uniprot.org/uniprotkb/Q5GM68	PEPC_CONTEXT
+Q84VW9	PPC3	Phosphoenolpyruvate carboxylase 3	3702	4.1.1.31	968	3bb3e65bf45a0c359f6368ba215c9c6264781023ffe9ca2bc4b25d249dce15c7	https://www.uniprot.org/uniprotkb/Q84VW9	PEPC_CONTEXT
+Q8GVE8	PPC4	Phosphoenolpyruvate carboxylase 4	3702	4.1.1.31	1032	16a8554b894ea9586b53356b45c9ab792a1c70579f4b4b6f9a54cc2902e0a001	https://www.uniprot.org/uniprotkb/Q8GVE8	PEPC_CONTEXT
+P35558	PCK1	Phosphoenolpyruvate carboxykinase, cytosolic [GTP]	9606	2.7.11.-;4.1.1.32	622	6d2f7a7b9f6d82b74c0f259ceeb036311347e6ae8fb38b8e12a111ae4d66a706	https://www.uniprot.org/uniprotkb/P35558	PEPCK_GTP_COMPARATOR
+Q16822	PCK2	Phosphoenolpyruvate carboxykinase [GTP], mitochondrial	9606	2.7.11.-;4.1.1.32	640	94d435f6b78e606251870d4d36aeb707630cbe048a6dcb5232640e0c21be4ae4	https://www.uniprot.org/uniprotkb/Q16822	PEPCK_GTP_COMPARATOR
+F4JPW1	BASS5	Probable sodium/metabolite cotransporter BASS5, chloroplastic	3702		407	5543dc4c19eb41743b841f0edf92cb0022fdf35a300f298dcc23eed00f433547	https://www.uniprot.org/uniprotkb/F4JPW1	BASS_COMPARATOR
+Q1EBV7	BASS2	Sodium/pyruvate cotransporter BASS2, chloroplastic	3702		409	e6ccca644eeb3ac1e8d91ec668b3a31594879080edca490431b0d757da7dfcff	https://www.uniprot.org/uniprotkb/Q1EBV7	BASS2
+Q8VYY4	BASS6	Probable sodium/metabolite cotransporter BASS6, chloroplastic	3702		409	bdf8a55852dd2c1c4f9fb0366b86f8f0a541d67ca4351931c6219d1f671c9dde	https://www.uniprot.org/uniprotkb/Q8VYY4	BASS_COMPARATOR
+Q8RXE8	BASS3	Probable sodium/metabolite cotransporter BASS3, chloroplastic	3702		431	a9d1f029bedea7d0b4cfcf5f1468cd6365614ea22528b416dfed8668186156f9	https://www.uniprot.org/uniprotkb/Q8RXE8	BASS_COMPARATOR
+Q93YR2	BASS1	Probable sodium/metabolite cotransporter BASS1, chloroplastic	3702		401	7e439a81a43045997b224bfe5ceb1fbc53fa3d9ae41bd80b0ae9e224444165af	https://www.uniprot.org/uniprotkb/Q93YR2	BASS_COMPARATOR
+F4IZC4	BASS4	Probable sodium/metabolite cotransporter BASS4, chloroplastic	3702		436	6393766279b28c7559bf0cacc942691a5e481ad4a33e3615d0f35dec3526d85f	https://www.uniprot.org/uniprotkb/F4IZC4	BASS_COMPARATOR
+Q8LD38	MPC3	Mitochondrial pyruvate carrier 3	3702		108	f5777133b6d9ca3f4390426ca5f95ccf3d769536d3cd03b4a43d8dde9ae5deee	https://www.uniprot.org/uniprotkb/Q8LD38	MPC
+Q949R9	MPC1	Mitochondrial pyruvate carrier 1	3702		110	b3afe0f0a0e0be6704fb494dfccb9a410e79f9502294d3ca193d44252329e7e1	https://www.uniprot.org/uniprotkb/Q949R9	MPC
+O49636	MPC4	Mitochondrial pyruvate carrier 4	3702		108	25496f77ba5eddd825522d4289ad12f9dc143384528da2269da4104c4bc6c38b	https://www.uniprot.org/uniprotkb/O49636	MPC
+Q8L7H8	MPC2	Mitochondrial pyruvate carrier 2	3702		109	e94f076be20678687a700960d2ae4513166990bc7ff85a927e305117d36421e0	https://www.uniprot.org/uniprotkb/Q8L7H8	MPC

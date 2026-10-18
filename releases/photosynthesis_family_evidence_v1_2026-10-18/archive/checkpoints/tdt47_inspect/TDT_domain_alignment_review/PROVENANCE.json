@@ -1,0 +1,38 @@
+{
+  "source_manifest_sha256": "e5911889cff3650497c7e41d3ab4dbffa545db53a4e555bbcb16df33b58b19df",
+  "pfam_sha256": "4b0da6399b97d2b23329de82190b2e5705bde1dea4cb2d028a52712d5966739e",
+  "pfam_models": 30134,
+  "mapping_sha256": "e54f6b9eb5b3977b3b90289d03859f302b0f234047aaff96f09639e754772548",
+  "input_manifest_sha256": "4210fe8436da978593da90cf534258c85cba1d2fa40528d511126dcc5611c43b",
+  "commands": [
+    [
+      "hmmsearch",
+      "--cpu",
+      "4",
+      "--cut_ga",
+      "--noali",
+      "--domtblout",
+      "<RELEASE>/04_pfam.domtbl",
+      "<WORKDIR>/my_interproscan/interproscan-5.78-109.0/data/pfam/38.2/pfam_a.hmm",
+      "<RELEASE>/02_domain_queries.faa"
+    ],
+    [
+      "mafft",
+      "--amino",
+      "--thread",
+      "4",
+      "--localpair",
+      "--maxiterate",
+      "1000",
+      "<RELEASE>/03_TDT_alignment_input.faa"
+    ],
+    [
+      "hmmsearch",
+      "-h"
+    ],
+    [
+      "mafft",
+      "--version"
+    ]
+  ]
+}

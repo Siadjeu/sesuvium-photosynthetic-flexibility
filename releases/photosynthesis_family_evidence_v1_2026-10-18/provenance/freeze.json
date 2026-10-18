@@ -1,0 +1,27 @@
+{
+  "release_id": "photosynthesis_family_evidence_v1_2026-10-18",
+  "freeze_date": "2026-10-18",
+  "release_scope": "FROZEN_EVIDENCE_SNAPSHOT_NOT_FINAL_EXHAUSTIVE_COUNTS",
+  "repository_base_commit": "2a0a4174e01fe3767ca5a609645fc7f397c69e13",
+  "ledger_file": "01_integrated_locus_evidence.tsv",
+  "ledger_sha256": "3c05cd5bece9b7aa4e5c7146ffc5cb6a3beeb4d2e92254d6a1e2712d72686374",
+  "matrix_sha256": "a1691a3d146c2c4ce0d593e2eeca19fc20cb16419bde1f529a9c4f6556dfebf0",
+  "expected_records": 3193,
+  "expected_tier_totals": {
+    "SUPPORTED": 657,
+    "MODEL_CAVEAT": 71,
+    "LIMITED_PANEL_CAVEAT": 285,
+    "PARTIAL": 99,
+    "UNRESOLVED": 627,
+    "OUTSIDE_FAMILY_SET": 1414,
+    "EXCLUDED": 40
+  },
+  "blocked_families": [
+    "MEP",
+    "PPA"
+  ],
+  "source_release": "release_20558045_20261018T120441309147Z",
+  "source_clarification_release": "release_20558184_20261018T123940910032Z",
+  "exhaustive_counts": false,
+  "C4_CAM_function_established": false
+}

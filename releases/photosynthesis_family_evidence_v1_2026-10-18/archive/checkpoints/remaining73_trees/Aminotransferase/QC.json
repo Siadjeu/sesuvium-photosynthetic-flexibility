@@ -1,0 +1,11 @@
+{
+  "group": "Aminotransferase",
+  "candidate_records": 528,
+  "main_candidates": 319,
+  "partial_or_architecture_candidates": 22,
+  "outside_core_candidates": 187,
+  "main_references": 12,
+  "core_columns": 360,
+  "status": "TREE_COMPLETE_REVIEW_ONLY",
+  "error": ""
+}

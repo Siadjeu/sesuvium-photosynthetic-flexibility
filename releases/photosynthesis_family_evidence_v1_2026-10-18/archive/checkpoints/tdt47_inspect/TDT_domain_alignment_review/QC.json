@@ -1,0 +1,35 @@
+{
+  "status": "TDT_DOMAIN_ALIGNMENT_REVIEW_READY",
+  "TDT_candidates": 11,
+  "alignment_sequences": 12,
+  "alignment_columns": 620,
+  "reference_Pfam_models": [
+    "PF00939",
+    "PF03600"
+  ],
+  "candidates_with_additional_flags": 1,
+  "mitochondrial_queue_retained": 724,
+  "annotation_status": [
+    {
+      "kind": "gff",
+      "status": "COLLECTED",
+      "records": 10
+    },
+    {
+      "kind": "priority_protein_sequence",
+      "status": "EXACT_MATCH",
+      "records": 1
+    },
+    {
+      "kind": "protein",
+      "status": "COLLECTED",
+      "records": 1
+    },
+    {
+      "kind": "cds",
+      "status": "COLLECTED",
+      "records": 1
+    }
+  ],
+  "final_counts": false
+}

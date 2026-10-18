@@ -1,0 +1,3 @@
+family	status	source	finding
+MEP	LABEL_RESOLVED_MEMBERSHIP_UNRESOLVED	Wang Supplemental FigureS9 legend PDFpage8; source hashes in source_06_source_document_provenance.tsv	Proton:pyruvate cotransporter label; original counted loci and reference sequence membership not established
+PPA	WANG_SCOPE_UNRESOLVED	Wang TableS6; Ferrari2020 doi10.1111/nph.16265 is a contextual lead only	PPA count column separate from V_Ppase; related Portulaca literature uses Ppa for inorganic pyrophosphatase, but this does not establish Wang exact inclusion rules

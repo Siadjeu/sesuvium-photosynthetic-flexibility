@@ -1,0 +1,26 @@
+project_family	wang_category	note
+BETA_CA	beta-CA	PROPOSED_NAME_MAPPING; verify family scope and subunits
+PEPC	PEPC	PROPOSED_NAME_MAPPING; verify family scope and subunits
+PEPC_KINASE	PPCK	PROPOSED_NAME_MAPPING; verify family scope and subunits
+NAD_ME	NAD-ME	PROPOSED_NAME_MAPPING; verify family scope and subunits
+NADP_ME	NADP-ME	PROPOSED_NAME_MAPPING; verify family scope and subunits
+MDH	MDH	PROPOSED_NAME_MAPPING; verify family scope and subunits
+ASPAT	ASPAT	PROPOSED_NAME_MAPPING; verify family scope and subunits
+ALAAT	AlaAT	PROPOSED_NAME_MAPPING; verify family scope and subunits
+PEPCK	PEPCK	PROPOSED_NAME_MAPPING; verify family scope and subunits
+PPDK	PPDK	PROPOSED_NAME_MAPPING; verify family scope and subunits
+PPDK_RE	PPDK-RE	PROPOSED_NAME_MAPPING; verify family scope and subunits
+BASS2	BASS2	PROPOSED_NAME_MAPPING; verify family scope and subunits
+MEP	MEP	PROPOSED_NAME_MAPPING; verify family scope and subunits
+DIT2	DIT2	PROPOSED_NAME_MAPPING; verify family scope and subunits
+DIC	DIC	PROPOSED_NAME_MAPPING; verify family scope and subunits
+DTC	DTC	PROPOSED_NAME_MAPPING; verify family scope and subunits
+MPC	MPC	PROPOSED_NAME_MAPPING; verify family scope and subunits
+ALMT	ALMT	PROPOSED_NAME_MAPPING; verify family scope and subunits
+TDT	TDT	PROPOSED_NAME_MAPPING; verify family scope and subunits
+PPA	PPA	PROPOSED_NAME_MAPPING; verify family scope and subunits
+PPT	PPT	PROPOSED_NAME_MAPPING; verify family scope and subunits
+V_ATPASE	V_ATPase	PROPOSED_NAME_MAPPING; verify family scope and subunits
+V_PPASE	V_Ppase	PROPOSED_NAME_MAPPING; verify family scope and subunits
+PPDK_RP	PPDK-RE	PROPOSED_NAME_MAPPING; verify family scope and subunits
+TDT_DTC_DIC	UNRESOLVED	Must split into TDT, DTC, DIC; never count pool in all three

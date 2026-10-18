@@ -1,0 +1,14 @@
+{
+  "status": "VATPASE_BOUNDED_REVIEW_CLOSED_WITH_LIMITATIONS",
+  "distinct_loci": 603,
+  "evidence_category_counts": {
+    "CONCORDANT_LIMITED_PANEL_CAVEAT": 208,
+    "F_TYPE_FAVOURED_OUTSIDE_VATPASE_SET": 287,
+    "CONCORDANT_NO_PRIORITY_MODEL_FLAG": 85,
+    "MODEL_EXCEPTION_RETAINED_WITH_CAVEAT": 23
+  },
+  "retained_candidates": 316,
+  "exceptions_consistent_with_CDS": 23,
+  "final_functional_counts": false,
+  "models_modified": false
+}

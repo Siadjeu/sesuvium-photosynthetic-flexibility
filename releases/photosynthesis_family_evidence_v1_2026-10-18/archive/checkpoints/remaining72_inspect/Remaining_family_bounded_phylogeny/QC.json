@@ -1,0 +1,75 @@
+{
+  "status": "COMBINED_TRIAGE_COMPLETE_WITH_EXPLICIT_GROUP_STATUSES",
+  "groups": [
+    {
+      "group": "PEPCK",
+      "candidate_records": 22,
+      "main_candidates": 12,
+      "partial_or_architecture_candidates": 1,
+      "outside_core_candidates": 9,
+      "main_references": 2,
+      "core_columns": 468,
+      "status": "ALIGNED_LIMITED_PANEL_NO_SPECIFICITY_TREE",
+      "error": ""
+    },
+    {
+      "group": "BASS",
+      "candidate_records": 85,
+      "main_candidates": 70,
+      "partial_or_architecture_candidates": 8,
+      "outside_core_candidates": 7,
+      "main_references": 6,
+      "core_columns": 178,
+      "status": "TREE_COMPLETE_REVIEW_ONLY",
+      "error": ""
+    },
+    {
+      "group": "Malic_enzyme",
+      "candidate_records": 106,
+      "main_candidates": 69,
+      "partial_or_architecture_candidates": 9,
+      "outside_core_candidates": 28,
+      "main_references": 6,
+      "core_columns": 435,
+      "status": "TREE_COMPLETE_REVIEW_ONLY",
+      "error": ""
+    },
+    {
+      "group": "MDH_LDH",
+      "candidate_records": 211,
+      "main_candidates": 118,
+      "partial_or_architecture_candidates": 3,
+      "outside_core_candidates": 90,
+      "main_references": 13,
+      "core_columns": 305,
+      "status": "TREE_COMPLETE_REVIEW_ONLY",
+      "error": ""
+    },
+    {
+      "group": "Aminotransferase",
+      "candidate_records": 528,
+      "main_candidates": 319,
+      "partial_or_architecture_candidates": 22,
+      "outside_core_candidates": 187,
+      "main_references": 12,
+      "core_columns": 360,
+      "status": "REVIEW_BLOCKED_OR_TIME_LIMIT",
+      "error": "COMMAND_TIME_BUDGET_EXHAUSTED"
+    },
+    {
+      "group": "MPC",
+      "candidate_records": 47,
+      "main_candidates": 40,
+      "partial_or_architecture_candidates": 6,
+      "outside_core_candidates": 1,
+      "main_references": 4,
+      "core_columns": 99,
+      "status": "ALIGNED_LIMITED_PANEL_NO_SPECIFICITY_TREE",
+      "error": ""
+    }
+  ],
+  "completed_trees": 3,
+  "unique_candidates": 999,
+  "ledger_unchanged": true,
+  "final_counts": false
+}

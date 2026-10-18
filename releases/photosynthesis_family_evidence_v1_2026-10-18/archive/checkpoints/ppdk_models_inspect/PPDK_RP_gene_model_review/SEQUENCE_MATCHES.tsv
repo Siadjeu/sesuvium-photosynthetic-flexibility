@@ -1,0 +1,7 @@
+species	kind	record_id	matched_aliases	length
+MC	protein	braker_1_g2715.t1	braker_1_g2715.t1	81
+MC	cds	braker_1_g2715.t1	braker_1_g2715.t1	246
+SP_Tet	protein	g10591.t1	g10591.t1	238
+SP_Tet	cds	g10591.t1	g10591.t1	714
+SP_Hex	protein	Spor0461320.1	Spor0461320.1	384
+SP_Hex	cds	Spor0461320.1	Spor0461320.1	1155

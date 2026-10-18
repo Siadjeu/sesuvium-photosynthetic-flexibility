@@ -1,0 +1,3 @@
+protein_id	recovery_id	cds_length	length_mod3	cds_sha256	historical_equals_CDS	translation_length	translation_internal_stops	translation_equals_corrected_protein	translation_equals_historical
+SS__g24599	SS__g24599	1098	0	d1ceb99042992359638c681b2467a5d0c61d21f631bf081be5447337fb50ec8f	True	366	0	False	False
+SS__g8156	SS__g8156	1125	0	4becd3bfe890b48b31b54c5b0635e7bd5fe5818fa2cab9c727421968588a6ca1	True	375	0	False	False

@@ -1,0 +1,9 @@
+protein_id	transcript_id	cds_segments	initial_phase	genomic_CDS_bp	provided_CDS_bp	CDS_relation	protein_matches	internal_stops	ambiguous_bases	trailing_incomplete_codon
+MC__gene_6610	braker_1_g25167.t1	19	0	3300	3300	EXACT	True	0	0	0
+PO__evm.TU.LG07.1805	evm.model.LG07.1805	4	0	801	801	EXACT	True	0	0	0
+PO__evm.TU.LG07.1806	evm.model.LG07.1806	4	0	1152	1152	EXACT	True	0	0	0
+PO__evm.TU.LG08.751	evm.model.LG08.751	10	0	3177	3177	EXACT	True	0	0	0
+PO__evm.TU.LG22.1173	evm.model.LG22.1173	10	0	3129	3129	EXACT	True	0	0	0
+SP_Hex__gene_Spor0325880.1	Spor0325880.1	18	0	3069	3069	EXACT	True	0	0	0
+SS__g15406.t1	g15406.t1	3	0	303	300	TERMINAL_STOP_OMITTED	True	0	0	0
+SS__g199.t1	g199.t1	3	0	303	300	TERMINAL_STOP_OMITTED	True	0	0	0

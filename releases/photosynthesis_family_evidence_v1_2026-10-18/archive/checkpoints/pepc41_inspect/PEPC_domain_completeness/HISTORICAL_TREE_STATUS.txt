@@ -1,0 +1,1 @@
+Historical 55-candidate PEPC tree superseded for this counting workflow: two inputs are CDS, not proteins. Earlier files are preserved. Rebuild alignment and tree from validated proteins after reviewing this release; pruning the old tree alone does not correct its input alignment. Diagnostic translations are not main-tree inputs or accepted loci.

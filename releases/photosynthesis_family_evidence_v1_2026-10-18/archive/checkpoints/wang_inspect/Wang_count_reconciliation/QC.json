@@ -1,0 +1,10 @@
+{
+  "status": "RECONCILIATION_COMPLETE_FINAL_COUNTS_PENDING",
+  "species": 8,
+  "categories": 23,
+  "evidence_rows": 165,
+  "review_rows": 165,
+  "selected_sources": 26,
+  "issues": 430,
+  "analysis_rerun": false
+}

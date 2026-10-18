@@ -1,0 +1,23 @@
+{
+  "source_manifest_sha256": "9894743a94898650d1390766fdff7006359a0a39bac70fb94b04731ab5c91300",
+  "alignment_manifest_sha256": "72f2edef10188098a91f1b43adf7bcfa6b3dd85dfbaab2d027d91acd9bd09f6f",
+  "pfam_sha256": "4b0da6399b97d2b23329de82190b2e5705bde1dea4cb2d028a52712d5966739e",
+  "pfam_models": 30134,
+  "commands": [
+    [
+      "hmmsearch",
+      "--cpu",
+      "4",
+      "--cut_ga",
+      "--noali",
+      "--domtblout",
+      "<RELEASE>/04_pfam.domtbl",
+      "<WORKDIR>/my_interproscan/interproscan-5.78-109.0/data/pfam/38.2/pfam_a.hmm",
+      "<RELEASE>/01_domain_queries.faa"
+    ],
+    [
+      "hmmsearch",
+      "-h"
+    ]
+  ]
+}

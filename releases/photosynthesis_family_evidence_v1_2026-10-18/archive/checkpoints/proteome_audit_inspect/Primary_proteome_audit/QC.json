@@ -1,0 +1,11 @@
+{
+  "status": "AUDIT_COMPLETE_REVIEW_REQUIRED",
+  "total_records": 288270,
+  "nucleotide_like_records": 1116,
+  "exact_translation_matches": 1072,
+  "duplicate_ids": 0,
+  "metadata_status": "READ",
+  "suspect_ids_with_metadata": 1116,
+  "original_input_modified": false,
+  "corrected_proteome_created": false
+}

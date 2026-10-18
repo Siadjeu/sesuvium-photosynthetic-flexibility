@@ -1,0 +1,29 @@
+{
+  "status": "PPT_SCREEN_DOMAIN_REVIEW_READY",
+  "corrected_proteome_sequences": 287197,
+  "historical_table_candidates": 283,
+  "historical_OG0000369_candidates": 37,
+  "historical_reconciliation": {
+    "EXACT_HISTORICAL_SEQUENCE": 157,
+    "NO_UNALIGNED_HISTORICAL_SEQUENCE": 163
+  },
+  "historical_unresolved": 0,
+  "current_candidates": 451,
+  "new_candidates": 131,
+  "similarity_categories": {
+    "PPT_FAVORED": 202,
+    "COMPARATOR_ONLY": 46,
+    "COMPARATOR_FAVORED": 121,
+    "PPT_ONLY": 36,
+    "PPT_COMPARATOR_TIE": 7,
+    "NO_CURRENT_PANEL_HIT": 39
+  },
+  "priority_candidates": 312,
+  "shared_PPT_reference_models": [
+    "PF00892",
+    "PF03151"
+  ],
+  "flagged_candidates": 379,
+  "unresolved_locus_mappings": 0,
+  "final_counts": false
+}

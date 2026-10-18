@@ -1,0 +1,9 @@
+{
+  "status": "AUDIT_COMPLETE",
+  "source_files": 80,
+  "snapshot_bytes": 3255952,
+  "sequence_records": 1432,
+  "issues": 0,
+  "analyses_rerun": false,
+  "final_counts_produced": false
+}

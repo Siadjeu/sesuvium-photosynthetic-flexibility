@@ -1,0 +1,16 @@
+{
+  "status": "CARRIER_SPECIFICITY_REVIEW_READY",
+  "candidates": 724,
+  "references": 43,
+  "reported_similarity_hits": 29400,
+  "candidates_with_hits": 724,
+  "candidate_best_groups": {
+    "OTHER_CARRIER": 660,
+    "DTC": 47,
+    "DIC": 17
+  },
+  "candidates_with_PF00153": 724,
+  "priority_unique_candidates": 85,
+  "priority_family_rows": 96,
+  "final_counts": false
+}

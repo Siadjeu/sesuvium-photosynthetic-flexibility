@@ -1,0 +1,4 @@
+protein_id	locus	length_aa	beta_full_evalue	alpha_full_evalue	significant_beta_domains	significant_alpha_domains	best_beta_domain_coverage	reference_mapping_consistent	aligned_residues	diagnostic_status	representative_replacement
+XP_057541773.1	AT__gene-LOC130820426	501	4.3e-249	NA	2	0	0.87248322147651	True	CDRHC	REVIEW_REQUIRED	NOT_PERFORMED
+XP_057541774.1	AT__gene-LOC130820426	501	4.3e-249	NA	2	0	0.87248322147651	True	CDRHC	REVIEW_REQUIRED	NOT_PERFORMED
+XP_057541775.1	AT__gene-LOC130820426	278	1.3e-130	NA	1	0	0.889261744966443	True	CDRHC	SUPPORTED_SINGLE_DOMAIN_ISOFORM_REVIEW	NOT_PERFORMED

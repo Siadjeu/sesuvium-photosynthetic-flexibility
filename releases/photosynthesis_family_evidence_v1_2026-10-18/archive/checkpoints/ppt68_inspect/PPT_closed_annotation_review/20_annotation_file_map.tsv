@@ -1,0 +1,5 @@
+protein_id	species	gene_id	folder
+PO__evm.TU.LG01.2472	PO	evm.TU.LG01.2472	annotation/E01
+SP_Hex__gene_Spor0301920.1	SP_Hex	gene_Spor0301920.1	annotation/E02
+SP_Tet__g13815	SP_Tet	g13815	annotation/E03
+SP_Tet__g13816	SP_Tet	g13816	annotation/E04

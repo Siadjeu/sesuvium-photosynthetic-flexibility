@@ -1,0 +1,9 @@
+{
+  "status": "ALMT_SS_RECOVERY_RECALIBRATION_READY",
+  "historical_records": 142,
+  "recovered_SS": 21,
+  "unresolved_SS": 0,
+  "resolved_candidates": 142,
+  "remaining_flagged_records": 82,
+  "final_counts": false
+}

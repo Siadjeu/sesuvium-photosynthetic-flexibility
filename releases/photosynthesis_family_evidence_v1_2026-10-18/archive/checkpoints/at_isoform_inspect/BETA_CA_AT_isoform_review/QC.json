@@ -1,0 +1,20 @@
+{
+  "status": "COMPLETE_REVIEW_ONLY",
+  "isoforms": 3,
+  "candidate_rows": 110,
+  "long_isoforms_identical": true,
+  "input_hashes": {
+    "08_focused_families/validation/step25kz17.7/release_20542927_20261015T175448Z/BETA_CA/profile.hmm": "c5c3191a19162ea79fffdab8eac117f7cae1ad97ff671e7b54ec6e0cedbe97a7",
+    "08_focused_families/validation/step25kz17.7/release_20542927_20261015T175448Z/ALPHA_CA/profile.hmm": "5ff3693af9cfaf4f0f8d224d7327a22d2683e456637a355f3022533e24da5a80",
+    "08_focused_families/validation/step25kz17.7/release_20542927_20261015T175448Z/BETA_CA/references.faa": "92d69700d22cadf720d690e02464a106e0d2ef2a017a40d75e6725c843ef3f83",
+    "08_focused_families/validation/step25kz17.7/release_20542927_20261015T175448Z/02_CA_family_specific_review.tsv": "2d2bf840a076cea7d55a3277abc890504c5fc6ae7d3cc12679edd9788dc08ad0",
+    "08_focused_families/validation/step25kz17.10/release_20542940_20261015T184326Z/AT/03_protein_isoforms.fasta": "2b15d0fbbd4db291879395affdb4b4413cd7b977ddfd4ac30276a981b40b80de",
+    "08_focused_families/validation/step25kz17.8/release_20542932_20261015T181713Z/01_BETA_CA_residue_completeness_review.tsv": "018f80a9a35348a0642e8986a43c6aa664cfd94c8ca1d4b884277c9f1ee3fd6f"
+  },
+  "threshold_note": "Full and independent domain E <=1e-5; coverage >=0.5 for single-domain diagnostic support. E-values use the three-isoform search space and are not directly comparable to full-proteome E-values.",
+  "limitations": [
+    "No final acceptance, representative replacement or tree export.",
+    "Motif and HMM evidence do not demonstrate enzyme activity.",
+    "Long tandem-domain proteins have alignment ambiguity; use prior domain-specific checks."
+  ]
+}

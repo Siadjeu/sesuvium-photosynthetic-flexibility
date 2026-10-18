@@ -1,0 +1,75 @@
+{
+  "status": "COMPLETE_COMPARISON",
+  "input_hashes": {
+    "main_full/tree.treefile": "93498c927917ec9319dfacd91841066da52cb7bef656e094b375a3fb84ba8348",
+    "main_full/TIP_LABEL_MAP.tsv": "2c303da0ff0fdd3f60b6aac02532c980e2acdce7aa8e6d90b2fa0f7e965c8801",
+    "main_full/tree.iqtree": "2076085341b3cbcc92f118b27649996f0c37fe240ad169395a15ef3332833526",
+    "main_core/tree.treefile": "6ccbbf36aa965614c3ed0597b59c0facdeeca2eee56621354d29fc32197ccab1",
+    "main_core/TIP_LABEL_MAP.tsv": "2c303da0ff0fdd3f60b6aac02532c980e2acdce7aa8e6d90b2fa0f7e965c8801",
+    "main_core/tree.iqtree": "87abf51e0d2640aa6d0719bafa48f943114e5c34b7800d001372e9b002afea21",
+    "domains_full/tree.treefile": "e7151488aa3c09152917c80bf204522754ea95ec1616c99077d0c0e6c18d4448",
+    "domains_full/TIP_LABEL_MAP.tsv": "5e97844f8e5e9a135eb74cdce225a51ef3bfd83f225ffda38a598ffe8ffb3ef8",
+    "domains_full/tree.iqtree": "d03625196da93734523551ec138c3a3e5484a08ee062df1b1c91827e326e515d",
+    "domains_core/tree.treefile": "73976aa50861a59392b4a8aacc276fc9537726891325d98e2c2b5b73a020c0de",
+    "domains_core/TIP_LABEL_MAP.tsv": "5e97844f8e5e9a135eb74cdce225a51ef3bfd83f225ffda38a598ffe8ffb3ef8",
+    "domains_core/tree.iqtree": "4ca3d5a367ebbffc216e4399d2bff44f685d17397449bbfb8e8a83998a8fd1e6"
+  },
+  "comparisons": [
+    {
+      "comparison": "main_full_vs_core",
+      "tips": 51,
+      "full_splits": 48,
+      "core_splits": 48,
+      "shared_splits": 43,
+      "full_only": 5,
+      "core_only": 5,
+      "unweighted_RF": 10,
+      "note": "Includes weak and near-zero branches; topology differences are not all strong conflicts"
+    },
+    {
+      "comparison": "domains_full_vs_core",
+      "tips": 52,
+      "full_splits": 49,
+      "core_splits": 49,
+      "shared_splits": 42,
+      "full_only": 7,
+      "core_only": 7,
+      "unweighted_RF": 14,
+      "note": "Includes weak and near-zero branches; topology differences are not all strong conflicts"
+    }
+  ],
+  "trees": [
+    {
+      "scenario": "main_full",
+      "tips": 51,
+      "sites": 504,
+      "informative_sites": "290",
+      "model": "JTTDCMUT+I+G4",
+      "warnings": "WARNING: 3 near-zero internal branches (<0.0020) should be treated with caution"
+    },
+    {
+      "scenario": "main_core",
+      "tips": 51,
+      "sites": 269,
+      "informative_sites": "203",
+      "model": "JTTDCMUT+I+R3",
+      "warnings": "WARNING: 4 near-zero internal branches (<0.0037) should be treated with caution"
+    },
+    {
+      "scenario": "domains_full",
+      "tips": 52,
+      "sites": 473,
+      "informative_sites": "292",
+      "model": "JTTDCMUT+I+G4",
+      "warnings": "WARNING: 3 near-zero internal branches (<0.0021) should be treated with caution"
+    },
+    {
+      "scenario": "domains_core",
+      "tips": 52,
+      "sites": 266,
+      "informative_sites": "201",
+      "model": "JTTDCMUT+I+R3",
+      "warnings": "WARNING: 5 near-zero internal branches (<0.0038) should be treated with caution"
+    }
+  ]
+}

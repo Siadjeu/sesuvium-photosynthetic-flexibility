@@ -1,0 +1,24 @@
+{
+  "step55_manifest_sha256": "6cbbd9deb28ea18ef74c363bf018ff4ab03c008bc63a288a6430fd0b3c59e3bc",
+  "step46_manifest_sha256": "e5911889cff3650497c7e41d3ab4dbffa545db53a4e555bbcb16df33b58b19df",
+  "step48_manifest_sha256": "72f2edef10188098a91f1b43adf7bcfa6b3dd85dfbaab2d027d91acd9bd09f6f",
+  "step49_manifest_sha256": "38d6b5515f252067379e166cc07edbf0b8abb4f6e102523859d780ee53e5152a",
+  "trees": [
+    {
+      "analysis": "original__main_without_short",
+      "tree_sha256": "381df2b18204316852c7b49a6f93e98b5663ff247333ed90e6918c4d29705a7b"
+    },
+    {
+      "analysis": "original__sensitivity_with_short",
+      "tree_sha256": "c5d700a2809b3611bc615cb5062b1a225b8135a15f314037307f512892cf7163"
+    },
+    {
+      "analysis": "without_TD029__main_without_short",
+      "tree_sha256": "3b5633f314524a09f99ae1017424d01a441f341a32072edfe103e4f5e0c6b12f"
+    },
+    {
+      "analysis": "without_TD029__sensitivity_with_short",
+      "tree_sha256": "b113fbee9447979eba3910131c0dec1f99732c33e614e8108df60cf81069e51e"
+    }
+  ]
+}

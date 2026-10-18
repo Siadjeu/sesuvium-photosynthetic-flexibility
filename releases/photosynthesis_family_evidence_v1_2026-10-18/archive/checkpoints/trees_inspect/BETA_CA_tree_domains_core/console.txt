@@ -1,0 +1,209 @@
+IQ-TREE version 3.1.3 for Linux x86 64-bit built Jul 26 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    cfds012 (AVX512, FMA3, 753 GB RAM)
+Command: iqtree3 -s input.faa -st AA -m MFP -bb 1000 -bnni -alrt 1000 -nt 4 -mem 6G -seed 251716 -keep-ident -pre tree
+Seed:    251716 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Oct 15 21:30:48 2026
+Kernel:  AVX+FMA - 4 threads (4 CPU cores detected)
+
+Reading alignment file input.faa ... Fasta format detected
+Reading fasta file: done in 0.000185966 secs using 24.74% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.00022316 secs using 89.62% CPU
+Alignment has 52 sequences with 266 columns, 244 distinct patterns
+201 parsimony-informative, 26 singleton sites, 39 constant sites
+      Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 2.59876e-05 secs using 307.8% CPU
+   1  T001    1.50%    passed     15.69%
+   2  T002    4.14%    passed     98.64%
+   3  T003    5.26%    passed     99.94%
+   4  T004   11.28%    passed     99.93%
+   5  T005    0.38%    passed     99.99%
+   6  T006    0.38%    passed     99.87%
+   7  T007    0.38%    passed     99.99%
+   8  T008    1.13%    passed     87.70%
+   9  T009    0.00%    passed     98.96%
+  10  T010    0.38%    passed     99.03%
+  11  T011    0.38%    passed     97.68%
+  12  T012    4.51%    passed     98.91%
+  13  T013    4.51%    passed     99.90%
+  14  T014    1.88%    passed     70.78%
+  15  T015    0.38%    passed     66.91%
+  16  T016    4.51%    passed     99.77%
+  17  T017    0.38%    passed     97.03%
+  18  T018    1.88%    passed     97.97%
+  19  T019   11.28%    passed     85.95%
+  20  T020    0.38%    passed     98.76%
+  21  T021    0.00%    passed     99.32%
+  22  T022    0.38%    passed     36.65%
+  23  T023    1.50%    passed     61.02%
+  24  T024    4.51%    passed     99.44%
+  25  T025    7.89%    passed     77.75%
+  26  T026    5.64%    passed     96.51%
+  27  T027    0.00%    passed     99.83%
+  28  T028    0.00%    passed     98.78%
+  29  T029    0.38%    passed     99.98%
+  30  T030    0.38%    passed     99.94%
+  31  T031    2.26%    passed     84.96%
+  32  T032    0.38%    passed     99.96%
+  33  T033    0.00%    passed     89.11%
+  34  T034    5.26%    passed     96.75%
+  35  T035    0.38%    passed     99.96%
+  36  T036    0.00%    passed     99.65%
+  37  T037    2.26%    passed     82.04%
+  38  T038    2.26%    passed     72.06%
+  39  T039    0.00%    passed     99.45%
+  40  T040    0.38%    passed     99.94%
+  41  T041    0.38%    passed     99.95%
+  42  T042    2.26%    passed     75.97%
+  43  T043    1.50%    passed     94.75%
+  44  T044    0.38%    passed     99.93%
+  45  T045    1.50%    passed     97.61%
+  46  T046    2.26%    passed     81.93%
+  47  T047    0.00%    passed     97.85%
+  48  T048    0.38%    passed     95.08%
+  49  T049    1.50%    passed     96.42%
+  50  T050    0.00%    passed     98.19%
+  51  T051    3.76%    passed     16.52%
+  52  T052    4.14%    passed     89.04%
+****  TOTAL    2.05%  0 sequences failed composition chi2 test (p-value<5%; df=19)
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.004 seconds
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -8414.057
+Optimal log-likelihood: -8413.760
+Proportion of invariable sites: 0.092
+Gamma shape alpha: 1.297
+Parameters optimization took 1 rounds (0.063 sec)
+Time for fast ML tree search: 0.464 seconds
+
+NOTE: ModelFinder requires 22 MB RAM!
+ModelFinder will test up to 1232 protein models (sample size: 266 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+Akaike Information Criterion:           JTTDCMUT+I+R3
+Corrected Akaike Information Criterion: JTTDCMUT+I+R3
+Bayesian Information Criterion:         JTTDCMUT+I+R3
+Best-fit model: JTTDCMUT+I+R3 chosen according to BIC
+
+All model information printed to tree.model.gz
+CPU time for ModelFinder: 120.765 seconds (0h:2m:0s)
+Wall-clock time for ModelFinder: 30.452 seconds (0h:0m:30s)
+Generating 1000 samples for ultrafast bootstrap (seed: 251716)...
+
+NOTE: 7 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -8347.817
+2. Current log-likelihood: -8346.197
+Optimal log-likelihood: -8346.175
+Proportion of invariable sites: 0.092
+Site proportion and rates:  (0.342,0.261) (0.478,1.344) (0.088,3.027)
+Parameters optimization took 2 rounds (0.149 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.0281861 secs using 398.8% CPU
+Computing ML distances took 0.028292 sec (of wall-clock time) 0.112757 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 7.51019e-05 secs using 396.8% CPU
+Constructing RapidNJ tree: done in 0.00194407 secs using 243.8% CPU
+Computing RapidNJ tree took 0.002127 sec (of wall-clock time) 0.005468 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -8406.314
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.484 second
+Computing log-likelihood of 98 initial trees ... 1.242 seconds
+Current best score: -8346.175
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -8345.833
+UPDATE BEST LOG-LIKELIHOOD: -8345.832
+UPDATE BEST LOG-LIKELIHOOD: -8345.832
+Iteration 10 / LogL: -8346.111 / Time: 0h:0m:34s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 11: -8344.562
+Iteration 20 / LogL: -8345.845 / Time: 0h:0m:36s
+Finish initializing candidate tree set (5)
+Current best tree score: -8344.562 / CPU time: 5.726
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -8344.893 / Time: 0h:0m:39s (0h:0m:25s left)
+BETTER TREE FOUND at iteration 31: -8344.562
+Iteration 40 / LogL: -8346.148 / Time: 0h:0m:42s (0h:0m:28s left)
+Iteration 50 / LogL: -8344.611 / Time: 0h:0m:46s (0h:0m:25s left)
+UPDATE BEST LOG-LIKELIHOOD: -8344.562
+Iteration 60 / LogL: -8344.562 / Time: 0h:0m:49s (0h:0m:22s left)
+Iteration 70 / LogL: -8351.650 / Time: 0h:0m:52s (0h:0m:19s left)
+Iteration 80 / LogL: -8351.651 / Time: 0h:0m:55s (0h:0m:16s left)
+Iteration 90 / LogL: -8344.562 / Time: 0h:0m:58s (0h:0m:13s left)
+Iteration 100 / LogL: -8344.562 / Time: 0h:1m:1s (0h:0m:9s left)
+Iteration 110 / LogL: -8344.893 / Time: 0h:1m:4s (0h:0m:6s left)
+Iteration 120 / LogL: -8351.673 / Time: 0h:1m:7s (0h:0m:3s left)
+Iteration 130 / LogL: -8344.899 / Time: 0h:1m:11s (0h:0m:0s left)
+Refining ufboot trees with NNI 1 branch...
+100 samples done
+200 samples done
+300 samples done
+NOTE: 9.748 seconds to dump checkpoint file, increase to 195.000
+400 samples done
+500 samples done
+600 samples done
+700 samples done
+800 samples done
+900 samples done
+1000 samples done
+Total 990 ufboot trees refined
+TREE SEARCH COMPLETED AFTER 132 ITERATIONS / Time: 0h:2m:23s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -8344.562
+Optimal log-likelihood: -8344.554
+Proportion of invariable sites: 0.093
+Site proportion and rates:  (0.345,0.264) (0.469,1.343) (0.093,2.998)
+Parameters optimization took 1 rounds (0.077 sec)
+BEST SCORE FOUND : -8344.554
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.098 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file tree.splits.nex
+Total tree length: 7.894
+
+Total number of iterations: 132
+CPU time used for tree search: 407.994 sec (0h:6m:47s)
+Wall-clock time used for tree search: 112.492 sec (0h:1m:52s)
+Total CPU time used: 531.088 sec (0h:8m:51s)
+Total wall-clock time used: 143.548 sec (0h:2m:23s)
+UFBoot trees printed to tree.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file tree.splits.nex...
+52 taxa and 370 splits.
+Consensus tree written to tree.contree
+Reading input trees file tree.contree
+Log-likelihood of consensus tree: -8344.864
+
+Analysis results written to: 
+  IQ-TREE report:                tree.iqtree
+  Maximum-likelihood tree:       tree.treefile
+  Likelihood distances:          tree.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          tree.splits.nex
+  Consensus tree:                tree.contree
+  UFBoot trees:                  tree.ufboot
+  Screen log file:               tree.log
+
+Date and Time: Thu Oct 15 21:33:12 2026

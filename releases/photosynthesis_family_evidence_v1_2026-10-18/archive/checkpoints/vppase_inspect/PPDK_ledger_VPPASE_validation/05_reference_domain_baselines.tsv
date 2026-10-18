@@ -1,0 +1,4 @@
+query_id	model	accession	model_length	full_evalue	independent_evalue	domain_bitscore	hmm_start	hmm_end	protein_start	protein_end	envelope_start	envelope_end	model_span
+REF_P31414	H_PPase	PF03030.22	647	6.7e-259	7.8e-259	852.3	21	647	65	755	21	755	0.9691
+REF_Q56ZN6	H_PPase	PF03030.22	647	8.4e-258	1e-257	848.6	1	647	76	797	76	797	1.0
+REF_Q9FWR2	H_PPase	PF03030.22	647	2.4e-257	2.9e-257	847.1	1	647	76	797	76	797	1.0

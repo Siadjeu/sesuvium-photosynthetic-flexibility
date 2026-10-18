@@ -1,0 +1,16 @@
+species	kind	relative_path	exists	size_bytes
+AT	mapping	03_harmonized/primary_v1/AT/AT.all_isoform_mapping.tsv	True	4284932
+AT	gff	01_inputs/standardized/AT/annotation/AT.gff3.gz	True	8995381
+AT	genome	01_inputs/standardized/AT/genome/AT.genome.fa.gz	True	144923004
+AT	protein	01_inputs/standardized/AT/protein/AT.proteins.all.fa.gz	True	7308335
+AT	cds	01_inputs/standardized/AT/cds/AT.cds.all.fa.gz	True	13580161
+SP_Hex	mapping	03_harmonized/primary_v1/SP_Hex/SP_Hex.all_isoform_mapping.tsv	True	6866582
+SP_Hex	gff	01_inputs/standardized/SP_Hex/annotation/SP_Hex.gff3.gz	True	6121723
+SP_Hex	genome	01_inputs/standardized/SP_Hex/genome/SP_Hex.genome.fa.gz	True	500672371
+SP_Hex	protein	01_inputs/standardized/SP_Hex/protein/SP_Hex.proteins.all.fa.gz	True	14382624
+SP_Hex	cds	01_inputs/standardized/SP_Hex/cds/SP_Hex.cds.all.fa.gz	True	22312375
+SLP_Hap1	mapping	03_harmonized/primary_v1/SLP_Hap1/SLP_Hap1.all_isoform_mapping.tsv	True	2890794
+SLP_Hap1	gff	01_inputs/standardized/SLP/Hap1/annotation/SLP_Hap1.cr_normalized.gff3.gz	True	8252772
+SLP_Hap1	genome	01_inputs/standardized/SLP/Hap1/genome/SLP_Hap1.genome.oriseqid.fa.gz	True	376086546
+SLP_Hap1	protein	01_inputs/raw/SLP/Dahong_haplotype_resolved_v1/figshare_27999314_v1/hap1_prot.fa.gz	True	7920272
+SLP_Hap1	cds	01_inputs/raw/SLP/Dahong_haplotype_resolved_v1/figshare_27999314_v1/hap1.CDS.fa.gz	True	9158220

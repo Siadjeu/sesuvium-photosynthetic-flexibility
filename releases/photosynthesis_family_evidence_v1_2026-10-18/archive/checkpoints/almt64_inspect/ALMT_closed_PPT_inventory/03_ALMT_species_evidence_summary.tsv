@@ -1,0 +1,9 @@
+species	supported_records	model_caveat_records	partial_records	excluded_records	unresolved_records	total_evidence_records	final_exhaustive_count
+AT	8	1	1	0	0	10	NA
+BV	6	3	0	0	0	9	NA
+MC	9	3	0	0	0	12	NA
+PO	18	10	5	0	0	33	NA
+SLP_Hap1	10	3	2	1	0	16	NA
+SP_Hex	16	6	2	0	1	25	NA
+SP_Tet	11	4	1	0	0	16	NA
+SS	17	2	0	2	0	21	NA

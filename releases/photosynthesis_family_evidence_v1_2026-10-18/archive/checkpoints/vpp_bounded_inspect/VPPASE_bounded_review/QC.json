@@ -1,0 +1,8 @@
+{
+  "status": "BOUNDED_REVIEW_COMPLETE_NOT_FINAL",
+  "loci": 8,
+  "queries": 43,
+  "alignments": 286,
+  "consistency_issues": [],
+  "final_counts": false
+}

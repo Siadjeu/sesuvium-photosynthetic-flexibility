@@ -1,0 +1,5 @@
+Bounded V-ATPase review: 85 concordant records, 208 concordant with limited-panel caveat, 287 strongly F-type-favoured cross-hits not counted as V-ATPase, and 23 structural/completeness exceptions. Categories are not final accepted gene counts.
+Alignments contain only non-F-type-favoured candidates of the same provisional subunit plus its V-type references; unchanged distinct loci are retained. No joint alignment of different subunits, no tree, no new search or model repair.
+MAFFT occupancy and terminal gaps are descriptive, not proof of biological truncation. Inspect all isoforms and domain evidence, including overlapping Pfam models, before interpretation.
+GFF windows retain original coordinates and include neighboring genes within 5 kb; neighboring features are context, not assigned to the target. Protein/CDS extraction uses exact mapped aliases. Missing files or unmatched IDs are explicit collection limitations. No read support, genome translation validation, or experimental function is inferred.
+PPCK closure is copied unchanged. Prior releases are not altered.

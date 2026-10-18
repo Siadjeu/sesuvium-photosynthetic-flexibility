@@ -1,0 +1,21 @@
+{
+  "status": "PROVENANCE_REVIEW_READY",
+  "historical_source_records": 1217,
+  "unique_reconciled_proteins": 67,
+  "reconciliation_statuses": {
+    "UNRESOLVED_IDENTIFIER": 380,
+    "DOCUMENTED_ID_MAPPING_ONLY": 37,
+    "EXACT_SEQUENCE_AND_MAPPING": 141,
+    "SEQUENCE_MISMATCH": 659
+  },
+  "named_files": 275,
+  "nonempty_named_files": 254,
+  "project_files_examined": 181492,
+  "content_bytes_read": 796597718,
+  "scan_limitations": 0,
+  "references_ready": 6,
+  "reference_panel_complete": true,
+  "screen_ready": true,
+  "integrated_records": 1109,
+  "final_counts": false
+}

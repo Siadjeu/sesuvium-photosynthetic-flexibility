@@ -1,0 +1,7 @@
+scenario	group	members	present	SH_aLRT	UFBoot
+main_full	SLP_PO_group	PO__evm.TU.LG08.1094;PO__evm.TU.LG22.838;SLP_Hap1__SP3G00376	True	92.1	96.0
+main_core	SLP_PO_group	PO__evm.TU.LG08.1094;PO__evm.TU.LG22.838;SLP_Hap1__SP3G00376	True	85.7	85.0
+domains_full	SLP_PO_group	PO__evm.TU.LG08.1094;PO__evm.TU.LG22.838;SLP_Hap1__SP3G00376	True	87.0	93.0
+domains_full	AT_domain_pair	AT__gene-LOC130820426__domain_1;AT__gene-LOC130820426__domain_2	True	100.0	100.0
+domains_core	SLP_PO_group	PO__evm.TU.LG08.1094;PO__evm.TU.LG22.838;SLP_Hap1__SP3G00376	True	86.0	89.0
+domains_core	AT_domain_pair	AT__gene-LOC130820426__domain_1;AT__gene-LOC130820426__domain_2	True	100.0	100.0

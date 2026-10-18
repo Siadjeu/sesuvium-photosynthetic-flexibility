@@ -1,0 +1,16 @@
+{
+  "status": "RECENT_LEDGERS_INTEGRATED_FINAL_COUNTS_PENDING",
+  "species": 8,
+  "wang_families": 23,
+  "integrated_families": [
+    "PPCK",
+    "PPDK",
+    "PPDK-RE",
+    "V_ATPase",
+    "V_Ppase"
+  ],
+  "integrated_records": 710,
+  "cross_family_locus_flags": 0,
+  "analysis_rerun": false,
+  "final_counts": false
+}

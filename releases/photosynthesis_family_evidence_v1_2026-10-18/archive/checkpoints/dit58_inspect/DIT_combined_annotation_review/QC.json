@@ -1,0 +1,12 @@
+{
+  "status": "DIT_COMBINED_ANNOTATION_REVIEW_READY",
+  "candidate_records": 38,
+  "exception_loci": 9,
+  "summary_categories": {
+    "ANNOTATION_CONSISTENT_MODEL_CAVEAT_REMAINS": 9
+  },
+  "collection_status_counts": {
+    "COLLECTED": 27
+  },
+  "final_counts": false
+}

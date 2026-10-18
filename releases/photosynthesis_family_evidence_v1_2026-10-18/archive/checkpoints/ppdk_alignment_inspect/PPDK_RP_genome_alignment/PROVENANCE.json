@@ -1,0 +1,52 @@
+{
+  "source_release": "08_focused_families/validation/step25kz17.24/release_20546489_20261016T114816305185Z",
+  "source_manifest_sha256": "e8f9786920d38111db00256b0ebbcd32f595b2ed407fad4df708e21afe22d0cb",
+  "miniprot_version": "0.18-r281",
+  "commands": [
+    {
+      "species": "MC",
+      "argv": [
+        "miniprot",
+        "-t",
+        "4",
+        "-G",
+        "20000",
+        "--gff",
+        "--aln",
+        "--outs=0.5",
+        "<WINDOW>",
+        "<QUERY_FASTA>"
+      ]
+    },
+    {
+      "species": "SP_Tet",
+      "argv": [
+        "miniprot",
+        "-t",
+        "4",
+        "-G",
+        "20000",
+        "--gff",
+        "--aln",
+        "--outs=0.5",
+        "<WINDOW>",
+        "<QUERY_FASTA>"
+      ]
+    },
+    {
+      "species": "SP_Hex",
+      "argv": [
+        "miniprot",
+        "-t",
+        "4",
+        "-G",
+        "20000",
+        "--gff",
+        "--aln",
+        "--outs=0.5",
+        "<WINDOW>",
+        "<QUERY_FASTA>"
+      ]
+    }
+  ]
+}

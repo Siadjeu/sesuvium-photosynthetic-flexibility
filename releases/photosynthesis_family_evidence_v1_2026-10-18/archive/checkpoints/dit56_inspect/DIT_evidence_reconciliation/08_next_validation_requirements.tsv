@@ -1,0 +1,5 @@
+item	scope	action
+DOMAIN_COMPLETENESS	38 retained DIT1/DIT2 candidates plus three controls	Reuse or obtain full Pfam evidence for exact current sequences; inspect overlaps, terminal loss and additional domains
+PHYLOGENETIC_SUPPORT	Four existing TDT-versus-DIT trees	Inspect DIT1/DIT2 edge supports and membership; topology consistency alone is not strong support
+HISTORICAL_EXCEPTION	PO__evm.TU.LG08.1714	Retain historical long-model/additional-domain caveat and reassess against current sequence
+COUNTING_SCOPE	Wang DIT2; DIT1 comparators retained separately	Do not pool DIT1 with DIT2 or count the excluded TD029

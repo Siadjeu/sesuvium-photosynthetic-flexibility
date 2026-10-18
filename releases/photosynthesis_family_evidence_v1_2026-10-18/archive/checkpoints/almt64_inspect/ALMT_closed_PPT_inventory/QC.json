@@ -1,0 +1,17 @@
+{
+  "status": "ALMT_CLOSED_PPT_INVENTORY_READY",
+  "integrated_records": 1109,
+  "integrated_families": 12,
+  "ALMT_tiers": {
+    "SUPPORTED": 95,
+    "MODEL_CAVEAT": 32,
+    "PARTIAL": 11,
+    "EXCLUDED": 3,
+    "UNRESOLVED": 1
+  },
+  "PPT_files_located": 4,
+  "PPT_files_copied": 4,
+  "families_without_integrated_ledger": 11,
+  "cross_family_overlap_flags": 0,
+  "final_counts": false
+}

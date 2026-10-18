@@ -1,0 +1,18 @@
+{
+  "status": "DIT_CLOSED_ALMT_INVENTORY_READY",
+  "integrated_records": 967,
+  "integrated_families": 11,
+  "DIT2_tiers": {
+    "SUPPORTED": 17,
+    "PARTIAL": 4
+  },
+  "DIT1_comparator_tiers": {
+    "SUPPORTED": 12,
+    "MODEL_CAVEAT": 5
+  },
+  "ALMT_files_located": 58,
+  "ALMT_files_copied": 37,
+  "families_without_integrated_ledger": 12,
+  "cross_family_overlap_flags": 0,
+  "final_counts": false
+}

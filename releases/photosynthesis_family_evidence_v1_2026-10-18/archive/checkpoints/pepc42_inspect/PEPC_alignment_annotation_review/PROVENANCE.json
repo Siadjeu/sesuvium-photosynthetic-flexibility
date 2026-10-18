@@ -1,0 +1,7 @@
+{
+  "prior_manifest_sha256": "1730e4a1893afc158945989c06bad5f03b58d0f7a3dd4194fc9e4ad56f4d019b",
+  "mapping_sha256": "e54f6b9eb5b3977b3b90289d03859f302b0f234047aaff96f09639e754772548",
+  "input_manifest_sha256": "4210fe8436da978593da90cf534258c85cba1d2fa40528d511126dcc5611c43b",
+  "alignment_method": "MAFFT --amino --localpair --maxiterate 1000",
+  "split_review_rule": "Ordered, nonoverlapping protein segments; increasing model endpoints; summed adjacent model overlap <=20; union model coverage >=0.9. Review heuristic only."
+}

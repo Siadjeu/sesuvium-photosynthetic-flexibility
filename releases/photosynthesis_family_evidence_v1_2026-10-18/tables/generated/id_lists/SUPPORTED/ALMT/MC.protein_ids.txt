@@ -1,0 +1,9 @@
+MC__gene_14061
+MC__gene_14693
+MC__gene_15241
+MC__gene_1613
+MC__gene_3989
+MC__gene_5721
+MC__gene_5722
+MC__gene_5724
+MC__gene_5726

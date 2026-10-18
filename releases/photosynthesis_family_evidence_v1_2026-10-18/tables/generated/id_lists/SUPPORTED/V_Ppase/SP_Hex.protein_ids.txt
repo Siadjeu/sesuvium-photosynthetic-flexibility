@@ -1,0 +1,8 @@
+SP_Hex__gene_Spor0062550.1
+SP_Hex__gene_Spor0130220.1
+SP_Hex__gene_Spor0142280.1
+SP_Hex__gene_Spor0177660.1
+SP_Hex__gene_Spor0276560.1
+SP_Hex__gene_Spor0352720.1
+SP_Hex__gene_Spor0473630.1
+SP_Hex__gene_Spor0498820.1

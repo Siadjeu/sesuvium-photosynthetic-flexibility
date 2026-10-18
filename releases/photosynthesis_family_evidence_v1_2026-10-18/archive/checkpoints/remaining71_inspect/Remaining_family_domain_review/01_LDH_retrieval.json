@@ -1,0 +1,6 @@
+{
+  "url": "https://rest.uniprot.org/uniprotkb/search?query=%28taxonomy_id%3A33090%29+AND+%28reviewed%3Atrue%29+AND+%28ec%3A1.1.1.27%29&format=json&size=500",
+  "status": "READY",
+  "error": "",
+  "accepted": 4
+}

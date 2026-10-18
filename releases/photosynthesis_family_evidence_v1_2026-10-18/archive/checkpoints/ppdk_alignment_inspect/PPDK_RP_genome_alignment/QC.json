@@ -1,0 +1,8 @@
+{
+  "status": "ALIGNMENTS_COMPLETE_REVIEW_REQUIRED",
+  "queries": 19,
+  "windows": 3,
+  "reported_alignments": 74,
+  "target_overlapping_alignments": 56,
+  "final_counts": false
+}

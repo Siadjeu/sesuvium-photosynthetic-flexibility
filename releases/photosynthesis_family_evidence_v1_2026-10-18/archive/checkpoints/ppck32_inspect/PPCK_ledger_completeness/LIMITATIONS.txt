@@ -1,0 +1,8 @@
+27 distinct loci supported by the reviewed PPCK split; no PPCK1/2 subtype or biochemical function assigned.
+Tree has short-alignment parameter warning; internal reference attachment is weak.
+Search universe is the 5121 previously screened candidates, not the whole proteome or genome.
+Profile is trained on accepted candidates and references; score calibration is in-sample and not independent validation.
+Discovery rules use a 20-bit allowance below the weakest supported profile score OR a PPCK panel hit within 20 bits of the best comparison hit (E<=1e-5). These are permissive prioritization heuristics, not family acceptance/rejection thresholds.
+Comparison panel consists of 98 non-PPCK-group tree candidates and four kinase controls, not an exhaustive kinase classification.
+No-trigger candidates are not excluded; short/divergent/missing gene models may be missed. Queue entries require review and cannot increase counts automatically.
+Distinct loci are preserved even if protein sequences are identical. No original release is modified.

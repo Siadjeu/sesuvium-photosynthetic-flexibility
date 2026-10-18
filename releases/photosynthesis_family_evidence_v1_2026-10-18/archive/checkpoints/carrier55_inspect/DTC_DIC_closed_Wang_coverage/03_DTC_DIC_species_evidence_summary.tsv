@@ -1,0 +1,17 @@
+wang_family	species	supported_loci	model_caveat_loci	partial_loci	total_evidence_loci	final_exhaustive_count
+DTC	AT	3	0	0	3	NA
+DTC	BV	2	0	0	2	NA
+DTC	MC	3	0	0	3	NA
+DTC	PO	8	0	0	8	NA
+DTC	SLP_Hap1	5	0	0	5	NA
+DTC	SP_Hex	7	1	0	8	NA
+DTC	SP_Tet	6	0	0	6	NA
+DTC	SS	7	0	1	8	NA
+DIC	AT	1	0	0	1	NA
+DIC	BV	1	0	0	1	NA
+DIC	MC	1	0	0	1	NA
+DIC	PO	4	0	0	4	NA
+DIC	SLP_Hap1	3	0	0	3	NA
+DIC	SP_Hex	3	0	0	3	NA
+DIC	SP_Tet	2	0	0	2	NA
+DIC	SS	2	0	0	2	NA

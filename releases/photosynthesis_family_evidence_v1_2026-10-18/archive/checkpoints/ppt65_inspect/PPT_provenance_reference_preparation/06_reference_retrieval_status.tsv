@@ -1,0 +1,7 @@
+gene	role	status	detail	url
+PPT1	PPT_POSITIVE	READY	Q8RXN3	https://rest.uniprot.org/uniprotkb/search?query=%28organism_id%3A3702%29+AND+%28reviewed%3Atrue%29+AND+%28gene_exact%3APPT1%29&format=json&size=100
+PPT2	PPT_POSITIVE	READY	Q8H0T6	https://rest.uniprot.org/uniprotkb/search?query=%28organism_id%3A3702%29+AND+%28reviewed%3Atrue%29+AND+%28gene_exact%3APPT2%29&format=json&size=100
+TPT	RELATED_COMPARATOR	READY	Q9ZSR7	https://rest.uniprot.org/uniprotkb/search?query=%28organism_id%3A3702%29+AND+%28reviewed%3Atrue%29+AND+%28gene_exact%3ATPT%29&format=json&size=100
+GPT1	RELATED_COMPARATOR	READY	Q9M5A9	https://rest.uniprot.org/uniprotkb/search?query=%28organism_id%3A3702%29+AND+%28reviewed%3Atrue%29+AND+%28gene_exact%3AGPT1%29&format=json&size=100
+GPT2	RELATED_COMPARATOR	READY	Q94B38	https://rest.uniprot.org/uniprotkb/search?query=%28organism_id%3A3702%29+AND+%28reviewed%3Atrue%29+AND+%28gene_exact%3AGPT2%29&format=json&size=100
+XPT	RELATED_COMPARATOR	READY	Q9LF61	https://rest.uniprot.org/uniprotkb/search?query=%28organism_id%3A3702%29+AND+%28reviewed%3Atrue%29+AND+%28gene_exact%3AXPT%29&format=json&size=100

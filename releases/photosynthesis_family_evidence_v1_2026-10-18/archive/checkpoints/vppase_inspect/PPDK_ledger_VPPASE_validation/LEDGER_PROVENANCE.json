@@ -1,0 +1,17 @@
+{
+  "domain_release": "08_focused_families/validation/step25kz17.23/release_20546366_20261016T112804434755Z",
+  "domain_manifest_sha256": "5eca3b3cf13a826ee098f8bf4c786ee6ca4dbd6c477b10be77622222a0a36f9d",
+  "audit_release": "08_focused_families/validation/step25kz17.26/release_20546604_20261016T121321576799Z",
+  "audit_manifest_sha256": "8c9b05dd79ebb3e676386519735b16bc710bd034c64d24f1a633367b57148dea",
+  "screen_manifest_sha256": "fac8d92f9ccc37525d7d58527136ad0e008e64f3072ad7273284e74cc85fd7d7",
+  "mapping_sha256": {
+    "03_harmonized/primary_v1/AT/AT.all_isoform_mapping.tsv": "49acc1140ddb84e0ceda7651b6d3a5bf44b5e818b779e876798a98f6124f6895",
+    "03_harmonized/primary_v1/BV/BV.all_isoform_mapping.tsv": "92757f6e79a084d6f6541125bfca3b9b08d5f0067d8389da70d42f0765ef2e33",
+    "03_harmonized/primary_v1/MC/MC.all_isoform_mapping.tsv": "2850262145a6a7e6d70d9eef751165eecc2f1a6f2d5a1fcb567a566e06b6146d",
+    "03_harmonized/primary_v1/PO/PO.all_isoform_mapping.tsv": "a16bf0a5db918ecb768127c4d96b4764fdf0bd34976d7f860a95a710714f1a5d",
+    "03_harmonized/primary_v1/SLP_Hap1/SLP_Hap1.all_isoform_mapping.tsv": "f32598592423d6cba5057ba5c683e210a2cdbc0ea97079e5c70c1971644cfeb6",
+    "03_harmonized/primary_v1/SP_Hex/SP_Hex.all_isoform_mapping.tsv": "e54f6b9eb5b3977b3b90289d03859f302b0f234047aaff96f09639e754772548",
+    "03_harmonized/primary_v1/SP_Tet/SP_Tet.all_isoform_mapping.tsv": "f8fb19c79b118d62b34563426c73c3fc5261b1b96fd216be60d22439c9e7fe84",
+    "03_harmonized/primary_v1/SS/SS.all_isoform_mapping.tsv": "83d7e662ba09985cc2d31beceb62a2b1b093f38b02fc755270acd154cf3c851b"
+  }
+}

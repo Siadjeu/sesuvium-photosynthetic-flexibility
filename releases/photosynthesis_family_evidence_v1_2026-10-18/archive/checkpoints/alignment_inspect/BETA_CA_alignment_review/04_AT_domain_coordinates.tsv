@@ -1,0 +1,3 @@
+tip_id	locus_id	start_aa_1based	end_aa_inclusive	interpretation
+AT__gene-LOC130820426__domain_1	AT__gene-LOC130820426	1	257	DIAGNOSTIC_DOMAIN_NOT_NEW_LOCUS
+AT__gene-LOC130820426__domain_2	AT__gene-LOC130820426	255	499	DIAGNOSTIC_DOMAIN_NOT_NEW_LOCUS

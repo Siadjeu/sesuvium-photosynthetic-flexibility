@@ -1,0 +1,3 @@
+protein_id	tree_id	input_region_length	retained_backbone_residues	residues_omitted_by_keeplength	caveat
+MC__gene_14767	CAR014	85	85	0	PARTIAL_REPEAT_PLACEMENT_UNCERTAIN
+SS__g18155.t1	CAR118	86	86	0	PARTIAL_REPEAT_PLACEMENT_UNCERTAIN

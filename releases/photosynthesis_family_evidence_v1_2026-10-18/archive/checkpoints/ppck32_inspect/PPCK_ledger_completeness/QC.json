@@ -1,0 +1,11 @@
+{
+  "status": "BOUNDED_CHECK_COMPLETE_REVIEW_REQUIRED",
+  "supported_loci": 27,
+  "screened_candidates": 5121,
+  "remaining_candidates": 5094,
+  "review_queue": 762,
+  "profile_discovery_floor": 388.1,
+  "score_margin_allowance_bits": 20,
+  "final_counts": false,
+  "whole_proteome_completeness_tested": false
+}

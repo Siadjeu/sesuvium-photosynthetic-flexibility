@@ -1,0 +1,8 @@
+candidate_id	mapped_transcript	protein_id	cds_id	source_protein_found	source_CDS_found	protein_matches_candidate	cds_nt	frame_remainder	translation_matches_source_protein	translation_matches_candidate	internal_stops	ambiguous_amino_acids	start_codon	terminal_codon	interpretation
+MC__gene_14995	braker_1_g6605.t1	braker_1_g6605.t1	braker_1_g6605.t1	True	True	True	2349	0	True	True	0	0	ATG	TAA	ANNOTATION_CONSISTENCY_NOT_GENOME_OR_READ_VALIDATION
+PO__evm.TU.LG16.459	evm.model.LG16.459	evm.model.LG16.459	evm.model.LG16.459	True	True	True	2088	0	True	True	0	0	ATG	TAA	ANNOTATION_CONSISTENCY_NOT_GENOME_OR_READ_VALIDATION
+SLP_Hap1__SP4G00453	SP4G00453.1	SP4G00453.1	SP4G00453.1	True	True	True	690	0	True	True	0	0	ATG	TAA	ANNOTATION_CONSISTENCY_NOT_GENOME_OR_READ_VALIDATION
+SS__g16509.t2	g16509.t1	g16509.t1	g16509.t1	True	True	False	585	0	True	False	0	0	ATG	TAC	ANNOTATION_CONSISTENCY_NOT_GENOME_OR_READ_VALIDATION
+SS__g16509.t2	g16509.t2	g16509.t2	g16509.t2	True	True	True	690	0	True	True	0	0	ATG	TAC	ANNOTATION_CONSISTENCY_NOT_GENOME_OR_READ_VALIDATION
+SS__g17774.t2	g17774.t1	g17774.t1	g17774.t1	True	True	False	585	0	True	False	0	0	ATG	TAC	ANNOTATION_CONSISTENCY_NOT_GENOME_OR_READ_VALIDATION
+SS__g17774.t2	g17774.t2	g17774.t2	g17774.t2	True	True	True	690	0	True	True	0	0	ATG	TAC	ANNOTATION_CONSISTENCY_NOT_GENOME_OR_READ_VALIDATION

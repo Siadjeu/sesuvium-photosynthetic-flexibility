@@ -1,0 +1,93 @@
+{
+  "status": "COMBINED_LEDGER_CONSOLIDATION_COMPLETE",
+  "resume": {
+    "status": "COMPLETED",
+    "error": "",
+    "source_checkpoint_sha256": "d6c1a1d5ee8ca4cb28eda451e2e737c3d2e9853b20a9296b473a7a6cad2adbed",
+    "resume_message_observed": true
+  },
+  "group_statuses": {
+    "PEPCK": {
+      "group": "PEPCK",
+      "candidate_records": 22,
+      "main_candidates": 12,
+      "partial_or_architecture_candidates": 1,
+      "outside_core_candidates": 9,
+      "main_references": 2,
+      "core_columns": 468,
+      "status": "ALIGNED_LIMITED_PANEL_NO_SPECIFICITY_TREE",
+      "error": ""
+    },
+    "BASS": {
+      "group": "BASS",
+      "candidate_records": 85,
+      "main_candidates": 70,
+      "partial_or_architecture_candidates": 8,
+      "outside_core_candidates": 7,
+      "main_references": 6,
+      "core_columns": 178,
+      "status": "TREE_COMPLETE_REVIEW_ONLY",
+      "error": ""
+    },
+    "Malic_enzyme": {
+      "group": "Malic_enzyme",
+      "candidate_records": 106,
+      "main_candidates": 69,
+      "partial_or_architecture_candidates": 9,
+      "outside_core_candidates": 28,
+      "main_references": 6,
+      "core_columns": 435,
+      "status": "TREE_COMPLETE_REVIEW_ONLY",
+      "error": ""
+    },
+    "MDH_LDH": {
+      "group": "MDH_LDH",
+      "candidate_records": 211,
+      "main_candidates": 118,
+      "partial_or_architecture_candidates": 3,
+      "outside_core_candidates": 90,
+      "main_references": 13,
+      "core_columns": 305,
+      "status": "TREE_COMPLETE_REVIEW_ONLY",
+      "error": ""
+    },
+    "Aminotransferase": {
+      "group": "Aminotransferase",
+      "candidate_records": 528,
+      "main_candidates": 319,
+      "partial_or_architecture_candidates": 22,
+      "outside_core_candidates": 187,
+      "main_references": 12,
+      "core_columns": 360,
+      "status": "TREE_COMPLETE_REVIEW_ONLY",
+      "error": ""
+    },
+    "MPC": {
+      "group": "MPC",
+      "candidate_records": 47,
+      "main_candidates": 40,
+      "partial_or_architecture_candidates": 6,
+      "outside_core_candidates": 1,
+      "main_references": 4,
+      "core_columns": 99,
+      "status": "ALIGNED_LIMITED_PANEL_NO_SPECIFICITY_TREE",
+      "error": ""
+    }
+  },
+  "prior_ledger_records": 1560,
+  "new_locus_records": 1633,
+  "integrated_records": 3193,
+  "integrated_families": 21,
+  "protein_evidence_records": 1633,
+  "unique_candidate_proteins": 999,
+  "new_tiers": {
+    "UNRESOLVED": 617,
+    "OUTSIDE_FAMILY_SET": 679,
+    "SUPPORTED": 200,
+    "PARTIAL": 80,
+    "MODEL_CAVEAT": 5,
+    "LIMITED_PANEL_CAVEAT": 52
+  },
+  "cross_family_conflicts": 0,
+  "final_counts": false
+}

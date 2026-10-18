@@ -1,0 +1,16 @@
+{
+  "status": "BETA_PEPC_LOCUS_RECONCILIATION_COMPLETE_REVIEW_REQUIRED",
+  "protein_records": 165,
+  "locus_ledger_rows": 165,
+  "unresolved_mappings": 0,
+  "category_conflicts": 0,
+  "evidence_categories": {
+    "BETA_SUPPORTED_SCREEN_EVIDENCE": 45,
+    "OUTSIDE_SUPPORTED_BETA_SET": 61,
+    "BETA_PARTIAL_UNRESOLVED": 2,
+    "BETA_SUPPORTED_WITH_REVIEW_CAVEAT": 2,
+    "PEPC_TREE_EVIDENCE_REQUIRES_MEMBERSHIP_REVIEW": 55
+  },
+  "analysis_rerun": false,
+  "final_counts": false
+}

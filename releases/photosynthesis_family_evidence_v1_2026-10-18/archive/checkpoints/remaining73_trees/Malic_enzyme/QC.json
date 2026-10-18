@@ -1,0 +1,11 @@
+{
+  "group": "Malic_enzyme",
+  "candidate_records": 106,
+  "main_candidates": 69,
+  "partial_or_architecture_candidates": 9,
+  "outside_core_candidates": 28,
+  "main_references": 6,
+  "core_columns": 435,
+  "status": "TREE_COMPLETE_REVIEW_ONLY",
+  "error": ""
+}

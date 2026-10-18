@@ -1,0 +1,66 @@
+{
+  "step47_manifest_sha256": "1b979b37ffffcc1a23b4b29fac526ffd637136b4b6d6bf56a44b0b6d1a50c93c",
+  "step46_manifest_sha256": "e5911889cff3650497c7e41d3ab4dbffa545db53a4e555bbcb16df33b58b19df",
+  "commands": [
+    [
+      "mafft",
+      "--version"
+    ],
+    [
+      "<HOME>/miniforge3/envs/focused_family_env/bin/iqtree3",
+      "--version"
+    ],
+    [
+      "mafft",
+      "--amino",
+      "--thread",
+      "4",
+      "--localpair",
+      "--maxiterate",
+      "1000",
+      "<RELEASE>/01_all_sequences.faa"
+    ],
+    [
+      "<HOME>/miniforge3/envs/focused_family_env/bin/iqtree3",
+      "-s",
+      "<RELEASE>/main_without_short/alignment.faa",
+      "-st",
+      "AA",
+      "-m",
+      "MFP",
+      "-B",
+      "1000",
+      "-bnni",
+      "-alrt",
+      "1000",
+      "-T",
+      "4",
+      "-seed",
+      "174801",
+      "-keep-ident",
+      "--prefix",
+      "<RELEASE>/main_without_short/tree"
+    ],
+    [
+      "<HOME>/miniforge3/envs/focused_family_env/bin/iqtree3",
+      "-s",
+      "<RELEASE>/sensitivity_with_short/alignment.faa",
+      "-st",
+      "AA",
+      "-m",
+      "MFP",
+      "-B",
+      "1000",
+      "-bnni",
+      "-alrt",
+      "1000",
+      "-T",
+      "4",
+      "-seed",
+      "174802",
+      "-keep-ident",
+      "--prefix",
+      "<RELEASE>/sensitivity_with_short/tree"
+    ]
+  ]
+}

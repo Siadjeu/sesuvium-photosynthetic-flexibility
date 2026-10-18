@@ -1,0 +1,31 @@
+{
+  "status": "PPCK_BOUNDED_REVIEW_CLOSED_VATPASE_REVIEW_REQUIRED",
+  "ppck_supported_loci": 27,
+  "vatpase_candidates": 603,
+  "original_candidate_subunit_rows": 970,
+  "vatpase_references": 28,
+  "subunits": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "a",
+    "c",
+    "c''",
+    "d",
+    "e"
+  ],
+  "all_panel_references": 114,
+  "domain_hits": 1647,
+  "references_without_GA_domains": [],
+  "unresolved_locus_mappings": 0,
+  "review_status_counts": {
+    "PRIORITY_REVIEW": 518,
+    "CONCORDANT_SCREEN_DOMAIN_EVIDENCE_REVIEW_REQUIRED": 85
+  },
+  "final_VATPASE_counts": false
+}

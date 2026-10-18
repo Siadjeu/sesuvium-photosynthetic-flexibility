@@ -1,0 +1,68 @@
+{
+  "source_manifest_sha256": "72f2edef10188098a91f1b43adf7bcfa6b3dd85dfbaab2d027d91acd9bd09f6f",
+  "pfam_sha256": "4b0da6399b97d2b23329de82190b2e5705bde1dea4cb2d028a52712d5966739e",
+  "pfam_models": 30134,
+  "commands": [
+    [
+      "hmmsearch",
+      "--cpu",
+      "4",
+      "--cut_ga",
+      "--noali",
+      "--domtblout",
+      "<RELEASE>/02_pfam.domtbl",
+      "<WORKDIR>/my_interproscan/interproscan-5.78-109.0/data/pfam/38.2/pfam_a.hmm",
+      "<RELEASE>/01_domain_queries.faa"
+    ],
+    [
+      "<HOME>/miniforge3/envs/focused_family_env/bin/iqtree3",
+      "-s",
+      "<RELEASE>/main_without_short/alignment.faa",
+      "-st",
+      "AA",
+      "-m",
+      "Q.PLANT+R3",
+      "-B",
+      "1000",
+      "-bnni",
+      "-alrt",
+      "1000",
+      "-T",
+      "4",
+      "-seed",
+      "174901",
+      "-keep-ident",
+      "--prefix",
+      "<RELEASE>/main_without_short/tree"
+    ],
+    [
+      "<HOME>/miniforge3/envs/focused_family_env/bin/iqtree3",
+      "-s",
+      "<RELEASE>/sensitivity_with_short/alignment.faa",
+      "-st",
+      "AA",
+      "-m",
+      "Q.PLANT+R3",
+      "-B",
+      "1000",
+      "-bnni",
+      "-alrt",
+      "1000",
+      "-T",
+      "4",
+      "-seed",
+      "174902",
+      "-keep-ident",
+      "--prefix",
+      "<RELEASE>/sensitivity_with_short/tree"
+    ],
+    [
+      "<HOME>/miniforge3/envs/focused_family_env/bin/iqtree3",
+      "--version"
+    ],
+    [
+      "hmmsearch",
+      "-h"
+    ]
+  ]
+}

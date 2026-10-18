@@ -1,0 +1,5 @@
+tag	source_class	url	final_url	status	bytes	sha256	error
+Wang2023_article	WANG_PRIMARY	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10663116/fullTextXML	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10663116/fullTextXML	DOWNLOADED	199588	ea14c10751b2bc508cf16578195a4f40c1f2424a28376ce4657602675a5c409c	
+Wang2023_supplements	WANG_PRIMARY	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10663116/supplementaryFiles	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10663116/supplementaryFiles	DOWNLOADED	4676668	83211cad119b0b609cba8d7659ca50dc2a5e8a81caa05c3e2826587c8cb5ca70	
+Maize2012_MEP_article	RELATED_PRIMARY_NOT_WANG_MEMBERSHIP	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3440195/fullTextXML		UNAVAILABLE_OR_BLOCKED	0		HTTP Error 500: 
+Ferrari2020_PPA_article	RELATED_PRIMARY_NOT_WANG_MEMBERSHIP	https://nph.onlinelibrary.wiley.com/doi/full/10.1111/nph.16265		UNAVAILABLE_OR_BLOCKED	0		HTTP Error 403: Forbidden

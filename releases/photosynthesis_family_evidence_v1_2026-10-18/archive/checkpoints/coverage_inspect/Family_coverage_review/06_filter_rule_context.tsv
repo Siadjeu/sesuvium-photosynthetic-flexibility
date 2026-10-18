@@ -1,0 +1,118 @@
+path	line_number	text
+08_focused_families/validation/step25kz17.1/scripts/01_build_master_family_inventory.slurm	35	import os
+08_focused_families/validation/step25kz17.1/scripts/01_build_master_family_inventory.slurm	36	import re
+08_focused_families/validation/step25kz17.1/scripts/01_build_master_family_inventory.slurm	37	from collections import Counter, defaultdict
+08_focused_families/validation/step25kz17.1/scripts/01_build_master_family_inventory.slurm	38	
+08_focused_families/validation/step25kz17.1/scripts/01_build_master_family_inventory.slurm	39	"root = Path(os.environ[""PROJECT_ROOT""])"
+08_focused_families/validation/step25kz17.1/scripts/01_build_master_family_inventory.slurm	42	families = [
+08_focused_families/validation/step25kz17.1/scripts/01_build_master_family_inventory.slurm	43	"    (""BETA_CA"", ""reference_control"", ""review_only"", ""whole_proteome_rescue_if_zero""),"
+08_focused_families/validation/step25kz17.1/scripts/01_build_master_family_inventory.slurm	44	"    (""PPDK"", ""primary"", ""formal_family"", ""whole_proteome_rescue_if_zero""),"
+08_focused_families/validation/step25kz17.1/scripts/01_build_master_family_inventory.slurm	45	"    (""PEPC_KINASE"", ""primary"", ""formal_family"", ""whole_proteome_rescue_if_zero""),"
+08_focused_families/validation/step25kz17.1/scripts/01_build_master_family_inventory.slurm	46	"    (""TDT_DTC_DIC"", ""primary"", ""formal_family"", ""formal_family_search""),"
+08_focused_families/validation/step25kz17.1/scripts/01_build_master_family_inventory.slurm	47	"    (""ALMT"", ""primary"", ""formal_family"", ""formal_family_search""),"
+08_focused_families/validation/step25kz17.1/scripts/01_build_master_family_inventory.slurm	48	"    (""V_ATPASE"", ""supporting"", ""formal_family"", ""formal_family_search""),"
+08_focused_families/validation/step25kz17.1/scripts/01_build_master_family_inventory.slurm	49	"    (""V_PPASE"", ""primary"", ""formal_family"", ""formal_family_search""),"
+08_focused_families/validation/step25kz17.1/scripts/01_build_master_family_inventory.slurm	50	"    (""AMYLASE"", ""primary"", ""formal_family"", ""formal_family_search""),"
+08_focused_families/validation/step25kz17.1/scripts/01_build_master_family_inventory.slurm	155	inventory_rows = []
+08_focused_families/validation/step25kz17.1/scripts/01_build_master_family_inventory.slurm	156	candidate_rows = []
+08_focused_families/validation/step25kz17.1/scripts/01_build_master_family_inventory.slurm	157	family_counts = defaultdict(Counter)
+08_focused_families/validation/step25kz17.1/scripts/01_build_master_family_inventory.slurm	158	
+08_focused_families/validation/step25kz17.1/scripts/01_build_master_family_inventory.slurm	159	scan_roots = [
+08_focused_families/validation/step25kz17.1/scripts/01_build_master_family_inventory.slurm	205	            try:
+08_focused_families/validation/step25kz17.1/scripts/01_build_master_family_inventory.slurm	206	"                with path.open(encoding=""utf-8"", errors=""ignore"") as handle:"
+08_focused_families/validation/step25kz17.1/scripts/01_build_master_family_inventory.slurm	207	"                    reader = csv.DictReader(handle, delimiter=""\t"")"
+08_focused_families/validation/step25kz17.1/scripts/01_build_master_family_inventory.slurm	208	
+08_focused_families/validation/step25kz17.1/scripts/01_build_master_family_inventory.slurm	209	                    for index, row in enumerate(reader, start=1):
+08_focused_families/validation/step25kz17.1/scripts/01_build_master_family_inventory.slurm	303	            interpretation = (
+08_focused_families/validation/step25kz17.1/scripts/01_build_master_family_inventory.slurm	304	"                ""Review-only beta-CA family; do not use as formal evidence """
+08_focused_families/validation/step25kz17.1/scripts/01_build_master_family_inventory.slurm	305	"                ""until threshold support is confirmed."""
+08_focused_families/validation/step25kz17.1/scripts/01_build_master_family_inventory.slurm	306	            )
+08_focused_families/validation/step25kz17.1/scripts/01_build_master_family_inventory.slurm	307	        else:
+08_focused_families/validation/step25kz17.1/scripts/01_build_master_family_inventory.slurm	308	            interpretation = (
+08_focused_families/validation/step25kz17.1/scripts/01_build_master_family_inventory.slurm	309	"                ""Candidate set available for domain QC, tree construction, """
+08_focused_families/validation/step25kz17.1/scripts/01_build_master_family_inventory.slurm	310	"                ""and evidence integration."""
+08_focused_families/validation/step25kz17.1/scripts/01_build_master_family_inventory.slurm	311	            )
+08_focused_families/validation/step25kz17.1/scripts/01_build_master_family_inventory.slurm	407	    writer.writerow([
+08_focused_families/validation/step25kz17.1/scripts/01_build_master_family_inventory.slurm	408	"        ""beta_CA_policy"","
+08_focused_families/validation/step25kz17.1/scripts/01_build_master_family_inventory.slurm	409	"        ""review-only pending formal threshold support"","
+08_focused_families/validation/step25kz17.1/scripts/01_build_master_family_inventory.slurm	410	    ])
+08_focused_families/validation/step25kz17.1/scripts/01_build_master_family_inventory.slurm	411	    writer.writerow([
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	37	import subprocess
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	38	import tempfile
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	39	from collections import defaultdict
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	40	
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	41	"root = Path(os.environ[""PROJECT_ROOT""])"
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	45	
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	46	families = [
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	47	"    ""PPDK"","
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	48	"    ""PEPC_KINASE"","
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	49	"    ""TDT_DTC_DIC"","
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	50	"    ""ALMT"","
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	51	"    ""V_ATPASE"","
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	52	"    ""V_PPASE"","
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	53	"    ""AMYLASE"","
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	101	        return 1.0
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	102	
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	103	    counts = defaultdict(int)
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	104	
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	105	    for residue in sequence:
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	199	"                newline="""","
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	200	            ) as handle:
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	201	"                reader = csv.DictReader(handle, delimiter=""\t"")"
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	202	
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	203	                for row_number, row in enumerate(reader, start=2):
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	287	
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	288	        if invalid_residues:
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	289	"            length_status = ""REVIEW_INVALID_RESIDUES"""
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	290	        elif len(sequence) < 100:
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	291	"            length_status = ""REVIEW_SHORT"""
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	292	        else:
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	293	"            length_status = ""PASS_NONEMPTY"""
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	294	
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	295	        qc_rows.append([
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	303	"            f""{complexity:.4f}"","
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	304	"            "","".join(invalid_residues) or ""NONE"","
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	305	            length_status,
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	306	"            ""PENDING_PROFILE_CHECK"","
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	307	        ])
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	321	"    sensitivity_path = family_release / ""sensitivity_candidates.faa"""
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	322	"    classification_path = family_release / ""candidate_classification.tsv"""
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	323	"    qc_path = family_release / ""domain_length_qc.tsv"""
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	324	"    reference_inventory_path = family_release / ""reference_inventory.tsv"""
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	325	
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	338	"            ""original_id"","
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	339	"            ""candidate_set"","
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	340	"            ""length_aa"","
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	341	"            ""source_file"","
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	342	"            ""validation_table"","
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	356	"            ""original_id"","
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	357	"            ""source_file"","
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	358	"            ""length_aa"","
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	359	"            ""ambiguous_aa_count"","
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	360	"            ""internal_stop_count"","
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	361	"            ""maximum_residue_fraction"","
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	362	"            ""invalid_residues"","
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	363	"            ""length_status"","
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	364	"            ""domain_status"","
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	365	        ])
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	366	        writer.writerows(qc_rows)
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	419	        ])
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	420	        writer.writerow([
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	421	"            ""domain_rule"","
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	422	"            ""generic residue QC; family profile validation deferred to tree step"","
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	423	        ])
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	479	    writer.writerow([
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	480	"        ""checkpoint"","
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	481	"        ""step25kz17.2_family_candidate_normalization_domain_length_qc"","
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	482	    ])
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	483	"    writer.writerow([""status"", ""COMPLETE""])"
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	493	    writer.writerow([
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	494	"        ""primary_rule"","
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	495	"        ""accepted records without sensitivity or fragment indicators"","
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	496	    ])
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	497	    writer.writerow([
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	500	    ])
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	501	    writer.writerow([
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	502	"        ""domain_rule"","
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	503	"        ""generic sequence QC completed; family profiles deferred to tree construction"","
+08_focused_families/validation/step25kz17.2/scripts/01_normalize_family_candidates_qc.slurm	504	    ])

@@ -1,0 +1,47 @@
+{
+  "source_release": "08_focused_families/validation/step25kz17.27/release_20546636_20261016T122645039002Z",
+  "source_manifest_sha256": "1e02280fcba7b83f51c377bc0915d6749b9681b7d4f5db528de79c8ce9578fbd",
+  "input_manifest_sha256": "4210fe8436da978593da90cf534258c85cba1d2fa40528d511126dcc5611c43b",
+  "mapping_files": [
+    {
+      "species": "AT",
+      "path": "03_harmonized/primary_v1/AT/AT.all_isoform_mapping.tsv",
+      "sha256": "49acc1140ddb84e0ceda7651b6d3a5bf44b5e818b779e876798a98f6124f6895"
+    },
+    {
+      "species": "BV",
+      "path": "03_harmonized/primary_v1/BV/BV.all_isoform_mapping.tsv",
+      "sha256": "92757f6e79a084d6f6541125bfca3b9b08d5f0067d8389da70d42f0765ef2e33"
+    },
+    {
+      "species": "MC",
+      "path": "03_harmonized/primary_v1/MC/MC.all_isoform_mapping.tsv",
+      "sha256": "2850262145a6a7e6d70d9eef751165eecc2f1a6f2d5a1fcb567a566e06b6146d"
+    },
+    {
+      "species": "PO",
+      "path": "03_harmonized/primary_v1/PO/PO.all_isoform_mapping.tsv",
+      "sha256": "a16bf0a5db918ecb768127c4d96b4764fdf0bd34976d7f860a95a710714f1a5d"
+    },
+    {
+      "species": "SLP_Hap1",
+      "path": "03_harmonized/primary_v1/SLP_Hap1/SLP_Hap1.all_isoform_mapping.tsv",
+      "sha256": "f32598592423d6cba5057ba5c683e210a2cdbc0ea97079e5c70c1971644cfeb6"
+    },
+    {
+      "species": "SP_Hex",
+      "path": "03_harmonized/primary_v1/SP_Hex/SP_Hex.all_isoform_mapping.tsv",
+      "sha256": "e54f6b9eb5b3977b3b90289d03859f302b0f234047aaff96f09639e754772548"
+    },
+    {
+      "species": "SP_Tet",
+      "path": "03_harmonized/primary_v1/SP_Tet/SP_Tet.all_isoform_mapping.tsv",
+      "sha256": "f8fb19c79b118d62b34563426c73c3fc5261b1b96fd216be60d22439c9e7fe84"
+    },
+    {
+      "species": "SS",
+      "path": "03_harmonized/primary_v1/SS/SS.all_isoform_mapping.tsv",
+      "sha256": "83d7e662ba09985cc2d31beceb62a2b1b093f38b02fc755270acd154cf3c851b"
+    }
+  ]
+}

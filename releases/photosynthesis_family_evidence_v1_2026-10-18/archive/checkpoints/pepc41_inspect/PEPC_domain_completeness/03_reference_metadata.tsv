@@ -1,0 +1,5 @@
+reference_id	source_id	gene	length_aa	header
+REF__sp|Q9MAH0|CAPP1_ARATH	sp|Q9MAH0|CAPP1_ARATH	PPC1	967	sp|Q9MAH0|CAPP1_ARATH Phosphoenolpyruvate carboxylase 1 OS=Arabidopsis thaliana OX=3702 GN=PPC1 PE=1 SV=1
+REF__sp|Q5GM68|CAPP2_ARATH	sp|Q5GM68|CAPP2_ARATH	PPC2	963	sp|Q5GM68|CAPP2_ARATH Phosphoenolpyruvate carboxylase 2 OS=Arabidopsis thaliana OX=3702 GN=PPC2 PE=1 SV=2
+REF__sp|Q84VW9|CAPP3_ARATH	sp|Q84VW9|CAPP3_ARATH	PPC3	968	sp|Q84VW9|CAPP3_ARATH Phosphoenolpyruvate carboxylase 3 OS=Arabidopsis thaliana OX=3702 GN=PPC3 PE=1 SV=2
+REF__sp|Q8GVE8|CAPP4_ARATH	sp|Q8GVE8|CAPP4_ARATH	PPC4	1032	sp|Q8GVE8|CAPP4_ARATH Phosphoenolpyruvate carboxylase 4 OS=Arabidopsis thaliana OX=3702 GN=PPC4 PE=2 SV=1

@@ -1,0 +1,11 @@
+{
+  "group": "MDH_LDH",
+  "candidate_records": 211,
+  "main_candidates": 118,
+  "partial_or_architecture_candidates": 3,
+  "outside_core_candidates": 90,
+  "main_references": 13,
+  "core_columns": 305,
+  "status": "TREE_COMPLETE_REVIEW_ONLY",
+  "error": ""
+}

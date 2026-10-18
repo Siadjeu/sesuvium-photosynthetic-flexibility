@@ -1,0 +1,5 @@
+candidate_id	mapped_transcript	protein_id	cds_id	source_protein_found	source_CDS_found	protein_matches_candidate	cds_nt	frame_remainder	translation_matches_source_protein	translation_matches_candidate	internal_stops	ambiguous_amino_acids	start_codon	terminal_codon	interpretation
+PO__evm.TU.LG01.2472	evm.model.LG01.2472	evm.model.LG01.2472	evm.model.LG01.2472	True	True	True	2034	0	True	True	0	0	ATG	TAG	ANNOTATION_CONSISTENCY_NOT_GENOME_OR_READ_VALIDATION
+SP_Hex__gene_Spor0301920.1	Spor0301920.1	Spor0301920.1	Spor0301920.1	True	True	True	990	0	True	True	0	0	ATG	TAG	ANNOTATION_CONSISTENCY_NOT_GENOME_OR_READ_VALIDATION
+SP_Tet__g13815	g13815.t1	g13815.t1	g13815.t1	True	True	True	417	0	True	True	0	0	ATG	CAA	ANNOTATION_CONSISTENCY_NOT_GENOME_OR_READ_VALIDATION
+SP_Tet__g13816	g13816.t1	g13816.t1	g13816.t1	True	True	True	795	0	True	True	0	0	ATG	ATC	ANNOTATION_CONSISTENCY_NOT_GENOME_OR_READ_VALIDATION

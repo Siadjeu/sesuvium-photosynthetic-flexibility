@@ -1,0 +1,55 @@
+{
+  "status": "DOMAIN_GUIDED_CARRIER_PHYLOGENIES_REVIEW_READY",
+  "extracted_sequences": 128,
+  "main_sequences": 126,
+  "backbone_columns": 453,
+  "core_columns": 267,
+  "trees": [
+    {
+      "analysis": "main",
+      "sequences": 126,
+      "columns": 267,
+      "model": "LG+F+G4",
+      "seed": 175301,
+      "support_order": "SH-aLRT/UFBoot",
+      "rooting": "UNROOTED"
+    },
+    {
+      "analysis": "sensitivity_MC_partial",
+      "sequences": 127,
+      "columns": 267,
+      "model": "LG+F+G4",
+      "seed": 175302,
+      "support_order": "SH-aLRT/UFBoot",
+      "rooting": "UNROOTED"
+    },
+    {
+      "analysis": "sensitivity_SS_partial",
+      "sequences": 127,
+      "columns": 267,
+      "model": "LG+F+G4",
+      "seed": 175303,
+      "support_order": "SH-aLRT/UFBoot",
+      "rooting": "UNROOTED"
+    }
+  ],
+  "fragment_QC": [
+    {
+      "protein_id": "MC__gene_14767",
+      "tree_id": "CAR014",
+      "input_region_length": 85,
+      "retained_backbone_residues": 85,
+      "residues_omitted_by_keeplength": 0,
+      "caveat": "PARTIAL_REPEAT_PLACEMENT_UNCERTAIN"
+    },
+    {
+      "protein_id": "SS__g18155.t1",
+      "tree_id": "CAR118",
+      "input_region_length": 86,
+      "retained_backbone_residues": 86,
+      "residues_omitted_by_keeplength": 0,
+      "caveat": "PARTIAL_REPEAT_PLACEMENT_UNCERTAIN"
+    }
+  ],
+  "final_counts": false
+}

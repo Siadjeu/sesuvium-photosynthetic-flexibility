@@ -1,0 +1,120 @@
+source_file	accession	assigned_category	subunit	header
+PPDK.faa	O23404	PPDK		sp|O23404|PPDK1_ARATH Pyruvate, phosphate dikinase 1, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=PPDK PE=1 SV=2
+PPDK.faa	O49562	PPDK_RP		sp|O49562|PDRP1_ARATH Pyruvate, phosphate dikinase regulatory protein 1, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=RP1 PE=1 SV=1
+PPDK.faa	Q9MAC9	PPDK_RP		sp|Q9MAC9|PDRP2_ARATH Pyruvate, phosphate dikinase regulatory protein 2 OS=Arabidopsis thaliana OX=3702 GN=RP2 PE=1 SV=1
+PPDK_RP.faa	O23404	PPDK		sp|O23404|PPDK1_ARATH Pyruvate, phosphate dikinase 1, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=PPDK PE=1 SV=2
+PPDK_RP.faa	O49562	PPDK_RP		sp|O49562|PDRP1_ARATH Pyruvate, phosphate dikinase regulatory protein 1, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=RP1 PE=1 SV=1
+PPDK_RP.faa	Q9MAC9	PPDK_RP		sp|Q9MAC9|PDRP2_ARATH Pyruvate, phosphate dikinase regulatory protein 2 OS=Arabidopsis thaliana OX=3702 GN=RP2 PE=1 SV=1
+V_ATPASE.faa	F4HWY6	BACKGROUND_REFERENCE		sp|F4HWY6|MYO11_ARATH Myosin-11 OS=Arabidopsis thaliana OX=3702 GN=XI-E PE=3 SV=1
+V_ATPASE.faa	F4HXP9	BACKGROUND_REFERENCE		sp|F4HXP9|MYO9_ARATH Myosin-9 OS=Arabidopsis thaliana OX=3702 GN=XI-C PE=2 SV=1
+V_ATPASE.faa	F4I460	BACKGROUND_REFERENCE		sp|F4I460|MYO8_ARATH Myosin-8 OS=Arabidopsis thaliana OX=3702 GN=XI-B PE=3 SV=1
+V_ATPASE.faa	F4IRU3	BACKGROUND_REFERENCE		sp|F4IRU3|MYO12_ARATH Myosin-12 OS=Arabidopsis thaliana OX=3702 GN=XI-F PE=2 SV=1
+V_ATPASE.faa	F4K5J1	BACKGROUND_REFERENCE		sp|F4K5J1|MYO17_ARATH Myosin-17 OS=Arabidopsis thaliana OX=3702 GN=XI-K PE=1 SV=2
+V_ATPASE.faa	O23654	V_ATPASE	A	sp|O23654|VATA_ARATH V-type proton ATPase catalytic subunit A OS=Arabidopsis thaliana OX=3702 GN=VHA-A PE=1 SV=1
+V_ATPASE.faa	O80983	BACKGROUND_REFERENCE		sp|O80983|FTSH4_ARATH ATP-dependent zinc metalloprotease FTSH 4, mitochondrial OS=Arabidopsis thaliana OX=3702 GN=FTSH4 PE=1 SV=2
+V_ATPASE.faa	O82628	V_ATPASE	G	sp|O82628|VATG1_ARATH V-type proton ATPase subunit G1 OS=Arabidopsis thaliana OX=3702 GN=VHA-G1 PE=1 SV=1
+V_ATPASE.faa	P0DO44	BACKGROUND_REFERENCE		sp|P0DO44|ATP6A_ARATH ATP synthase small subunit 6-A, mitochondrial OS=Arabidopsis thaliana OX=3702 GN=ATP6 PE=2 SV=1
+V_ATPASE.faa	P11574	V_ATPASE	B	sp|P11574|VATB1_ARATH V-type proton ATPase subunit B1 OS=Arabidopsis thaliana OX=3702 GN=VHA-B1 PE=2 SV=2
+V_ATPASE.faa	P31414	V_PPASE		sp|P31414|AVP1_ARATH Pyrophosphate-energized vacuolar membrane proton pump 1 OS=Arabidopsis thaliana OX=3702 GN=AVP1 PE=1 SV=1
+V_ATPASE.faa	P83483	BACKGROUND_REFERENCE		sp|P83483|ATPBM_ARATH ATP synthase subunit beta-1, mitochondrial OS=Arabidopsis thaliana OX=3702 GN=At5g08670 PE=1 SV=1
+V_ATPASE.faa	P83484	BACKGROUND_REFERENCE		sp|P83484|ATPBN_ARATH ATP synthase subunit beta-2, mitochondrial OS=Arabidopsis thaliana OX=3702 GN=At5g08690 PE=1 SV=1
+V_ATPASE.faa	P92549	BACKGROUND_REFERENCE		sp|P92549|ATPAM_ARATH ATP synthase subunit alpha, mitochondrial OS=Arabidopsis thaliana OX=3702 GN=ATPA PE=1 SV=3
+V_ATPASE.faa	Q39160	BACKGROUND_REFERENCE		sp|Q39160|MYO5_ARATH Myosin-5 OS=Arabidopsis thaliana OX=3702 GN=XI-1 PE=1 SV=1
+V_ATPASE.faa	Q39253	BACKGROUND_REFERENCE		sp|Q39253|CAX1_ARATH Vacuolar cation/proton exchanger 1 OS=Arabidopsis thaliana OX=3702 GN=CAX1 PE=1 SV=3
+V_ATPASE.faa	Q39258	V_ATPASE	E	sp|Q39258|VATE1_ARATH V-type proton ATPase subunit E1 OS=Arabidopsis thaliana OX=3702 GN=VHA-E1 PE=1 SV=2
+V_ATPASE.faa	Q56Y74	BACKGROUND_REFERENCE		sp|Q56Y74|MORC6_ARATH Protein MICRORCHIDIA 6 OS=Arabidopsis thaliana OX=3702 GN=MORC6 PE=1 SV=1
+V_ATPASE.faa	Q5FV35	BACKGROUND_REFERENCE		sp|Q5FV35|MORC2_ARATH Protein MICRORCHIDIA 2 OS=Arabidopsis thaliana OX=3702 GN=MORC2 PE=1 SV=1
+V_ATPASE.faa	Q84WV6	BACKGROUND_REFERENCE		sp|Q84WV6|MORC1_ARATH Protein MICRORCHIDIA 1 OS=Arabidopsis thaliana OX=3702 GN=MORC1 PE=1 SV=1
+V_ATPASE.faa	Q8LAS7	BACKGROUND_REFERENCE		sp|Q8LAS7|CNBL2_ARATH Calcineurin B-like protein 2 OS=Arabidopsis thaliana OX=3702 GN=CBL2 PE=1 SV=2
+V_ATPASE.faa	Q8LEM7	BACKGROUND_REFERENCE		sp|Q8LEM7|CNBL3_ARATH Calcineurin B-like protein 3 OS=Arabidopsis thaliana OX=3702 GN=CBL3 PE=1 SV=2
+V_ATPASE.faa	Q8RWZ7	V_ATPASE	a	sp|Q8RWZ7|VHAA1_ARATH V-type proton ATPase subunit a1 OS=Arabidopsis thaliana OX=3702 GN=VHA-a1 PE=2 SV=1
+V_ATPASE.faa	Q8W4E2	V_ATPASE	B	sp|Q8W4E2|VATB3_ARATH V-type proton ATPase subunit B3 OS=Arabidopsis thaliana OX=3702 GN=VHA-B3 PE=2 SV=1
+V_ATPASE.faa	Q8W4S4	V_ATPASE	a	sp|Q8W4S4|VHAA3_ARATH V-type proton ATPase subunit a3 OS=Arabidopsis thaliana OX=3702 GN=VHA-a3 PE=1 SV=1
+V_ATPASE.faa	Q944Q0	BACKGROUND_REFERENCE		sp|Q944Q0|WNK8_ARATH Serine/threonine-protein kinase WNK8 OS=Arabidopsis thaliana OX=3702 GN=WNK8 PE=1 SV=1
+V_ATPASE.faa	Q9FGM0	BACKGROUND_REFERENCE		sp|Q9FGM0|FTSHB_ARATH ATP-dependent zinc metalloprotease FTSH 11, chloroplastic/mitochondrial OS=Arabidopsis thaliana OX=3702 GN=FTSH11 PE=1 SV=1
+V_ATPASE.faa	Q9FT52	BACKGROUND_REFERENCE		sp|Q9FT52|ATP5H_ARATH ATP synthase subunit d, mitochondrial OS=Arabidopsis thaliana OX=3702 GN=At3g52300 PE=1 SV=3
+V_ATPASE.faa	Q9LKB9	BACKGROUND_REFERENCE		sp|Q9LKB9|MYO6_ARATH Myosin-6 OS=Arabidopsis thaliana OX=3702 GN=XI-2 PE=1 SV=1
+V_ATPASE.faa	Q9LT02	BACKGROUND_REFERENCE		sp|Q9LT02|PDR2_ARATH Probable manganese-transporting ATPase PDR2 OS=Arabidopsis thaliana OX=3702 GN=PDR2 PE=1 SV=1
+V_ATPASE.faa	Q9M297	BACKGROUND_REFERENCE		sp|Q9M297|CLSY1_ARATH SNF2 domain-containing protein CLASSY 1 OS=Arabidopsis thaliana OX=3702 GN=CLSY1 PE=1 SV=1
+V_ATPASE.faa	Q9M2K0	BACKGROUND_REFERENCE		sp|Q9M2K0|MYO16_ARATH Myosin-16 OS=Arabidopsis thaliana OX=3702 GN=XI-J PE=2 SV=1
+V_ATPASE.faa	Q9SDS7	V_ATPASE	C	sp|Q9SDS7|VATC_ARATH V-type proton ATPase subunit C OS=Arabidopsis thaliana OX=3702 GN=VHA-C PE=1 SV=1
+V_ATPASE.faa	Q9SIW2	BACKGROUND_REFERENCE		sp|Q9SIW2|CHR35_ARATH Protein CHROMATIN REMODELING 35 OS=Arabidopsis thaliana OX=3702 GN=DRD1 PE=1 SV=1
+V_ATPASE.faa	Q9SJT7	V_ATPASE	a	sp|Q9SJT7|VHAA2_ARATH V-type proton ATPase subunit a2 OS=Arabidopsis thaliana OX=3702 GN=VHA-a2 PE=1 SV=1
+V_ATPASE.faa	Q9SZN1	V_ATPASE	B	sp|Q9SZN1|VATB2_ARATH V-type proton ATPase subunit B2 OS=Arabidopsis thaliana OX=3702 GN=VHA-B2 PE=1 SV=1
+V_ATPASE.faa	F4I5Q6	BACKGROUND_REFERENCE		sp|F4I5Q6|MYO7_ARATH Myosin-7 OS=Arabidopsis thaliana OX=3702 GN=XI-A PE=3 SV=1
+V_ATPASE.faa	F4JM19	BACKGROUND_REFERENCE		sp|F4JM19|MYO14_ARATH Myosin-14 OS=Arabidopsis thaliana OX=3702 GN=XI-H PE=3 SV=1
+V_ATPASE.faa	O82629	V_ATPASE	G	sp|O82629|VATG2_ARATH V-type proton ATPase subunit G2 OS=Arabidopsis thaliana OX=3702 GN=VHA-G2 PE=1 SV=2
+V_ATPASE.faa	P0DH92	V_ATPASE	c	sp|P0DH92|VATL1_ARATH V-type proton ATPase subunit c1 OS=Arabidopsis thaliana OX=3702 GN=VHA-c1 PE=1 SV=1
+V_ATPASE.faa	P0DH93	V_ATPASE	c	sp|P0DH93|VATL3_ARATH V-type proton ATPase subunit c3 OS=Arabidopsis thaliana OX=3702 GN=VHA-c3 PE=1 SV=1
+V_ATPASE.faa	P0DH94	V_ATPASE	c	sp|P0DH94|VATL5_ARATH V-type proton ATPase subunit c5 OS=Arabidopsis thaliana OX=3702 GN=VHA-c5 PE=2 SV=1
+V_ATPASE.faa	P59228	V_ATPASE	c	sp|P59228|VATL2_ARATH V-type proton ATPase subunit c2 OS=Arabidopsis thaliana OX=3702 GN=VHA-c2 PE=2 SV=1
+V_ATPASE.faa	P59229	V_ATPASE	c	sp|P59229|VATL4_ARATH V-type proton ATPase subunit c4 OS=Arabidopsis thaliana OX=3702 GN=VHA-c4 PE=1 SV=1
+V_ATPASE.faa	P60112	BACKGROUND_REFERENCE		sp|P60112|ATP9_ARATH ATP synthase subunit 9, mitochondrial OS=Arabidopsis thaliana OX=3702 GN=ATP9 PE=2 SV=2
+V_ATPASE.faa	P92547	BACKGROUND_REFERENCE		sp|P92547|ATP62_ARATH ATP synthase subunit a-2 OS=Arabidopsis thaliana OX=3702 GN=ATP6-2 PE=2 SV=2
+V_ATPASE.faa	P93298	BACKGROUND_REFERENCE		sp|P93298|ATP61_ARATH ATP synthase subunit a-1 OS=Arabidopsis thaliana OX=3702 GN=ATP6-1 PE=2 SV=2
+V_ATPASE.faa	Q84WU8	BACKGROUND_REFERENCE		sp|Q84WU8|FTSH3_ARATH ATP-dependent zinc metalloprotease FTSH 3, mitochondrial OS=Arabidopsis thaliana OX=3702 GN=FTSH3 PE=1 SV=1
+V_ATPASE.faa	Q8RX56	BACKGROUND_REFERENCE		sp|Q8RX56|UNC13_ARATH Protein unc-13 homolog OS=Arabidopsis thaliana OX=3702 GN=PATROL1 PE=2 SV=1
+V_ATPASE.faa	Q8VZI8	BACKGROUND_REFERENCE		sp|Q8VZI8|FTSHA_ARATH ATP-dependent zinc metalloprotease FTSH 10, mitochondrial OS=Arabidopsis thaliana OX=3702 GN=FTSH10 PE=1 SV=1
+V_ATPASE.faa	Q94A79	BACKGROUND_REFERENCE		sp|Q94A79|DMS3_ARATH Protein DEFECTIVE IN MERISTEM SILENCING 3 OS=Arabidopsis thaliana OX=3702 GN=DMS3 PE=1 SV=1
+V_ATPASE.faa	Q96250	BACKGROUND_REFERENCE		sp|Q96250|ATPG3_ARATH ATP synthase subunit gamma, mitochondrial OS=Arabidopsis thaliana OX=3702 GN=ATPC PE=1 SV=1
+V_ATPASE.faa	Q96251	BACKGROUND_REFERENCE		sp|Q96251|ATPO_ARATH ATP synthase subunit O, mitochondrial OS=Arabidopsis thaliana OX=3702 GN=At5g13450 PE=1 SV=2
+V_ATPASE.faa	Q96252	BACKGROUND_REFERENCE		sp|Q96252|ATP4_ARATH ATP synthase subunit delta', mitochondrial OS=Arabidopsis thaliana OX=3702 GN=At5g47030 PE=1 SV=1
+V_ATPASE.faa	Q9C5A9	BACKGROUND_REFERENCE		sp|Q9C5A9|ATPBO_ARATH ATP synthase subunit beta-3, mitochondrial OS=Arabidopsis thaliana OX=3702 GN=At5g08680 PE=1 SV=1
+V_ATPASE.faa	Q9FNC9	BACKGROUND_REFERENCE		sp|Q9FNC9|TOM92_ARATH Mitochondrial import receptor subunit TOM9-2 OS=Arabidopsis thaliana OX=3702 GN=TOM9-2 PE=1 SV=3
+V_ATPASE.faa	Q9LHA4	V_ATPASE	d	sp|Q9LHA4|VA0D2_ARATH V-type proton ATPase subunit d2 OS=Arabidopsis thaliana OX=3702 GN=VHA-d2 PE=2 SV=1
+V_ATPASE.faa	Q9LJI5	V_ATPASE	d	sp|Q9LJI5|VA0D1_ARATH V-type proton ATPase subunit d1 OS=Arabidopsis thaliana OX=3702 GN=VHA-d1 PE=1 SV=1
+V_ATPASE.faa	Q9LX65	V_ATPASE	H	sp|Q9LX65|VATH_ARATH V-type proton ATPase subunit H OS=Arabidopsis thaliana OX=3702 GN=VHA-H PE=1 SV=1
+V_ATPASE.faa	Q9SLA2	V_ATPASE	c''	sp|Q9SLA2|VATO2_ARATH V-type proton ATPase subunit c''2 OS=Arabidopsis thaliana OX=3702 GN=VHA-c''2 PE=1 SV=1
+V_ATPASE.faa	Q9SZY7	V_ATPASE	c''	sp|Q9SZY7|VATO1_ARATH V-type proton ATPase subunit c''1 OS=Arabidopsis thaliana OX=3702 GN=VHA-c''1 PE=1 SV=1
+V_ATPASE.faa	Q9XGM1	V_ATPASE	D	sp|Q9XGM1|VATD_ARATH V-type proton ATPase subunit D OS=Arabidopsis thaliana OX=3702 GN=VHA-D PE=1 SV=2
+V_ATPASE.faa	Q9ZQX4	V_ATPASE	F	sp|Q9ZQX4|VATF_ARATH V-type proton ATPase subunit F OS=Arabidopsis thaliana OX=3702 GN=VHA-F PE=2 SV=1
+V_ATPASE.faa	O22252	BACKGROUND_REFERENCE		sp|O22252|MHX_ARATH Magnesium/proton exchanger OS=Arabidopsis thaliana OX=3702 GN=MHX PE=2 SV=3
+V_ATPASE.faa	P0CAN7	V_ATPASE	E	sp|P0CAN7|VATE3_ARATH V-type proton ATPase subunit E3 OS=Arabidopsis thaliana OX=3702 GN=VHA-E3 PE=2 SV=1
+V_ATPASE.faa	P0DO45	BACKGROUND_REFERENCE		sp|P0DO45|ATP6B_ARATH ATP synthase small subunit 6-B, mitochondrial OS=Arabidopsis thaliana OX=3702 GN=ATP6 PE=2 SV=1
+V_ATPASE.faa	P56760	BACKGROUND_REFERENCE		sp|P56760|ATPH_ARATH ATP synthase subunit c, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=atpH PE=3 SV=1
+V_ATPASE.faa	Q96253	BACKGROUND_REFERENCE		sp|Q96253|ATP5E_ARATH ATP synthase subunit epsilon, mitochondrial OS=Arabidopsis thaliana OX=3702 GN=At1g51650 PE=1 SV=3
+V_ATPASE.faa	Q9C9Z8	V_ATPASE	E	sp|Q9C9Z8|VATE2_ARATH V-type proton ATPase subunit E2 OS=Arabidopsis thaliana OX=3702 GN=VHA-E2 PE=2 SV=1
+V_ATPASE.faa	Q9FLN5	V_ATPASE	e	sp|Q9FLN5|VA0E1_ARATH V-type proton ATPase subunit e1 OS=Arabidopsis thaliana OX=3702 GN=VHA-e1 PE=3 SV=1
+V_ATPASE.faa	Q9SZ13	V_ATPASE	e	sp|Q9SZ13|VA0E2_ARATH V-type proton ATPase subunit e2 OS=Arabidopsis thaliana OX=3702 GN=VHA-e2 PE=3 SV=1
+V_ATPASE.faa	Q9SZH0	V_ATPASE	G	sp|Q9SZH0|VATG3_ARATH V-type proton ATPase subunit G3 OS=Arabidopsis thaliana OX=3702 GN=VHA-G3 PE=3 SV=1
+V_ATPASE.faa	P93278	BACKGROUND_REFERENCE		sp|P93278|M040_ARATH Uncharacterized ATP synthase C chain-like protein OS=Arabidopsis thaliana OX=3702 GN=AtMg00040 PE=3 SV=1
+V_PPASE.faa	P31414	V_PPASE		sp|P31414|AVP1_ARATH Pyrophosphate-energized vacuolar membrane proton pump 1 OS=Arabidopsis thaliana OX=3702 GN=AVP1 PE=1 SV=1
+V_PPASE.faa	Q39253	BACKGROUND_REFERENCE		sp|Q39253|CAX1_ARATH Vacuolar cation/proton exchanger 1 OS=Arabidopsis thaliana OX=3702 GN=CAX1 PE=1 SV=3
+V_PPASE.faa	Q39254	BACKGROUND_REFERENCE		sp|Q39254|CAX2_ARATH Vacuolar cation/proton exchanger 2 OS=Arabidopsis thaliana OX=3702 GN=CAX2 PE=1 SV=2
+V_PPASE.faa	Q56ZN6	V_PPASE		sp|Q56ZN6|AVP2_ARATH Pyrophosphate-energized membrane proton pump 2 OS=Arabidopsis thaliana OX=3702 GN=AVPL1 PE=1 SV=2
+V_PPASE.faa	Q67YC0	BACKGROUND_REFERENCE		sp|Q67YC0|PPSP1_ARATH Inorganic pyrophosphatase 1 OS=Arabidopsis thaliana OX=3702 GN=PS2 PE=1 SV=1
+V_PPASE.faa	Q6NPD7	BACKGROUND_REFERENCE		sp|Q6NPD7|NUD10_ARATH Nudix hydrolase 10 OS=Arabidopsis thaliana OX=3702 GN=NUDT10 PE=1 SV=1
+V_PPASE.faa	Q93V56	BACKGROUND_REFERENCE		sp|Q93V56|IPYR1_ARATH Soluble inorganic pyrophosphatase 1 OS=Arabidopsis thaliana OX=3702 GN=PPA1 PE=1 SV=1
+V_PPASE.faa	Q93Z81	BACKGROUND_REFERENCE		sp|Q93Z81|CAX3_ARATH Vacuolar cation/proton exchanger 3 OS=Arabidopsis thaliana OX=3702 GN=CAX3 PE=1 SV=1
+V_PPASE.faa	Q945S5	BACKGROUND_REFERENCE		sp|Q945S5|CAX4_ARATH Vacuolar cation/proton exchanger 4 OS=Arabidopsis thaliana OX=3702 GN=CAX4 PE=1 SV=2
+V_PPASE.faa	Q94A82	BACKGROUND_REFERENCE		sp|Q94A82|NUD19_ARATH Nudix hydrolase 19, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=NUDT19 PE=1 SV=1
+V_PPASE.faa	Q94B74	BACKGROUND_REFERENCE		sp|Q94B74|NUDT2_ARATH Nudix hydrolase 2 OS=Arabidopsis thaliana OX=3702 GN=NUDT2 PE=1 SV=1
+V_PPASE.faa	Q9C664	BACKGROUND_REFERENCE		sp|Q9C664|TTM2_ARATH Inorganic pyrophosphatase TTM2 OS=Arabidopsis thaliana OX=3702 GN=TTM2 PE=1 SV=1
+V_PPASE.faa	Q9C6Z2	BACKGROUND_REFERENCE		sp|Q9C6Z2|NUD25_ARATH Nudix hydrolase 25 OS=Arabidopsis thaliana OX=3702 GN=NUDT25 PE=1 SV=1
+V_PPASE.faa	Q9C9B9	BACKGROUND_REFERENCE		sp|Q9C9B9|TTM1_ARATH Inorganic pyrophosphatase TTM1 OS=Arabidopsis thaliana OX=3702 GN=TTM1 PE=1 SV=1
+V_PPASE.faa	Q9CA40	BACKGROUND_REFERENCE		sp|Q9CA40|NUDT1_ARATH Nudix hydrolase 1 OS=Arabidopsis thaliana OX=3702 GN=NUDT1 PE=1 SV=1
+V_PPASE.faa	Q9LFF9	BACKGROUND_REFERENCE		sp|Q9LFF9|IPYR4_ARATH Soluble inorganic pyrophosphatase 4 OS=Arabidopsis thaliana OX=3702 GN=PPA4 PE=1 SV=1
+V_PPASE.faa	Q9LXC9	BACKGROUND_REFERENCE		sp|Q9LXC9|IPYR6_ARATH Soluble inorganic pyrophosphatase 6, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=PPA6 PE=1 SV=1
+V_PPASE.faa	Q9SJC4	BACKGROUND_REFERENCE		sp|Q9SJC4|NUDT6_ARATH Nudix hydrolase 6 OS=Arabidopsis thaliana OX=3702 GN=NUDT6 PE=1 SV=1
+V_PPASE.faa	Q9SU14	BACKGROUND_REFERENCE		sp|Q9SU14|NUDT7_ARATH Nudix hydrolase 7 OS=Arabidopsis thaliana OX=3702 GN=NUDT7 PE=1 SV=1
+V_PPASE.faa	Q9SZ63	BACKGROUND_REFERENCE		sp|Q9SZ63|NUD14_ARATH Nudix hydrolase 14, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=NUDT14 PE=1 SV=2
+V_PPASE.faa	P21216	BACKGROUND_REFERENCE		sp|P21216|IPYR2_ARATH Soluble inorganic pyrophosphatase 2 OS=Arabidopsis thaliana OX=3702 GN=PPA2 PE=2 SV=2
+V_PPASE.faa	Q8L968	BACKGROUND_REFERENCE		sp|Q8L968|ITPA_ARATH Inosine triphosphate pyrophosphatase OS=Arabidopsis thaliana OX=3702 GN=At4g13720 PE=2 SV=1
+V_PPASE.faa	Q9LE73	BACKGROUND_REFERENCE		sp|Q9LE73|NUDT4_ARATH Nudix hydrolase 4 OS=Arabidopsis thaliana OX=3702 GN=NUDT4 PE=1 SV=1
+V_PPASE.faa	O82597	BACKGROUND_REFERENCE		sp|O82597|IPYR5_ARATH Soluble inorganic pyrophosphatase 5 OS=Arabidopsis thaliana OX=3702 GN=PPA5 PE=2 SV=1
+V_PPASE.faa	O82793	BACKGROUND_REFERENCE		sp|O82793|IPYR3_ARATH Soluble inorganic pyrophosphatase 3 OS=Arabidopsis thaliana OX=3702 GN=PPA3 PE=2 SV=1
+V_PPASE.faa	Q8L783	BACKGROUND_REFERENCE		sp|Q8L783|CAX5_ARATH Vacuolar cation/proton exchanger 5 OS=Arabidopsis thaliana OX=3702 GN=CAX5 PE=2 SV=1
+V_PPASE.faa	Q9FWR2	V_PPASE		sp|Q9FWR2|AVPX_ARATH Pyrophosphate-energized membrane proton pump 3 OS=Arabidopsis thaliana OX=3702 GN=AVPL2 PE=3 SV=1
+V_PPASE.faa	Q9FZ62	BACKGROUND_REFERENCE		sp|Q9FZ62|PPSP2_ARATH Inorganic pyrophosphatase 2 OS=Arabidopsis thaliana OX=3702 GN=At1g17710 PE=2 SV=1
+V_PPASE.faa	Q9LFZ8	BACKGROUND_REFERENCE		sp|Q9LFZ8|CAX6_ARATH Putative vacuolar cation/proton exchanger 6 OS=Arabidopsis thaliana OX=3702 GN=CAX6 PE=3 SV=3
+PEPC.faa	O64722	BACKGROUND_REFERENCE		sp|O64722|ZHD3_ARATH Zinc-finger homeodomain protein 3 OS=Arabidopsis thaliana OX=3702 GN=ZHD3 PE=1 SV=1
+PEPC.faa	Q93VK0	PPCK		sp|Q93VK0|PPCK2_ARATH Phosphoenolpyruvate carboxylase kinase 2 OS=Arabidopsis thaliana OX=3702 GN=PPCK2 PE=1 SV=2
+PEPC.faa	Q9FIW9	BACKGROUND_REFERENCE		sp|Q9FIW9|ZHD10_ARATH Zinc-finger homeodomain protein 10 OS=Arabidopsis thaliana OX=3702 GN=ZHD10 PE=1 SV=1
+PEPC.faa	Q9MAH0	BACKGROUND_REFERENCE		sp|Q9MAH0|CAPP1_ARATH Phosphoenolpyruvate carboxylase 1 OS=Arabidopsis thaliana OX=3702 GN=PPC1 PE=1 SV=1
+PEPC.faa	Q9SB61	BACKGROUND_REFERENCE		sp|Q9SB61|ZHD2_ARATH Zinc-finger homeodomain protein 2 OS=Arabidopsis thaliana OX=3702 GN=ZHD1 PE=1 SV=1
+PEPC.faa	Q9SPK4	PPCK		sp|Q9SPK4|PPCK1_ARATH Phosphoenolpyruvate carboxylase kinase 1 OS=Arabidopsis thaliana OX=3702 GN=PPCK1 PE=1 SV=1
+PEPC.faa	Q5GM68	BACKGROUND_REFERENCE		sp|Q5GM68|CAPP2_ARATH Phosphoenolpyruvate carboxylase 2 OS=Arabidopsis thaliana OX=3702 GN=PPC2 PE=1 SV=2
+PEPC.faa	Q84VW9	BACKGROUND_REFERENCE		sp|Q84VW9|CAPP3_ARATH Phosphoenolpyruvate carboxylase 3 OS=Arabidopsis thaliana OX=3702 GN=PPC3 PE=1 SV=2
+PEPC.faa	Q8GVE8	BACKGROUND_REFERENCE		sp|Q8GVE8|CAPP4_ARATH Phosphoenolpyruvate carboxylase 4 OS=Arabidopsis thaliana OX=3702 GN=PPC4 PE=2 SV=1
+PEPC.faa	O49290	BACKGROUND_REFERENCE		sp|O49290|CPPM_ARATH Carboxyvinyl-carboxyphosphonate phosphorylmutase, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=At1g77060 PE=1 SV=2
+PEPC.faa	Q8W490	BACKGROUND_REFERENCE		sp|Q8W490|PEPK2_ARATH Serine/threonine-protein kinase PEPKR2 OS=Arabidopsis thaliana OX=3702 GN=PEPKR2 PE=2 SV=1

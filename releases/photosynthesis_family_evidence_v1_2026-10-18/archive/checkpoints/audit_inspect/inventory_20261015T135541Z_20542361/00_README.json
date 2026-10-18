@@ -1,0 +1,33 @@
+{
+  "created_utc": "20261015T135541Z",
+  "project_root": "<PROJECT_ROOT>",
+  "files_inventoried": 184502,
+  "status": "Traversal completed within configured limits.",
+  "runtime_seconds": 1181.4,
+  "excluded_directory_names": [
+    ".cache",
+    ".conda",
+    ".git",
+    ".snakemake",
+    ".venv",
+    "__pycache__",
+    "node_modules",
+    "project_audits"
+  ],
+  "limits": {
+    "max_files": 500000,
+    "max_seconds": 6000,
+    "excerpts_per_type": 120,
+    "bytes_per_excerpt": 131072
+  },
+  "interpretation": [
+    "File presence, timestamps, DONE markers and log excerpts do not establish scientific validity or successful completion.",
+    "Sequence files and raw reads were not opened. Scripts were inventoried but their contents were not collected.",
+    "Checksums were inventoried, not recomputed or verified.",
+    "Symlinks and other filesystems were not traversed. Project audit directories were excluded.",
+    "QC previews show up to 40 initial lines; log previews show up to 60 final lines.",
+    "Focused-family files take priority in excerpts; full metadata indexes cover all inventoried files.",
+    "No scheduler history was queried. Original paths are scrubbed, but review excerpts before sharing for other sensitive content.",
+    "This is a live inventory, not an atomic snapshot; files may change during traversal."
+  ]
+}

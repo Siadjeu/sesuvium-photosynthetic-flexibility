@@ -1,0 +1,193 @@
+family	description	species	project_gene_count	project_source	interpretation_status
+BETA_CA	beta carbonic anhydrase	AT	0	08_focused_families/validation/step25kn/results/BETA_CA/BETA_CA.accepted.proteins.fa	REVIEW_ONLY_NO_ACCEPTED_PRIMARY_SET
+BETA_CA	beta carbonic anhydrase	BV	0	08_focused_families/validation/step25kn/results/BETA_CA/BETA_CA.accepted.proteins.fa	REVIEW_ONLY_NO_ACCEPTED_PRIMARY_SET
+BETA_CA	beta carbonic anhydrase	MC	0	08_focused_families/validation/step25kn/results/BETA_CA/BETA_CA.accepted.proteins.fa	REVIEW_ONLY_NO_ACCEPTED_PRIMARY_SET
+BETA_CA	beta carbonic anhydrase	PO	0	08_focused_families/validation/step25kn/results/BETA_CA/BETA_CA.accepted.proteins.fa	REVIEW_ONLY_NO_ACCEPTED_PRIMARY_SET
+BETA_CA	beta carbonic anhydrase	SLP_Hap1	0	08_focused_families/validation/step25kn/results/BETA_CA/BETA_CA.accepted.proteins.fa	REVIEW_ONLY_NO_ACCEPTED_PRIMARY_SET
+BETA_CA	beta carbonic anhydrase	SP_Hex	0	08_focused_families/validation/step25kn/results/BETA_CA/BETA_CA.accepted.proteins.fa	REVIEW_ONLY_NO_ACCEPTED_PRIMARY_SET
+BETA_CA	beta carbonic anhydrase	SP_Tet	0	08_focused_families/validation/step25kn/results/BETA_CA/BETA_CA.accepted.proteins.fa	REVIEW_ONLY_NO_ACCEPTED_PRIMARY_SET
+BETA_CA	beta carbonic anhydrase	SS	0	08_focused_families/validation/step25kn/results/BETA_CA/BETA_CA.accepted.proteins.fa	REVIEW_ONLY_NO_ACCEPTED_PRIMARY_SET
+PEPC	phosphoenolpyruvate carboxylase	AT	4	08_focused_families/validation/step25kz16.8b/release/01_PEPC_tree_tip_metadata.tsv	FROZEN_PEPC_TREE_COUNT
+PEPC	phosphoenolpyruvate carboxylase	BV	3	08_focused_families/validation/step25kz16.8b/release/01_PEPC_tree_tip_metadata.tsv	FROZEN_PEPC_TREE_COUNT
+PEPC	phosphoenolpyruvate carboxylase	MC	3	08_focused_families/validation/step25kz16.8b/release/01_PEPC_tree_tip_metadata.tsv	FROZEN_PEPC_TREE_COUNT
+PEPC	phosphoenolpyruvate carboxylase	PO	13	08_focused_families/validation/step25kz16.8b/release/01_PEPC_tree_tip_metadata.tsv	FROZEN_PEPC_TREE_COUNT
+PEPC	phosphoenolpyruvate carboxylase	SLP_Hap1	8	08_focused_families/validation/step25kz16.8b/release/01_PEPC_tree_tip_metadata.tsv	FROZEN_PEPC_TREE_COUNT
+PEPC	phosphoenolpyruvate carboxylase	SP_Hex	8	08_focused_families/validation/step25kz16.8b/release/01_PEPC_tree_tip_metadata.tsv	FROZEN_PEPC_TREE_COUNT
+PEPC	phosphoenolpyruvate carboxylase	SP_Tet	6	08_focused_families/validation/step25kz16.8b/release/01_PEPC_tree_tip_metadata.tsv	FROZEN_PEPC_TREE_COUNT
+PEPC	phosphoenolpyruvate carboxylase	SS	10	08_focused_families/validation/step25kz16.8b/release/01_PEPC_tree_tip_metadata.tsv	FROZEN_PEPC_TREE_COUNT
+PEPCK	phosphoenolpyruvate carboxykinase	AT	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+PEPCK	phosphoenolpyruvate carboxykinase	BV	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+PEPCK	phosphoenolpyruvate carboxykinase	MC	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+PEPCK	phosphoenolpyruvate carboxykinase	PO	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+PEPCK	phosphoenolpyruvate carboxykinase	SLP_Hap1	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+PEPCK	phosphoenolpyruvate carboxykinase	SP_Hex	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+PEPCK	phosphoenolpyruvate carboxykinase	SP_Tet	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+PEPCK	phosphoenolpyruvate carboxykinase	SS	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+PPDK	pyruvate phosphate dikinase	AT	1	08_focused_families/validation/step25kz17.2/release/PPDK/primary_candidates.faa	VALIDATED_CANDIDATE_COUNT
+PPDK	pyruvate phosphate dikinase	BV	1	08_focused_families/validation/step25kz17.2/release/PPDK/primary_candidates.faa	VALIDATED_CANDIDATE_COUNT
+PPDK	pyruvate phosphate dikinase	MC	1	08_focused_families/validation/step25kz17.2/release/PPDK/primary_candidates.faa	VALIDATED_CANDIDATE_COUNT
+PPDK	pyruvate phosphate dikinase	PO	4	08_focused_families/validation/step25kz17.2/release/PPDK/primary_candidates.faa	VALIDATED_CANDIDATE_COUNT
+PPDK	pyruvate phosphate dikinase	SLP_Hap1	2	08_focused_families/validation/step25kz17.2/release/PPDK/primary_candidates.faa	VALIDATED_CANDIDATE_COUNT
+PPDK	pyruvate phosphate dikinase	SP_Hex	4	08_focused_families/validation/step25kz17.2/release/PPDK/primary_candidates.faa	VALIDATED_CANDIDATE_COUNT
+PPDK	pyruvate phosphate dikinase	SP_Tet	2	08_focused_families/validation/step25kz17.2/release/PPDK/primary_candidates.faa	VALIDATED_CANDIDATE_COUNT
+PPDK	pyruvate phosphate dikinase	SS	1	08_focused_families/validation/step25kz17.2/release/PPDK/primary_candidates.faa	VALIDATED_CANDIDATE_COUNT
+PPDK_RE	PPDK regulatory protein	AT	0	08_focused_families/validation/step25kn/results/PPDK_RP/PPDK_RP.accepted.proteins.fa	NO_ACCEPTED_PRIMARY_SET
+PPDK_RE	PPDK regulatory protein	BV	0	08_focused_families/validation/step25kn/results/PPDK_RP/PPDK_RP.accepted.proteins.fa	NO_ACCEPTED_PRIMARY_SET
+PPDK_RE	PPDK regulatory protein	MC	0	08_focused_families/validation/step25kn/results/PPDK_RP/PPDK_RP.accepted.proteins.fa	NO_ACCEPTED_PRIMARY_SET
+PPDK_RE	PPDK regulatory protein	PO	0	08_focused_families/validation/step25kn/results/PPDK_RP/PPDK_RP.accepted.proteins.fa	NO_ACCEPTED_PRIMARY_SET
+PPDK_RE	PPDK regulatory protein	SLP_Hap1	0	08_focused_families/validation/step25kn/results/PPDK_RP/PPDK_RP.accepted.proteins.fa	NO_ACCEPTED_PRIMARY_SET
+PPDK_RE	PPDK regulatory protein	SP_Hex	0	08_focused_families/validation/step25kn/results/PPDK_RP/PPDK_RP.accepted.proteins.fa	NO_ACCEPTED_PRIMARY_SET
+PPDK_RE	PPDK regulatory protein	SP_Tet	0	08_focused_families/validation/step25kn/results/PPDK_RP/PPDK_RP.accepted.proteins.fa	NO_ACCEPTED_PRIMARY_SET
+PPDK_RE	PPDK regulatory protein	SS	0	08_focused_families/validation/step25kn/results/PPDK_RP/PPDK_RP.accepted.proteins.fa	NO_ACCEPTED_PRIMARY_SET
+PEPC_KINASE	PEPC kinase	AT	3	08_focused_families/validation/step25kz17.2/release/PEPC_KINASE/primary_candidates.faa	VALIDATED_CANDIDATE_COUNT
+PEPC_KINASE	PEPC kinase	BV	2	08_focused_families/validation/step25kz17.2/release/PEPC_KINASE/primary_candidates.faa	VALIDATED_CANDIDATE_COUNT
+PEPC_KINASE	PEPC kinase	MC	3	08_focused_families/validation/step25kz17.2/release/PEPC_KINASE/primary_candidates.faa	VALIDATED_CANDIDATE_COUNT
+PEPC_KINASE	PEPC kinase	PO	3	08_focused_families/validation/step25kz17.2/release/PEPC_KINASE/primary_candidates.faa	VALIDATED_CANDIDATE_COUNT
+PEPC_KINASE	PEPC kinase	SLP_Hap1	3	08_focused_families/validation/step25kz17.2/release/PEPC_KINASE/primary_candidates.faa	VALIDATED_CANDIDATE_COUNT
+PEPC_KINASE	PEPC kinase	SP_Hex	5	08_focused_families/validation/step25kz17.2/release/PEPC_KINASE/primary_candidates.faa	VALIDATED_CANDIDATE_COUNT
+PEPC_KINASE	PEPC kinase	SP_Tet	3	08_focused_families/validation/step25kz17.2/release/PEPC_KINASE/primary_candidates.faa	VALIDATED_CANDIDATE_COUNT
+PEPC_KINASE	PEPC kinase	SS	5	08_focused_families/validation/step25kz17.2/release/PEPC_KINASE/primary_candidates.faa	VALIDATED_CANDIDATE_COUNT
+NAD_ME	NAD-dependent malic enzyme	AT	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+NAD_ME	NAD-dependent malic enzyme	BV	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+NAD_ME	NAD-dependent malic enzyme	MC	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+NAD_ME	NAD-dependent malic enzyme	PO	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+NAD_ME	NAD-dependent malic enzyme	SLP_Hap1	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+NAD_ME	NAD-dependent malic enzyme	SP_Hex	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+NAD_ME	NAD-dependent malic enzyme	SP_Tet	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+NAD_ME	NAD-dependent malic enzyme	SS	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+NADP_ME	NADP-dependent malic enzyme	AT	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+NADP_ME	NADP-dependent malic enzyme	BV	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+NADP_ME	NADP-dependent malic enzyme	MC	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+NADP_ME	NADP-dependent malic enzyme	PO	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+NADP_ME	NADP-dependent malic enzyme	SLP_Hap1	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+NADP_ME	NADP-dependent malic enzyme	SP_Hex	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+NADP_ME	NADP-dependent malic enzyme	SP_Tet	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+NADP_ME	NADP-dependent malic enzyme	SS	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+MDH	malate dehydrogenase	AT	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+MDH	malate dehydrogenase	BV	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+MDH	malate dehydrogenase	MC	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+MDH	malate dehydrogenase	PO	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+MDH	malate dehydrogenase	SLP_Hap1	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+MDH	malate dehydrogenase	SP_Hex	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+MDH	malate dehydrogenase	SP_Tet	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+MDH	malate dehydrogenase	SS	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+ASPAT	aspartate aminotransferase	AT	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+ASPAT	aspartate aminotransferase	BV	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+ASPAT	aspartate aminotransferase	MC	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+ASPAT	aspartate aminotransferase	PO	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+ASPAT	aspartate aminotransferase	SLP_Hap1	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+ASPAT	aspartate aminotransferase	SP_Hex	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+ASPAT	aspartate aminotransferase	SP_Tet	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+ASPAT	aspartate aminotransferase	SS	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+ALAAT	alanine aminotransferase	AT	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+ALAAT	alanine aminotransferase	BV	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+ALAAT	alanine aminotransferase	MC	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+ALAAT	alanine aminotransferase	PO	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+ALAAT	alanine aminotransferase	SLP_Hap1	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+ALAAT	alanine aminotransferase	SP_Hex	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+ALAAT	alanine aminotransferase	SP_Tet	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+ALAAT	alanine aminotransferase	SS	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+BASS2	BASS2 transporter	AT	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+BASS2	BASS2 transporter	BV	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+BASS2	BASS2 transporter	MC	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+BASS2	BASS2 transporter	PO	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+BASS2	BASS2 transporter	SLP_Hap1	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+BASS2	BASS2 transporter	SP_Hex	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+BASS2	BASS2 transporter	SP_Tet	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+BASS2	BASS2 transporter	SS	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+MEP	MEP-related transporter	AT	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+MEP	MEP-related transporter	BV	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+MEP	MEP-related transporter	MC	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+MEP	MEP-related transporter	PO	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+MEP	MEP-related transporter	SLP_Hap1	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+MEP	MEP-related transporter	SP_Hex	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+MEP	MEP-related transporter	SP_Tet	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+MEP	MEP-related transporter	SS	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+DIT2	dicarboxylate transporter 2	AT	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+DIT2	dicarboxylate transporter 2	BV	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+DIT2	dicarboxylate transporter 2	MC	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+DIT2	dicarboxylate transporter 2	PO	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+DIT2	dicarboxylate transporter 2	SLP_Hap1	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+DIT2	dicarboxylate transporter 2	SP_Hex	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+DIT2	dicarboxylate transporter 2	SP_Tet	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+DIT2	dicarboxylate transporter 2	SS	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+DIC	dicarboxylate transporter	AT	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+DIC	dicarboxylate transporter	BV	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+DIC	dicarboxylate transporter	MC	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+DIC	dicarboxylate transporter	PO	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+DIC	dicarboxylate transporter	SLP_Hap1	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+DIC	dicarboxylate transporter	SP_Hex	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+DIC	dicarboxylate transporter	SP_Tet	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+DIC	dicarboxylate transporter	SS	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+DTC	dicarboxylate translocator	AT	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+DTC	dicarboxylate translocator	BV	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+DTC	dicarboxylate translocator	MC	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+DTC	dicarboxylate translocator	PO	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+DTC	dicarboxylate translocator	SLP_Hap1	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+DTC	dicarboxylate translocator	SP_Hex	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+DTC	dicarboxylate translocator	SP_Tet	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+DTC	dicarboxylate translocator	SS	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+MPC	mitochondrial pyruvate carrier	AT	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+MPC	mitochondrial pyruvate carrier	BV	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+MPC	mitochondrial pyruvate carrier	MC	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+MPC	mitochondrial pyruvate carrier	PO	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+MPC	mitochondrial pyruvate carrier	SLP_Hap1	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+MPC	mitochondrial pyruvate carrier	SP_Hex	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+MPC	mitochondrial pyruvate carrier	SP_Tet	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+MPC	mitochondrial pyruvate carrier	SS	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+ALMT	aluminum-activated malate transporter	AT	10	08_focused_families/validation/step25kz17.2/release/ALMT/primary_candidates.faa	VALIDATED_CANDIDATE_COUNT
+ALMT	aluminum-activated malate transporter	BV	9	08_focused_families/validation/step25kz17.2/release/ALMT/primary_candidates.faa	VALIDATED_CANDIDATE_COUNT
+ALMT	aluminum-activated malate transporter	MC	12	08_focused_families/validation/step25kz17.2/release/ALMT/primary_candidates.faa	VALIDATED_CANDIDATE_COUNT
+ALMT	aluminum-activated malate transporter	PO	31	08_focused_families/validation/step25kz17.2/release/ALMT/primary_candidates.faa	VALIDATED_CANDIDATE_COUNT
+ALMT	aluminum-activated malate transporter	SLP_Hap1	16	08_focused_families/validation/step25kz17.2/release/ALMT/primary_candidates.faa	VALIDATED_CANDIDATE_COUNT
+ALMT	aluminum-activated malate transporter	SP_Hex	24	08_focused_families/validation/step25kz17.2/release/ALMT/primary_candidates.faa	VALIDATED_CANDIDATE_COUNT
+ALMT	aluminum-activated malate transporter	SP_Tet	16	08_focused_families/validation/step25kz17.2/release/ALMT/primary_candidates.faa	VALIDATED_CANDIDATE_COUNT
+ALMT	aluminum-activated malate transporter	SS	21	08_focused_families/validation/step25kz17.2/release/ALMT/primary_candidates.faa	VALIDATED_CANDIDATE_COUNT
+TDT	tonoplast dicarboxylate transporter	AT	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+TDT	tonoplast dicarboxylate transporter	BV	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+TDT	tonoplast dicarboxylate transporter	MC	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+TDT	tonoplast dicarboxylate transporter	PO	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+TDT	tonoplast dicarboxylate transporter	SLP_Hap1	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+TDT	tonoplast dicarboxylate transporter	SP_Hex	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+TDT	tonoplast dicarboxylate transporter	SP_Tet	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+TDT	tonoplast dicarboxylate transporter	SS	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+PPA	inorganic pyrophosphatase	AT	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+PPA	inorganic pyrophosphatase	BV	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+PPA	inorganic pyrophosphatase	MC	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+PPA	inorganic pyrophosphatase	PO	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+PPA	inorganic pyrophosphatase	SLP_Hap1	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+PPA	inorganic pyrophosphatase	SP_Hex	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+PPA	inorganic pyrophosphatase	SP_Tet	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+PPA	inorganic pyrophosphatase	SS	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+PPT	phosphoenolpyruvate/phosphate translocator	AT	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+PPT	phosphoenolpyruvate/phosphate translocator	BV	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+PPT	phosphoenolpyruvate/phosphate translocator	MC	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+PPT	phosphoenolpyruvate/phosphate translocator	PO	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+PPT	phosphoenolpyruvate/phosphate translocator	SLP_Hap1	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+PPT	phosphoenolpyruvate/phosphate translocator	SP_Hex	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+PPT	phosphoenolpyruvate/phosphate translocator	SP_Tet	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+PPT	phosphoenolpyruvate/phosphate translocator	SS	NA	NO_EXPLICIT_VALIDATED_INPUT	PROJECT_INPUT_MISSING
+V_ATPASE	vacuolar H+-ATPase	AT	20	08_focused_families/validation/step25kz17.2/release/V_ATPASE/primary_candidates.faa	VALIDATED_CANDIDATE_COUNT
+V_ATPASE	vacuolar H+-ATPase	BV	10	08_focused_families/validation/step25kz17.2/release/V_ATPASE/primary_candidates.faa	VALIDATED_CANDIDATE_COUNT
+V_ATPASE	vacuolar H+-ATPase	MC	13	08_focused_families/validation/step25kz17.2/release/V_ATPASE/primary_candidates.faa	VALIDATED_CANDIDATE_COUNT
+V_ATPASE	vacuolar H+-ATPase	PO	31	08_focused_families/validation/step25kz17.2/release/V_ATPASE/primary_candidates.faa	VALIDATED_CANDIDATE_COUNT
+V_ATPASE	vacuolar H+-ATPase	SLP_Hap1	16	08_focused_families/validation/step25kz17.2/release/V_ATPASE/primary_candidates.faa	VALIDATED_CANDIDATE_COUNT
+V_ATPASE	vacuolar H+-ATPase	SP_Hex	31	08_focused_families/validation/step25kz17.2/release/V_ATPASE/primary_candidates.faa	VALIDATED_CANDIDATE_COUNT
+V_ATPASE	vacuolar H+-ATPase	SP_Tet	24	08_focused_families/validation/step25kz17.2/release/V_ATPASE/primary_candidates.faa	VALIDATED_CANDIDATE_COUNT
+V_ATPASE	vacuolar H+-ATPase	SS	25	08_focused_families/validation/step25kz17.2/release/V_ATPASE/primary_candidates.faa	VALIDATED_CANDIDATE_COUNT
+V_PPASE	vacuolar H+-pyrophosphatase	AT	5	08_focused_families/validation/step25kz17.2/release/V_PPASE/primary_candidates.faa	VALIDATED_CANDIDATE_COUNT
+V_PPASE	vacuolar H+-pyrophosphatase	BV	3	08_focused_families/validation/step25kz17.2/release/V_PPASE/primary_candidates.faa	VALIDATED_CANDIDATE_COUNT
+V_PPASE	vacuolar H+-pyrophosphatase	MC	2	08_focused_families/validation/step25kz17.2/release/V_PPASE/primary_candidates.faa	VALIDATED_CANDIDATE_COUNT
+V_PPASE	vacuolar H+-pyrophosphatase	PO	6	08_focused_families/validation/step25kz17.2/release/V_PPASE/primary_candidates.faa	VALIDATED_CANDIDATE_COUNT
+V_PPASE	vacuolar H+-pyrophosphatase	SLP_Hap1	4	08_focused_families/validation/step25kz17.2/release/V_PPASE/primary_candidates.faa	VALIDATED_CANDIDATE_COUNT
+V_PPASE	vacuolar H+-pyrophosphatase	SP_Hex	7	08_focused_families/validation/step25kz17.2/release/V_PPASE/primary_candidates.faa	VALIDATED_CANDIDATE_COUNT
+V_PPASE	vacuolar H+-pyrophosphatase	SP_Tet	6	08_focused_families/validation/step25kz17.2/release/V_PPASE/primary_candidates.faa	VALIDATED_CANDIDATE_COUNT
+V_PPASE	vacuolar H+-pyrophosphatase	SS	7	08_focused_families/validation/step25kz17.2/release/V_PPASE/primary_candidates.faa	VALIDATED_CANDIDATE_COUNT
+TDT_DTC_DIC	combined legacy TDT/DTC/DIC family	AT	NA	08_focused_families/validation/step25kz17.2/release/TDT_DTC_DIC/primary_candidates.faa	NOT_COMPARABLE_COMBINED_FAMILY
+TDT_DTC_DIC	combined legacy TDT/DTC/DIC family	BV	NA	08_focused_families/validation/step25kz17.2/release/TDT_DTC_DIC/primary_candidates.faa	NOT_COMPARABLE_COMBINED_FAMILY
+TDT_DTC_DIC	combined legacy TDT/DTC/DIC family	MC	NA	08_focused_families/validation/step25kz17.2/release/TDT_DTC_DIC/primary_candidates.faa	NOT_COMPARABLE_COMBINED_FAMILY
+TDT_DTC_DIC	combined legacy TDT/DTC/DIC family	PO	NA	08_focused_families/validation/step25kz17.2/release/TDT_DTC_DIC/primary_candidates.faa	NOT_COMPARABLE_COMBINED_FAMILY
+TDT_DTC_DIC	combined legacy TDT/DTC/DIC family	SLP_Hap1	NA	08_focused_families/validation/step25kz17.2/release/TDT_DTC_DIC/primary_candidates.faa	NOT_COMPARABLE_COMBINED_FAMILY
+TDT_DTC_DIC	combined legacy TDT/DTC/DIC family	SP_Hex	NA	08_focused_families/validation/step25kz17.2/release/TDT_DTC_DIC/primary_candidates.faa	NOT_COMPARABLE_COMBINED_FAMILY
+TDT_DTC_DIC	combined legacy TDT/DTC/DIC family	SP_Tet	NA	08_focused_families/validation/step25kz17.2/release/TDT_DTC_DIC/primary_candidates.faa	NOT_COMPARABLE_COMBINED_FAMILY
+TDT_DTC_DIC	combined legacy TDT/DTC/DIC family	SS	NA	08_focused_families/validation/step25kz17.2/release/TDT_DTC_DIC/primary_candidates.faa	NOT_COMPARABLE_COMBINED_FAMILY

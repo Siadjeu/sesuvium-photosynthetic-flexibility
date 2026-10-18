@@ -1,0 +1,5 @@
+scenario	tips	sites	informative_sites	model	warnings
+main_full	51	504	290	JTTDCMUT+I+G4	WARNING: 3 near-zero internal branches (<0.0020) should be treated with caution
+main_core	51	269	203	JTTDCMUT+I+R3	WARNING: 4 near-zero internal branches (<0.0037) should be treated with caution
+domains_full	52	473	292	JTTDCMUT+I+G4	WARNING: 3 near-zero internal branches (<0.0021) should be treated with caution
+domains_core	52	266	201	JTTDCMUT+I+R3	WARNING: 5 near-zero internal branches (<0.0038) should be treated with caution

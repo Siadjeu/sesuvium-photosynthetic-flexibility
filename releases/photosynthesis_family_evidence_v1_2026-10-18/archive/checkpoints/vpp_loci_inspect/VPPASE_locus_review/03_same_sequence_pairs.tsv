@@ -1,0 +1,4 @@
+species	protein_a	protein_b	seqid	same_gene	same_strand	intervening_bp	overlap_bp	interpretation
+PO	PO__evm.TU.LG07.1805	PO__evm.TU.LG07.1806	GWHCBIU00000007	False	True	264	0	COORDINATES_ONLY_DO_NOT_MERGE
+SP_Tet	SP_Tet__g30465	SP_Tet__g31642	scaffold_7	False	False	14779445	0	COORDINATES_ONLY_DO_NOT_MERGE
+SS	SS__g8927.t1	SS__g9001.t1	scaffold_19	False	False	899973	0	COORDINATES_ONLY_DO_NOT_MERGE

@@ -1,0 +1,6 @@
+reference	reference_position	alignment_column	expected_residue
+REF__sp|P27140|BCA1_ARATH	167	249	C
+REF__sp|P27140|BCA1_ARATH	169	251	D
+REF__sp|P27140|BCA1_ARATH	171	253	R
+REF__sp|P27140|BCA1_ARATH	227	309	H
+REF__sp|P27140|BCA1_ARATH	230	312	C

@@ -1,0 +1,46 @@
+input_kind	species	path	status	records	sha256
+ANNOTATION_MAPPING	AT	03_harmonized/primary_v1/AT/AT.all_isoform_mapping.tsv	PRESENT_HASHED	36036	49acc1140ddb84e0ceda7651b6d3a5bf44b5e818b779e876798a98f6124f6895
+ANNOTATION_MAPPING	BV	03_harmonized/primary_v1/BV/BV.all_isoform_mapping.tsv	PRESENT_HASHED	32609	92757f6e79a084d6f6541125bfca3b9b08d5f0067d8389da70d42f0765ef2e33
+ANNOTATION_MAPPING	MC	03_harmonized/primary_v1/MC/MC.all_isoform_mapping.tsv	PRESENT_HASHED	27326	2850262145a6a7e6d70d9eef751165eecc2f1a6f2d5a1fcb567a566e06b6146d
+ANNOTATION_MAPPING	PO	03_harmonized/primary_v1/PO/PO.all_isoform_mapping.tsv	PRESENT_HASHED	45217	a16bf0a5db918ecb768127c4d96b4764fdf0bd34976d7f860a95a710714f1a5d
+ANNOTATION_MAPPING	SLP_Hap1	03_harmonized/primary_v1/SLP_Hap1/SLP_Hap1.all_isoform_mapping.tsv	PRESENT_HASHED	29147	f32598592423d6cba5057ba5c683e210a2cdbc0ea97079e5c70c1971644cfeb6
+ANNOTATION_MAPPING	SP_Hex	03_harmonized/primary_v1/SP_Hex/SP_Hex.all_isoform_mapping.tsv	PRESENT_HASHED	61420	e54f6b9eb5b3977b3b90289d03859f302b0f234047aaff96f09639e754772548
+ANNOTATION_MAPPING	SP_Tet	03_harmonized/primary_v1/SP_Tet/SP_Tet.all_isoform_mapping.tsv	PRESENT_HASHED	39848	f8fb19c79b118d62b34563426c73c3fc5261b1b96fd216be60d22439c9e7fe84
+ANNOTATION_MAPPING	SS	03_harmonized/primary_v1/SS/SS.all_isoform_mapping.tsv	PRESENT_HASHED	46361	83d7e662ba09985cc2d31beceb62a2b1b093f38b02fc755270acd154cf3c851b
+protein_all	SS	01_inputs/standardized/SS/protein/SS.proteins.all.fa.gz	PRESENT_NOT_HASHED		NOT_HASHED
+cds_all	SS	01_inputs/standardized/SS/cds/SS.cds.all.fa.gz	PRESENT_NOT_HASHED		NOT_HASHED
+gff3	SS	01_inputs/standardized/SS/annotation/SS.gff3.gz	PRESENT_NOT_HASHED		NOT_HASHED
+genome	SS	01_inputs/standardized/SS/genome/SS.genome.fa.gz	PRESENT_NOT_HASHED		NOT_HASHED
+protein_all	PO	01_inputs/standardized/PO/protein/PO.proteins.all.fa.gz	PRESENT_NOT_HASHED		NOT_HASHED
+cds_all	PO	01_inputs/standardized/PO/cds/PO.cds.all.fa.gz	PRESENT_NOT_HASHED		NOT_HASHED
+gff3	PO	01_inputs/standardized/PO/annotation/PO.gff3.gz	PRESENT_NOT_HASHED		NOT_HASHED
+genome	PO	01_inputs/standardized/PO/genome/PO.genome.fa.gz	PRESENT_NOT_HASHED		NOT_HASHED
+protein_all	AT	01_inputs/standardized/AT/protein/AT.proteins.all.fa.gz	PRESENT_NOT_HASHED		NOT_HASHED
+cds_all	AT	01_inputs/standardized/AT/cds/AT.cds.all.fa.gz	PRESENT_NOT_HASHED		NOT_HASHED
+gff3	AT	01_inputs/standardized/AT/annotation/AT.gff3.gz	PRESENT_NOT_HASHED		NOT_HASHED
+genome	AT	01_inputs/standardized/AT/genome/AT.genome.fa.gz	PRESENT_NOT_HASHED		NOT_HASHED
+protein_all	SP_Tet	01_inputs/standardized/SP_Tet/protein/SP_Tet.proteins.all.fa.gz	PRESENT_NOT_HASHED		NOT_HASHED
+cds_all	SP_Tet	01_inputs/standardized/SP_Tet/cds/SP_Tet.cds.all.fa.gz	PRESENT_NOT_HASHED		NOT_HASHED
+gff3	SP_Tet	01_inputs/standardized/SP_Tet/annotation/SP_Tet.gff3.gz	PRESENT_NOT_HASHED		NOT_HASHED
+genome	SP_Tet	01_inputs/standardized/SP_Tet/genome/SP_Tet.genome.fa.gz	PRESENT_NOT_HASHED		NOT_HASHED
+protein_all	SP_Hex	01_inputs/standardized/SP_Hex/protein/SP_Hex.proteins.all.fa.gz	PRESENT_NOT_HASHED		NOT_HASHED
+cds_all	SP_Hex	01_inputs/standardized/SP_Hex/cds/SP_Hex.cds.all.fa.gz	PRESENT_NOT_HASHED		NOT_HASHED
+gff3	SP_Hex	01_inputs/standardized/SP_Hex/annotation/SP_Hex.gff3.gz	PRESENT_NOT_HASHED		NOT_HASHED
+genome	SP_Hex	01_inputs/standardized/SP_Hex/genome/SP_Hex.genome.fa.gz	PRESENT_NOT_HASHED		NOT_HASHED
+protein_all	MC	01_inputs/standardized/MC/protein/MC.proteins.all.fa.gz	PRESENT_NOT_HASHED		NOT_HASHED
+cds_all	MC	01_inputs/standardized/MC/cds/MC.cds.all.fa.gz	PRESENT_NOT_HASHED		NOT_HASHED
+gff3	MC	01_inputs/standardized/MC/annotation/MC.gff3.gz	PRESENT_NOT_HASHED		NOT_HASHED
+genome	MC	01_inputs/standardized/MC/genome/MC.genome.fa.gz	PRESENT_NOT_HASHED		NOT_HASHED
+protein_all	SLP_Hap1	01_inputs/standardized/SLP/Hap1/protein/SLP_Hap1.proteins.all.fa.gz	PRESENT_NOT_HASHED		NOT_HASHED
+cds_all	SLP_Hap1	01_inputs/standardized/SLP/Hap1/cds/SLP_Hap1.cds.all.fa.gz	PRESENT_NOT_HASHED		NOT_HASHED
+gff3	SLP_Hap1	01_inputs/standardized/SLP/Hap1/annotation/SLP_Hap1.gff3.gz	PRESENT_NOT_HASHED		NOT_HASHED
+genome	SLP_Hap1	01_inputs/standardized/SLP/Hap1/genome/SLP_Hap1.genome.fa.gz	PRESENT_NOT_HASHED		NOT_HASHED
+protein_all	SLP_Hap2	01_inputs/standardized/SLP/Hap2/protein/SLP_Hap2.proteins.all.fa.gz	PRESENT_NOT_HASHED		NOT_HASHED
+cds_all	SLP_Hap2	01_inputs/standardized/SLP/Hap2/cds/SLP_Hap2.cds.all.fa.gz	PRESENT_NOT_HASHED		NOT_HASHED
+gff3	SLP_Hap2	01_inputs/standardized/SLP/Hap2/annotation/SLP_Hap2.gff3.gz	PRESENT_NOT_HASHED		NOT_HASHED
+genome	SLP_Hap2	01_inputs/standardized/SLP/Hap2/genome/SLP_Hap2.genome.fa.gz	PRESENT_NOT_HASHED		NOT_HASHED
+protein_all	BV	01_inputs/standardized/BV/protein/BV.proteins.all.fa.gz	PRESENT_NOT_HASHED		NOT_HASHED
+cds_all	BV	01_inputs/standardized/BV/cds/BV.cds.all.fa.gz	PRESENT_NOT_HASHED		NOT_HASHED
+gff3	BV	01_inputs/standardized/BV/annotation/BV.gff3.gz	PRESENT_NOT_HASHED		NOT_HASHED
+genome	BV	01_inputs/standardized/BV/genome/BV.genome.fa.gz	PRESENT_NOT_HASHED		NOT_HASHED
+CORRECTED_PROTEOME	ALL	08_focused_families/validation/step25kz17.21/release_20543244_20261015T214311687124Z/full_outputs/corrected_protein_candidates.faa	PINNED_HASH_VERIFIED	287197	c5643d9ce8ba9140cd994eb1518fa7f9cdc242443b3e66532b9ba3f8f039b568

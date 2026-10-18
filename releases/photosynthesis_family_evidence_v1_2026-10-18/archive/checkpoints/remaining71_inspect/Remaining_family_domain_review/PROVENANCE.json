@@ -1,0 +1,80 @@
+{
+  "step70_manifest_sha256": "06c839aad8925d48071c70a212af282e5a2fb3b392f1cdeab8340d02f8f6f648",
+  "corrected_manifest_sha256": "dac3d138fa5988c1896874f729d0c0943d413dea0d9d5b544a299efbea7696d7",
+  "corrected_proteome_sha256": "c5643d9ce8ba9140cd994eb1518fa7f9cdc242443b3e66532b9ba3f8f039b568",
+  "mapping_hashes": {
+    "AT": "49acc1140ddb84e0ceda7651b6d3a5bf44b5e818b779e876798a98f6124f6895",
+    "BV": "92757f6e79a084d6f6541125bfca3b9b08d5f0067d8389da70d42f0765ef2e33",
+    "MC": "2850262145a6a7e6d70d9eef751165eecc2f1a6f2d5a1fcb567a566e06b6146d",
+    "PO": "a16bf0a5db918ecb768127c4d96b4764fdf0bd34976d7f860a95a710714f1a5d",
+    "SLP_Hap1": "f32598592423d6cba5057ba5c683e210a2cdbc0ea97079e5c70c1971644cfeb6",
+    "SP_Hex": "e54f6b9eb5b3977b3b90289d03859f302b0f234047aaff96f09639e754772548",
+    "SP_Tet": "f8fb19c79b118d62b34563426c73c3fc5261b1b96fd216be60d22439c9e7fe84",
+    "SS": "83d7e662ba09985cc2d31beceb62a2b1b093f38b02fc755270acd154cf3c851b"
+  },
+  "pfam_sha256": "4b0da6399b97d2b23329de82190b2e5705bde1dea4cb2d028a52712d5966739e",
+  "commands": [
+    [
+      "diamond",
+      "makedb",
+      "--threads",
+      "4",
+      "--in",
+      "<RELEASE>/02_LDH_panel.faa",
+      "--db",
+      "<RELEASE>/work/ldh"
+    ],
+    [
+      "diamond",
+      "blastp",
+      "--threads",
+      "4",
+      "--query",
+      "<PROJECT_ROOT>/08_focused_families/validation/step25kz17.21/release_20543244_20261015T214311687124Z/full_outputs/corrected_protein_candidates.faa",
+      "--db",
+      "<RELEASE>/work/ldh",
+      "--out",
+      "<RELEASE>/02_LDH_hits.tsv",
+      "--very-sensitive",
+      "--evalue",
+      "1e-3",
+      "--max-target-seqs",
+      "0",
+      "--max-hsps",
+      "1",
+      "--outfmt",
+      "6",
+      "qseqid",
+      "sseqid",
+      "pident",
+      "length",
+      "qlen",
+      "slen",
+      "qstart",
+      "qend",
+      "sstart",
+      "send",
+      "evalue",
+      "bitscore"
+    ],
+    [
+      "hmmsearch",
+      "--cpu",
+      "4",
+      "--cut_ga",
+      "--noali",
+      "--domtblout",
+      "<RELEASE>/06_Pfam.domtbl",
+      "<PFAM_HMM>",
+      "<RELEASE>/03_deduplicated_domain_input.faa"
+    ],
+    [
+      "hmmsearch",
+      "-h"
+    ],
+    [
+      "diamond",
+      "version"
+    ]
+  ]
+}

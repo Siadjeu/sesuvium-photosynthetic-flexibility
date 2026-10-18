@@ -1,0 +1,20 @@
+{
+  "prior_manifest_sha256": "aea82be148b3b3bfbcf473cb02c3892f4e8e16991f4019ddce7507b9d5e46b45",
+  "reference_file_sha256": "f620070e47d97517a2da64ac0ce744b041b4129960e5f7bfc5a1e3ca772bb7e6",
+  "pfam_source_sha256": "4b0da6399b97d2b23329de82190b2e5705bde1dea4cb2d028a52712d5966739e",
+  "pfam_uncompressed_sha256": "4b0da6399b97d2b23329de82190b2e5705bde1dea4cb2d028a52712d5966739e",
+  "pfam_models": 30134,
+  "PEPC_model": {
+    "name": "PEPcase",
+    "accession": "PF00311.24",
+    "length": 919
+  },
+  "method": "hmmsearch --cut_ga against full Pfam-A",
+  "review_thresholds": {
+    "best_domain_model_coverage": 0.9,
+    "historical_length_range": [
+      800,
+      1300
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "status": "COMPLETE_RESIDUE_COMPLETENESS_DIAGNOSTICS_REVIEW_ONLY",
+  "primary_beta_candidates": 47,
+  "partial_beta_candidates": 2,
+  "reference_residue_checks": {
+    "MATCH_ALL_FIVE": 45,
+    "REVIEW_GAP_AT_SITE": 2
+  },
+  "diagnostic_core_columns": 269,
+  "candidates_with_diagnostic_flags": 25,
+  "formal_export_performed": false,
+  "tree_built": false,
+  "input_sha256": {
+    "02_CA_family_specific_review.tsv": "2d2bf840a076cea7d55a3277abc890504c5fc6ae7d3cc12679edd9788dc08ad0",
+    "03_domain_evidence.tsv": "495bffd2356025305857128bf791a19a480b47a687eb19650b89ca603946ddd1",
+    "08_beta_only_review_alignment.faa": "5f3e9f5b9a500ec409f9c1f943a9510bfd7a56ccaf8297f6b33625c8cbe47d8b"
+  },
+  "interpretation": [
+    "MATCH_ALL_FIVE means alignment residues match all six references; it does not prove catalytic activity.",
+    "Core columns have residues in at least five of six Arabidopsis references. This is a diagnostic alignment core, not an experimentally defined domain.",
+    "Terminal gaps, long internal gaps and reference residues guide inspection; they are not automatic gene completeness calls.",
+    "All existing manual decisions/checks are preserved; no new PASS or formal acceptance is assigned.",
+    "Identical proteins retain separate identifiers. Sequence equality does not establish distinct loci.",
+    "Five-character windows are alignment columns centered on a mapped BCA1 position; they can contain gaps.",
+    "Wang S6 counts were supplied by the user and are external benchmarks, not fitting targets.",
+    "Review fields: new_reviewer_decision, new_catalytic_region_check, new_truncation_check, new_reviewer_reason.",
+    "Use PASS for a manual check only after inspection. Keep uncertain candidates REVIEW_MANUAL or PENDING.",
+    "Recommended decision vocabulary: ACCEPT_FORMAL_BETA_CA, REVIEW_MANUAL, EXCLUDE_NON_BETA_CA, EXCLUDE_FRAGMENT, PENDING."
+  ]
+}

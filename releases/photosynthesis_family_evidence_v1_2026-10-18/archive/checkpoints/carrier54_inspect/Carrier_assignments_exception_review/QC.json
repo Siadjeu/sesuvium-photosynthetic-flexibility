@@ -1,0 +1,82 @@
+{
+  "status": "CARRIER_ASSIGNMENTS_EXCEPTION_REVIEW_READY",
+  "candidate_records": 85,
+  "main_DTC": 42,
+  "main_DIC": 17,
+  "exception_loci": 4,
+  "annotation_status": [
+    {
+      "protein_id": "PO__evm.TU.LG05.272",
+      "kind": "protein",
+      "status": "COLLECTED",
+      "records": 1
+    },
+    {
+      "protein_id": "PO__evm.TU.LG05.272",
+      "kind": "cds",
+      "status": "COLLECTED",
+      "records": 1
+    },
+    {
+      "protein_id": "PO__evm.TU.LG05.272",
+      "kind": "gff",
+      "status": "COLLECTED",
+      "records": 6
+    },
+    {
+      "protein_id": "PO__evm.TU.LG25.1042",
+      "kind": "protein",
+      "status": "COLLECTED",
+      "records": 1
+    },
+    {
+      "protein_id": "PO__evm.TU.LG25.1042",
+      "kind": "cds",
+      "status": "COLLECTED",
+      "records": 1
+    },
+    {
+      "protein_id": "PO__evm.TU.LG25.1042",
+      "kind": "gff",
+      "status": "COLLECTED",
+      "records": 14
+    },
+    {
+      "protein_id": "SP_Hex__gene_Spor0293270.1",
+      "kind": "protein",
+      "status": "COLLECTED",
+      "records": 1
+    },
+    {
+      "protein_id": "SP_Hex__gene_Spor0293270.1",
+      "kind": "cds",
+      "status": "COLLECTED",
+      "records": 1
+    },
+    {
+      "protein_id": "SP_Hex__gene_Spor0293270.1",
+      "kind": "gff",
+      "status": "COLLECTED",
+      "records": 15
+    },
+    {
+      "protein_id": "SS__g18155.t1",
+      "kind": "protein",
+      "status": "COLLECTED",
+      "records": 1
+    },
+    {
+      "protein_id": "SS__g18155.t1",
+      "kind": "cds",
+      "status": "COLLECTED",
+      "records": 1
+    },
+    {
+      "protein_id": "SS__g18155.t1",
+      "kind": "gff",
+      "status": "COLLECTED",
+      "records": 12
+    }
+  ],
+  "final_counts": false
+}

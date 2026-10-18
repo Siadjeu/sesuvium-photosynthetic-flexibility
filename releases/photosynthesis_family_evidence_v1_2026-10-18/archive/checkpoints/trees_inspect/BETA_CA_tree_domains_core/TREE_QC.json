@@ -1,0 +1,17 @@
+{
+  "status": "COMPLETE_TIPS_VERIFIED",
+  "scenario": "domains_core",
+  "tips": 52,
+  "alignment_columns": 266,
+  "model_report_lines": [
+    "Best-fit model according to BIC: JTTDCMUT+I+R3"
+  ],
+  "support_order": "SH-aLRT / ultrafast bootstrap; verify tree.iqtree",
+  "rooting": "UNROOTED",
+  "notes": [
+    "Identical sequence labels are retained; their relative branching is not resolved by sequence evidence.",
+    "AT domain tips represent one locus, not two genes.",
+    "Core filtering is a diagnostic sensitivity analysis, not a validated universal trimming rule.",
+    "Do not compare raw likelihoods between different alignments."
+  ]
+}

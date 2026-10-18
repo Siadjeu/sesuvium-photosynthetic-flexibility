@@ -1,0 +1,12 @@
+{
+  "status": "TDT_LEDGER_CONSOLIDATED",
+  "integrated_records": 886,
+  "integrated_families": 8,
+  "TDT_supported": 10,
+  "TDT_model_caveat": 1,
+  "TD029_excluded": true,
+  "carrier_candidates": 724,
+  "carrier_panel_status": "BROAD_PANEL_READY_FOR_DEFINITION_REVIEW",
+  "carrier_panel_sequences": 43,
+  "final_counts": false
+}

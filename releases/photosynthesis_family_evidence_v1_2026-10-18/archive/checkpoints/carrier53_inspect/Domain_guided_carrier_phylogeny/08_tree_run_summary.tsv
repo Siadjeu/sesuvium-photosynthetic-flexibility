@@ -1,0 +1,4 @@
+analysis	sequences	columns	model	seed	support_order	rooting
+main	126	267	LG+F+G4	175301	SH-aLRT/UFBoot	UNROOTED
+sensitivity_MC_partial	127	267	LG+F+G4	175302	SH-aLRT/UFBoot	UNROOTED
+sensitivity_SS_partial	127	267	LG+F+G4	175303	SH-aLRT/UFBoot	UNROOTED

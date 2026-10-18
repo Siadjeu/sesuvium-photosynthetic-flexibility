@@ -1,0 +1,41 @@
+{
+  "created_utc": "20261015T172110Z",
+  "project_root": "<PROJECT_ROOT>",
+  "file_targets": [
+    "00_admin/manifests/species_manifest.tsv",
+    "00_admin/manifests/local_inputs.authoritative_v1.tsv",
+    "00_admin/manifests/input_sets.tsv",
+    "00_admin/decisions/SOURCE_DECISIONS.md",
+    "04_orthofinder/accepted/primary_v1/README.txt",
+    "08_focused_families/validation/step25kz17.3/release/FORMAL_QC.tsv",
+    "08_focused_families/validation/step25kz17.3/release/00_family_tree_summary.tsv",
+    "08_focused_families/validation/step25kz17.4d/release/FORMAL_QC.tsv",
+    "08_focused_families/validation/step25kz17.4d/release/01_final_corrected_project_candidate_counts.tsv",
+    "08_focused_families/validation/step25kz17.4d/release/02_final_candidate_recovery_vs_wang_S6.tsv",
+    "08_focused_families/validation/step25kz17.5/release/00_reference_rescue_requirements.tsv",
+    "08_focused_families/validation/step25kz17.5/release/FORMAL_QC.tsv",
+    "08_focused_families/validation/step25kz17.5/scripts/01_rescue_beta_ca_and_missing_references.slurm"
+  ],
+  "directory_targets": [
+    "04_orthofinder/accepted/primary_v1/qc",
+    "05_gene_families/integration/functional_WGD_manuscript_checkpoint_primary_v1",
+    "06_positive_selection/manuscript/positive_selection_module_closure_primary_v1",
+    "07_rnaseq/manuscript/rnaseq_multiomics_figure_package_reviewed_v1",
+    "github_release/manifests",
+    "github_release/methods"
+  ],
+  "collected_files": 59,
+  "collected_bytes": 240247,
+  "max_file_bytes": 5242880,
+  "max_total_bytes": 52428800,
+  "notes": [
+    "Complete selected UTF-8 text files are collected; no line excerpts or truncation.",
+    "Cluster paths, current username/host and recognized node names are replaced with placeholders.",
+    "Existing project files are not modified. Only this new audit directory, archive and scheduler logs are written.",
+    "Binary files, symlinks, other formats and oversized files are skipped and listed in the manifest.",
+    "Original and collected checksums differ when sanitization changes bytes. Source checksums in copied reports refer to original files, not sanitized copies.",
+    "Collection status describes copying only. It does not validate scientific results or analysis completion.",
+    "Review collected content before sharing for sensitive material beyond paths.",
+    "Any file reported as changed during reading should be recollected when its writer finishes."
+  ]
+}

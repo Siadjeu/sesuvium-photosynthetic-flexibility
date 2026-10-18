@@ -1,0 +1,19 @@
+{
+  "source_manifest_sha256": "d28887503e387ba1e6b15bb4323543419582431f31dbb6a598ee08856b54bb66",
+  "commands": [
+    [
+      "mafft",
+      "--amino",
+      "--thread",
+      "4",
+      "--localpair",
+      "--maxiterate",
+      "1000",
+      "<RELEASE>/01_all_sequences.faa"
+    ],
+    [
+      "mafft",
+      "--version"
+    ]
+  ]
+}

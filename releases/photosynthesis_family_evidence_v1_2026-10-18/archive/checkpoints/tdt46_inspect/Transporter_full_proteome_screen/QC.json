@@ -1,0 +1,23 @@
+{
+  "status": "FULL_CORRECTED_PROTEOME_SIMILARITY_SCREEN_REVIEW_REQUIRED",
+  "proteome_records": 287197,
+  "reference_controls": 8,
+  "reference_proteome_alignments": 3415,
+  "discovered_proteins": 774,
+  "prior_candidates_retained": 35,
+  "total_review_proteins": 774,
+  "best_panel_families": {
+    "DIT1": 18,
+    "UCP1": 398,
+    "DIT2": 21,
+    "DTC": 90,
+    "DIC": 236,
+    "TDT": 11
+  },
+  "mapping_status": {
+    "UNAMBIGUOUS": 774
+  },
+  "domain_validation": "NEXT_STEP",
+  "biological_completeness": "NOT_ESTABLISHED",
+  "final_counts": false
+}

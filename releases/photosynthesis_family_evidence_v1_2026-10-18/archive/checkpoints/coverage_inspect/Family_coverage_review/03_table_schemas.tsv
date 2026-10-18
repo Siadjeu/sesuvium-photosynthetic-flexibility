@@ -1,0 +1,35 @@
+path	columns
+08_focused_families/validation/step25kz17.2/release/PPDK/candidate_classification.tsv	family | tree_id | original_id | candidate_set | length_aa | source_file | validation_table | validation_row
+08_focused_families/validation/step25kn/results/PPDK/candidate_validation.tsv	family | sequence_id | provenance | length_or_alignment | status | evidence
+08_focused_families/validation/step25kn/results/PPDK_RP/candidate_validation.tsv	family | sequence_id | provenance | length_or_alignment | status | evidence
+08_focused_families/validation/step25kz17.2/release/PEPC_KINASE/candidate_classification.tsv	family | tree_id | original_id | candidate_set | length_aa | source_file | validation_table | validation_row
+08_focused_families/validation/step25kn/results/PEPC_KINASE/candidate_validation.tsv	family | sequence_id | provenance | length_or_alignment | status | evidence
+08_focused_families/validation/step25kz17.2/release/V_ATPASE/candidate_classification.tsv	family | tree_id | original_id | candidate_set | length_aa | source_file | validation_table | validation_row
+08_focused_families/validation/step25kn/results/V_ATPASE/candidate_validation.tsv	family | sequence_id | provenance | length_or_alignment | status | evidence
+08_focused_families/validation/step25kz17.2/release/V_PPASE/candidate_classification.tsv	family | tree_id | original_id | candidate_set | length_aa | source_file | validation_table | validation_row
+08_focused_families/validation/step25kn/results/V_PPASE/candidate_validation.tsv	family | sequence_id | provenance | length_or_alignment | status | evidence
+08_focused_families/validation/step25kz17.2/release/TDT_DTC_DIC/candidate_classification.tsv	family | tree_id | original_id | candidate_set | length_aa | source_file | validation_table | validation_row
+08_focused_families/validation/step25kn/results/TDT_DTC_DIC/candidate_validation.tsv	family | sequence_id | provenance | length_or_alignment | status | evidence
+08_focused_families/validation/step25kn/results/BETA_CA/REFERENCE_CARBON_FIXATION_PEPC.daa.tsv	
+08_focused_families/validation/step25kn/results/DPE/REFERENCE_CARBON_FIXATION_PEPC.daa.tsv	
+08_focused_families/validation/step25kn/results/PPDK_RP/REFERENCE_CARBON_FIXATION_PEPC.daa.tsv	
+08_focused_families/validation/step25kn/results/STARCH_PHOSPHORYLASE/REFERENCE_CARBON_FIXATION_PEPC.daa.tsv	
+08_focused_families/validation/step25kz12/references/pepc_36_recovered_metadata.tsv	sequence_id | species | metabolism | explicit_subtype | source | metadata_status
+08_focused_families/validation/step25kz16.6/release/work/candidates_vs_PEPC_reference.tsv	PO__evm.TU.LG01.430 | sp|Q8W490|PEPK2_ARATH | 35.2 | 261 | 489 | 470 | 3.79e-44 | 152 | 52.1
+08_focused_families/validation/step25kz16.7/release/00_all_species_input_inventory.tsv	species | source_file | records_total | records_used
+08_focused_families/validation/step25kz16.7/release/work/all_species_vs_PEPC_reference.tsv	AT__gene-LOC130796786 | sp|Q9SPK4|PPCK1_ARATH | 31.4 | 194 | 812 | 284 | 2.08e-16 | 70.5 | 23.2
+08_focused_families/validation/step25kz17.1/release/02_master_candidate_inventory.tsv	family | source_file | source_row | gene_id | classification | source_fields_json
+08_focused_families/validation/step25kz17.2/release/ALMT/reference_inventory.tsv	family | reference_file | reference_records | reference_status
+08_focused_families/validation/step25kz17.2/release/AMYLASE/reference_inventory.tsv	family | reference_file | reference_records | reference_status
+08_focused_families/validation/step25kz17.2/release/PEPC_KINASE/reference_inventory.tsv	family | reference_file | reference_records | reference_status
+08_focused_families/validation/step25kz17.2/release/PPDK/reference_inventory.tsv	family | reference_file | reference_records | reference_status
+08_focused_families/validation/step25kz17.2/release/STARCH_DEPHOSPHORYLATION/reference_inventory.tsv	family | reference_file | reference_records | reference_status
+08_focused_families/validation/step25kz17.2/release/STARCH_PHOSPHORYLATION/reference_inventory.tsv	family | reference_file | reference_records | reference_status
+08_focused_families/validation/step25kz17.2/release/STARCH_SYNTHESIS/reference_inventory.tsv	family | reference_file | reference_records | reference_status
+08_focused_families/validation/step25kz17.2/release/TDT_DTC_DIC/reference_inventory.tsv	family | reference_file | reference_records | reference_status
+08_focused_families/validation/step25kz17.2/release/V_ATPASE/reference_inventory.tsv	family | reference_file | reference_records | reference_status
+08_focused_families/validation/step25kz17.2/release/V_PPASE/reference_inventory.tsv	family | reference_file | reference_records | reference_status
+08_focused_families/validation/step25kz5/release/BETA_CA.reference_classification.tsv	reference_id | accession | class | source_header
+08_focused_families/validation/step25kz5/release/PEPC.reference_classification.tsv	reference_id | accession | class | source_header
+08_focused_families/validation/step25kz5/work/beta_ca/reference_classification.tsv	reference_id | accession | class | source_header
+08_focused_families/validation/step25kz5/work/pepc/reference_classification.tsv	reference_id | accession | class | source_header

@@ -1,0 +1,7 @@
+{
+  "review_manifest_sha256": "f0cf33f20ff12b5a6c35932aa5dd3a83978b67aaa9bedc093e9b417f09380de7",
+  "domain_manifest_sha256": "1730e4a1893afc158945989c06bad5f03b58d0f7a3dd4194fc9e4ad56f4d019b",
+  "sensitivity_alignment_sha256": "ba5a7f9f5ab84a3bdf3a261130cbbc894375afaeb56e39e147152f1b62bf6736",
+  "main_alignment": "De novo MAFFT without two caveats",
+  "mask": "Any reference residue plus >=50% candidate occupancy; independently applied per alignment"
+}

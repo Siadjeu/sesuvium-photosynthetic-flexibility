@@ -1,0 +1,17 @@
+species	kind	record_id	matched_aliases	length
+MC	protein	braker_1_g25167.t1	braker_1_g25167.t1	1099
+MC	cds	braker_1_g25167.t1	braker_1_g25167.t1	3300
+PO	protein	evm.model.LG07.1805	evm.model.LG07.1805	266
+PO	protein	evm.model.LG07.1806	evm.model.LG07.1806	383
+PO	protein	evm.model.LG08.751	evm.model.LG08.751	1058
+PO	protein	evm.model.LG22.1173	evm.model.LG22.1173	1042
+PO	cds	evm.model.LG07.1805	evm.model.LG07.1805	801
+PO	cds	evm.model.LG07.1806	evm.model.LG07.1806	1152
+PO	cds	evm.model.LG08.751	evm.model.LG08.751	3177
+PO	cds	evm.model.LG22.1173	evm.model.LG22.1173	3129
+SP_Hex	protein	Spor0325880.1	Spor0325880.1	1022
+SP_Hex	cds	Spor0325880.1	Spor0325880.1	3069
+SS	protein	g199.t1	g199.t1	100
+SS	protein	g15406.t1	g15406.t1	100
+SS	cds	g199.t1	g199.t1	300
+SS	cds	g15406.t1	g15406.t1	300

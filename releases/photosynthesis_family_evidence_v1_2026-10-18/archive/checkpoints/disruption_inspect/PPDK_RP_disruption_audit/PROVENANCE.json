@@ -1,0 +1,5 @@
+{
+  "source_release": "08_focused_families/validation/step25kz17.25/release_20546554_20261016T120505357977Z",
+  "source_manifest_sha256": "76e4fa32d8d277a38c659d1ccd94f50b6df552f1110fce9ba56d9855073f8b25",
+  "method": "miniprot protein CIGAR plus genomic window; no realignment"
+}

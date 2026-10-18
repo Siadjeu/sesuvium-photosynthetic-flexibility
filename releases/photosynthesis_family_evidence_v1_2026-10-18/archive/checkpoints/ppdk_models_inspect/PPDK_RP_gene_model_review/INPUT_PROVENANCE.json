@@ -1,0 +1,6 @@
+{
+  "domain_release": "../../../../..<PROJECT_ROOT>/08_focused_families/validation/step25kz17.23/release_20546366_20261016T112804434755Z",
+  "domain_manifest_sha256": "5eca3b3cf13a826ee098f8bf4c786ee6ca4dbd6c477b10be77622222a0a36f9d",
+  "input_manifest_sha256": "4210fe8436da978593da90cf534258c85cba1d2fa40528d511126dcc5611c43b",
+  "flanking_bp": 5000
+}

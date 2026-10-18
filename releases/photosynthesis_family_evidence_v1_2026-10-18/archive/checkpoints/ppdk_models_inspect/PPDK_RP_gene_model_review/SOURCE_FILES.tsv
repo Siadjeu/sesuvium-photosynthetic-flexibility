@@ -1,0 +1,16 @@
+species	kind	relative_path	exists	size_bytes
+MC	mapping	03_harmonized/primary_v1/MC/MC.all_isoform_mapping.tsv	True	3538520
+MC	gff	01_inputs/standardized/MC/annotation/MC.gff3.gz	True	3490041
+MC	genome	01_inputs/standardized/MC/genome/MC.genome.fa.gz	True	102203923
+MC	protein	01_inputs/standardized/MC/protein/MC.proteins.all.fa.gz	True	6499273
+MC	cds	01_inputs/standardized/MC/cds/MC.cds.all.fa.gz	True	10203150
+SP_Tet	mapping	03_harmonized/primary_v1/SP_Tet/SP_Tet.all_isoform_mapping.tsv	True	3639297
+SP_Tet	gff	01_inputs/standardized/SP_Tet/annotation/SP_Tet.gff3.gz	True	9938480
+SP_Tet	genome	01_inputs/standardized/SP_Tet/genome/SP_Tet.genome.fa.gz	True	330225104
+SP_Tet	protein	01_inputs/standardized/SP_Tet/protein/SP_Tet.proteins.all.fa.gz	True	9199163
+SP_Tet	cds	01_inputs/standardized/SP_Tet/cds/SP_Tet.cds.all.fa.gz	True	14515746
+SP_Hex	mapping	03_harmonized/primary_v1/SP_Hex/SP_Hex.all_isoform_mapping.tsv	True	6866582
+SP_Hex	gff	01_inputs/standardized/SP_Hex/annotation/SP_Hex.gff3.gz	True	6121723
+SP_Hex	genome	01_inputs/standardized/SP_Hex/genome/SP_Hex.genome.fa.gz	True	500672371
+SP_Hex	protein	01_inputs/standardized/SP_Hex/protein/SP_Hex.proteins.all.fa.gz	True	14382624
+SP_Hex	cds	01_inputs/standardized/SP_Hex/cds/SP_Hex.cds.all.fa.gz	True	22312375

@@ -1,0 +1,13 @@
+{
+  "status": "PROVENANCE_CORRECTION_COMPLETE_REVIEW_REQUIRED",
+  "input_records": 288270,
+  "removed_confirmed_CDS": 1073,
+  "source_verified_protein_records": 287197,
+  "retained_protein_candidates": 287197,
+  "quarantined": 0,
+  "composition_flagged": 43,
+  "retained_sequences_different_from_old": 0,
+  "final_gene_count": false,
+  "approved_for_downstream_searches": false,
+  "old_inputs_modified": false
+}

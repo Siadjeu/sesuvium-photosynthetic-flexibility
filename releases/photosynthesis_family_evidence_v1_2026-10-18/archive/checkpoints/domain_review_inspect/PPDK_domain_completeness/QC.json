@@ -1,0 +1,9 @@
+{
+  "status": "DOMAIN_REVIEW_COMPLETE_NOT_FINAL",
+  "candidates": 32,
+  "references": 3,
+  "pfam_models": 30134,
+  "domain_hits": 98,
+  "reference_controls_without_hits": [],
+  "final_counts": false
+}

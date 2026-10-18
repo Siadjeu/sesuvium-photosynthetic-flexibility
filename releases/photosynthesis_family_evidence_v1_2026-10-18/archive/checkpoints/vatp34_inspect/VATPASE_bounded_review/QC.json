@@ -1,0 +1,29 @@
+{
+  "status": "BOUNDED_ALIGNMENT_ANNOTATION_REVIEW_COMPLETE",
+  "evidence_categories": {
+    "CONCORDANT_WITH_LIMITED_PANEL_CAVEAT": 208,
+    "F_TYPE_FAVOURED_NOT_COUNTED_AS_VATPASE": 287,
+    "CONCORDANT_EVIDENCE_REVIEW_REQUIRED": 85,
+    "STRUCTURE_COMPLETENESS_EXCEPTION": 23
+  },
+  "exception_loci": 23,
+  "aligned_subunits": [
+    "B",
+    "D",
+    "E",
+    "F",
+    "G",
+    "a",
+    "c",
+    "c''"
+  ],
+  "annotation_collection_issues": [
+    {
+      "species": "AT",
+      "item": "cds",
+      "status": "NO_EXACT_MATCH",
+      "records": 0
+    }
+  ],
+  "final_counts": false
+}

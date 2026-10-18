@@ -1,0 +1,3 @@
+protein_id	protein_source_id	cds_source_id	cds_length	translation_length	status	biological_completeness
+SP_Hex__gene_Spor0168910.1	Spor0168910.1	Spor0168910.1	2679	892	EXACT_TRANSLATION_NO_INTERNAL_STOP	NOT_ESTABLISHED
+SP_Hex__gene_Spor0380090.1	Spor0380090.1	Spor0380090.1	3342	1113	EXACT_TRANSLATION_NO_INTERNAL_STOP	NOT_ESTABLISHED

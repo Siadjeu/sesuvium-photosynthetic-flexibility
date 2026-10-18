@@ -1,0 +1,21 @@
+{
+  "status": "PEPC_BOUNDED_REVIEW_CLOSED_INTEGRATED_WITH_LIMITATIONS",
+  "integrated_records": 875,
+  "integrated_families": 7,
+  "species_family_cells": 184,
+  "PEPC_categories": {
+    "PEPC_DOMAIN_SUPPORTED_BROAD_COVERAGE": 51,
+    "PEPC_FAMILY_SUPPORTED_MODEL_CAVEAT": 2,
+    "EXCLUDED_HISTORICAL_CDS_RECORD": 2
+  },
+  "common_tips": 55,
+  "shared_splits": 51,
+  "main_only_splits": 1,
+  "sensitivity_only_splits": 1,
+  "cross_family_flags": 0,
+  "pooled_sources": 11,
+  "pooled_collection_issues": 0,
+  "next_priority": "TDT_DTC_DIC_DEFINITION_AND_SOURCE_REVIEW",
+  "analysis_rerun": false,
+  "final_counts": false
+}

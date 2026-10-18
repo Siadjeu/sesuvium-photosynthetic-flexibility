@@ -1,0 +1,11 @@
+{
+  "group": "BASS",
+  "candidate_records": 85,
+  "main_candidates": 70,
+  "partial_or_architecture_candidates": 8,
+  "outside_core_candidates": 7,
+  "main_references": 6,
+  "core_columns": 178,
+  "status": "TREE_COMPLETE_REVIEW_ONLY",
+  "error": ""
+}

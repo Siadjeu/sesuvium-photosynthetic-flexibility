@@ -1,0 +1,22 @@
+{
+  "blocked_families": [
+    "MEP",
+    "PPA"
+  ],
+  "family_species_cells": 184,
+  "formal_counts": false,
+  "ledger_records": 3193,
+  "ledger_sha256": "3c05cd5bece9b7aa4e5c7146ffc5cb6a3beeb4d2e92254d6a1e2712d72686374",
+  "release_id": "photosynthesis_family_evidence_v1_2026-10-18",
+  "status": "PASS",
+  "tier_totals": {
+    "EXCLUDED": 40,
+    "LIMITED_PANEL_CAVEAT": 285,
+    "MODEL_CAVEAT": 71,
+    "OUTSIDE_FAMILY_SET": 1414,
+    "PARTIAL": 99,
+    "SUPPORTED": 657,
+    "UNRESOLVED": 627
+  },
+  "unique_family_species_locus_keys": 3193
+}

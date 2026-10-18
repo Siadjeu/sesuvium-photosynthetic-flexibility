@@ -1,0 +1,2 @@
+protein_id	source_header	matched_identifiers	method
+AT__gene-LOC130807904	lcl|NC_080049.1_cds_XP_057529280.1_6722 [gene=LOC130807904] [db_xref=GeneID:130807904] [protein=V-type proton ATPase subunit E2-like] [protein_id=XP_057529280.1] [location=join(3502485..3502586,3502846..3502946,3503045..3503246,3503335..3503532)] [gbkey=CDS]	XP_057529280.1	DOCUMENTED_GFF_AND_HEADER_IDENTIFIERS

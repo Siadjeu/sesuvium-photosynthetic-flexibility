@@ -1,0 +1,16 @@
+{
+  "status": "SCREEN_COMPLETE_REVIEW_ONLY",
+  "reference_counts": {
+    "PPDK": 1,
+    "PPDK_RP": 2,
+    "BACKGROUND_REFERENCE": 78,
+    "V_ATPASE": 28,
+    "V_PPASE": 3,
+    "PPCK": 2
+  },
+  "target_references": 36,
+  "unique_candidate_ids": 5803,
+  "candidate_group_rows": 6170,
+  "multi_group_candidates": 367,
+  "final_counts": false
+}

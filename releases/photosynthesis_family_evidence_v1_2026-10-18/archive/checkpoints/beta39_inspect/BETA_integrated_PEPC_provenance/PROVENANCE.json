@@ -1,0 +1,11 @@
+{
+  "reconciliation_manifest_sha256": "9c95b50053c024d54f9b3733a1d82bb5f0446ac2294cb6dd7a02cc2a3d0af9b2",
+  "integration_manifest_sha256": "94290f872a24a044e532a7b1763e44d41404fdb67865090764639e01b7f3689d",
+  "scopes": [
+    "08_focused_families/validation/step25kz16.8b",
+    "08_focused_families/validation/step25kz16.8",
+    "08_focused_families/validation/step25kz16.7",
+    "08_focused_families/validation/step25kn/results/PEPC",
+    "08_focused_families/validation/step25kz17.2/release/PEPC"
+  ]
+}

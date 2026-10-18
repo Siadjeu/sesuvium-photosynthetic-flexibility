@@ -1,0 +1,34 @@
+{
+  "status": "TDT_DIT_PHYLOGENY_REVIEW_READY",
+  "candidate_groups": {
+    "DIT1": 18,
+    "DIT2": 21,
+    "TDT": 11
+  },
+  "references": 3,
+  "raw_columns": 1422,
+  "core_columns": 536,
+  "trees": [
+    {
+      "analysis": "main_without_short",
+      "sequences": 52,
+      "core_columns": 536,
+      "short_candidate_included": false,
+      "seed": 174801,
+      "tree_rooting": "UNROOTED",
+      "support_order": "SH-aLRT/UFBoot",
+      "formal_counts": "NA"
+    },
+    {
+      "analysis": "sensitivity_with_short",
+      "sequences": 53,
+      "core_columns": 536,
+      "short_candidate_included": true,
+      "seed": 174802,
+      "tree_rooting": "UNROOTED",
+      "support_order": "SH-aLRT/UFBoot",
+      "formal_counts": "NA"
+    }
+  ],
+  "final_counts": false
+}

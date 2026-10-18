@@ -1,0 +1,7 @@
+Subject: Clarification of MEP and PPA gene sets in Supplemental TableS6 (doi10.1093/plphys/kiad451)
+
+Dear authors,
+We are comparing photosynthesis-related gene families in Sesuvium and related species using your TableS6 as a reference. Could you share the gene identifiers and reference/query sequences used for MEP and PPA, ideally for P. oleracea and A. thaliana? For MEP, does the counted set correspond to a particular mesophyll envelope protein family, and which reference loci define it? For PPA, which biochemical family and subfamilies were included, and how was it distinguished from the separately listed V_Ppase category? It would also help to know whether counts represent genes or transcripts and how partial models were handled.
+Thank you for your help.
+
+Draft only; nothing has been sent.

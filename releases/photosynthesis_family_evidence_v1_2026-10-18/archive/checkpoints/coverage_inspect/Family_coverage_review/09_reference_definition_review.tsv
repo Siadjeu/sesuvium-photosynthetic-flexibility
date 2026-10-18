@@ -1,0 +1,859 @@
+source	reference_header	length_aa	proposed_Wang_category	subunit_or_subfamily	curation_evidence	decision
+08_focused_families/validation/step25kn/references/PPDK.faa	sp|O23404|PPDK1_ARATH Pyruvate, phosphate dikinase 1, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=PPDK PE=1 SV=2	963	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/PPDK.faa	sp|O49562|PDRP1_ARATH Pyruvate, phosphate dikinase regulatory protein 1, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=RP1 PE=1 SV=1	403	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/PPDK.faa	sp|Q9MAC9|PDRP2_ARATH Pyruvate, phosphate dikinase regulatory protein 2 OS=Arabidopsis thaliana OX=3702 GN=RP2 PE=1 SV=1	377	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/PPDK_RP.faa	sp|O23404|PPDK1_ARATH Pyruvate, phosphate dikinase 1, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=PPDK PE=1 SV=2	963	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/PPDK_RP.faa	sp|O49562|PDRP1_ARATH Pyruvate, phosphate dikinase regulatory protein 1, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=RP1 PE=1 SV=1	403	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/PPDK_RP.faa	sp|Q9MAC9|PDRP2_ARATH Pyruvate, phosphate dikinase regulatory protein 2 OS=Arabidopsis thaliana OX=3702 GN=RP2 PE=1 SV=1	377	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|F4HWY6|MYO11_ARATH Myosin-11 OS=Arabidopsis thaliana OX=3702 GN=XI-E PE=3 SV=1	1529	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|F4HXP9|MYO9_ARATH Myosin-9 OS=Arabidopsis thaliana OX=3702 GN=XI-C PE=2 SV=1	1538	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|F4I460|MYO8_ARATH Myosin-8 OS=Arabidopsis thaliana OX=3702 GN=XI-B PE=3 SV=1	1500	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|F4IRU3|MYO12_ARATH Myosin-12 OS=Arabidopsis thaliana OX=3702 GN=XI-F PE=2 SV=1	1556	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|F4K5J1|MYO17_ARATH Myosin-17 OS=Arabidopsis thaliana OX=3702 GN=XI-K PE=1 SV=2	1531	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|O23654|VATA_ARATH V-type proton ATPase catalytic subunit A OS=Arabidopsis thaliana OX=3702 GN=VHA-A PE=1 SV=1	623	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|O80983|FTSH4_ARATH ATP-dependent zinc metalloprotease FTSH 4, mitochondrial OS=Arabidopsis thaliana OX=3702 GN=FTSH4 PE=1 SV=2	717	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|O82628|VATG1_ARATH V-type proton ATPase subunit G1 OS=Arabidopsis thaliana OX=3702 GN=VHA-G1 PE=1 SV=1	110	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|P0DO44|ATP6A_ARATH ATP synthase small subunit 6-A, mitochondrial OS=Arabidopsis thaliana OX=3702 GN=ATP6 PE=2 SV=1	55	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|P11574|VATB1_ARATH V-type proton ATPase subunit B1 OS=Arabidopsis thaliana OX=3702 GN=VHA-B1 PE=2 SV=2	486	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|P31414|AVP1_ARATH Pyrophosphate-energized vacuolar membrane proton pump 1 OS=Arabidopsis thaliana OX=3702 GN=AVP1 PE=1 SV=1	770	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|P83483|ATPBM_ARATH ATP synthase subunit beta-1, mitochondrial OS=Arabidopsis thaliana OX=3702 GN=At5g08670 PE=1 SV=1	556	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|P83484|ATPBN_ARATH ATP synthase subunit beta-2, mitochondrial OS=Arabidopsis thaliana OX=3702 GN=At5g08690 PE=1 SV=1	556	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|P92549|ATPAM_ARATH ATP synthase subunit alpha, mitochondrial OS=Arabidopsis thaliana OX=3702 GN=ATPA PE=1 SV=3	507	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|Q39160|MYO5_ARATH Myosin-5 OS=Arabidopsis thaliana OX=3702 GN=XI-1 PE=1 SV=1	1520	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|Q39253|CAX1_ARATH Vacuolar cation/proton exchanger 1 OS=Arabidopsis thaliana OX=3702 GN=CAX1 PE=1 SV=3	463	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|Q39258|VATE1_ARATH V-type proton ATPase subunit E1 OS=Arabidopsis thaliana OX=3702 GN=VHA-E1 PE=1 SV=2	230	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|Q56Y74|MORC6_ARATH Protein MICRORCHIDIA 6 OS=Arabidopsis thaliana OX=3702 GN=MORC6 PE=1 SV=1	663	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|Q5FV35|MORC2_ARATH Protein MICRORCHIDIA 2 OS=Arabidopsis thaliana OX=3702 GN=MORC2 PE=1 SV=1	626	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|Q84WV6|MORC1_ARATH Protein MICRORCHIDIA 1 OS=Arabidopsis thaliana OX=3702 GN=MORC1 PE=1 SV=1	635	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|Q8LAS7|CNBL2_ARATH Calcineurin B-like protein 2 OS=Arabidopsis thaliana OX=3702 GN=CBL2 PE=1 SV=2	226	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|Q8LEM7|CNBL3_ARATH Calcineurin B-like protein 3 OS=Arabidopsis thaliana OX=3702 GN=CBL3 PE=1 SV=2	226	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|Q8RWZ7|VHAA1_ARATH V-type proton ATPase subunit a1 OS=Arabidopsis thaliana OX=3702 GN=VHA-a1 PE=2 SV=1	817	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|Q8W4E2|VATB3_ARATH V-type proton ATPase subunit B3 OS=Arabidopsis thaliana OX=3702 GN=VHA-B3 PE=2 SV=1	487	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|Q8W4S4|VHAA3_ARATH V-type proton ATPase subunit a3 OS=Arabidopsis thaliana OX=3702 GN=VHA-a3 PE=1 SV=1	821	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|Q944Q0|WNK8_ARATH Serine/threonine-protein kinase WNK8 OS=Arabidopsis thaliana OX=3702 GN=WNK8 PE=1 SV=1	563	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|Q9FGM0|FTSHB_ARATH ATP-dependent zinc metalloprotease FTSH 11, chloroplastic/mitochondrial OS=Arabidopsis thaliana OX=3702 GN=FTSH11 PE=1 SV=1	806	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|Q9FT52|ATP5H_ARATH ATP synthase subunit d, mitochondrial OS=Arabidopsis thaliana OX=3702 GN=At3g52300 PE=1 SV=3	168	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|Q9LKB9|MYO6_ARATH Myosin-6 OS=Arabidopsis thaliana OX=3702 GN=XI-2 PE=1 SV=1	1505	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|Q9LT02|PDR2_ARATH Probable manganese-transporting ATPase PDR2 OS=Arabidopsis thaliana OX=3702 GN=PDR2 PE=1 SV=1	1179	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|Q9M297|CLSY1_ARATH SNF2 domain-containing protein CLASSY 1 OS=Arabidopsis thaliana OX=3702 GN=CLSY1 PE=1 SV=1	1256	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|Q9M2K0|MYO16_ARATH Myosin-16 OS=Arabidopsis thaliana OX=3702 GN=XI-J PE=2 SV=1	1242	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|Q9SDS7|VATC_ARATH V-type proton ATPase subunit C OS=Arabidopsis thaliana OX=3702 GN=VHA-C PE=1 SV=1	375	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|Q9SIW2|CHR35_ARATH Protein CHROMATIN REMODELING 35 OS=Arabidopsis thaliana OX=3702 GN=DRD1 PE=1 SV=1	888	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|Q9SJT7|VHAA2_ARATH V-type proton ATPase subunit a2 OS=Arabidopsis thaliana OX=3702 GN=VHA-a2 PE=1 SV=1	821	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|Q9SZN1|VATB2_ARATH V-type proton ATPase subunit B2 OS=Arabidopsis thaliana OX=3702 GN=VHA-B2 PE=1 SV=1	487	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|F4I5Q6|MYO7_ARATH Myosin-7 OS=Arabidopsis thaliana OX=3702 GN=XI-A PE=3 SV=1	1730	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|F4JM19|MYO14_ARATH Myosin-14 OS=Arabidopsis thaliana OX=3702 GN=XI-H PE=3 SV=1	1516	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|O82629|VATG2_ARATH V-type proton ATPase subunit G2 OS=Arabidopsis thaliana OX=3702 GN=VHA-G2 PE=1 SV=2	106	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|P0DH92|VATL1_ARATH V-type proton ATPase subunit c1 OS=Arabidopsis thaliana OX=3702 GN=VHA-c1 PE=1 SV=1	164	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|P0DH93|VATL3_ARATH V-type proton ATPase subunit c3 OS=Arabidopsis thaliana OX=3702 GN=VHA-c3 PE=1 SV=1	164	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|P0DH94|VATL5_ARATH V-type proton ATPase subunit c5 OS=Arabidopsis thaliana OX=3702 GN=VHA-c5 PE=2 SV=1	164	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|P59228|VATL2_ARATH V-type proton ATPase subunit c2 OS=Arabidopsis thaliana OX=3702 GN=VHA-c2 PE=2 SV=1	165	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|P59229|VATL4_ARATH V-type proton ATPase subunit c4 OS=Arabidopsis thaliana OX=3702 GN=VHA-c4 PE=1 SV=1	166	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|P60112|ATP9_ARATH ATP synthase subunit 9, mitochondrial OS=Arabidopsis thaliana OX=3702 GN=ATP9 PE=2 SV=2	85	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|P92547|ATP62_ARATH ATP synthase subunit a-2 OS=Arabidopsis thaliana OX=3702 GN=ATP6-2 PE=2 SV=2	349	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|P93298|ATP61_ARATH ATP synthase subunit a-1 OS=Arabidopsis thaliana OX=3702 GN=ATP6-1 PE=2 SV=2	385	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|Q84WU8|FTSH3_ARATH ATP-dependent zinc metalloprotease FTSH 3, mitochondrial OS=Arabidopsis thaliana OX=3702 GN=FTSH3 PE=1 SV=1	809	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|Q8RX56|UNC13_ARATH Protein unc-13 homolog OS=Arabidopsis thaliana OX=3702 GN=PATROL1 PE=2 SV=1	1101	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|Q8VZI8|FTSHA_ARATH ATP-dependent zinc metalloprotease FTSH 10, mitochondrial OS=Arabidopsis thaliana OX=3702 GN=FTSH10 PE=1 SV=1	813	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|Q94A79|DMS3_ARATH Protein DEFECTIVE IN MERISTEM SILENCING 3 OS=Arabidopsis thaliana OX=3702 GN=DMS3 PE=1 SV=1	420	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|Q96250|ATPG3_ARATH ATP synthase subunit gamma, mitochondrial OS=Arabidopsis thaliana OX=3702 GN=ATPC PE=1 SV=1	325	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|Q96251|ATPO_ARATH ATP synthase subunit O, mitochondrial OS=Arabidopsis thaliana OX=3702 GN=At5g13450 PE=1 SV=2	238	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|Q96252|ATP4_ARATH ATP synthase subunit delta', mitochondrial OS=Arabidopsis thaliana OX=3702 GN=At5g47030 PE=1 SV=1	203	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|Q9C5A9|ATPBO_ARATH ATP synthase subunit beta-3, mitochondrial OS=Arabidopsis thaliana OX=3702 GN=At5g08680 PE=1 SV=1	559	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|Q9FNC9|TOM92_ARATH Mitochondrial import receptor subunit TOM9-2 OS=Arabidopsis thaliana OX=3702 GN=TOM9-2 PE=1 SV=3	99	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|Q9LHA4|VA0D2_ARATH V-type proton ATPase subunit d2 OS=Arabidopsis thaliana OX=3702 GN=VHA-d2 PE=2 SV=1	351	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|Q9LJI5|VA0D1_ARATH V-type proton ATPase subunit d1 OS=Arabidopsis thaliana OX=3702 GN=VHA-d1 PE=1 SV=1	351	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|Q9LX65|VATH_ARATH V-type proton ATPase subunit H OS=Arabidopsis thaliana OX=3702 GN=VHA-H PE=1 SV=1	441	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|Q9SLA2|VATO2_ARATH V-type proton ATPase subunit c''2 OS=Arabidopsis thaliana OX=3702 GN=VHA-c''2 PE=1 SV=1	178	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|Q9SZY7|VATO1_ARATH V-type proton ATPase subunit c''1 OS=Arabidopsis thaliana OX=3702 GN=VHA-c''1 PE=1 SV=1	180	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|Q9XGM1|VATD_ARATH V-type proton ATPase subunit D OS=Arabidopsis thaliana OX=3702 GN=VHA-D PE=1 SV=2	261	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|Q9ZQX4|VATF_ARATH V-type proton ATPase subunit F OS=Arabidopsis thaliana OX=3702 GN=VHA-F PE=2 SV=1	128	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|O22252|MHX_ARATH Magnesium/proton exchanger OS=Arabidopsis thaliana OX=3702 GN=MHX PE=2 SV=3	539	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|P0CAN7|VATE3_ARATH V-type proton ATPase subunit E3 OS=Arabidopsis thaliana OX=3702 GN=VHA-E3 PE=2 SV=1	237	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|P0DO45|ATP6B_ARATH ATP synthase small subunit 6-B, mitochondrial OS=Arabidopsis thaliana OX=3702 GN=ATP6 PE=2 SV=1	55	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|P56760|ATPH_ARATH ATP synthase subunit c, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=atpH PE=3 SV=1	81	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|Q96253|ATP5E_ARATH ATP synthase subunit epsilon, mitochondrial OS=Arabidopsis thaliana OX=3702 GN=At1g51650 PE=1 SV=3	70	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|Q9C9Z8|VATE2_ARATH V-type proton ATPase subunit E2 OS=Arabidopsis thaliana OX=3702 GN=VHA-E2 PE=2 SV=1	235	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|Q9FLN5|VA0E1_ARATH V-type proton ATPase subunit e1 OS=Arabidopsis thaliana OX=3702 GN=VHA-e1 PE=3 SV=1	70	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|Q9SZ13|VA0E2_ARATH V-type proton ATPase subunit e2 OS=Arabidopsis thaliana OX=3702 GN=VHA-e2 PE=3 SV=1	70	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|Q9SZH0|VATG3_ARATH V-type proton ATPase subunit G3 OS=Arabidopsis thaliana OX=3702 GN=VHA-G3 PE=3 SV=1	108	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_ATPASE.faa	sp|P93278|M040_ARATH Uncharacterized ATP synthase C chain-like protein OS=Arabidopsis thaliana OX=3702 GN=AtMg00040 PE=3 SV=1	315	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_PPASE.faa	sp|P31414|AVP1_ARATH Pyrophosphate-energized vacuolar membrane proton pump 1 OS=Arabidopsis thaliana OX=3702 GN=AVP1 PE=1 SV=1	770	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_PPASE.faa	sp|Q39253|CAX1_ARATH Vacuolar cation/proton exchanger 1 OS=Arabidopsis thaliana OX=3702 GN=CAX1 PE=1 SV=3	463	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_PPASE.faa	sp|Q39254|CAX2_ARATH Vacuolar cation/proton exchanger 2 OS=Arabidopsis thaliana OX=3702 GN=CAX2 PE=1 SV=2	441	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_PPASE.faa	sp|Q56ZN6|AVP2_ARATH Pyrophosphate-energized membrane proton pump 2 OS=Arabidopsis thaliana OX=3702 GN=AVPL1 PE=1 SV=2	802	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_PPASE.faa	sp|Q67YC0|PPSP1_ARATH Inorganic pyrophosphatase 1 OS=Arabidopsis thaliana OX=3702 GN=PS2 PE=1 SV=1	295	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_PPASE.faa	sp|Q6NPD7|NUD10_ARATH Nudix hydrolase 10 OS=Arabidopsis thaliana OX=3702 GN=NUDT10 PE=1 SV=1	277	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_PPASE.faa	sp|Q93V56|IPYR1_ARATH Soluble inorganic pyrophosphatase 1 OS=Arabidopsis thaliana OX=3702 GN=PPA1 PE=1 SV=1	212	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_PPASE.faa	sp|Q93Z81|CAX3_ARATH Vacuolar cation/proton exchanger 3 OS=Arabidopsis thaliana OX=3702 GN=CAX3 PE=1 SV=1	459	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_PPASE.faa	sp|Q945S5|CAX4_ARATH Vacuolar cation/proton exchanger 4 OS=Arabidopsis thaliana OX=3702 GN=CAX4 PE=1 SV=2	446	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_PPASE.faa	sp|Q94A82|NUD19_ARATH Nudix hydrolase 19, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=NUDT19 PE=1 SV=1	438	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_PPASE.faa	sp|Q94B74|NUDT2_ARATH Nudix hydrolase 2 OS=Arabidopsis thaliana OX=3702 GN=NUDT2 PE=1 SV=1	278	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_PPASE.faa	sp|Q9C664|TTM2_ARATH Inorganic pyrophosphatase TTM2 OS=Arabidopsis thaliana OX=3702 GN=TTM2 PE=1 SV=1	674	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_PPASE.faa	sp|Q9C6Z2|NUD25_ARATH Nudix hydrolase 25 OS=Arabidopsis thaliana OX=3702 GN=NUDT25 PE=1 SV=1	175	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_PPASE.faa	sp|Q9C9B9|TTM1_ARATH Inorganic pyrophosphatase TTM1 OS=Arabidopsis thaliana OX=3702 GN=TTM1 PE=1 SV=1	643	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_PPASE.faa	sp|Q9CA40|NUDT1_ARATH Nudix hydrolase 1 OS=Arabidopsis thaliana OX=3702 GN=NUDT1 PE=1 SV=1	147	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_PPASE.faa	sp|Q9LFF9|IPYR4_ARATH Soluble inorganic pyrophosphatase 4 OS=Arabidopsis thaliana OX=3702 GN=PPA4 PE=1 SV=1	216	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_PPASE.faa	sp|Q9LXC9|IPYR6_ARATH Soluble inorganic pyrophosphatase 6, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=PPA6 PE=1 SV=1	300	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_PPASE.faa	sp|Q9SJC4|NUDT6_ARATH Nudix hydrolase 6 OS=Arabidopsis thaliana OX=3702 GN=NUDT6 PE=1 SV=1	283	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_PPASE.faa	sp|Q9SU14|NUDT7_ARATH Nudix hydrolase 7 OS=Arabidopsis thaliana OX=3702 GN=NUDT7 PE=1 SV=1	282	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_PPASE.faa	sp|Q9SZ63|NUD14_ARATH Nudix hydrolase 14, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=NUDT14 PE=1 SV=2	309	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_PPASE.faa	sp|P21216|IPYR2_ARATH Soluble inorganic pyrophosphatase 2 OS=Arabidopsis thaliana OX=3702 GN=PPA2 PE=2 SV=2	218	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_PPASE.faa	sp|Q8L968|ITPA_ARATH Inosine triphosphate pyrophosphatase OS=Arabidopsis thaliana OX=3702 GN=At4g13720 PE=2 SV=1	206	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_PPASE.faa	sp|Q9LE73|NUDT4_ARATH Nudix hydrolase 4 OS=Arabidopsis thaliana OX=3702 GN=NUDT4 PE=1 SV=1	207	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_PPASE.faa	sp|O82597|IPYR5_ARATH Soluble inorganic pyrophosphatase 5 OS=Arabidopsis thaliana OX=3702 GN=PPA5 PE=2 SV=1	216	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_PPASE.faa	sp|O82793|IPYR3_ARATH Soluble inorganic pyrophosphatase 3 OS=Arabidopsis thaliana OX=3702 GN=PPA3 PE=2 SV=1	216	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_PPASE.faa	sp|Q8L783|CAX5_ARATH Vacuolar cation/proton exchanger 5 OS=Arabidopsis thaliana OX=3702 GN=CAX5 PE=2 SV=1	441	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_PPASE.faa	sp|Q9FWR2|AVPX_ARATH Pyrophosphate-energized membrane proton pump 3 OS=Arabidopsis thaliana OX=3702 GN=AVPL2 PE=3 SV=1	802	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_PPASE.faa	sp|Q9FZ62|PPSP2_ARATH Inorganic pyrophosphatase 2 OS=Arabidopsis thaliana OX=3702 GN=At1g17710 PE=2 SV=1	279	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/V_PPASE.faa	sp|Q9LFZ8|CAX6_ARATH Putative vacuolar cation/proton exchanger 6 OS=Arabidopsis thaliana OX=3702 GN=CAX6 PE=3 SV=3	448	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	AT|AT__gene-LOC130800806	903	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	AT|AT__gene-LOC130800807	1077	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	AT|AT__gene-LOC130806734	2901	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	AT|AT__gene-LOC130807487	2898	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	AT|AT__gene-LOC130817473	2901	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	AT|AT__gene-LOC130821049	3081	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	BV|BV__Bv4_112300_ihek	2904	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	BV|BV__Bv5_128700_yims	957	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	BV|BV__Bv5_128710_gikw	1101	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	BV|BV__Bv6_171660_yout	3105	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	BV|BV__Bv9_260510_xeaz	2901	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	MC|MC__gene_14635	1911	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	MC|MC__gene_21178	2901	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	MC|MC__gene_3958	3126	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	MC|MC__gene_7534	2883	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	PO|PO__evm.TU.LG02.787	2883	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	PO|PO__evm.TU.LG03.2406	2898	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	PO|PO__evm.TU.LG03.2407	2898	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	PO|PO__evm.TU.LG03.46	3054	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	PO|PO__evm.TU.LG03.97	3105	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	PO|PO__evm.TU.LG04.3219	1092	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	PO|PO__evm.TU.LG04.3220	618	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	PO|PO__evm.TU.LG05.829	2856	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	PO|PO__evm.TU.LG06.1001	2901	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	PO|PO__evm.TU.LG06.677	2901	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	PO|PO__evm.TU.LG09.1958	2883	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	PO|PO__evm.TU.LG11.259	2901	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	PO|PO__evm.TU.LG16.382	801	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	PO|PO__evm.TU.LG16.383	1059	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	PO|PO__evm.TU.LG17.1452	2895	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	PO|PO__evm.TU.LG17.1453	2898	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	PO|PO__evm.TU.LG18.1532	948	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	PO|PO__evm.TU.LG25.499	2856	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	SLP_Hap1|SLP_Hap1__SP10G01660	2367	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	SLP_Hap1|SLP_Hap1__SP10G01661	483	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	SLP_Hap1|SLP_Hap1__SP10G01662	2829	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	SLP_Hap1|SLP_Hap1__SP1G00882	2901	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	SLP_Hap1|SLP_Hap1__SP1G00883	2829	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	SLP_Hap1|SLP_Hap1__SP1G00884	2829	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	SLP_Hap1|SLP_Hap1__SP1G00885	2829	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	SLP_Hap1|SLP_Hap1__SP1G00887	2805	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	SLP_Hap1|SLP_Hap1__SP2G00467	3186	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	SLP_Hap1|SLP_Hap1__SP3G01743	2901	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	SLP_Hap1|SLP_Hap1__SP4G00407	1137	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	SLP_Hap1|SLP_Hap1__SP4G00408	792	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	SP_Hex|SP_Hex__gene_Spor0039680.1	378	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	SP_Hex|SP_Hex__gene_Spor0042710.1	2901	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	SP_Hex|SP_Hex__gene_Spor0098450.1	369	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	SP_Hex|SP_Hex__gene_Spor0124200.1	300	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	SP_Hex|SP_Hex__gene_Spor0125550.1	339	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	SP_Hex|SP_Hex__gene_Spor0131570.1	1074	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	SP_Hex|SP_Hex__gene_Spor0168910.1	2679	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	SP_Hex|SP_Hex__gene_Spor0178950.1	1092	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	SP_Hex|SP_Hex__gene_Spor0188880.1	801	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	SP_Hex|SP_Hex__gene_Spor0296700.1	201	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	SP_Hex|SP_Hex__gene_Spor0380090.1	3342	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	SP_Hex|SP_Hex__gene_Spor0428090.1	2901	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	SP_Hex|SP_Hex__gene_Spor0434450.1	2901	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	SP_Hex|SP_Hex__gene_Spor0451220.1	2901	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	SP_Hex|SP_Hex__gene_Spor0457440.1	2901	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	SP_Hex|SP_Hex__gene_Spor0497690.1	1017	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	SP_Hex|SP_Hex__gene_Spor0508250.1	3147	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	SP_Hex|SP_Hex__gene_Spor0558880.1	801	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	SP_Tet|SP_Tet__g10077	2898	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	SP_Tet|SP_Tet__g11621	2898	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	SP_Tet|SP_Tet__g13032	798	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	SP_Tet|SP_Tet__g24447	3141	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	SP_Tet|SP_Tet__g25205	1077	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	SP_Tet|SP_Tet__g27191	1071	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	SP_Tet|SP_Tet__g5548	231	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	SP_Tet|SP_Tet__g5710	3126	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	SP_Tet|SP_Tet__g9073	2898	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	SP_Tet|SP_Tet__g9336	2898	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	SS|SS__g11076	2898	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	SS|SS__g12931	798	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	SS|SS__g16160	798	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	SS|SS__g17009	3126	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	SS|SS__g24599	1098	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	SS|SS__g29856	2898	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	SS|SS__g32916	2898	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	SS|SS__g7519	3126	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	SS|SS__g8156	1125	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.cds.fa	SS|SS__g9483	2898	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	AT|AT__gene-LOC130800806	300	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	AT|AT__gene-LOC130800807	358	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	AT|AT__gene-LOC130806734	966	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	AT|AT__gene-LOC130807487	965	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	AT|AT__gene-LOC130817473	966	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	AT|AT__gene-LOC130821049	1026	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	BV|BV__Bv4_112300_ihek	967	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	BV|BV__Bv5_128700_yims	318	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	BV|BV__Bv5_128710_gikw	366	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	BV|BV__Bv6_171660_yout	1034	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	BV|BV__Bv9_260510_xeaz	966	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	MC|MC__gene_14635	636	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	MC|MC__gene_21178	966	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	MC|MC__gene_3958	1041	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	MC|MC__gene_7534	960	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	PO|PO__evm.TU.LG02.787	960	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	PO|PO__evm.TU.LG03.2406	965	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	PO|PO__evm.TU.LG03.2407	965	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	PO|PO__evm.TU.LG03.46	1017	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	PO|PO__evm.TU.LG03.97	1034	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	PO|PO__evm.TU.LG04.3219	363	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	PO|PO__evm.TU.LG04.3220	205	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	PO|PO__evm.TU.LG05.829	951	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	PO|PO__evm.TU.LG06.1001	966	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	PO|PO__evm.TU.LG06.677	966	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	PO|PO__evm.TU.LG09.1958	960	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	PO|PO__evm.TU.LG11.259	966	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	PO|PO__evm.TU.LG16.382	266	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	PO|PO__evm.TU.LG16.383	352	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	PO|PO__evm.TU.LG17.1452	964	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	PO|PO__evm.TU.LG17.1453	965	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	PO|PO__evm.TU.LG18.1532	315	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	PO|PO__evm.TU.LG25.499	951	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	SLP_Hap1|SLP_Hap1__SP10G01660	788	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	SLP_Hap1|SLP_Hap1__SP10G01661	160	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	SLP_Hap1|SLP_Hap1__SP10G01662	942	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	SLP_Hap1|SLP_Hap1__SP1G00882	966	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	SLP_Hap1|SLP_Hap1__SP1G00883	942	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	SLP_Hap1|SLP_Hap1__SP1G00884	942	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	SLP_Hap1|SLP_Hap1__SP1G00885	942	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	SLP_Hap1|SLP_Hap1__SP1G00887	934	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	SLP_Hap1|SLP_Hap1__SP2G00467	1061	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	SLP_Hap1|SLP_Hap1__SP3G01743	966	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	SLP_Hap1|SLP_Hap1__SP4G00407	378	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	SLP_Hap1|SLP_Hap1__SP4G00408	263	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	SP_Hex|SP_Hex__gene_Spor0039680.1	125	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	SP_Hex|SP_Hex__gene_Spor0042710.1	966	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	SP_Hex|SP_Hex__gene_Spor0098450.1	122	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	SP_Hex|SP_Hex__gene_Spor0124200.1	99	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	SP_Hex|SP_Hex__gene_Spor0125550.1	112	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	SP_Hex|SP_Hex__gene_Spor0131570.1	357	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	SP_Hex|SP_Hex__gene_Spor0168910.1	892	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	SP_Hex|SP_Hex__gene_Spor0178950.1	363	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	SP_Hex|SP_Hex__gene_Spor0188880.1	266	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	SP_Hex|SP_Hex__gene_Spor0296700.1	66	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	SP_Hex|SP_Hex__gene_Spor0380090.1	1113	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	SP_Hex|SP_Hex__gene_Spor0428090.1	966	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	SP_Hex|SP_Hex__gene_Spor0434450.1	966	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	SP_Hex|SP_Hex__gene_Spor0451220.1	966	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	SP_Hex|SP_Hex__gene_Spor0457440.1	966	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	SP_Hex|SP_Hex__gene_Spor0497690.1	338	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	SP_Hex|SP_Hex__gene_Spor0508250.1	1048	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	SP_Hex|SP_Hex__gene_Spor0558880.1	266	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	SP_Tet|SP_Tet__g10077	966	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	SP_Tet|SP_Tet__g11621	966	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	SP_Tet|SP_Tet__g13032	266	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	SP_Tet|SP_Tet__g24447	1047	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	SP_Tet|SP_Tet__g25205	359	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	SP_Tet|SP_Tet__g27191	357	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	SP_Tet|SP_Tet__g5548	77	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	SP_Tet|SP_Tet__g5710	1042	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	SP_Tet|SP_Tet__g9073	966	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	SP_Tet|SP_Tet__g9336	966	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	SS|SS__g11076	966	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	SS|SS__g12931	266	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	SS|SS__g16160	266	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	SS|SS__g17009	1042	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	SS|SS__g24599	366	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	SS|SS__g29856	966	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	SS|SS__g32916	966	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	SS|SS__g7519	1042	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	SS|SS__g8156	375	PENDING	PENDING		PENDING
+08_focused_families/inventory/focused_family_inventory_primary_v1/sequences/REFERENCE_CARBON_FIXATION__PEPC.proteins.fa	SS|SS__g9483	966	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/ALMT.faa	sp|O49696|ALMTC_ARATH Aluminum-activated malate transporter 12 OS=Arabidopsis thaliana OX=3702 GN=ALMT12 PE=2 SV=1	560	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/ALMT.faa	sp|Q9C8N5|STOP1_ARATH Protein SENSITIVE TO PROTON RHIZOTOXICITY 1 OS=Arabidopsis thaliana OX=3702 GN=STOP1 PE=2 SV=1	499	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/ALMT.faa	sp|Q9SFB0|DTX43_ARATH Protein DETOXIFICATION 43 OS=Arabidopsis thaliana OX=3702 GN=DTX43 PE=1 SV=1	526	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/ALMT.faa	sp|Q9SJE9|ALMT1_ARATH Aluminum-activated malate transporter 1 OS=Arabidopsis thaliana OX=3702 GN=ALMT1 PE=1 SV=1	493	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/ALMT.faa	sp|Q9SYD6|DTX42_ARATH Protein DETOXIFICATION 42 OS=Arabidopsis thaliana OX=3702 GN=DTX42 PE=2 SV=2	515	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/ALMT.faa	sp|Q9LS46|ALMT9_ARATH Aluminum-activated malate transporter 9 OS=Arabidopsis thaliana OX=3702 GN=ALMT9 PE=1 SV=1	598	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/ALMT.faa	sp|Q84K71|DTX44_ARATH Protein DETOXIFICATION 44, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=DTX44 PE=2 SV=1	521	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/ALMT.faa	sp|Q93Z29|ALMT5_ARATH Aluminum-activated malate transporter 5 OS=Arabidopsis thaliana OX=3702 GN=ALMT5 PE=1 SV=1	537	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/ALMT.faa	sp|Q9C6L8|ALMT4_ARATH Aluminum-activated malate transporter 4 OS=Arabidopsis thaliana OX=3702 GN=ALMT4 PE=3 SV=1	548	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/ALMT.faa	sp|Q9LPQ8|ALMT3_ARATH Putative aluminum-activated malate transporter 3 OS=Arabidopsis thaliana OX=3702 GN=ALMT3 PE=3 SV=1	581	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/ALMT.faa	sp|Q9LS22|ALMTE_ARATH Aluminum-activated malate transporter 14 OS=Arabidopsis thaliana OX=3702 GN=ALMT14 PE=2 SV=1	543	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/ALMT.faa	sp|Q9SHM1|ALMT6_ARATH Aluminum-activated malate transporter 6 OS=Arabidopsis thaliana OX=3702 GN=ALMT6 PE=3 SV=1	538	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/ALMT.faa	sp|Q9SVE7|DTX45_ARATH Protein DETOXIFICATION 45, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=DTX45 PE=2 SV=2	560	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/ALMT.faa	sp|O23086|ALMTA_ARATH Aluminum-activated malate transporter 10 OS=Arabidopsis thaliana OX=3702 GN=ALMT10 PE=3 SV=2	497	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/ALMT.faa	sp|Q3E9Z9|ALMTB_ARATH Putative aluminum-activated malate transporter 11 OS=Arabidopsis thaliana OX=3702 GN=ALMT11 PE=5 SV=1	152	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/ALMT.faa	sp|Q9LS23|ALMTD_ARATH Aluminum-activated malate transporter 13 OS=Arabidopsis thaliana OX=3702 GN=ALMT13 PE=2 SV=1	539	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/ALMT.faa	sp|Q9SJE8|ALMT2_ARATH Aluminum-activated malate transporter 2 OS=Arabidopsis thaliana OX=3702 GN=ALMT2 PE=2 SV=2	501	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/ALMT.faa	sp|Q9SRM9|ALMT8_ARATH Aluminum-activated malate transporter 8 OS=Arabidopsis thaliana OX=3702 GN=ALMT8 PE=3 SV=1	488	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/ALMT.faa	sp|Q9XIN1|ALMT7_ARATH Aluminum-activated malate transporter 7 OS=Arabidopsis thaliana OX=3702 GN=ALMT7 PE=3 SV=1	506	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/BETA_CA.faa	sp|O04846|ATCA1_ARATH Alpha carbonic anhydrase 1, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=ACA1 PE=1 SV=2	284	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/BETA_CA.faa	sp|P27140|BCA1_ARATH Beta carbonic anhydrase 1, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=BCA1 PE=1 SV=2	347	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/BETA_CA.faa	sp|P42737|BCA2_ARATH Beta carbonic anhydrase 2, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=BCA2 PE=1 SV=3	331	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/BETA_CA.faa	sp|Q94CE4|BCA4_ARATH Beta carbonic anhydrase 4 OS=Arabidopsis thaliana OX=3702 GN=BCA4 PE=1 SV=1	280	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/BETA_CA.faa	sp|F4HUC4|ATCA5_ARATH Alpha carbonic anhydrase 5 OS=Arabidopsis thaliana OX=3702 GN=ACA5 PE=3 SV=1	277	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/BETA_CA.faa	sp|F4IHR4|ATCA2_ARATH Alpha carbonic anhydrase 2 OS=Arabidopsis thaliana OX=3702 GN=ACA2 PE=2 SV=2	245	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/BETA_CA.faa	sp|F4JIK2|ATCA4_ARATH Alpha carbonic anhydrase 4 OS=Arabidopsis thaliana OX=3702 GN=ACA4 PE=3 SV=1	267	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/BETA_CA.faa	sp|Q8L817|ATCA7_ARATH Alpha carbonic anhydrase 7 OS=Arabidopsis thaliana OX=3702 GN=ACA7 PE=2 SV=1	275	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/BETA_CA.faa	sp|Q9C6F5|BCA6_ARATH Beta carbonic anhydrase 6, mitochondrial OS=Arabidopsis thaliana OX=3702 GN=BCA6 PE=2 SV=1	290	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/BETA_CA.faa	sp|Q9FM99|ATCA8_ARATH Alpha carbonic anhydrase 8 OS=Arabidopsis thaliana OX=3702 GN=ACA8 PE=3 SV=3	389	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/BETA_CA.faa	sp|Q9FYE3|ATCA3_ARATH Alpha carbonic anhydrase 3 OS=Arabidopsis thaliana OX=3702 GN=ACA3 PE=2 SV=1	277	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/BETA_CA.faa	sp|Q94CE3|BCA5_ARATH Beta carbonic anhydrase 5, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=BCA5 PE=2 SV=1	301	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/BETA_CA.faa	sp|Q9SUB4|ATCA6_ARATH Alpha carbonic anhydrase 6 OS=Arabidopsis thaliana OX=3702 GN=ACA6 PE=3 SV=1	260	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/BETA_CA.faa	sp|Q9ZUC2|BCA3_ARATH Beta carbonic anhydrase 3 OS=Arabidopsis thaliana OX=3702 GN=BCA3 PE=2 SV=1	258	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/PEPC.faa	sp|O64722|ZHD3_ARATH Zinc-finger homeodomain protein 3 OS=Arabidopsis thaliana OX=3702 GN=ZHD3 PE=1 SV=1	310	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/PEPC.faa	sp|Q93VK0|PPCK2_ARATH Phosphoenolpyruvate carboxylase kinase 2 OS=Arabidopsis thaliana OX=3702 GN=PPCK2 PE=1 SV=2	278	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/PEPC.faa	sp|Q9FIW9|ZHD10_ARATH Zinc-finger homeodomain protein 10 OS=Arabidopsis thaliana OX=3702 GN=ZHD10 PE=1 SV=1	334	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/PEPC.faa	sp|Q9MAH0|CAPP1_ARATH Phosphoenolpyruvate carboxylase 1 OS=Arabidopsis thaliana OX=3702 GN=PPC1 PE=1 SV=1	967	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/PEPC.faa	sp|Q9SB61|ZHD2_ARATH Zinc-finger homeodomain protein 2 OS=Arabidopsis thaliana OX=3702 GN=ZHD1 PE=1 SV=1	220	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/PEPC.faa	sp|Q9SPK4|PPCK1_ARATH Phosphoenolpyruvate carboxylase kinase 1 OS=Arabidopsis thaliana OX=3702 GN=PPCK1 PE=1 SV=1	284	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/PEPC.faa	sp|Q5GM68|CAPP2_ARATH Phosphoenolpyruvate carboxylase 2 OS=Arabidopsis thaliana OX=3702 GN=PPC2 PE=1 SV=2	963	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/PEPC.faa	sp|Q84VW9|CAPP3_ARATH Phosphoenolpyruvate carboxylase 3 OS=Arabidopsis thaliana OX=3702 GN=PPC3 PE=1 SV=2	968	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/PEPC.faa	sp|Q8GVE8|CAPP4_ARATH Phosphoenolpyruvate carboxylase 4 OS=Arabidopsis thaliana OX=3702 GN=PPC4 PE=2 SV=1	1032	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/PEPC.faa	sp|O49290|CPPM_ARATH Carboxyvinyl-carboxyphosphonate phosphorylmutase, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=At1g77060 PE=1 SV=2	339	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kn/references/PEPC.faa	sp|Q8W490|PEPK2_ARATH Serine/threonine-protein kinase PEPKR2 OS=Arabidopsis thaliana OX=3702 GN=PEPKR2 PE=2 SV=1	470	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_36_genes.fasta	KJ161565.1 Anacampseros retusa voucher ZSS:803518/a clone 1 phosphoenolpyruvate carboxylase (ppc-1E1a) gene, partial cds	1153	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_36_genes.fasta	KJ161566.1 Grahamia bracteata voucher BRU:Ogburn n.a. clone 1 phosphoenolpyruvate carboxylase (ppc-1E1a) gene, partial cds	1131	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_36_genes.fasta	KJ161575.1 Anacampseros retusa voucher ZSS:803518/a clone 1 phosphoenolpyruvate carboxylase (ppc-1E1b) gene, partial cds	1898	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_36_genes.fasta	KJ161576.1 Grahamia bracteata voucher BRU:Ogburn n.a. clone 1 phosphoenolpyruvate carboxylase (ppc-1E1b) gene, partial cds	761	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_36_genes.fasta	KJ161610.1 Anacampseros retusa voucher ZSS:803518/a clone 1 phosphoenolpyruvate carboxylase (ppc-1E1c) gene, partial cds	1975	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_36_genes.fasta	KJ161611.1 Grahamia bracteata voucher BRU:Ogburn n.a. clone 1 phosphoenolpyruvate carboxylase (ppc-1E1c) gene, partial cds	1176	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_36_genes.fasta	KJ161630.1 Anacampseros retusa voucher ZSS:803518/a clone 1 phosphoenolpyruvate carboxylase (ppc-1E1d) gene, partial cds	732	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_36_genes.fasta	KJ161631.1 Grahamia bracteata voucher BRU:Ogburn n.a. clone 1 phosphoenolpyruvate carboxylase (ppc-1E1d) gene, partial cds	751	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_36_genes.fasta	KJ161740.1 Anacampseros retusa voucher ZSS:803518/a clone 1 phosphoenolpyruvate carboxylase (ppc-1E2) gene, partial cds	1272	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_36_genes.fasta	KJ161741.1 Grahamia bracteata voucher BRU:Ogburn n.a. clone 1 phosphoenolpyruvate carboxylase (ppc-1E2) gene, partial cds	1317	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_36_genes.fasta	KJ161805.1 Anacampseros retusa voucher ZSS:803518/a phosphoenolpyruvate carboxylase (ppc-2) gene, partial cds	760	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_36_genes.fasta	KJ161806.1 Grahamia bracteata voucher BRU:Ogburn n.a. phosphoenolpyruvate carboxylase (ppc-2) gene, partial cds	760	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_36_genes.fasta	KJ161568.1 Pereskia aureiflora voucher B:166-54-83-20 clone 1 phosphoenolpyruvate carboxylase (ppc-1E1a) gene, partial cds	2344	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_36_genes.fasta	KJ161613.1 Pereskia aureiflora voucher B:166-54-83-20 clone 1 phosphoenolpyruvate carboxylase (ppc-1E1c) gene, partial cds	2390	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_36_genes.fasta	KJ161633.1 Pereskia aureiflora voucher B:166-54-83-20 clone 1 phosphoenolpyruvate carboxylase (ppc-1E1d) gene, partial cds	2283	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_36_genes.fasta	KJ161651.1 Pereskia bleo voucher BRU:Ogburn n.a. clone 1 phosphoenolpyruvate carboxylase (ppc-1E1e) gene, partial cds	1308	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_36_genes.fasta	KJ161746.1 Pereskia aureiflora voucher B:166-54-83-20 clone 1 phosphoenolpyruvate carboxylase (ppc-1E2) gene, partial cds	1325	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_36_genes.fasta	KJ161810.1 Pereskia aureiflora voucher B:166-54-83-20 phosphoenolpyruvate carboxylase (ppc-2) gene, partial cds	760	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_36_genes.fasta	AH008008-RA pacid=38180898 transcript=AH008008-RA locus=AH008008 ID=AH008008-RA.v2.1 annot-version=v2.1	944	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_36_genes.fasta	AH004091-RA pacid=38182515 transcript=AH004091-RA locus=AH004091 ID=AH004091-RA.v2.1 annot-version=v2.1	214	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_36_genes.fasta	AH000245-RA pacid=38184121 transcript=AH000245-RA locus=AH000245 ID=AH000245-RA.v2.1 annot-version=v2.1	935	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_36_genes.fasta	AH001411-RA pacid=38185862 transcript=AH001411-RA locus=AH001411 ID=AH001411-RA.v2.1 annot-version=v2.1	922	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_36_genes.fasta	Zm00001d040129_P001 pep chromosome:B73_RefGen_v4:3:28668662:28677463:-1 gene:Zm00001d040129 transcript:Zm00001d040129_T001 gene_biotype:protein_coding transcript_biotype:protein_coding description:Phosphoenolpyruvate carboxylase 4	1034	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_36_genes.fasta	Zm00001d053453_P002 pep chromosome:B73_RefGen_v4:4:232245967:232253821:-1 gene:Zm00001d053453 transcript:Zm00001d053453_T002 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:phosphoenolpyruvate carboxylase3 description:Phosphoenolpyruvate carboxylase isoform 1%3B Phosphoenolpyruvate carboxylase isoform 2  	896	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_36_genes.fasta	Zm00001d046170_P001 pep chromosome:B73_RefGen_v4:9:68851094:68856482:-1 gene:Zm00001d046170 transcript:Zm00001d046170_T001 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:phosphoenolpyruvate carboxylase1 description:Phosphoenolpyruvate carboxylase 1  	970	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_36_genes.fasta	Zm00001d024980_P001 pep chromosome:B73_RefGen_v4:10:97827268:97828533:1 gene:Zm00001d024980 transcript:Zm00001d024980_T001 gene_biotype:protein_coding transcript_biotype:protein_coding description:Phosphoenolpyruvate carboxylase 3	245	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_36_genes.fasta	Zm00001d020057_P004 pep chromosome:B73_RefGen_v4:7:89268035:89273487:-1 gene:Zm00001d020057 transcript:Zm00001d020057_T004 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:phosphoenolpyruvate carboxylase4 description: phosphoenolpyruvate carboxylase3	978	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_36_genes.fasta	Zm00001d037294_P001 pep chromosome:B73_RefGen_v4:6:119709716:119712781:-1 gene:Zm00001d037294 transcript:Zm00001d037294_T001 gene_biotype:protein_coding transcript_biotype:protein_coding description:Phosphoenolpyruvate carboxylase 2	125	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_36_genes.fasta	Zm00001d012702_P003 pep chromosome:B73_RefGen_v4:8:178935010:178947928:1 gene:Zm00001d012702 transcript:Zm00001d012702_T003 gene_biotype:protein_coding transcript_biotype:protein_coding description:Phosphoenolpyruvate carboxylase 3	966	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_36_genes.fasta	Zm00001d016166_P001 pep chromosome:B73_RefGen_v4:5:148208167:148215898:-1 gene:Zm00001d016166 transcript:Zm00001d016166_T001 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:phosphoenolpyruvate carboxylase2 description: phosphoenolpyruvate carboxylase2	960	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_P_amilis_clean.fa	FUN_029936-T1 pacid=51389655 polypeptide=FUN_029936-T1 locus=FUN_029936 ID=FUN_029936-T1.v1.0 annot-version=v1.0	2817	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_P_amilis_clean.fa	FUN_016990-T1 pacid=51413091 polypeptide=FUN_016990-T1 locus=FUN_016990 ID=FUN_016990-T1.v1.0 annot-version=v1.0	2904	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_P_amilis_clean.fa	FUN_046701-T1 pacid=51426885 polypeptide=FUN_046701-T1 locus=FUN_046701 ID=FUN_046701-T1.v1.0 annot-version=v1.0	2904	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_P_amilis_clean.fa	FUN_020789-T1 pacid=51429758 polypeptide=FUN_020789-T1 locus=FUN_020789 ID=FUN_020789-T1.v1.0 annot-version=v1.0	945	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_P_amilis_clean.fa	FUN_023805-T1 pacid=51432584 polypeptide=FUN_023805-T1 locus=FUN_023805 ID=FUN_023805-T1.v1.0 annot-version=v1.0	2313	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_P_amilis_clean.fa	FUN_020790-T1 pacid=51432856 polypeptide=FUN_020790-T1 locus=FUN_020790 ID=FUN_020790-T1.v1.0 annot-version=v1.0	1464	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_wang_recovered_mixed.fasta	KJ161565.1 Anacampseros retusa voucher ZSS:803518/a clone 1 phosphoenolpyruvate carboxylase (ppc-1E1a) gene, partial cds	1153	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_wang_recovered_mixed.fasta	KJ161566.1 Grahamia bracteata voucher BRU:Ogburn n.a. clone 1 phosphoenolpyruvate carboxylase (ppc-1E1a) gene, partial cds	1131	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_wang_recovered_mixed.fasta	KJ161575.1 Anacampseros retusa voucher ZSS:803518/a clone 1 phosphoenolpyruvate carboxylase (ppc-1E1b) gene, partial cds	1898	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_wang_recovered_mixed.fasta	KJ161576.1 Grahamia bracteata voucher BRU:Ogburn n.a. clone 1 phosphoenolpyruvate carboxylase (ppc-1E1b) gene, partial cds	761	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_wang_recovered_mixed.fasta	KJ161610.1 Anacampseros retusa voucher ZSS:803518/a clone 1 phosphoenolpyruvate carboxylase (ppc-1E1c) gene, partial cds	1975	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_wang_recovered_mixed.fasta	KJ161611.1 Grahamia bracteata voucher BRU:Ogburn n.a. clone 1 phosphoenolpyruvate carboxylase (ppc-1E1c) gene, partial cds	1176	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_wang_recovered_mixed.fasta	KJ161630.1 Anacampseros retusa voucher ZSS:803518/a clone 1 phosphoenolpyruvate carboxylase (ppc-1E1d) gene, partial cds	732	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_wang_recovered_mixed.fasta	KJ161631.1 Grahamia bracteata voucher BRU:Ogburn n.a. clone 1 phosphoenolpyruvate carboxylase (ppc-1E1d) gene, partial cds	751	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_wang_recovered_mixed.fasta	KJ161740.1 Anacampseros retusa voucher ZSS:803518/a clone 1 phosphoenolpyruvate carboxylase (ppc-1E2) gene, partial cds	1272	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_wang_recovered_mixed.fasta	KJ161741.1 Grahamia bracteata voucher BRU:Ogburn n.a. clone 1 phosphoenolpyruvate carboxylase (ppc-1E2) gene, partial cds	1317	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_wang_recovered_mixed.fasta	KJ161805.1 Anacampseros retusa voucher ZSS:803518/a phosphoenolpyruvate carboxylase (ppc-2) gene, partial cds	760	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_wang_recovered_mixed.fasta	KJ161806.1 Grahamia bracteata voucher BRU:Ogburn n.a. phosphoenolpyruvate carboxylase (ppc-2) gene, partial cds	760	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_wang_recovered_mixed.fasta	KJ161568.1 Pereskia aureiflora voucher B:166-54-83-20 clone 1 phosphoenolpyruvate carboxylase (ppc-1E1a) gene, partial cds	2344	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_wang_recovered_mixed.fasta	KJ161613.1 Pereskia aureiflora voucher B:166-54-83-20 clone 1 phosphoenolpyruvate carboxylase (ppc-1E1c) gene, partial cds	2390	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_wang_recovered_mixed.fasta	KJ161633.1 Pereskia aureiflora voucher B:166-54-83-20 clone 1 phosphoenolpyruvate carboxylase (ppc-1E1d) gene, partial cds	2283	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_wang_recovered_mixed.fasta	KJ161651.1 Pereskia bleo voucher BRU:Ogburn n.a. clone 1 phosphoenolpyruvate carboxylase (ppc-1E1e) gene, partial cds	1308	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_wang_recovered_mixed.fasta	KJ161746.1 Pereskia aureiflora voucher B:166-54-83-20 clone 1 phosphoenolpyruvate carboxylase (ppc-1E2) gene, partial cds	1325	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_wang_recovered_mixed.fasta	KJ161810.1 Pereskia aureiflora voucher B:166-54-83-20 phosphoenolpyruvate carboxylase (ppc-2) gene, partial cds	760	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_wang_recovered_mixed.fasta	AH008008-RA pacid=38180898 transcript=AH008008-RA locus=AH008008 ID=AH008008-RA.v2.1 annot-version=v2.1	944	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_wang_recovered_mixed.fasta	AH004091-RA pacid=38182515 transcript=AH004091-RA locus=AH004091 ID=AH004091-RA.v2.1 annot-version=v2.1	214	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_wang_recovered_mixed.fasta	AH000245-RA pacid=38184121 transcript=AH000245-RA locus=AH000245 ID=AH000245-RA.v2.1 annot-version=v2.1	935	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_wang_recovered_mixed.fasta	AH001411-RA pacid=38185862 transcript=AH001411-RA locus=AH001411 ID=AH001411-RA.v2.1 annot-version=v2.1	922	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_wang_recovered_mixed.fasta	Zm00001d040129_P001 pep chromosome:B73_RefGen_v4:3:28668662:28677463:-1 gene:Zm00001d040129 transcript:Zm00001d040129_T001 gene_biotype:protein_coding transcript_biotype:protein_coding description:Phosphoenolpyruvate carboxylase 4	1034	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_wang_recovered_mixed.fasta	Zm00001d053453_P002 pep chromosome:B73_RefGen_v4:4:232245967:232253821:-1 gene:Zm00001d053453 transcript:Zm00001d053453_T002 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:phosphoenolpyruvate carboxylase3 description:Phosphoenolpyruvate carboxylase isoform 1%3B Phosphoenolpyruvate carboxylase isoform 2  	896	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_wang_recovered_mixed.fasta	Zm00001d046170_P001 pep chromosome:B73_RefGen_v4:9:68851094:68856482:-1 gene:Zm00001d046170 transcript:Zm00001d046170_T001 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:phosphoenolpyruvate carboxylase1 description:Phosphoenolpyruvate carboxylase 1  	970	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_wang_recovered_mixed.fasta	Zm00001d024980_P001 pep chromosome:B73_RefGen_v4:10:97827268:97828533:1 gene:Zm00001d024980 transcript:Zm00001d024980_T001 gene_biotype:protein_coding transcript_biotype:protein_coding description:Phosphoenolpyruvate carboxylase 3	245	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_wang_recovered_mixed.fasta	Zm00001d020057_P004 pep chromosome:B73_RefGen_v4:7:89268035:89273487:-1 gene:Zm00001d020057 transcript:Zm00001d020057_T004 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:phosphoenolpyruvate carboxylase4 description: phosphoenolpyruvate carboxylase3	978	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_wang_recovered_mixed.fasta	Zm00001d037294_P001 pep chromosome:B73_RefGen_v4:6:119709716:119712781:-1 gene:Zm00001d037294 transcript:Zm00001d037294_T001 gene_biotype:protein_coding transcript_biotype:protein_coding description:Phosphoenolpyruvate carboxylase 2	125	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_wang_recovered_mixed.fasta	Zm00001d012702_P003 pep chromosome:B73_RefGen_v4:8:178935010:178947928:1 gene:Zm00001d012702 transcript:Zm00001d012702_T003 gene_biotype:protein_coding transcript_biotype:protein_coding description:Phosphoenolpyruvate carboxylase 3	966	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_wang_recovered_mixed.fasta	Zm00001d016166_P001 pep chromosome:B73_RefGen_v4:5:148208167:148215898:-1 gene:Zm00001d016166 transcript:Zm00001d016166_T001 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:phosphoenolpyruvate carboxylase2 description: phosphoenolpyruvate carboxylase2	960	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_wang_recovered_mixed.fasta	FUN_029936-T1 pacid=51389655 polypeptide=FUN_029936-T1 locus=FUN_029936 ID=FUN_029936-T1.v1.0 annot-version=v1.0	2817	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_wang_recovered_mixed.fasta	FUN_016990-T1 pacid=51413091 polypeptide=FUN_016990-T1 locus=FUN_016990 ID=FUN_016990-T1.v1.0 annot-version=v1.0	2904	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_wang_recovered_mixed.fasta	FUN_046701-T1 pacid=51426885 polypeptide=FUN_046701-T1 locus=FUN_046701 ID=FUN_046701-T1.v1.0 annot-version=v1.0	2904	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_wang_recovered_mixed.fasta	FUN_020789-T1 pacid=51429758 polypeptide=FUN_020789-T1 locus=FUN_020789 ID=FUN_020789-T1.v1.0 annot-version=v1.0	945	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_wang_recovered_mixed.fasta	FUN_023805-T1 pacid=51432584 polypeptide=FUN_023805-T1 locus=FUN_023805 ID=FUN_023805-T1.v1.0 annot-version=v1.0	2313	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz12/references/pepc_wang_recovered_mixed.fasta	FUN_020790-T1 pacid=51432856 polypeptide=FUN_020790-T1 locus=FUN_020790 ID=FUN_020790-T1.v1.0 annot-version=v1.0	1464	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_primary_with_references.faa	REF__sp_O64722_ZHD3_ARATH	310	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_primary_with_references.faa	REF__sp_Q93VK0_PPCK2_ARATH	278	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_primary_with_references.faa	REF__sp_Q9FIW9_ZHD10_ARATH	334	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_primary_with_references.faa	REF__sp_Q9MAH0_CAPP1_ARATH	967	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_primary_with_references.faa	REF__sp_Q9SB61_ZHD2_ARATH	220	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_primary_with_references.faa	REF__sp_Q9SPK4_PPCK1_ARATH	284	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_primary_with_references.faa	REF__sp_Q5GM68_CAPP2_ARATH	963	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_primary_with_references.faa	REF__sp_Q84VW9_CAPP3_ARATH	968	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_primary_with_references.faa	REF__sp_Q8GVE8_CAPP4_ARATH	1032	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_primary_with_references.faa	REF__sp_O49290_CPPM_ARATH	339	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_primary_with_references.faa	REF__sp_Q8W490_PEPK2_ARATH	470	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_primary_with_references.faa	PO__evm.TU.LG02.787	960	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_primary_with_references.faa	PO__evm.TU.LG03.2406	965	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_primary_with_references.faa	PO__evm.TU.LG03.2407	965	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_primary_with_references.faa	PO__evm.TU.LG03.46	1017	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_primary_with_references.faa	PO__evm.TU.LG03.97	1034	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_primary_with_references.faa	PO__evm.TU.LG05.829	951	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_primary_with_references.faa	PO__evm.TU.LG06.1001	966	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_primary_with_references.faa	PO__evm.TU.LG06.677	966	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_primary_with_references.faa	PO__evm.TU.LG09.1958	960	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_primary_with_references.faa	PO__evm.TU.LG11.259	966	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_primary_with_references.faa	PO__evm.TU.LG17.1452	964	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_primary_with_references.faa	PO__evm.TU.LG17.1453	965	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_primary_with_references.faa	PO__evm.TU.LG25.499	951	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_primary_with_references.faa	SS__g11076.t1	966	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_primary_with_references.faa	SS__g17009.t1	1042	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_primary_with_references.faa	SS__g24599	1098	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_primary_with_references.faa	SS__g2566.t1	965	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_primary_with_references.faa	SS__g29856.t1	966	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_primary_with_references.faa	SS__g32916.t2	966	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_primary_with_references.faa	SS__g4086.t1	965	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_primary_with_references.faa	SS__g7519.t1	1042	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_primary_with_references.faa	SS__g8156	1125	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_primary_with_references.faa	SS__g9483.t1	966	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	REF__sp_O64722_ZHD3_ARATH	310	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	REF__sp_Q93VK0_PPCK2_ARATH	278	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	REF__sp_Q9FIW9_ZHD10_ARATH	334	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	REF__sp_Q9MAH0_CAPP1_ARATH	967	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	REF__sp_Q9SB61_ZHD2_ARATH	220	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	REF__sp_Q9SPK4_PPCK1_ARATH	284	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	REF__sp_Q5GM68_CAPP2_ARATH	963	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	REF__sp_Q84VW9_CAPP3_ARATH	968	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	REF__sp_Q8GVE8_CAPP4_ARATH	1032	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	REF__sp_O49290_CPPM_ARATH	339	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	REF__sp_Q8W490_PEPK2_ARATH	470	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	PO__evm.TU.LG01.430	489	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	PO__evm.TU.LG02.787	960	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	PO__evm.TU.LG03.1551	539	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	PO__evm.TU.LG03.2406	965	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	PO__evm.TU.LG03.2407	965	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	PO__evm.TU.LG03.242	314	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	PO__evm.TU.LG03.46	1017	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	PO__evm.TU.LG03.97	1034	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	PO__evm.TU.LG04.1509	324	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	PO__evm.TU.LG04.1510	380	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	PO__evm.TU.LG04.1511	325	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	PO__evm.TU.LG04.1512	323	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	PO__evm.TU.LG04.1515	330	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	PO__evm.TU.LG04.2007	509	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	PO__evm.TU.LG04.2678	506	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	PO__evm.TU.LG04.2869	529	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	PO__evm.TU.LG04.3219	363	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	PO__evm.TU.LG04.331	489	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	PO__evm.TU.LG05.1189	316	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	PO__evm.TU.LG05.350	541	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	PO__evm.TU.LG05.829	951	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	PO__evm.TU.LG06.1001	966	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	PO__evm.TU.LG06.325	509	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	PO__evm.TU.LG06.677	966	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	PO__evm.TU.LG07.1491	530	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	PO__evm.TU.LG07.378	578	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	PO__evm.TU.LG07.502	533	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	PO__evm.TU.LG08.303	493	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	PO__evm.TU.LG08.451	305	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	PO__evm.TU.LG09.1958	960	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	PO__evm.TU.LG10.1441	330	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	PO__evm.TU.LG10.1448	325	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	PO__evm.TU.LG10.1450	325	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	PO__evm.TU.LG10.1458	324	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	PO__evm.TU.LG10.1460	325	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	PO__evm.TU.LG11.259	966	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	PO__evm.TU.LG12.224	518	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	PO__evm.TU.LG14.425	469	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	PO__evm.TU.LG15.437	507	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	PO__evm.TU.LG15.568	578	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	PO__evm.TU.LG16.383	352	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	PO__evm.TU.LG16.768	528	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	PO__evm.TU.LG17.1452	964	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	PO__evm.TU.LG17.1453	965	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	PO__evm.TU.LG18.1532	315	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	PO__evm.TU.LG18.1757	537	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	PO__evm.TU.LG18.1898	490	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	PO__evm.TU.LG19.1453	504	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	PO__evm.TU.LG20.141	536	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	PO__evm.TU.LG20.24	489	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	PO__evm.TU.LG22.1022	485	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	PO__evm.TU.LG22.1479	305	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	PO__evm.TU.LG25.173	328	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	PO__evm.TU.LG25.499	951	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	PO__evm.TU.LG25.962	545	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	PO__evm.TU.LG26.753	513	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	SS__g11076.t1	966	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	SS__g1183.t1	328	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	SS__g1184.t1	329	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	SS__g1185.t1	324	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	SS__g1187.t1	325	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	SS__g1188.t1	321	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	SS__g1189.t1	323	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	SS__g12647.t1	505	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	SS__g12668.t1	513	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	SS__g12931	798	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	SS__g15895.t1	506	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	SS__g15916.t1	411	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	SS__g16160	798	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	SS__g17009.t1	1042	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	SS__g17298.t1	314	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	SS__g1791.t1	467	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	SS__g20737.t1	523	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	SS__g22193.t1	567	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	SS__g22722.t1	532	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	SS__g23185.t1	490	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	SS__g24599	1098	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	SS__g25471.t1	537	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	SS__g2566.t1	965	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	SS__g26156.t1	467	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	SS__g27377.t1	384	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	SS__g27495.t1	532	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	SS__g29856.t1	966	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	SS__g30037.t1	514	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	SS__g30576.t1	377	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	SS__g31477.t1	537	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	SS__g32916.t2	966	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	SS__g33187.t1	441	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	SS__g3411.t1	377	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	SS__g3519.t1	532	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	SS__g35202.t1	378	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	SS__g35409.t1	379	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	SS__g35928.t1	567	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	SS__g37791.t1	328	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	SS__g37792.t1	330	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	SS__g37793.t2	325	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	SS__g37794.t1	321	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	SS__g37795.t1	323	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	SS__g37851.t1	479	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	SS__g4086.t1	965	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	SS__g4904.t1	514	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	SS__g5443.t1	513	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	SS__g6447.t1	448	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	SS__g6883.t1	441	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	SS__g7040.t2	442	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	SS__g707.t1	314	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	SS__g7519.t1	1042	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	SS__g8156	1125	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.6/release/work/PEPC_sensitivity_with_references.faa	SS__g9483.t1	966	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.7/release/reference_curation/05_corrected_PEPC_references_only.faa	REF_PPC_1__sp_Q9MAH0_CAPP1_ARATH	967	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.7/release/reference_curation/05_corrected_PEPC_references_only.faa	REF_PPC_2__sp_Q5GM68_CAPP2_ARATH	963	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.7/release/reference_curation/05_corrected_PEPC_references_only.faa	REF_PPC_3__sp_Q84VW9_CAPP3_ARATH	968	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz16.7/release/reference_curation/05_corrected_PEPC_references_only.faa	REF_PPC_4__sp_Q8GVE8_CAPP4_ARATH	1032	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/ALMT/ALMT_references.faa	REF__ALMT__sp|O49696|ALMTC_ARATH	560	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/ALMT/ALMT_references.faa	REF__ALMT__sp|Q9C8N5|STOP1_ARATH	499	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/ALMT/ALMT_references.faa	REF__ALMT__sp|Q9SFB0|DTX43_ARATH	526	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/ALMT/ALMT_references.faa	REF__ALMT__sp|Q9SJE9|ALMT1_ARATH	493	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/ALMT/ALMT_references.faa	REF__ALMT__sp|Q9SYD6|DTX42_ARATH	515	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/ALMT/ALMT_references.faa	REF__ALMT__sp|Q9LS46|ALMT9_ARATH	598	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/ALMT/ALMT_references.faa	REF__ALMT__sp|Q84K71|DTX44_ARATH	521	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/ALMT/ALMT_references.faa	REF__ALMT__sp|Q93Z29|ALMT5_ARATH	537	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/ALMT/ALMT_references.faa	REF__ALMT__sp|Q9C6L8|ALMT4_ARATH	548	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/ALMT/ALMT_references.faa	REF__ALMT__sp|Q9LPQ8|ALMT3_ARATH	581	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/ALMT/ALMT_references.faa	REF__ALMT__sp|Q9LS22|ALMTE_ARATH	543	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/ALMT/ALMT_references.faa	REF__ALMT__sp|Q9SHM1|ALMT6_ARATH	538	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/ALMT/ALMT_references.faa	REF__ALMT__sp|Q9SVE7|DTX45_ARATH	560	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/ALMT/ALMT_references.faa	REF__ALMT__sp|O23086|ALMTA_ARATH	497	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/ALMT/ALMT_references.faa	REF__ALMT__sp|Q3E9Z9|ALMTB_ARATH	152	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/ALMT/ALMT_references.faa	REF__ALMT__sp|Q9LS23|ALMTD_ARATH	539	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/ALMT/ALMT_references.faa	REF__ALMT__sp|Q9SJE8|ALMT2_ARATH	501	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/ALMT/ALMT_references.faa	REF__ALMT__sp|Q9SRM9|ALMT8_ARATH	488	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/ALMT/ALMT_references.faa	REF__ALMT__sp|Q9XIN1|ALMT7_ARATH	506	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/PPDK/PPDK_references.faa	REF__PPDK__sp|O23404|PPDK1_ARATH	963	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/PPDK/PPDK_references.faa	REF__PPDK__sp|O49562|PDRP1_ARATH	403	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/PPDK/PPDK_references.faa	REF__PPDK__sp|Q9MAC9|PDRP2_ARATH	377	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|F4HWY6|MYO11_ARATH	1529	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|F4HXP9|MYO9_ARATH	1538	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|F4I460|MYO8_ARATH	1500	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|F4IRU3|MYO12_ARATH	1556	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|F4K5J1|MYO17_ARATH	1531	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|O23654|VATA_ARATH	623	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|O80983|FTSH4_ARATH	717	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|O82628|VATG1_ARATH	110	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|P0DO44|ATP6A_ARATH	55	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|P11574|VATB1_ARATH	486	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|P31414|AVP1_ARATH	770	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|P83483|ATPBM_ARATH	556	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|P83484|ATPBN_ARATH	556	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|P92549|ATPAM_ARATH	507	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|Q39160|MYO5_ARATH	1520	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|Q39253|CAX1_ARATH	463	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|Q39258|VATE1_ARATH	230	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|Q56Y74|MORC6_ARATH	663	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|Q5FV35|MORC2_ARATH	626	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|Q84WV6|MORC1_ARATH	635	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|Q8LAS7|CNBL2_ARATH	226	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|Q8LEM7|CNBL3_ARATH	226	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|Q8RWZ7|VHAA1_ARATH	817	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|Q8W4E2|VATB3_ARATH	487	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|Q8W4S4|VHAA3_ARATH	821	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|Q944Q0|WNK8_ARATH	563	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|Q9FGM0|FTSHB_ARATH	806	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|Q9FT52|ATP5H_ARATH	168	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|Q9LKB9|MYO6_ARATH	1505	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|Q9LT02|PDR2_ARATH	1179	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|Q9M297|CLSY1_ARATH	1256	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|Q9M2K0|MYO16_ARATH	1242	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|Q9SDS7|VATC_ARATH	375	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|Q9SIW2|CHR35_ARATH	888	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|Q9SJT7|VHAA2_ARATH	821	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|Q9SZN1|VATB2_ARATH	487	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|F4I5Q6|MYO7_ARATH	1730	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|F4JM19|MYO14_ARATH	1516	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|O82629|VATG2_ARATH	106	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|P0DH92|VATL1_ARATH	164	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|P0DH93|VATL3_ARATH	164	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|P0DH94|VATL5_ARATH	164	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|P59228|VATL2_ARATH	165	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|P59229|VATL4_ARATH	166	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|P60112|ATP9_ARATH	85	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|P92547|ATP62_ARATH	349	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|P93298|ATP61_ARATH	385	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|Q84WU8|FTSH3_ARATH	809	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|Q8RX56|UNC13_ARATH	1101	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|Q8VZI8|FTSHA_ARATH	813	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|Q94A79|DMS3_ARATH	420	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|Q96250|ATPG3_ARATH	325	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|Q96251|ATPO_ARATH	238	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|Q96252|ATP4_ARATH	203	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|Q9C5A9|ATPBO_ARATH	559	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|Q9FNC9|TOM92_ARATH	99	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|Q9LHA4|VA0D2_ARATH	351	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|Q9LJI5|VA0D1_ARATH	351	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|Q9LX65|VATH_ARATH	441	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|Q9SLA2|VATO2_ARATH	178	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|Q9SZY7|VATO1_ARATH	180	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|Q9XGM1|VATD_ARATH	261	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|Q9ZQX4|VATF_ARATH	128	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|O22252|MHX_ARATH	539	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|P0CAN7|VATE3_ARATH	237	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|P0DO45|ATP6B_ARATH	55	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|P56760|ATPH_ARATH	81	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|Q96253|ATP5E_ARATH	70	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|Q9C9Z8|VATE2_ARATH	235	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|Q9FLN5|VA0E1_ARATH	70	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|Q9SZ13|VA0E2_ARATH	70	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|Q9SZH0|VATG3_ARATH	108	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_ATPASE/V_ATPASE_references.faa	REF__V_ATPASE__sp|P93278|M040_ARATH	315	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_PPASE/V_PPASE_references.faa	REF__V_PPASE__sp|P31414|AVP1_ARATH	770	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_PPASE/V_PPASE_references.faa	REF__V_PPASE__sp|Q39253|CAX1_ARATH	463	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_PPASE/V_PPASE_references.faa	REF__V_PPASE__sp|Q39254|CAX2_ARATH	441	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_PPASE/V_PPASE_references.faa	REF__V_PPASE__sp|Q56ZN6|AVP2_ARATH	802	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_PPASE/V_PPASE_references.faa	REF__V_PPASE__sp|Q67YC0|PPSP1_ARATH	295	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_PPASE/V_PPASE_references.faa	REF__V_PPASE__sp|Q6NPD7|NUD10_ARATH	277	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_PPASE/V_PPASE_references.faa	REF__V_PPASE__sp|Q93V56|IPYR1_ARATH	212	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_PPASE/V_PPASE_references.faa	REF__V_PPASE__sp|Q93Z81|CAX3_ARATH	459	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_PPASE/V_PPASE_references.faa	REF__V_PPASE__sp|Q945S5|CAX4_ARATH	446	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_PPASE/V_PPASE_references.faa	REF__V_PPASE__sp|Q94A82|NUD19_ARATH	438	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_PPASE/V_PPASE_references.faa	REF__V_PPASE__sp|Q94B74|NUDT2_ARATH	278	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_PPASE/V_PPASE_references.faa	REF__V_PPASE__sp|Q9C664|TTM2_ARATH	674	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_PPASE/V_PPASE_references.faa	REF__V_PPASE__sp|Q9C6Z2|NUD25_ARATH	175	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_PPASE/V_PPASE_references.faa	REF__V_PPASE__sp|Q9C9B9|TTM1_ARATH	643	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_PPASE/V_PPASE_references.faa	REF__V_PPASE__sp|Q9CA40|NUDT1_ARATH	147	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_PPASE/V_PPASE_references.faa	REF__V_PPASE__sp|Q9LFF9|IPYR4_ARATH	216	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_PPASE/V_PPASE_references.faa	REF__V_PPASE__sp|Q9LXC9|IPYR6_ARATH	300	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_PPASE/V_PPASE_references.faa	REF__V_PPASE__sp|Q9SJC4|NUDT6_ARATH	283	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_PPASE/V_PPASE_references.faa	REF__V_PPASE__sp|Q9SU14|NUDT7_ARATH	282	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_PPASE/V_PPASE_references.faa	REF__V_PPASE__sp|Q9SZ63|NUD14_ARATH	309	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_PPASE/V_PPASE_references.faa	REF__V_PPASE__sp|P21216|IPYR2_ARATH	218	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_PPASE/V_PPASE_references.faa	REF__V_PPASE__sp|Q8L968|ITPA_ARATH	206	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_PPASE/V_PPASE_references.faa	REF__V_PPASE__sp|Q9LE73|NUDT4_ARATH	207	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_PPASE/V_PPASE_references.faa	REF__V_PPASE__sp|O82597|IPYR5_ARATH	216	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_PPASE/V_PPASE_references.faa	REF__V_PPASE__sp|O82793|IPYR3_ARATH	216	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_PPASE/V_PPASE_references.faa	REF__V_PPASE__sp|Q8L783|CAX5_ARATH	441	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_PPASE/V_PPASE_references.faa	REF__V_PPASE__sp|Q9FWR2|AVPX_ARATH	802	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_PPASE/V_PPASE_references.faa	REF__V_PPASE__sp|Q9FZ62|PPSP2_ARATH	279	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.3/release/V_PPASE/V_PPASE_references.faa	REF__V_PPASE__sp|Q9LFZ8|CAX6_ARATH	448	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.5/release/BETA_CA/BETA_CA_reference_alignment.faa	sp|O04846|ATCA1_ARATH Alpha carbonic anhydrase 1, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=ACA1 PE=1 SV=2	470	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.5/release/BETA_CA/BETA_CA_reference_alignment.faa	sp|P27140|BCA1_ARATH Beta carbonic anhydrase 1, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=BCA1 PE=1 SV=2	470	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.5/release/BETA_CA/BETA_CA_reference_alignment.faa	sp|P42737|BCA2_ARATH Beta carbonic anhydrase 2, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=BCA2 PE=1 SV=3	470	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.5/release/BETA_CA/BETA_CA_reference_alignment.faa	sp|Q94CE4|BCA4_ARATH Beta carbonic anhydrase 4 OS=Arabidopsis thaliana OX=3702 GN=BCA4 PE=1 SV=1	470	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.5/release/BETA_CA/BETA_CA_reference_alignment.faa	sp|F4HUC4|ATCA5_ARATH Alpha carbonic anhydrase 5 OS=Arabidopsis thaliana OX=3702 GN=ACA5 PE=3 SV=1	470	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.5/release/BETA_CA/BETA_CA_reference_alignment.faa	sp|F4IHR4|ATCA2_ARATH Alpha carbonic anhydrase 2 OS=Arabidopsis thaliana OX=3702 GN=ACA2 PE=2 SV=2	470	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.5/release/BETA_CA/BETA_CA_reference_alignment.faa	sp|F4JIK2|ATCA4_ARATH Alpha carbonic anhydrase 4 OS=Arabidopsis thaliana OX=3702 GN=ACA4 PE=3 SV=1	470	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.5/release/BETA_CA/BETA_CA_reference_alignment.faa	sp|Q8L817|ATCA7_ARATH Alpha carbonic anhydrase 7 OS=Arabidopsis thaliana OX=3702 GN=ACA7 PE=2 SV=1	470	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.5/release/BETA_CA/BETA_CA_reference_alignment.faa	sp|Q9C6F5|BCA6_ARATH Beta carbonic anhydrase 6, mitochondrial OS=Arabidopsis thaliana OX=3702 GN=BCA6 PE=2 SV=1	470	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.5/release/BETA_CA/BETA_CA_reference_alignment.faa	sp|Q9FM99|ATCA8_ARATH Alpha carbonic anhydrase 8 OS=Arabidopsis thaliana OX=3702 GN=ACA8 PE=3 SV=3	470	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.5/release/BETA_CA/BETA_CA_reference_alignment.faa	sp|Q9FYE3|ATCA3_ARATH Alpha carbonic anhydrase 3 OS=Arabidopsis thaliana OX=3702 GN=ACA3 PE=2 SV=1	470	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.5/release/BETA_CA/BETA_CA_reference_alignment.faa	sp|Q94CE3|BCA5_ARATH Beta carbonic anhydrase 5, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=BCA5 PE=2 SV=1	470	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.5/release/BETA_CA/BETA_CA_reference_alignment.faa	sp|Q9SUB4|ATCA6_ARATH Alpha carbonic anhydrase 6 OS=Arabidopsis thaliana OX=3702 GN=ACA6 PE=3 SV=1	470	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.5/release/BETA_CA/BETA_CA_reference_alignment.faa	sp|Q9ZUC2|BCA3_ARATH Beta carbonic anhydrase 3 OS=Arabidopsis thaliana OX=3702 GN=BCA3 PE=2 SV=1	470	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	AT__gene-LOC130797255	295	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	AT__gene-LOC130804840	272	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	AT__gene-LOC130807537	266	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	AT__gene-LOC130812828	242	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	AT__gene-LOC130812940	268	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	AT__gene-LOC130813302	272	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	AT__gene-LOC130813322	261	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	AT__gene-LOC130813890	281	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	AT__gene-LOC130813898	286	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	AT__gene-LOC130820426	501	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	AT__gene-LOC130828851	337	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	BV__Bv4_100840_nphg	65	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	BV__Bv6_183200_uffy	287	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	BV__Bv7_192700_ogzr	243	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	BV__Bv7_192730_rrma	263	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	BV__Bv7_195190_hsqa	285	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	BV__Bv7_195200_epyn	289	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	BV__Bv7_195210_rkjz	279	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	BV__Bv7_195220_djpo	276	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	BV__Bv8_244660_rkme	337	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	BV__Bv9_274020_efeu	299	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	MC__gene_12840	337	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	MC__gene_14500	257	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	MC__gene_18131	390	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	MC__gene_19021	284	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	MC__gene_19022	232	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	MC__gene_20172	292	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	MC__gene_20173	333	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	MC__gene_26327	302	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	PO__evm.TU.LG02.1043	246	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	PO__evm.TU.LG03.403	255	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	PO__evm.TU.LG03.404	255	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	PO__evm.TU.LG04.2482	247	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	PO__evm.TU.LG07.1936	290	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	PO__evm.TU.LG08.1094	304	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	PO__evm.TU.LG09.1159	277	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	PO__evm.TU.LG09.930	276	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	PO__evm.TU.LG10.1554	247	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	PO__evm.TU.LG12.1303	255	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	PO__evm.TU.LG12.1304	285	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	PO__evm.TU.LG13.214	293	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	PO__evm.TU.LG15.1221	251	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	PO__evm.TU.LG16.1053	338	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	PO__evm.TU.LG20.1506	340	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	PO__evm.TU.LG22.838	304	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	PO__evm.TU.LG23.56	206	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SLP_Hap1__SP10G01007	272	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SLP_Hap1__SP10G01010	272	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SLP_Hap1__SP10G01359	173	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SLP_Hap1__SP10G01360	66	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SLP_Hap1__SP1G00428	298	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SLP_Hap1__SP2G00186	255	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SLP_Hap1__SP2G02733	280	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SLP_Hap1__SP2G02734	283	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SLP_Hap1__SP3G00376	272	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SLP_Hap1__SP6G01525	255	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SLP_Hap1__SP9G00769	342	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SLP_Hap1__SP9G00873	261	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SP_Hex__gene_Spor0095880.1	386	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SP_Hex__gene_Spor0140320.1	176	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SP_Hex__gene_Spor0150570.1	268	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SP_Hex__gene_Spor0152890.1	264	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SP_Hex__gene_Spor0152900.1	331	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SP_Hex__gene_Spor0152910.1	140	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SP_Hex__gene_Spor0164130.1	281	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SP_Hex__gene_Spor0361300.1	230	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SP_Hex__gene_Spor0363710.1	333	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SP_Hex__gene_Spor0375690.1	281	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SP_Hex__gene_Spor0471650.1	293	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SP_Hex__gene_Spor0482050.1	308	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SP_Hex__gene_Spor0482070.1	286	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SP_Hex__gene_Spor0482090.1	292	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SP_Hex__gene_Spor0484470.1	264	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SP_Hex__gene_Spor0513010.1	281	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SP_Hex__gene_Spor0527280.1	368	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SP_Hex__gene_Spor0572610.1	356	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SP_Hex__gene_Spor0572640.1	269	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SP_Tet__g1657	271	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SP_Tet__g2290	271	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SP_Tet__g23616	259	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SP_Tet__g24019	281	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SP_Tet__g2884	342	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SP_Tet__g30689	292	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SP_Tet__g31443	294	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SP_Tet__g32128	289	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SP_Tet__g32129	286	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SP_Tet__g33615	342	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SP_Tet__g34158	264	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SP_Tet__g34159	264	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SP_Tet__g6057	281	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SS__g13232.t1	121	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SS__g13235.t1	292	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SS__g13236.t1	292	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SS__g13412.t1	257	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SS__g14557.t1	260	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SS__g14565.t1	286	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SS__g14568.t1	292	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SS__g14747.t1	257	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SS__g14748.t1	257	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SS__g17514.t1	281	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SS__g1780.t1	293	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SS__g18678.t2	347	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SS__g19756.t1	281	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SS__g25842.t2	347	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SS__g26146.t1	293	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SS__g33555.t1	257	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SS__g38371.t1	271	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SS__g38694.t1	271	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	SS__g39034.t1	271	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	REF__sp|F4HUC4|ATCA5_ARATH	277	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	REF__sp|F4IHR4|ATCA2_ARATH	245	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	REF__sp|F4JIK2|ATCA4_ARATH	267	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	REF__sp|O04846|ATCA1_ARATH	284	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	REF__sp|P27140|BCA1_ARATH	347	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	REF__sp|P42737|BCA2_ARATH	331	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	REF__sp|Q8L817|ATCA7_ARATH	275	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	REF__sp|Q94CE3|BCA5_ARATH	301	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	REF__sp|Q94CE4|BCA4_ARATH	280	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	REF__sp|Q9C6F5|BCA6_ARATH	290	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	REF__sp|Q9FM99|ATCA8_ARATH	389	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	REF__sp|Q9FYE3|ATCA3_ARATH	277	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	REF__sp|Q9SUB4|ATCA6_ARATH	260	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/09_BETA_CA_all_candidates_with_references.faa	REF__sp|Q9ZUC2|BCA3_ARATH	258	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/10_BETA_CA_priority_candidates_with_references.faa	BV__Bv4_100840_nphg	65	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/10_BETA_CA_priority_candidates_with_references.faa	PO__evm.TU.LG23.56	206	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/10_BETA_CA_priority_candidates_with_references.faa	SLP_Hap1__SP10G01360	66	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/10_BETA_CA_priority_candidates_with_references.faa	SP_Hex__gene_Spor0152910.1	140	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/10_BETA_CA_priority_candidates_with_references.faa	SS__g13232.t1	121	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/10_BETA_CA_priority_candidates_with_references.faa	REF__sp|F4HUC4|ATCA5_ARATH	277	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/10_BETA_CA_priority_candidates_with_references.faa	REF__sp|F4IHR4|ATCA2_ARATH	245	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/10_BETA_CA_priority_candidates_with_references.faa	REF__sp|F4JIK2|ATCA4_ARATH	267	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/10_BETA_CA_priority_candidates_with_references.faa	REF__sp|O04846|ATCA1_ARATH	284	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/10_BETA_CA_priority_candidates_with_references.faa	REF__sp|P27140|BCA1_ARATH	347	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/10_BETA_CA_priority_candidates_with_references.faa	REF__sp|P42737|BCA2_ARATH	331	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/10_BETA_CA_priority_candidates_with_references.faa	REF__sp|Q8L817|ATCA7_ARATH	275	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/10_BETA_CA_priority_candidates_with_references.faa	REF__sp|Q94CE3|BCA5_ARATH	301	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/10_BETA_CA_priority_candidates_with_references.faa	REF__sp|Q94CE4|BCA4_ARATH	280	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/10_BETA_CA_priority_candidates_with_references.faa	REF__sp|Q9C6F5|BCA6_ARATH	290	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/10_BETA_CA_priority_candidates_with_references.faa	REF__sp|Q9FM99|ATCA8_ARATH	389	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/10_BETA_CA_priority_candidates_with_references.faa	REF__sp|Q9FYE3|ATCA3_ARATH	277	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/10_BETA_CA_priority_candidates_with_references.faa	REF__sp|Q9SUB4|ATCA6_ARATH	260	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.6/release_20542908_20261015T173416Z/10_BETA_CA_priority_candidates_with_references.faa	REF__sp|Q9ZUC2|BCA3_ARATH	258	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.7/release_20542927_20261015T175448Z/BETA_CA/reference_alignment.faa	sp|P27140|BCA1_ARATH	357	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.7/release_20542927_20261015T175448Z/BETA_CA/reference_alignment.faa	sp|P42737|BCA2_ARATH	357	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.7/release_20542927_20261015T175448Z/BETA_CA/reference_alignment.faa	sp|Q94CE3|BCA5_ARATH	357	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.7/release_20542927_20261015T175448Z/BETA_CA/reference_alignment.faa	sp|Q94CE4|BCA4_ARATH	357	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.7/release_20542927_20261015T175448Z/BETA_CA/reference_alignment.faa	sp|Q9C6F5|BCA6_ARATH	357	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.7/release_20542927_20261015T175448Z/BETA_CA/reference_alignment.faa	sp|Q9ZUC2|BCA3_ARATH	357	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.7/release_20542927_20261015T175448Z/BETA_CA/references.faa	sp|P27140|BCA1_ARATH	347	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.7/release_20542927_20261015T175448Z/BETA_CA/references.faa	sp|P42737|BCA2_ARATH	331	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.7/release_20542927_20261015T175448Z/BETA_CA/references.faa	sp|Q94CE3|BCA5_ARATH	301	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.7/release_20542927_20261015T175448Z/BETA_CA/references.faa	sp|Q94CE4|BCA4_ARATH	280	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.7/release_20542927_20261015T175448Z/BETA_CA/references.faa	sp|Q9C6F5|BCA6_ARATH	290	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz17.7/release_20542927_20261015T175448Z/BETA_CA/references.faa	sp|Q9ZUC2|BCA3_ARATH	258	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz5/work/beta_ca/curated_ca_references.faa	ALPHA_CA_REF|sp|O04846|ATCA1_ARATH	284	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz5/work/beta_ca/curated_ca_references.faa	BETA_CA_REF|sp|P27140|BCA1_ARATH	347	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz5/work/beta_ca/curated_ca_references.faa	BETA_CA_REF|sp|P42737|BCA2_ARATH	331	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz5/work/beta_ca/curated_ca_references.faa	BETA_CA_REF|sp|Q94CE4|BCA4_ARATH	280	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz5/work/beta_ca/curated_ca_references.faa	ALPHA_CA_REF|sp|F4HUC4|ATCA5_ARATH	277	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz5/work/beta_ca/curated_ca_references.faa	ALPHA_CA_REF|sp|F4IHR4|ATCA2_ARATH	245	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz5/work/beta_ca/curated_ca_references.faa	ALPHA_CA_REF|sp|F4JIK2|ATCA4_ARATH	267	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz5/work/beta_ca/curated_ca_references.faa	ALPHA_CA_REF|sp|Q8L817|ATCA7_ARATH	275	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz5/work/beta_ca/curated_ca_references.faa	BETA_CA_REF|sp|Q9C6F5|BCA6_ARATH	290	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz5/work/beta_ca/curated_ca_references.faa	ALPHA_CA_REF|sp|Q9FM99|ATCA8_ARATH	389	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz5/work/beta_ca/curated_ca_references.faa	ALPHA_CA_REF|sp|Q9FYE3|ATCA3_ARATH	277	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz5/work/beta_ca/curated_ca_references.faa	BETA_CA_REF|sp|Q94CE3|BCA5_ARATH	301	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz5/work/beta_ca/curated_ca_references.faa	ALPHA_CA_REF|sp|Q9SUB4|ATCA6_ARATH	260	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz5/work/beta_ca/curated_ca_references.faa	BETA_CA_REF|sp|Q9ZUC2|BCA3_ARATH	258	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz5/work/pepc/curated_pepc_references.faa	PEPC|REFERENCE|sp|Q9MAH0|CAPP1_ARATH	967	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz5/work/pepc/curated_pepc_references.faa	PEPC|REFERENCE|sp|Q5GM68|CAPP2_ARATH	963	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz5/work/pepc/curated_pepc_references.faa	PEPC|REFERENCE|sp|Q84VW9|CAPP3_ARATH	968	PENDING	PENDING		PENDING
+08_focused_families/validation/step25kz5/work/pepc/curated_pepc_references.faa	PEPC|REFERENCE|sp|Q8GVE8|CAPP4_ARATH	1032	PENDING	PENDING		PENDING

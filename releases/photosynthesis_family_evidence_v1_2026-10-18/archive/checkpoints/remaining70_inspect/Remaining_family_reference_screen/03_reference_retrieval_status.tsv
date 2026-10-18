@@ -1,0 +1,14 @@
+query_group	status	accepted	url	error
+NAD-ME	READY	2	https://rest.uniprot.org/uniprotkb/search?query=%28organism_id%3A3702%29+AND+%28reviewed%3Atrue%29+AND+%28ec%3A1.1.1.39+OR+ec%3A1.1.1.38%29&format=json&size=500	
+NADP-ME	READY	4	https://rest.uniprot.org/uniprotkb/search?query=%28organism_id%3A3702%29+AND+%28reviewed%3Atrue%29+AND+%28ec%3A1.1.1.40%29&format=json&size=500	
+MDH_NAD	READY	8	https://rest.uniprot.org/uniprotkb/search?query=%28organism_id%3A3702%29+AND+%28reviewed%3Atrue%29+AND+%28ec%3A1.1.1.37%29&format=json&size=500	
+MDH_NADP	READY	1	https://rest.uniprot.org/uniprotkb/search?query=%28organism_id%3A3702%29+AND+%28reviewed%3Atrue%29+AND+%28ec%3A1.1.1.82%29&format=json&size=500	
+ASPAT	READY	6	https://rest.uniprot.org/uniprotkb/search?query=%28organism_id%3A3702%29+AND+%28reviewed%3Atrue%29+AND+%28ec%3A2.6.1.1%29&format=json&size=500	
+AlaAT	READY	2	https://rest.uniprot.org/uniprotkb/search?query=%28organism_id%3A3702%29+AND+%28reviewed%3Atrue%29+AND+%28ec%3A2.6.1.2%29&format=json&size=500	
+AMINO_COMPARATOR	READY	13	https://rest.uniprot.org/uniprotkb/search?query=%28organism_id%3A3702%29+AND+%28reviewed%3Atrue%29+AND+%28ec%3A2.6.1.4+OR+ec%3A2.6.1.42+OR+ec%3A2.6.1.5+OR+ec%3A2.6.1.44%29&format=json&size=500	
+LDH_COMPARATOR	NO_METADATA_VALIDATED_RECORD	0	https://rest.uniprot.org/uniprotkb/search?query=%28organism_id%3A3702%29+AND+%28reviewed%3Atrue%29+AND+%28ec%3A1.1.1.27%29&format=json&size=500	
+PEPCK	READY	2	https://rest.uniprot.org/uniprotkb/search?query=%28organism_id%3A3702%29+AND+%28reviewed%3Atrue%29+AND+%28ec%3A4.1.1.49%29&format=json&size=500	
+PEPC_CONTEXT	READY	4	https://rest.uniprot.org/uniprotkb/search?query=%28organism_id%3A3702%29+AND+%28reviewed%3Atrue%29+AND+%28ec%3A4.1.1.31%29&format=json&size=500	
+PEPCK_GTP_COMPARATOR	READY	2	https://rest.uniprot.org/uniprotkb/search?query=%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29+AND+%28ec%3A4.1.1.32%29&format=json&size=500	
+BASS	READY	6	https://rest.uniprot.org/uniprotkb/search?query=%28organism_id%3A3702%29+AND+%28reviewed%3Atrue%29+AND+%28gene_exact%3ABASS1+OR+gene_exact%3ABASS2+OR+gene_exact%3ABASS3+OR+gene_exact%3ABASS4+OR+gene_exact%3ABASS5+OR+gene_exact%3ABASS6%29&format=json&size=500	
+MPC	READY	4	https://rest.uniprot.org/uniprotkb/search?query=%28organism_id%3A3702%29+AND+%28reviewed%3Atrue%29+AND+%28gene_exact%3AMPC1+OR+gene_exact%3AMPC2+OR+gene_exact%3AMPC3+OR+gene_exact%3AMPC4%29&format=json&size=500	

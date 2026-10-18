@@ -1,0 +1,12 @@
+{
+  "status": "ALMT_GROUPS_ALTERNATIVE_ISOFORMS_REVIEW_READY",
+  "candidate_records": 142,
+  "main_splits": 137,
+  "retained_backbone_splits": 133,
+  "stable_reference_groups": 21,
+  "alternative_isoforms": 2,
+  "alternative_outcomes": {
+    "NO_ALMT_SUPPORT_IN_ALTERNATIVE": 2
+  },
+  "final_counts": false
+}

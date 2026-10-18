@@ -1,0 +1,18 @@
+{
+  "status": "BOUNDED_ALIGNMENT_AND_ANNOTATION_REVIEW_READY",
+  "candidate_proteins": 53,
+  "reference_controls": 4,
+  "alignment_columns": 1357,
+  "domain_categories": {
+    "SINGLE_HIT_BROAD_COVERAGE": 40,
+    "ORDERED_SPLIT_BROAD_COVERAGE": 11,
+    "PRIORITY_COMPLETENESS_REVIEW": 2
+  },
+  "priority_annotation_loci": 2,
+  "annotation_collection_issues": 0,
+  "priority_protein_provenance": {
+    "EXACT_SEQUENCE_CONFIRMED": 2
+  },
+  "final_counts": false,
+  "new_phylogeny": false
+}

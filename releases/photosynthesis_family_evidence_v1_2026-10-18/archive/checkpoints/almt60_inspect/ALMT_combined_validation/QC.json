@@ -1,0 +1,14 @@
+{
+  "status": "ALMT_RECONCILIATION_DOMAIN_SCREEN_READY",
+  "historical_records": 142,
+  "screened_candidates": 121,
+  "unresolved_inputs": 21,
+  "positive_references": 14,
+  "other_controls": 5,
+  "shared_positive_reference_models": [
+    "PF11744",
+    "PF13515"
+  ],
+  "exception_records": 125,
+  "final_counts": false
+}

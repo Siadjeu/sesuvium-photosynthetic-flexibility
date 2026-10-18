@@ -1,0 +1,6 @@
+query_id	model	accession	model_length	full_evalue	independent_evalue	domain_bitscore	hmm_start	hmm_end	protein_start	protein_end	envelope_start	envelope_end	model_span
+REF_Q93VK0	Kinase-like	PF14531.13	289	5.1e-08	7.8e-08	26.0	153	289	120	257	98	257	0.474
+REF_Q93VK0	Pkinase	PF00069.32	262	1e-72	1.2e-72	238.7	1	262	11	269	11	269	1.0
+REF_Q9SPK4	Pkinase	PF00069.32	262	1.9e-72	2.1e-72	237.8	1	262	15	273	15	273	1.0
+REF_Q93VK0	PK_Tyr_Ser-Thr	PF07714.24	258	7.8e-31	9.2e-31	101.2	3	251	13	260	11	266	0.9651
+REF_Q9SPK4	PK_Tyr_Ser-Thr	PF07714.24	258	1.1e-29	1.2e-29	97.6	3	248	17	261	15	270	0.9535

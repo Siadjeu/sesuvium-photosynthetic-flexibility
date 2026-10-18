@@ -1,0 +1,20 @@
+{
+  "status": "COMPLETE_FOCUSED_INSPECTION_REVIEW_ONLY",
+  "target_count": 5,
+  "input_sha256": {
+    "05_all_screened_candidates.faa": "137c3e59e62ade959543bc40bfe98c7f3ad234d21ee79cb60653a1714e561545",
+    "08_beta_only_review_alignment.faa": "5f3e9f5b9a500ec409f9c1f943a9510bfd7a56ccaf8297f6b33625c8cbe47d8b",
+    "03_domain_evidence.tsv": "495bffd2356025305857128bf791a19a480b47a687eb19650b89ca603946ddd1",
+    "02_CA_family_specific_review.tsv": "2d2bf840a076cea7d55a3277abc890504c5fc6ae7d3cc12679edd9788dc08ad0"
+  },
+  "notes": [
+    "Local alignments are diagnostic sensitivity checks. They do not overwrite the accepted input alignment.",
+    "Domain fragments are diagnostic units, not new genes or automatic phylogenetic tips. Overlapping domain boundaries are preserved and recorded.",
+    "CDS translation uses the standard nuclear code and the supplied frame; partial trailing codons are reported through length_modulo_3.",
+    "An exact CDS/protein match validates their consistency, not the biological correctness of the annotation.",
+    "BED coordinates are zero-based, half-open and do not provide exon structure or read support.",
+    "Missing/ambiguous mapping records are reported explicitly. No fuzzy matching or gene-model repair is performed.",
+    "No automatic acceptance, exclusion, splitting of gene models or tree construction is performed.",
+    "Genomic sequence, exon-level GFF and read support may still be required to resolve fusion or truncation."
+  ]
+}

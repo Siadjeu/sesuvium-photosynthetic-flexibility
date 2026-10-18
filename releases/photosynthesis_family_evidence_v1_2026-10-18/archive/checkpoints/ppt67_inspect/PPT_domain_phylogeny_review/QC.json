@@ -1,0 +1,39 @@
+{
+  "status": "PPT_DOMAIN_PHYLOGENY_REVIEW_READY",
+  "source_candidates": 451,
+  "historical_label_corrections": 37,
+  "main_candidates": 370,
+  "reference_sequences": 6,
+  "sensitivity_only_candidates": 20,
+  "outside_domain_tree": 61,
+  "core_columns": 284,
+  "tree_runs": [
+    {
+      "analysis": "main",
+      "sequences": 376,
+      "columns": 284,
+      "model": "Q.PLANT+F+R6",
+      "seed": 176701,
+      "support_order": "SH-aLRT/UFBoot",
+      "rooting": "UNROOTED"
+    },
+    {
+      "analysis": "sensitivity_all_partials",
+      "sequences": 396,
+      "columns": 284,
+      "model": "Q.PLANT+F+R6",
+      "seed": 176702,
+      "support_order": "SH-aLRT/UFBoot",
+      "rooting": "UNROOTED"
+    }
+  ],
+  "flags": {
+    "NO_RECALIBRATED_HEURISTIC_FLAG": 372,
+    "NO_PF03151;RETAIN_OUTSIDE_TREE": 61,
+    "PARTIAL_MODEL_COVERAGE": 19,
+    "LONG_FULL_PROTEIN_REVIEW;NONOVERLAPPING_OTHER_DOMAIN_REVIEW": 2,
+    "LONG_FULL_PROTEIN_REVIEW": 2,
+    "PARTIAL_MODEL_COVERAGE;LONG_FULL_PROTEIN_REVIEW;NONOVERLAPPING_OTHER_DOMAIN_REVIEW": 1
+  },
+  "final_counts": false
+}

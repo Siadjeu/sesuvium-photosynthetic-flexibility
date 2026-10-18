@@ -1,0 +1,4 @@
+species	gene_id	seqid	start_0based	end_exclusive_requested	end_exclusive_actual	extracted_bp	status
+MC	gene_22054	Super-Scaffold_2_Chr_2	2144615	2156020	2156020	11405	EXTRACTED
+SP_Tet	g10591	scaffold_17	31707728	31718902	31718902	11174	EXTRACTED
+SP_Hex	gene_Spor0461320.1	chr5.1	53475678	53500756	53500756	25078	EXTRACTED

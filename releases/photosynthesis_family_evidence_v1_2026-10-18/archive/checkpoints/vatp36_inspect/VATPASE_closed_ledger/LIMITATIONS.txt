@@ -1,0 +1,6 @@
+Bounded V-ATPase annotation review closed by project decision. All 603 records map to distinct annotated loci. Counts preserve 85 concordant, 208 limited-panel-caveat, 23 model-exception and 287 F-type-favoured categories.
+The retained 316 candidates comprise 293 without detected priority model problems plus 23 unresolved model exceptions. They are not 316 confirmed complete functional genes. No blanket acceptance of the 23 exceptions, pseudogene designation, model repair, locus merging or sequence deduplication.
+All 23 exception CDSs translate exactly to the corresponding proteins allowing one terminal stop; no internal stops, ambiguous codons or incomplete codons detected. This establishes internal consistency, not independent validation of gene structures, fusions or completeness.
+The AT extraction issue was resolved by a documented protein_id; the BV source terminal-stop formatting difference was recorded.
+Subunit assignments remain evidence-based and provisional. Shared domains and overlapping Pfam matches do not establish specificity or additional copies. Candidate ascertainment was limited to prior screened proteins; missing/divergent genes, localization, enzyme activity and C4/CAM-specific roles were not established.
+No new searches, trees, alignments or genome/read validation were performed during closure. Earlier releases are unchanged.

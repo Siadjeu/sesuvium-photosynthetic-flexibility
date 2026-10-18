@@ -1,0 +1,121 @@
+{
+  "status": "ALMT_PHYLOGENY_ANNOTATION_REVIEW_READY",
+  "historical_candidates": 142,
+  "main_sequences": 140,
+  "partial_sequences": 12,
+  "omitted_no_domain": 4,
+  "core_columns": 345,
+  "tree_runs": [
+    {
+      "analysis": "main",
+      "sequences": 140,
+      "columns": 345,
+      "model": "Q.PLANT+R5",
+      "seed": 176201,
+      "support_order": "SH-aLRT/UFBoot",
+      "rooting": "UNROOTED"
+    },
+    {
+      "analysis": "sensitivity_all_partials",
+      "sequences": 152,
+      "columns": 345,
+      "model": "Q.PLANT+R5",
+      "seed": 176202,
+      "support_order": "SH-aLRT/UFBoot",
+      "rooting": "UNROOTED"
+    }
+  ],
+  "annotation_status": [
+    {
+      "protein_id": "MC__gene_14995",
+      "kind": "protein",
+      "status": "COLLECTED",
+      "records": 1
+    },
+    {
+      "protein_id": "MC__gene_14995",
+      "kind": "cds",
+      "status": "COLLECTED",
+      "records": 1
+    },
+    {
+      "protein_id": "MC__gene_14995",
+      "kind": "gff",
+      "status": "COLLECTED",
+      "records": 25
+    },
+    {
+      "protein_id": "PO__evm.TU.LG16.459",
+      "kind": "protein",
+      "status": "COLLECTED",
+      "records": 1
+    },
+    {
+      "protein_id": "PO__evm.TU.LG16.459",
+      "kind": "cds",
+      "status": "COLLECTED",
+      "records": 1
+    },
+    {
+      "protein_id": "PO__evm.TU.LG16.459",
+      "kind": "gff",
+      "status": "COLLECTED",
+      "records": 30
+    },
+    {
+      "protein_id": "SLP_Hap1__SP4G00453",
+      "kind": "protein",
+      "status": "COLLECTED",
+      "records": 1
+    },
+    {
+      "protein_id": "SLP_Hap1__SP4G00453",
+      "kind": "cds",
+      "status": "COLLECTED",
+      "records": 1
+    },
+    {
+      "protein_id": "SLP_Hap1__SP4G00453",
+      "kind": "gff",
+      "status": "COLLECTED",
+      "records": 49
+    },
+    {
+      "protein_id": "SS__g16509.t2",
+      "kind": "protein",
+      "status": "COLLECTED",
+      "records": 2
+    },
+    {
+      "protein_id": "SS__g16509.t2",
+      "kind": "cds",
+      "status": "COLLECTED",
+      "records": 2
+    },
+    {
+      "protein_id": "SS__g16509.t2",
+      "kind": "gff",
+      "status": "COLLECTED",
+      "records": 60
+    },
+    {
+      "protein_id": "SS__g17774.t2",
+      "kind": "protein",
+      "status": "COLLECTED",
+      "records": 2
+    },
+    {
+      "protein_id": "SS__g17774.t2",
+      "kind": "cds",
+      "status": "COLLECTED",
+      "records": 2
+    },
+    {
+      "protein_id": "SS__g17774.t2",
+      "kind": "gff",
+      "status": "COLLECTED",
+      "records": 60
+    }
+  ],
+  "final_counts": false
+}

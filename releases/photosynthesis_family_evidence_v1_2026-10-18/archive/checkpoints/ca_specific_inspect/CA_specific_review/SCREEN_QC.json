@@ -1,0 +1,60 @@
+{
+  "status": "COMPLETE_FAMILY_SPECIFIC_SCREEN_REVIEW_ONLY",
+  "proteome_sequences": 288270,
+  "previous_candidates": 109,
+  "screened_review_records": 110,
+  "new_significant_candidates": 1,
+  "reference_counts": {
+    "BETA_CA": 6,
+    "ALPHA_CA": 8
+  },
+  "classification_counts": {
+    "BETA_SUPPORTED_REVIEW": 47,
+    "ALPHA_SUPPORTED_REVIEW": 56,
+    "BETA_PARTIAL_REVIEW": 2,
+    "NO_SIGNIFICANT_FAMILY_SUPPORT": 1,
+    "ALPHA_PARTIAL_REVIEW": 4
+  },
+  "beta_provisional_alignment_candidates": 47,
+  "alignment_records": 53,
+  "alignment_columns": 676,
+  "screen_thresholds": {
+    "sequence_evalue": 1e-05,
+    "independent_domain_evalue": 1e-05,
+    "single_domain_model_coverage": 0.5
+  },
+  "policies": [
+    "Thresholds are provisional screening rules, not calibrated family-specific acceptance cutoffs.",
+    "No alpha/beta score subtraction: independent profile support is evaluated separately.",
+    "No reported hit means not reported under this search configuration, not proven biological absence.",
+    "Partial and dual-profile hits remain unresolved. No automatic exclusion or formal acceptance.",
+    "Previous review selections are preserved separately. New family-specific checks start PENDING.",
+    "Beta provisional FASTA/alignment are review inputs, not formal gene counts or tree inputs.",
+    "No catalytic residue pass is inferred from an E-value, length, or domain coverage.",
+    "No other project module or previous release was changed."
+  ],
+  "input_sha256": {
+    "proteome": "a5476f3124933ed0e1e20f40dc78b2bf93816d4bb17765c66af802fe6df08313",
+    "references": "b0e12344abea81486081bda627c941dd172696b1bc9388b1d5fb408079911441",
+    "prior_review": "686fa09724042ae8aafc273d1988d974d68237a7eb9b59601958578a30492836"
+  },
+  "software": {
+    "mafft": [
+      "v7.526 (2024/Apr/26)"
+    ],
+    "hmmbuild": [
+      "# hmmbuild :: profile HMM construction from multiple sequence alignments",
+      "# HMMER 3.4 (Aug 2023); http://hmmer.org/",
+      "# Copyright (C) 2023 Howard Hughes Medical Institute.",
+      "# Freely distributed under the BSD open source license.",
+      "# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"
+    ],
+    "hmmsearch": [
+      "# hmmsearch :: search profile(s) against a sequence database",
+      "# HMMER 3.4 (Aug 2023); http://hmmer.org/",
+      "# Copyright (C) 2023 Howard Hughes Medical Institute.",
+      "# Freely distributed under the BSD open source license.",
+      "# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"
+    ]
+  }
+}

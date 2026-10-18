@@ -1,0 +1,3 @@
+analysis	sequences	core_columns	short_candidate_included	seed	tree_rooting	support_order	formal_counts
+main_without_short	52	536	False	174801	UNROOTED	SH-aLRT/UFBoot	NA
+sensitivity_with_short	53	536	True	174802	UNROOTED	SH-aLRT/UFBoot	NA

@@ -1,0 +1,5 @@
+{
+  "cds_release_manifest_sha256": "25b50c433c670477c2b470a1928604c72a3357f64d8a0211519a606efc7b28cf",
+  "bounded_release_manifest_sha256": "c8c157c399f6b45e9d4dec684b5eb5d61defe5e8392a4cdb03028b4e02229f40",
+  "closure_basis": "User-authorized bounded review closure; explicit per-locus caveats retained"
+}

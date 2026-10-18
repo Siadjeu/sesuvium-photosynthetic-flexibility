@@ -1,0 +1,17 @@
+{
+  "status": "DIT_EXISTING_EVIDENCE_RECONCILED",
+  "screen_candidates": 39,
+  "previously_excluded": 1,
+  "retained_for_validation": 38,
+  "screen_groups": {
+    "DIT1": 17,
+    "DIT2": 21
+  },
+  "review_status_counts": {
+    "CONSISTENT_TREE_GROUP_REQUIRES_DOMAIN_COMPLETENESS_REVIEW": 38,
+    "PREVIOUSLY_EXCLUDED_SUPPORTED_TDT_DIT_SET": 1
+  },
+  "coverage_corrected": "DIT2",
+  "ledger_changed": false,
+  "final_counts": false
+}

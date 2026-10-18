@@ -1,0 +1,19 @@
+{
+  "status": "DTC_DIC_BOUNDED_REVIEW_CLOSED",
+  "integrated_records": 946,
+  "integrated_families": 10,
+  "new_family_tiers": {
+    "DTC__SUPPORTED": 41,
+    "DIC__SUPPORTED": 17,
+    "DTC__MODEL_CAVEAT": 1,
+    "DTC__PARTIAL": 1
+  },
+  "remaining_carrier_candidates": 664,
+  "remaining_status_counts": {
+    "SCREENED_NOT_IN_BOUNDED_PHYLOGENY_RETAINED": 639,
+    "OUTSIDE_REFERENCE_DEFINED_GROUPS_RETAINED": 25
+  },
+  "families_without_integrated_ledger": 13,
+  "cross_family_overlap_flags": 0,
+  "final_counts": false
+}

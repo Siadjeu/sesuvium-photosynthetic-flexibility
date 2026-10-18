@@ -1,0 +1,155 @@
+{
+  "source_manifest_sha256": "5fe3101457decfa2cafab410f3ecbd61b7f56b36e088f8dd91860b0e1b97ce72",
+  "source_provenance": {
+    "step65_manifest_sha256": "3b8d0691f447a269ee31f706857eb4b8c6a291f7381d5814f325596b0c184594",
+    "corrected_manifest_sha256": "dac3d138fa5988c1896874f729d0c0943d413dea0d9d5b544a299efbea7696d7",
+    "corrected_proteome_sha256": "c5643d9ce8ba9140cd994eb1518fa7f9cdc242443b3e66532b9ba3f8f039b568",
+    "mapping_hashes": {
+      "AT": "49acc1140ddb84e0ceda7651b6d3a5bf44b5e818b779e876798a98f6124f6895",
+      "BV": "92757f6e79a084d6f6541125bfca3b9b08d5f0067d8389da70d42f0765ef2e33",
+      "MC": "2850262145a6a7e6d70d9eef751165eecc2f1a6f2d5a1fcb567a566e06b6146d",
+      "PO": "a16bf0a5db918ecb768127c4d96b4764fdf0bd34976d7f860a95a710714f1a5d",
+      "SLP_Hap1": "f32598592423d6cba5057ba5c683e210a2cdbc0ea97079e5c70c1971644cfeb6",
+      "SP_Hex": "e54f6b9eb5b3977b3b90289d03859f302b0f234047aaff96f09639e754772548",
+      "SP_Tet": "f8fb19c79b118d62b34563426c73c3fc5261b1b96fd216be60d22439c9e7fe84",
+      "SS": "83d7e662ba09985cc2d31beceb62a2b1b093f38b02fc755270acd154cf3c851b"
+    },
+    "pfam_sha256": "4b0da6399b97d2b23329de82190b2e5705bde1dea4cb2d028a52712d5966739e",
+    "commands": [
+      [
+        "diamond",
+        "makedb",
+        "--threads",
+        "4",
+        "--in",
+        "<RELEASE>/03_six_reference_panel.faa",
+        "--db",
+        "<RELEASE>/work/panel"
+      ],
+      [
+        "diamond",
+        "blastp",
+        "--threads",
+        "4",
+        "--query",
+        "<PROJECT_ROOT>/08_focused_families/validation/step25kz17.21/release_20543244_20261015T214311687124Z/full_outputs/corrected_protein_candidates.faa",
+        "--db",
+        "<RELEASE>/work/panel",
+        "--out",
+        "<RELEASE>/04_six_reference_hits.tsv",
+        "--very-sensitive",
+        "--evalue",
+        "1e-3",
+        "--max-target-seqs",
+        "0",
+        "--max-hsps",
+        "1",
+        "--outfmt",
+        "6",
+        "qseqid",
+        "sseqid",
+        "pident",
+        "length",
+        "qlen",
+        "slen",
+        "qstart",
+        "qend",
+        "sstart",
+        "send",
+        "evalue",
+        "bitscore"
+      ],
+      [
+        "hmmsearch",
+        "--cpu",
+        "4",
+        "--cut_ga",
+        "--noali",
+        "--domtblout",
+        "<RELEASE>/06_Pfam.domtbl",
+        "<PFAM_HMM>",
+        "<RELEASE>/05_candidates_and_references.faa"
+      ],
+      [
+        "diamond",
+        "version"
+      ],
+      [
+        "hmmsearch",
+        "-h"
+      ]
+    ]
+  },
+  "commands": [
+    [
+      "mafft",
+      "--amino",
+      "--thread",
+      "4",
+      "--localpair",
+      "--maxiterate",
+      "1000",
+      "<RELEASE>/03_main_alignment_input.faa"
+    ],
+    [
+      "mafft",
+      "--amino",
+      "--thread",
+      "4",
+      "--addfragments",
+      "<RELEASE>/03_partial_fragments.faa",
+      "--keeplength",
+      "<RELEASE>/04_main_alignment.faa"
+    ],
+    [
+      "<HOME>/miniforge3/envs/focused_family_env/bin/iqtree",
+      "-s",
+      "<RELEASE>/main/alignment.faa",
+      "-st",
+      "AA",
+      "-m",
+      "MFP",
+      "-B",
+      "1000",
+      "-bnni",
+      "-alrt",
+      "1000",
+      "-T",
+      "4",
+      "-seed",
+      "176701",
+      "-keep-ident",
+      "--prefix",
+      "<RELEASE>/main/tree"
+    ],
+    [
+      "<HOME>/miniforge3/envs/focused_family_env/bin/iqtree",
+      "-s",
+      "<RELEASE>/sensitivity_all_partials/alignment.faa",
+      "-st",
+      "AA",
+      "-m",
+      "Q.PLANT+F+R6",
+      "-B",
+      "1000",
+      "-bnni",
+      "-alrt",
+      "1000",
+      "-T",
+      "4",
+      "-seed",
+      "176702",
+      "-keep-ident",
+      "--prefix",
+      "<RELEASE>/sensitivity_all_partials/tree"
+    ],
+    [
+      "mafft",
+      "--version"
+    ],
+    [
+      "<HOME>/miniforge3/envs/focused_family_env/bin/iqtree",
+      "--version"
+    ]
+  ]
+}

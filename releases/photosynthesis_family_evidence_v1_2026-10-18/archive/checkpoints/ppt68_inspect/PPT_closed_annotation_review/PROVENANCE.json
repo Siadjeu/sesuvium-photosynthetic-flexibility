@@ -1,0 +1,7 @@
+{
+  "step67_manifest_sha256": "7cdaa2cdc2e94797ab5b0c275b24f811e097a463eeba6052bfa5fc8ee3060929",
+  "step66_manifest_sha256": "5fe3101457decfa2cafab410f3ecbd61b7f56b36e088f8dd91860b0e1b97ce72",
+  "input_manifest_sha256": "4210fe8436da978593da90cf534258c85cba1d2fa40528d511126dcc5611c43b",
+  "main_tree_sha256": "80dd19f41bd7081cdf77567ea0a609f467c5d2ed4c366fb2595281dc851176df",
+  "sensitivity_tree_sha256": "61604413eecb780b33803413bd587fd6c8505a3fccbe8dd63c7534b64d13aefa"
+}

@@ -1,0 +1,75 @@
+{
+  "source_manifest_sha256": "50ef86da50fe81273d2d9a58530c1d6394031bb524b0aa008c4e29940a787785",
+  "pfam_sha256": "4b0da6399b97d2b23329de82190b2e5705bde1dea4cb2d028a52712d5966739e",
+  "pfam_models": 30134,
+  "target_accession_definitions": {
+    "REF__Q9C5M0": "DTC",
+    "REF__Q9SJY5": "DIC",
+    "REF__Q9SB52": "DIC",
+    "REF__Q9FY68": "DIC"
+  },
+  "commands": [
+    [
+      "diamond",
+      "makedb",
+      "--in",
+      "<RELEASE>/02_reference_panel.faa",
+      "--db",
+      "<RELEASE>/work/panel",
+      "--threads",
+      "4"
+    ],
+    [
+      "diamond",
+      "blastp",
+      "--query",
+      "<RELEASE>/01_candidates.faa",
+      "--db",
+      "<RELEASE>/work/panel",
+      "--out",
+      "<RELEASE>/04_all_panel_hits.tsv",
+      "--threads",
+      "4",
+      "--very-sensitive",
+      "--evalue",
+      "1e-3",
+      "--max-target-seqs",
+      "0",
+      "--max-hsps",
+      "1",
+      "--outfmt",
+      "6",
+      "qseqid",
+      "sseqid",
+      "pident",
+      "length",
+      "qstart",
+      "qend",
+      "sstart",
+      "send",
+      "evalue",
+      "bitscore",
+      "qlen",
+      "slen"
+    ],
+    [
+      "hmmsearch",
+      "--cpu",
+      "4",
+      "--cut_ga",
+      "--noali",
+      "--domtblout",
+      "<RELEASE>/05_pfam.domtbl",
+      "<WORKDIR>/my_interproscan/interproscan-5.78-109.0/data/pfam/38.2/pfam_a.hmm",
+      "<RELEASE>/03_domain_queries.faa"
+    ],
+    [
+      "diamond",
+      "version"
+    ],
+    [
+      "hmmsearch",
+      "-h"
+    ]
+  ]
+}
