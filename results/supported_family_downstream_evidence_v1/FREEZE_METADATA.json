@@ -1,0 +1,10 @@
+{
+  "version": "supported-family-downstream-evidence-v1.0.0",
+  "parent_family_freeze": "photosynthesis-family-evidence-v1.0.0",
+  "parent_commit": "2e6e7a0f93b813cc5d4c58f60e635e1a82f215b1",
+  "source_job": "20559738",
+  "source_manifest_sha256": "fc8457b0c0303c0a804935b27aaaa5e0fa07c28f0c01dc90f31b3c0892cedf2b",
+  "supported_loci": 657,
+  "privacy_scope": "New release files scanned; inherited base is the previously audited exact family-freeze commit. Historical Git commits are not rescanned.",
+  "new_analyses": false
+}
