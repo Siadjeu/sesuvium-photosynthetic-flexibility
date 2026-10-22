@@ -2,7 +2,7 @@
 
 Reproducible comparative genomics and transcriptomics analyses of photosynthetic flexibility in Sesuvium and related Caryophyllales.
 
-This repository contains the validated PEPC analysis, including candidate classification, corrected translated phylogenies, Wang et al. (2023) Supplementary Table S7 sequences, maize-coordinate alignment windows, iTOL datasets, evidence integration, and PEPC expression heatmaps.
+This repository contains the validated PEPC analysis, including candidate classification, corrected translated phylogenies, Wang et al. (2023) Supplementary Table S7 sequences, maize-coordinate alignment windows, iTOL datasets, evidence integration, and PEPC expression heatmaps. It has been partly written with the help of AI, and the scripts have been improved using AI.
 
 ## Final PEPC decisions
 
