@@ -1,0 +1,5 @@
+The supported set contains 657 loci. The primary CAFE5 expansion criterion was assessable for 629 loci, with nine positive loci, all previously identified PO PEPC members of one orthogroup. The remaining 28 loci comprised 13 without an assigned orthogroup and 15 without a recovered result in the selected models. No locus satisfied the expansion criterion in both models; the combined outcome was decidable for 629 loci.
+
+Positive selection remained six positive loci among 296 assessed. The unassessed set comprised 124 background-only BV/SLP_Hap1 loci, 63 AT loci without a matched valid secondary-foreground test, and 174 other loci with unresolved eligibility reasons. No additional positive-selection calls were inferred from missing results.
+
+Original WGD/segmental and DE evidence was unchanged. The expanded CAFE5 denominator reflects recovery of family-level negative evidence, not new branch tests. Unequal assessment coverage limits comparisons among species and families. Older and new CAFE5 gene-list labels may identify the same loci and must not be added together.

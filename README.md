@@ -1,5 +1,32 @@
 # Sesuvium photosynthetic flexibility: curated evidence
 
+## Corrected downstream summaries
+
+Use [the corrected count/percentage heatmaps](evidence/supported_summary_v2/figures/)
+and [figure index](evidence/supported_summary_v2/FIGURE_INDEX.tsv) for the current
+supported-family downstream presentation.
+
+- [Corrected locus evidence](evidence/supported_summary_v2/tables/01_supported_locus_evidence_corrected.tsv)
+- [Corrected family/species summaries](evidence/supported_summary_v2/tables/02_family_species_summary_corrected.tsv)
+- [Gene lists](evidence/supported_summary_v2/tables/09_family_species_gene_lists_corrected.tsv)
+- [Exact plotted values](evidence/supported_summary_v2/tables/01_heatmap_values.tsv)
+- [Methods](evidence/supported_summary_v2/methods/METHODS.txt)
+- [Results and limitations](evidence/supported_summary_v2/methods/RESULTS_AND_LIMITATIONS.txt)
+
+CAFE5 primary expansion is positive for nine of 629 assessable supported loci;
+28 remain unresolved. Expansion supported by both models is zero of 629
+assessable loci. Positive selection remains six of 296 assessed loci.
+CAFE5 gene counts describe orthogroup members, not independent expansion events.
+
+These corrected CAFE5 pipeline summaries supersede the earlier branch-only
+denominators for this presentation. Earlier branch-level evidence, DE contrast
+tables and original releases remain available under `evidence/supported_downstream/`.
+Use the new `CAFE_*_pipeline_expansion_*` columns for corrected CAFE5 summaries.
+Old and new expansion gene-list category names can identify the same loci;
+do not add them together. Unresolved positive-selection eligibility remains
+documented rather than treated as a negative result.
+
+
 Comparative gene-family evidence, evolutionary analyses, expression summaries,
 and exploratory metabolite concordance for Sesuvium and related species.
 This publication snapshot replaces the earlier PEPC-only working presentation.

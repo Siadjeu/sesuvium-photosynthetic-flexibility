@@ -1,0 +1,70 @@
+figure	title
+figures/all_families_WGD_segmental.pdf	WGD/segmental
+figures/all_families_WGD_segmental.png	WGD/segmental
+figures/all_families_WGD_segmental.svg	WGD/segmental
+figures/all_families_positive_selection.pdf	Positive selection
+figures/all_families_positive_selection.png	Positive selection
+figures/all_families_positive_selection.svg	Positive selection
+figures/all_families_CAFE_primary_pipeline_expansion.pdf	CAFE5 primary
+figures/all_families_CAFE_primary_pipeline_expansion.png	CAFE5 primary
+figures/all_families_CAFE_primary_pipeline_expansion.svg	CAFE5 primary
+figures/all_families_DE_any_contrast.pdf	DE: any contrast
+figures/all_families_DE_any_contrast.png	DE: any contrast
+figures/all_families_DE_any_contrast.svg	DE: any contrast
+figures/all_families_CAFE_robust_pipeline_expansion.pdf	CAFE5 both models
+figures/all_families_CAFE_robust_pipeline_expansion.png	CAFE5 both models
+figures/all_families_CAFE_robust_pipeline_expansion.svg	CAFE5 both models
+figures/beta-CA_species_evidence.pdf	beta-CA: supported-locus evidence
+figures/beta-CA_species_evidence.png	beta-CA: supported-locus evidence
+figures/beta-CA_species_evidence.svg	beta-CA: supported-locus evidence
+figures/PEPC_species_evidence.pdf	PEPC: supported-locus evidence
+figures/PEPC_species_evidence.png	PEPC: supported-locus evidence
+figures/PEPC_species_evidence.svg	PEPC: supported-locus evidence
+figures/PPCK_species_evidence.pdf	PPCK: supported-locus evidence
+figures/PPCK_species_evidence.png	PPCK: supported-locus evidence
+figures/PPCK_species_evidence.svg	PPCK: supported-locus evidence
+figures/NAD-ME_species_evidence.pdf	NAD-ME: supported-locus evidence
+figures/NAD-ME_species_evidence.png	NAD-ME: supported-locus evidence
+figures/NAD-ME_species_evidence.svg	NAD-ME: supported-locus evidence
+figures/NADP-ME_species_evidence.pdf	NADP-ME: supported-locus evidence
+figures/NADP-ME_species_evidence.png	NADP-ME: supported-locus evidence
+figures/NADP-ME_species_evidence.svg	NADP-ME: supported-locus evidence
+figures/MDH_species_evidence.pdf	MDH: supported-locus evidence
+figures/MDH_species_evidence.png	MDH: supported-locus evidence
+figures/MDH_species_evidence.svg	MDH: supported-locus evidence
+figures/ASPAT_species_evidence.pdf	ASPAT: supported-locus evidence
+figures/ASPAT_species_evidence.png	ASPAT: supported-locus evidence
+figures/ASPAT_species_evidence.svg	ASPAT: supported-locus evidence
+figures/AlaAT_species_evidence.pdf	AlaAT: supported-locus evidence
+figures/AlaAT_species_evidence.png	AlaAT: supported-locus evidence
+figures/AlaAT_species_evidence.svg	AlaAT: supported-locus evidence
+figures/PPDK_species_evidence.pdf	PPDK: supported-locus evidence
+figures/PPDK_species_evidence.png	PPDK: supported-locus evidence
+figures/PPDK_species_evidence.svg	PPDK: supported-locus evidence
+figures/PPDK-RE_species_evidence.pdf	PPDK-RE: supported-locus evidence
+figures/PPDK-RE_species_evidence.png	PPDK-RE: supported-locus evidence
+figures/PPDK-RE_species_evidence.svg	PPDK-RE: supported-locus evidence
+figures/BASS2_species_evidence.pdf	BASS2: supported-locus evidence
+figures/BASS2_species_evidence.png	BASS2: supported-locus evidence
+figures/BASS2_species_evidence.svg	BASS2: supported-locus evidence
+figures/DIT2_species_evidence.pdf	DIT2: supported-locus evidence
+figures/DIT2_species_evidence.png	DIT2: supported-locus evidence
+figures/DIT2_species_evidence.svg	DIT2: supported-locus evidence
+figures/DIC_species_evidence.pdf	DIC: supported-locus evidence
+figures/DIC_species_evidence.png	DIC: supported-locus evidence
+figures/DIC_species_evidence.svg	DIC: supported-locus evidence
+figures/DTC_species_evidence.pdf	DTC: supported-locus evidence
+figures/DTC_species_evidence.png	DTC: supported-locus evidence
+figures/DTC_species_evidence.svg	DTC: supported-locus evidence
+figures/ALMT_species_evidence.pdf	ALMT: supported-locus evidence
+figures/ALMT_species_evidence.png	ALMT: supported-locus evidence
+figures/ALMT_species_evidence.svg	ALMT: supported-locus evidence
+figures/TDT_species_evidence.pdf	TDT: supported-locus evidence
+figures/TDT_species_evidence.png	TDT: supported-locus evidence
+figures/TDT_species_evidence.svg	TDT: supported-locus evidence
+figures/V_ATPase_species_evidence.pdf	V_ATPase: supported-locus evidence
+figures/V_ATPase_species_evidence.png	V_ATPase: supported-locus evidence
+figures/V_ATPase_species_evidence.svg	V_ATPase: supported-locus evidence
+figures/V_Ppase_species_evidence.pdf	V_Ppase: supported-locus evidence
+figures/V_Ppase_species_evidence.png	V_Ppase: supported-locus evidence
+figures/V_Ppase_species_evidence.svg	V_Ppase: supported-locus evidence

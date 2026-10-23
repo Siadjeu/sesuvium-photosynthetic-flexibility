@@ -1,0 +1,98 @@
+SUPPORTED-FAMILY DOWNSTREAM EVIDENCE: METHODS
+
+Scope and unit of analysis
+The analysis was restricted to the curated set of 657 supported species/locus
+pairs. Gene-family assignment does not establish a demonstrated C4 or CAM
+function. Other evidence tiers were excluded from these summaries. MEP and PPA
+remained definition-blocked. Species codes were AT, BV, MC, PO, SLP_Hap1,
+SP_Hex, SP_Tet and SS; AT denotes Amaranthus tricolor.
+
+Existing duplication, gene-family evolution, positive-selection and differential-
+expression results were integrated using the established gene identifiers and
+orthogroup mappings. No statistical analyses were rerun in this reporting step.
+
+WGD/segmental duplication
+Supported loci with an interpretable duplication classification formed the
+assessment denominator. Loci classified as WGD_SEGMENTAL formed the numerator.
+This classification combines whole-genome and segmental duplication evidence;
+it does not distinguish the two mechanisms.
+
+CAFE5 primary expansion
+The primary model was M4_separate_sesuvium_terminals, error-corrected,
+replicate 6. The sensitivity model was M2_tetraploid_hexaploid, without error
+correction, replicate 3. Family probabilities and significance flags were read
+from their existing Base_family_results.txt outputs. Recorded significance
+flags were retained; probabilities were not retested or adjusted within the
+supported-gene subset.
+
+A positive primary expansion outcome required both a significant orthogroup-
+level result and a significant expansion on the relevant terminal species
+branch. A non-significant family result was classified as a negative outcome
+for this combined criterion, even when no branch probability was reported.
+For a significant family, a non-significant branch or a significant branch
+without expansion was also negative. A significant family lacking an
+interpretable branch result remained unresolved.
+
+The denominator comprised supported loci with a decidable outcome under this
+combined criterion. It therefore differs from the number of loci with explicit
+branch probabilities. Family-level and branch-level evidence were retained
+separately in the locus table. Missing model results were not converted to
+negative outcomes.
+
+Robust expansion across models
+A robust positive required the expansion criterion to be satisfied in both
+models. A negative outcome in either model ruled out this conjunction. If
+neither model established a negative outcome and one remained unresolved,
+the combined result remained unresolved. A decidable robust negative does not
+mean that both models supplied a branch-level test.
+
+CAFE5 results concern orthogroups and their branches. Reported gene counts are
+the supported loci belonging to those orthogroups; they are not independent
+statistical tests or counts of independent expansion events.
+
+Positive selection
+Existing valid aBSREL branch results were retained with their original global
+Benjamini-Hochberg q-values. A locus was assessed when it had at least one valid
+linked test with an interpretable global q-value, and positive when at least
+one such result met global q < 0.05. The global correction was not recalculated
+using only the supported-family subset.
+
+BV and SLP_Hap1 were background-only under the original test design. AT was a
+secondary foreground. Lack of a linked valid test was not interpreted as
+absence of positive selection. For other unassessed loci, precise candidate-
+selection or test-eligibility reasons remain unresolved unless documented.
+
+Differential expression
+DE evidence was restricted to the 14 previously authorized contrasts: 12 in
+PO and two in SS. A gene/contrast result was assessable when both the within-
+contrast adjusted p-value and the apeglm-shrunken log2 fold change were finite.
+A positive result required adjusted p < 0.05 and absolute shrunken log2 fold
+change >= 1.
+
+The displayed 'DE: any contrast' category counted a locus once if it was
+positive in at least one authorized contrast. Its denominator included loci
+assessable in at least one contrast, not necessarily all contrasts. DE evidence
+for the other species was unavailable. This union across contrasts must not be
+interpreted as a uniform drought-response or CAM-response classification.
+
+Heatmaps and denominators
+For each family, species and evidence category, the percentage was calculated
+as 100 times the number of positive supported loci divided by the number of
+assessable supported loci. Cells display positive/assessed; colour spans
+0-100 percent on the same scale for every figure.
+
+Grey NA cells indicate unavailable assessments or blocked family definitions.
+An em dash indicates no supported loci. Zero percent means that at least one
+locus was assessed but none met the relevant positive criterion. Separate
+columns record supported totals, assessed totals and display status.
+
+Categories overlap. A locus may have duplication, expansion, selection and DE
+evidence simultaneously; category counts must not be summed as unique genes.
+These summaries are descriptive and do not constitute enrichment tests.
+
+Reproducibility
+Inputs were taken from correction release
+release_21182796_20261023T225841120561Z and verified against its SHA256 manifest.
+The release includes corrected locus evidence, family/species summaries, gene
+lists, unresolved assessment limits, plotting values and this plotting script.
+The source release and published repository were not modified.

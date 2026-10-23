@@ -1,0 +1,19 @@
+{
+  "status": "PASS_CORRECTION_WITH_EXPLICIT_REMAINING_LIMITS",
+  "supported_loci": 657,
+  "primary_pipeline_assessed": 629,
+  "primary_pipeline_positive": 9,
+  "robust_pipeline_assessed": 629,
+  "robust_pipeline_positive": 0,
+  "positive_selection_assessed": 296,
+  "positive_selection_positive": 6,
+  "positive_selection_reasons": {
+    "SECONDARY_FOREGROUND_NO_MATCHED_VALID_TEST": 63,
+    "BACKGROUND_ONLY_BY_ORIGINAL_DESIGN": 124,
+    "VALID_TEST_RESULT": 296,
+    "NO_MATCHED_VALID_TEST_ELIGIBILITY_REASON_UNRESOLVED": 174
+  },
+  "statistical_analyses_rerun": false,
+  "original_results_modified": false,
+  "github_modified": false
+}

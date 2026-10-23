@@ -1,0 +1,32 @@
+CORRECTION OF SUPPORTED-FAMILY EVIDENCE
+
+No sequence analyses, CAFE5 runs, HyPhy tests or DE analyses were rerun.
+Existing CAFE5 family significance flags were retained without recalculating
+thresholds or adjusting p-values within the supported subset.
+
+Primary model: M4 error-corrected, replicate 6.
+Sensitivity model: M2 no-error, replicate 3.
+
+Pipeline expansion means that the orthogroup passed the recorded family
+significance criterion AND its species branch was significantly expanded.
+A non-significant family result is a negative pipeline outcome, while its
+unavailable branch test remains unavailable in the original branch columns.
+Significant families without an interpretable branch result remain unresolved.
+
+Robust pipeline expansion requires a positive result in both models.
+A known negative in either model rules out robust pipeline expansion;
+this does not imply that both branch tests were available.
+
+Locus counts represent members of orthogroups, not independent CAFE5 tests.
+Percentages use loci with decidable pipeline outcomes as the denominator.
+The original branch-only columns are retained and must not be confused with
+the newly added pipeline columns.
+
+Positive-selection calls and original assessment fields remain unchanged.
+BV and SLP_Hap1 were background-only in the original design.
+Other missing valid tests require eligibility tracing; absence of a registry
+match alone is not evidence of a failed test or biological non-significance.
+
+WGD/segmental and DE evidence remain unchanged. Missing values are not
+automatically converted to zero. This release does not modify GitHub or
+supersede existing frozen releases automatically.

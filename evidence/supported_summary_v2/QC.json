@@ -1,0 +1,16 @@
+{
+  "status": "COMPLETE",
+  "family_species_rows": 184,
+  "plotted_value_rows": 920,
+  "figures": 23,
+  "output_formats": [
+    "pdf",
+    "png",
+    "svg"
+  ],
+  "matplotlib_version": "3.11.0",
+  "numpy_version": "2.5.0",
+  "biological_analyses_rerun": false,
+  "source_files_modified": false,
+  "github_modified": false
+}
