@@ -1,0 +1,23 @@
+Corrected PEPC phylogeny and subtype results
+
+The corrected panel comprised 81 tips: 49 focal-species protein representatives
+covering 51 validated loci and 32 reference sequences. All 18 historical KJ
+references passed exon-aware translation verification. The translation error
+affected historical PEPC1E1 references and all three PEPC1E2 references; the
+three PEPC2 proteins were unchanged. KJ161576.1 regained sufficient focal-site
+coverage after correction. AH004091-RA, Zm00001d024980_P001 and
+Zm00001d037294_P001 were excluded for insufficient focal-site coverage.
+All 49 focal representatives covered positions 519, 780 and 890.
+
+The main and sensitivity alignments contained 965 and 1206 columns. The trees
+shared all 78 nontrivial unrooted splits (Robinson-Foulds distance zero), although
+support values differed. Of the 51 loci, 9 had supported
+subtype assignments, 27 were provisional and
+15 remained unresolved.
+
+In SS, g29856, g11076 and g9483 were provisionally associated with PEPC1E2.
+The enclosing group had SH-aLRT/UFBoot 99.6/94 in the main tree and 99.2/95
+in the sensitivity tree. The predefined support threshold was not relaxed.
+g7519 and g17009 were provisionally associated with PEPC2, with respective
+group support 37.2/55 and 35.3/59. g2566, g32916 and g4086 remained unresolved.
+These subtype categories do not change the validated PEPC locus counts.

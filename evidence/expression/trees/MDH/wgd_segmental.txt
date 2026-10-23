@@ -1,0 +1,112 @@
+DATASET_COLORSTRIP
+SEPARATOR TAB
+DATASET_LABEL	WGD segmental
+COLOR	#777777
+LEGEND_TITLE	WGD segmental
+LEGEND_SHAPES	1	1	1
+LEGEND_COLORS	#b2182b	#2166ac	#d9d9d9
+LEGEND_LABELS	Positive	Assessed non-positive	Unassessed or reference
+DATA
+AT__gene-LOC130799129	#2166ac	Assessed non-positive
+AT__gene-LOC130807353	#b2182b	Positive
+AT__gene-LOC130808194	#2166ac	Assessed non-positive
+AT__gene-LOC130809460	#2166ac	Assessed non-positive
+AT__gene-LOC130810481	#2166ac	Assessed non-positive
+AT__gene-LOC130814494	#2166ac	Assessed non-positive
+AT__gene-LOC130817461	#b2182b	Positive
+AT__gene-LOC130818176	#2166ac	Assessed non-positive
+AT__gene-LOC130821375	#2166ac	Assessed non-positive
+BV__Bv1_009030_zwgx	#2166ac	Assessed non-positive
+BV__Bv3_060420_tmwd	#2166ac	Assessed non-positive
+BV__Bv4_109080_gkqg	#2166ac	Assessed non-positive
+BV__Bv4_112480_rzto	#2166ac	Assessed non-positive
+BV__Bv5_147440_kujg	#2166ac	Assessed non-positive
+BV__Bv6_166670_joyw	#2166ac	Assessed non-positive
+BV__Bv8_231300_wwkd	#2166ac	Assessed non-positive
+MC__gene_12493	#2166ac	Assessed non-positive
+MC__gene_12521	#2166ac	Assessed non-positive
+MC__gene_15963	#2166ac	Assessed non-positive
+MC__gene_17069	#2166ac	Assessed non-positive
+MC__gene_23188	#2166ac	Assessed non-positive
+MC__gene_24249	#2166ac	Assessed non-positive
+PO__evm.TU.LG01.2132	#b2182b	Positive
+PO__evm.TU.LG01.2637	#b2182b	Positive
+PO__evm.TU.LG04.977	#2166ac	Assessed non-positive
+PO__evm.TU.LG05.500	#b2182b	Positive
+PO__evm.TU.LG05.992	#b2182b	Positive
+PO__evm.TU.LG07.960	#b2182b	Positive
+PO__evm.TU.LG08.1493	#b2182b	Positive
+PO__evm.TU.LG10.50	#b2182b	Positive
+PO__evm.TU.LG11.1427	#2166ac	Assessed non-positive
+PO__evm.TU.LG14.1307	#b2182b	Positive
+PO__evm.TU.LG14.1772	#b2182b	Positive
+PO__evm.TU.LG15.873	#b2182b	Positive
+PO__evm.TU.LG17.44	#b2182b	Positive
+PO__evm.TU.LG19.733	#b2182b	Positive
+PO__evm.TU.LG22.385	#b2182b	Positive
+PO__evm.TU.LG24.723	#b2182b	Positive
+PO__evm.TU.LG25.332	#b2182b	Positive
+PO__evm.TU.LG25.825	#b2182b	Positive
+SLP_Hap1__SP11G01628	#b2182b	Positive
+SLP_Hap1__SP11G01629	#2166ac	Assessed non-positive
+SLP_Hap1__SP1G01711	#2166ac	Assessed non-positive
+SLP_Hap1__SP1G01713	#2166ac	Assessed non-positive
+SLP_Hap1__SP1G02129	#2166ac	Assessed non-positive
+SLP_Hap1__SP3G00744	#2166ac	Assessed non-positive
+SLP_Hap1__SP5G01961	#2166ac	Assessed non-positive
+SLP_Hap1__SP6G00031	#2166ac	Assessed non-positive
+SLP_Hap1__SP6G00852	#2166ac	Assessed non-positive
+SLP_Hap1__SP6G02041	#2166ac	Assessed non-positive
+SLP_Hap1__SP7G00529	#b2182b	Positive
+SP_Hex__gene_Spor0000500.1	#b2182b	Positive
+SP_Hex__gene_Spor0006320.1	#b2182b	Positive
+SP_Hex__gene_Spor0030670.1	#b2182b	Positive
+SP_Hex__gene_Spor0035900.1	#b2182b	Positive
+SP_Hex__gene_Spor0079650.1	#b2182b	Positive
+SP_Hex__gene_Spor0107300.1	#b2182b	Positive
+SP_Hex__gene_Spor0112170.1	#b2182b	Positive
+SP_Hex__gene_Spor0218750.1	#b2182b	Positive
+SP_Hex__gene_Spor0235590.1	#b2182b	Positive
+SP_Hex__gene_Spor0240710.1	#b2182b	Positive
+SP_Hex__gene_Spor0298820.1	#b2182b	Positive
+SP_Hex__gene_Spor0307740.1	#b2182b	Positive
+SP_Hex__gene_Spor0427980.1	#b2182b	Positive
+SP_Hex__gene_Spor0451090.1	#b2182b	Positive
+SP_Hex__gene_Spor0521380.1	#b2182b	Positive
+SP_Hex__gene_Spor0566680.1	#b2182b	Positive
+SP_Hex__gene_Spor0595920.1	#b2182b	Positive
+SP_Tet__g11611	#b2182b	Positive
+SP_Tet__g1192	#b2182b	Positive
+SP_Tet__g14548	#2166ac	Assessed non-positive
+SP_Tet__g17951	#b2182b	Positive
+SP_Tet__g18487	#b2182b	Positive
+SP_Tet__g21191	#b2182b	Positive
+SP_Tet__g22758	#b2182b	Positive
+SP_Tet__g28586	#b2182b	Positive
+SP_Tet__g29088	#b2182b	Positive
+SP_Tet__g33048	#b2182b	Positive
+SP_Tet__g3532	#b2182b	Positive
+SP_Tet__g4982	#b2182b	Positive
+SP_Tet__g9348	#b2182b	Positive
+SS__g11087	#b2182b	Positive
+SS__g20503	#b2182b	Positive
+SS__g22334	#b2182b	Positive
+SS__g29395	#b2182b	Positive
+SS__g29757	#b2182b	Positive
+SS__g29868	#b2182b	Positive
+SS__g3018	#2166ac	Assessed non-positive
+SS__g36093	#b2182b	Positive
+SS__g36761	#2166ac	Assessed non-positive
+SS__g39963	#b2182b	Positive
+SS__g4564	#b2182b	Positive
+SS__g5792	#b2182b	Positive
+SS__g9473	#b2182b	Positive
+REF__Arabidopsis_thaliana__PMDH1__O82399	#d9d9d9	Unassessed or reference
+REF__Arabidopsis_thaliana__MDH2__P57106	#d9d9d9	Unassessed or reference
+REF__Arabidopsis_thaliana__MDH1__P93819	#d9d9d9	Unassessed or reference
+REF__Arabidopsis_thaliana____Q8H1E2	#d9d9d9	Unassessed or reference
+REF__Arabidopsis_thaliana__MDH3__Q9FJU0	#d9d9d9	Unassessed or reference
+REF__Arabidopsis_thaliana____Q9LKA3	#d9d9d9	Unassessed or reference
+REF__Arabidopsis_thaliana____Q9SN86	#d9d9d9	Unassessed or reference
+REF__Arabidopsis_thaliana__PMDH2__Q9ZP05	#d9d9d9	Unassessed or reference
+REF__Arabidopsis_thaliana____Q9ZP06	#d9d9d9	Unassessed or reference

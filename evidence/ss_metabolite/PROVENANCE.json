@@ -1,0 +1,12 @@
+{
+  "metabolite_comparisons": {
+    "source_relative_path": "08_focused_families/downstream_supported/metabolomics/release_20681419_20261021T134025Z",
+    "source_manifest_sha256": "bc001d02c7d77ff4b63453b85dfd314fbf28f05cbe72e54ce2c5a0214fd2036e",
+    "verified_files": 70
+  },
+  "transcript_metabolite_comparison": {
+    "source_relative_path": "08_focused_families/downstream_supported/metabolomics/concordance_20732199_20261021T155959Z",
+    "source_manifest_sha256": "1bd84c69af878986a075a18649816b6ff02053b324d67ed6eaf2752760ba044a",
+    "verified_files": 66
+  }
+}

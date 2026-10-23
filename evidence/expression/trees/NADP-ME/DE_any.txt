@@ -1,0 +1,55 @@
+DATASET_COLORSTRIP
+SEPARATOR TAB
+DATASET_LABEL	DE any authorized contrast
+COLOR	#777777
+LEGEND_TITLE	DE any authorized contrast
+LEGEND_SHAPES	1	1	1
+LEGEND_COLORS	#b2182b	#2166ac	#d9d9d9
+LEGEND_LABELS	Positive	Assessed non-positive	Unassessed or reference
+DATA
+AT__gene-LOC130799616	#d9d9d9	Unassessed or reference
+AT__gene-LOC130804575	#d9d9d9	Unassessed or reference
+AT__gene-LOC130815809	#d9d9d9	Unassessed or reference
+AT__gene-LOC130824640	#d9d9d9	Unassessed or reference
+BV__Bv2_039970_wugf	#d9d9d9	Unassessed or reference
+BV__Bv8_247380_sfck	#d9d9d9	Unassessed or reference
+BV__Bv9_263780_zmjw	#d9d9d9	Unassessed or reference
+MC__gene_10754	#d9d9d9	Unassessed or reference
+MC__gene_13213	#d9d9d9	Unassessed or reference
+MC__gene_21301	#d9d9d9	Unassessed or reference
+PO__evm.TU.LG02.2829	#b2182b	Positive
+PO__evm.TU.LG06.1170	#b2182b	Positive
+PO__evm.TU.LG07.1653	#b2182b	Positive
+PO__evm.TU.LG07.717	#b2182b	Positive
+PO__evm.TU.LG11.516	#b2182b	Positive
+PO__evm.TU.LG15.1618	#b2182b	Positive
+PO__evm.TU.LG15.219	#b2182b	Positive
+PO__evm.TU.LG23.1031	#b2182b	Positive
+SLP_Hap1__SP11G00416	#d9d9d9	Unassessed or reference
+SLP_Hap1__SP1G00751	#d9d9d9	Unassessed or reference
+SLP_Hap1__SP2G02580	#d9d9d9	Unassessed or reference
+SLP_Hap1__SP3G01601	#d9d9d9	Unassessed or reference
+SLP_Hap1__SP3G02480	#d9d9d9	Unassessed or reference
+SLP_Hap1__SP9G01275	#d9d9d9	Unassessed or reference
+SP_Hex__gene_Spor0144330.1	#d9d9d9	Unassessed or reference
+SP_Hex__gene_Spor0204140.1	#d9d9d9	Unassessed or reference
+SP_Hex__gene_Spor0354630.1	#d9d9d9	Unassessed or reference
+SP_Hex__gene_Spor0475650.1	#d9d9d9	Unassessed or reference
+SP_Hex__gene_Spor0493560.1	#d9d9d9	Unassessed or reference
+SP_Hex__gene_Spor0542210.1	#d9d9d9	Unassessed or reference
+SP_Tet__g11832	#d9d9d9	Unassessed or reference
+SP_Tet__g25621	#d9d9d9	Unassessed or reference
+SP_Tet__g25837	#d9d9d9	Unassessed or reference
+SP_Tet__g26787	#d9d9d9	Unassessed or reference
+SP_Tet__g31843	#d9d9d9	Unassessed or reference
+SP_Tet__g7912	#d9d9d9	Unassessed or reference
+SS__g1355	#b2182b	Positive
+SS__g28809	#b2182b	Positive
+SS__g31795	#d9d9d9	Unassessed or reference
+SS__g6264	#b2182b	Positive
+SS__g6698	#b2182b	Positive
+SS__g8625	#b2182b	Positive
+REF__Arabidopsis_thaliana__NADP-ME1__O82191	#d9d9d9	Unassessed or reference
+REF__Arabidopsis_thaliana__NADP-ME4__Q9CA83	#d9d9d9	Unassessed or reference
+REF__Arabidopsis_thaliana__NADP-ME2__Q9LYG3	#d9d9d9	Unassessed or reference
+REF__Arabidopsis_thaliana__NADP-ME3__Q9XGZ0	#d9d9d9	Unassessed or reference

@@ -1,0 +1,37 @@
+DATASET_COLORSTRIP
+SEPARATOR TAB
+DATASET_LABEL	WGD segmental
+COLOR	#777777
+LEGEND_TITLE	WGD segmental
+LEGEND_SHAPES	1	1	1
+LEGEND_COLORS	#b2182b	#2166ac	#d9d9d9
+LEGEND_LABELS	Positive	Assessed non-positive	Unassessed or reference
+DATA
+AT__gene-LOC130799639	#b2182b	Positive
+AT__gene-LOC130801907	#b2182b	Positive
+BV__Bv5_134600_onqs	#b2182b	Positive
+MC__gene_2178	#2166ac	Assessed non-positive
+PO__evm.TU.LG01.231	#b2182b	Positive
+PO__evm.TU.LG04.2946	#b2182b	Positive
+PO__evm.TU.LG04.521	#b2182b	Positive
+PO__evm.TU.LG16.664	#b2182b	Positive
+SLP_Hap1__SP1G01271	#2166ac	Assessed non-positive
+SLP_Hap1__SP4G00539	#b2182b	Positive
+SLP_Hap1__SP5G00181	#b2182b	Positive
+SP_Hex__gene_Spor0160030.1	#b2182b	Positive
+SP_Hex__gene_Spor0184230.1	#b2182b	Positive
+SP_Hex__gene_Spor0372850.1	#b2182b	Positive
+SP_Hex__gene_Spor0492060.1	#b2182b	Positive
+SP_Hex__gene_Spor0607100.1	#b2182b	Positive
+SP_Tet__g12586	#b2182b	Positive
+SP_Tet__g29280	#b2182b	Positive
+SP_Tet__g32343	#b2182b	Positive
+SP_Tet__g7312	#b2182b	Positive
+SS__g14195	#b2182b	Positive
+SS__g15472	#b2182b	Positive
+SS__g15500	#b2182b	Positive
+SS__g16647	#b2182b	Positive
+SS__g34332	#b2182b	Positive
+REF__Arabidopsis_thaliana__VHA-B1__P11574	#d9d9d9	Unassessed or reference
+REF__Arabidopsis_thaliana__VHA-B3__Q8W4E2	#d9d9d9	Unassessed or reference
+REF__Arabidopsis_thaliana__VHA-B2__Q9SZN1	#d9d9d9	Unassessed or reference

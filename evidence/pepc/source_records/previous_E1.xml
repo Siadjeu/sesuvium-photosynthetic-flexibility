@@ -1,0 +1,2394 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE GBSet PUBLIC "-//NCBI//NCBI GBSeq/EN" "https://www.ncbi.nlm.nih.gov/dtd/NCBI_GBSeq.dtd">
+<GBSet>
+  <GBSeq>
+
+    <GBSeq_locus>KJ161565</GBSeq_locus>
+    <GBSeq_length>1153</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PLN</GBSeq_division>
+    <GBSeq_update-date>19-JUL-2014</GBSeq_update-date>
+    <GBSeq_create-date>19-JUL-2014</GBSeq_create-date>
+    <GBSeq_definition>Anacampseros retusa voucher ZSS:803518/a clone 1 phosphoenolpyruvate carboxylase (ppc-1E1a) gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>KJ161565</GBSeq_primary-accession>
+    <GBSeq_accession-version>KJ161565.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KJ161565.1|</GBSeqid>
+      <GBSeqid>gi|664679932</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Anacampseros retusa</GBSeq_source>
+    <GBSeq_organism>Anacampseros retusa</GBSeq_organism>
+    <GBSeq_taxonomy>Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta; Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae; Caryophyllales; Cactineae; Anacampserotaceae; Anacampseros</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1153</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Christin,P.A.</GBAuthor>
+          <GBAuthor>Arakaki,M.</GBAuthor>
+          <GBAuthor>Osborne,C.P.</GBAuthor>
+          <GBAuthor>Brautigam,A.</GBAuthor>
+          <GBAuthor>Sage,R.F.</GBAuthor>
+          <GBAuthor>Hibberd,J.M.</GBAuthor>
+          <GBAuthor>Kelly,S.</GBAuthor>
+          <GBAuthor>Covshoff,S.</GBAuthor>
+          <GBAuthor>Wong,G.K.</GBAuthor>
+          <GBAuthor>Hancock,L.</GBAuthor>
+          <GBAuthor>Edwards,E.J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Shared origins of a key enzyme during the evolution of C4 and CAM metabolism</GBReference_title>
+        <GBReference_journal>J. Exp. Bot. 65 (13), 3609-3621 (2014)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1093/jxb/eru087</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>24638902</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1153</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Christin,P.-A.</GBAuthor>
+          <GBAuthor>Arakaki,M.</GBAuthor>
+          <GBAuthor>Edwards,E.J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (08-JAN-2014) Animal and Plant Sciences, University of Sheffield, Western Bank, Sheffield S10 2TN, United Kingdom</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1153</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1153</GBInterval_to>
+            <GBInterval_accession>KJ161565.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Anacampseros retusa</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>specimen_voucher</GBQualifier_name>
+            <GBQualifier_value>ZSS:803518/a</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:107584</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>clone</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;1153</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1153</GBInterval_to>
+            <GBInterval_accession>KJ161565.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ppc-1E1a</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mRNA</GBFeature_key>
+        <GBFeature_location>join(&lt;1..340,881..&gt;1153)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>340</GBInterval_to>
+            <GBInterval_accession>KJ161565.1</GBInterval_accession>
+          </GBInterval>
+          <GBInterval>
+            <GBInterval_from>881</GBInterval_from>
+            <GBInterval_to>1153</GBInterval_to>
+            <GBInterval_accession>KJ161565.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_operator>join</GBFeature_operator>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ppc-1E1a</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>phosphoenolpyruvate carboxylase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transcription</GBQualifier_name>
+            <GBQualifier_value>ATCAAAGAGAAAGCCAAGTGGTGGAATTGAATCTCTCCGTGCAATACCCTGGATCTTTGCGTGGACTCAAACTAGGTTCCATCTCCCTGTATGGCTTGGGGTTGGTGCAGCATTTAAACATGTCGTTCAGAAAGACATAAGGAATCTCAACATGCTGAGGGAGATGTACAATATGTGGCCTTTCTTCAGGGTGACAATTGACTTGGTTGAAATGGTGTTCGCTAAGGGGGACCCTAAAATTGCTGCTCTCTATGACAAACTTCTGGTGTCAGAGGAGTTGCAATCATTTGGAGAACGTTTGAGAGCAGATTATGAAGAAACCTGTCGCCTTCTTCTTGAGGTTGCTGGGCACAAGGATCTGCTGGAATCTGATCCTTACTTGAAGCAGAGACTCCGACTTCGTGATCCCTACACCACAACTCTGAATGTGTGCCAAGCATACACCTTGAAGCGCATTCGTGATCCTAACTTCAAGGTGACCGAGAGGCCTCACTTATCCAGGGAAATAATGGAGTCCAACAGCCCAGCTGCTGAACTTGTGAAGCTTAACCCTAAAAGTGATTACGCTCCTGGCCTTGAGGATACCCTTGTCCTGACCATGAAGGGTATTGCC</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>join(&lt;1..340,881..&gt;1153)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>340</GBInterval_to>
+            <GBInterval_accession>KJ161565.1</GBInterval_accession>
+          </GBInterval>
+          <GBInterval>
+            <GBInterval_from>881</GBInterval_from>
+            <GBInterval_to>1153</GBInterval_to>
+            <GBInterval_accession>KJ161565.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_operator>join</GBFeature_operator>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ppc-1E1a</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>phosphoenolpyruvate carboxylase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AIF35148.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>SKRKPSGGIESLRAIPWIFAWTQTRFHLPVWLGVGAAFKHVVQKDIRNLNMLREMYNMWPFFRVTIDLVEMVFAKGDPKIAALYDKLLVSEELQSFGERLRADYEETCRLLLEVAGHKDLLESDPYLKQRLRLRDPYTTTLNVCQAYTLKRIRDPNFKVTERPHLSREIMESNSPAAELVKLNPKSDYAPGLEDTLVLTMKGIA</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atcaaagagaaagccaagtggtggaattgaatctctccgtgcaataccctggatctttgcgtggactcaaactaggttccatctccctgtatggcttggggttggtgcagcatttaaacatgtcgttcagaaagacataaggaatctcaacatgctgagggagatgtacaatatgtggcctttcttcagggtgacaattgacttggttgaaatggtgttcgctaagggggaccctaaaattgctgctctctatgacaaacttctggtgtcagaggagttgcaatcatttggagaacgtttgagagcagattatgaagaaacctgtcgccttcttcttgaggtaatgtatggctgacttatctagtggaatttccgattttttgggcatctttatgttgatttgagtagtagttgctagtgagcttgatccgcccactccacagcccaaaatgacgcgagccatggccctttattcttcaagcagcttggttggttctcctgtgaactcagcttggagctgttcatctagttgaaccataccaattccacgtgatttacttttcttgaagtcccctcgcccctatcctccctatgccaaataggatcagtttgtggtggaaccctgtttggtgagccaatgtgttaagttggattgaaatgttgactaataataacacaaaccaatcttggagcaggttagagctgagccataaaagaatggggagagctggttagcctatcttagtgtctgatgagagacttgatctccatctatgctcttttcccctacttccactctgttttgcataactgatcaacttacatgaaaaaagcccgaaccagctagaaacaccccctgaaattccctttgttattgcaggttgctgggcacaaggatctgctggaatctgatccttacttgaagcagagactccgacttcgtgatccctacaccacaactctgaatgtgtgccaagcatacaccttgaagcgcattcgtgatcctaacttcaaggtgaccgagaggcctcacttatccagggaaataatggagtccaacagcccagctgctgaacttgtgaagcttaaccctaaaagtgattacgctcctggccttgaggatacccttgtcctgaccatgaagggtattgcc</GBSeq_sequence>
+  </GBSeq>
+
+  <GBSeq>
+
+    <GBSeq_locus>KJ161566</GBSeq_locus>
+    <GBSeq_length>1131</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PLN</GBSeq_division>
+    <GBSeq_update-date>19-JUL-2014</GBSeq_update-date>
+    <GBSeq_create-date>19-JUL-2014</GBSeq_create-date>
+    <GBSeq_definition>Grahamia bracteata voucher BRU:Ogburn n.a. clone 1 phosphoenolpyruvate carboxylase (ppc-1E1a) gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>KJ161566</GBSeq_primary-accession>
+    <GBSeq_accession-version>KJ161566.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KJ161566.1|</GBSeqid>
+      <GBSeqid>gi|664679934</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Grahamia bracteata</GBSeq_source>
+    <GBSeq_organism>Grahamia bracteata</GBSeq_organism>
+    <GBSeq_taxonomy>Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta; Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae; Caryophyllales; Cactineae; Anacampserotaceae; Grahamia</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1131</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Christin,P.A.</GBAuthor>
+          <GBAuthor>Arakaki,M.</GBAuthor>
+          <GBAuthor>Osborne,C.P.</GBAuthor>
+          <GBAuthor>Brautigam,A.</GBAuthor>
+          <GBAuthor>Sage,R.F.</GBAuthor>
+          <GBAuthor>Hibberd,J.M.</GBAuthor>
+          <GBAuthor>Kelly,S.</GBAuthor>
+          <GBAuthor>Covshoff,S.</GBAuthor>
+          <GBAuthor>Wong,G.K.</GBAuthor>
+          <GBAuthor>Hancock,L.</GBAuthor>
+          <GBAuthor>Edwards,E.J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Shared origins of a key enzyme during the evolution of C4 and CAM metabolism</GBReference_title>
+        <GBReference_journal>J. Exp. Bot. 65 (13), 3609-3621 (2014)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1093/jxb/eru087</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>24638902</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1131</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Christin,P.-A.</GBAuthor>
+          <GBAuthor>Arakaki,M.</GBAuthor>
+          <GBAuthor>Edwards,E.J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (08-JAN-2014) Animal and Plant Sciences, University of Sheffield, Western Bank, Sheffield S10 2TN, United Kingdom</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1131</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1131</GBInterval_to>
+            <GBInterval_accession>KJ161566.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Grahamia bracteata</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>specimen_voucher</GBQualifier_name>
+            <GBQualifier_value>BRU:Ogburn n.a.</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:107618</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>clone</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;1131</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1131</GBInterval_to>
+            <GBInterval_accession>KJ161566.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ppc-1E1a</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mRNA</GBFeature_key>
+        <GBFeature_location>join(&lt;1..340,859..&gt;1131)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>340</GBInterval_to>
+            <GBInterval_accession>KJ161566.1</GBInterval_accession>
+          </GBInterval>
+          <GBInterval>
+            <GBInterval_from>859</GBInterval_from>
+            <GBInterval_to>1131</GBInterval_to>
+            <GBInterval_accession>KJ161566.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_operator>join</GBFeature_operator>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ppc-1E1a</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>phosphoenolpyruvate carboxylase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transcription</GBQualifier_name>
+            <GBQualifier_value>ATCTAAGAGAAAGCCAAGTGGTGGAATTGAATCTCTCCGTGCAATACCCTGGATCTTTGCATGGACTCAAACTAGGTTCCATCTCCCTGTGTGGCTTGGCGTTGGTCCAGCATTTAAACATGTCATTGGGAAGGACATAAGGAATCTTAACATGCTCAGGGAGATGTACAATATGTGGCCTTTCTTCAGAGTGACAATTGACTTGGTTGAAATGGTGTTCGCTAAGGGGGACCCTAAAATTGCTGCTTTGTATGACAAACTTCTGGTGTCAGAGGACTTACAATCATTTGGAGAACGCTTGAGAGCAGATTATGAAGAAACCAGTCGCCTCCTCCTTGAGGTTGCTGGGCACAAGGACCTTCTGGAAGGCGATCCTTACTTGAAGCAGAGACTCCGACTTCGTGATCCCTACATCACAACTTTGAATGTATGCCAAGCATACACCTTGAAGCGCATTCGTGATCCCAACTTCCAGGTGACCGAGAGGCCTCACTTATCCAAGGAAATAATGGAGTCCAGCAGTCCAGCTGCTGAGCTTGTGAAGCTTAACCCTAAAAGTGAGTACGCGCCTGGCCTAGAGGATACCCTTGTCTTGACCATGAAGGGTATTGCT</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>join(&lt;1..340,859..&gt;1131)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>340</GBInterval_to>
+            <GBInterval_accession>KJ161566.1</GBInterval_accession>
+          </GBInterval>
+          <GBInterval>
+            <GBInterval_from>859</GBInterval_from>
+            <GBInterval_to>1131</GBInterval_to>
+            <GBInterval_accession>KJ161566.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_operator>join</GBFeature_operator>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ppc-1E1a</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>phosphoenolpyruvate carboxylase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AIF35149.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>SKRKPSGGIESLRAIPWIFAWTQTRFHLPVWLGVGPAFKHVIGKDIRNLNMLREMYNMWPFFRVTIDLVEMVFAKGDPKIAALYDKLLVSEDLQSFGERLRADYEETSRLLLEVAGHKDLLEGDPYLKQRLRLRDPYITTLNVCQAYTLKRIRDPNFQVTERPHLSKEIMESSSPAAELVKLNPKSEYAPGLEDTLVLTMKGIA</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atctaagagaaagccaagtggtggaattgaatctctccgtgcaataccctggatctttgcatggactcaaactaggttccatctccctgtgtggcttggcgttggtccagcatttaaacatgtcattgggaaggacataaggaatcttaacatgctcagggagatgtacaatatgtggcctttcttcagagtgacaattgacttggttgaaatggtgttcgctaagggggaccctaaaattgctgctttgtatgacaaacttctggtgtcagaggacttacaatcatttggagaacgcttgagagcagattatgaagaaaccagtcgcctcctccttgaggtaataaatgactgacataatttccaatcttttaggaatctttatgttgatttgaggagtggttgctagtgagcttgatctgcccagtccacaccccaaattgaggccagccgctgctctttattctttaagcagcttggttggttcaccagttggctcaggtcgggcctgttcatcttgttgaactacaccatgaccaatcccacaacgtttgcttttcttggagtcccccccccccaaacaaaagggataagtttgtgctgttaccctgtttggtgagctaatgggttgtgttgaatagagcttttgacacataacaacacaacccacttctctattaggtcagagccataaaagaatgagagctggttagcctatcttggtgccagatgagagacttgacctcacctatggtcttttcctctatttccactcttttttgcctaactgatcaactttcacgtaaaaagcttgaaccagctctaaataactgaaacttcccctgaaattccttgcaggttgctgggcacaaggaccttctggaaggcgatccttacttgaagcagagactccgacttcgtgatccctacatcacaactttgaatgtatgccaagcatacaccttgaagcgcattcgtgatcccaacttccaggtgaccgagaggcctcacttatccaaggaaataatggagtccagcagtccagctgctgagcttgtgaagcttaaccctaaaagtgagtacgcgcctggcctagaggatacccttgtcttgaccatgaagggtattgct</GBSeq_sequence>
+  </GBSeq>
+
+  <GBSeq>
+
+    <GBSeq_locus>KJ161568</GBSeq_locus>
+    <GBSeq_length>2344</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PLN</GBSeq_division>
+    <GBSeq_update-date>19-JUL-2014</GBSeq_update-date>
+    <GBSeq_create-date>19-JUL-2014</GBSeq_create-date>
+    <GBSeq_definition>Pereskia aureiflora voucher B:166-54-83-20 clone 1 phosphoenolpyruvate carboxylase (ppc-1E1a) gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>KJ161568</GBSeq_primary-accession>
+    <GBSeq_accession-version>KJ161568.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KJ161568.1|</GBSeqid>
+      <GBSeqid>gi|664679939</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Leuenbergeria aureiflora</GBSeq_source>
+    <GBSeq_organism>Leuenbergeria aureiflora</GBSeq_organism>
+    <GBSeq_taxonomy>Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta; Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae; Caryophyllales; Cactineae; Cactaceae; Leuenbergerioideae; Leuenbergeria</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2344</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Christin,P.A.</GBAuthor>
+          <GBAuthor>Arakaki,M.</GBAuthor>
+          <GBAuthor>Osborne,C.P.</GBAuthor>
+          <GBAuthor>Brautigam,A.</GBAuthor>
+          <GBAuthor>Sage,R.F.</GBAuthor>
+          <GBAuthor>Hibberd,J.M.</GBAuthor>
+          <GBAuthor>Kelly,S.</GBAuthor>
+          <GBAuthor>Covshoff,S.</GBAuthor>
+          <GBAuthor>Wong,G.K.</GBAuthor>
+          <GBAuthor>Hancock,L.</GBAuthor>
+          <GBAuthor>Edwards,E.J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Shared origins of a key enzyme during the evolution of C4 and CAM metabolism</GBReference_title>
+        <GBReference_journal>J. Exp. Bot. 65 (13), 3609-3621 (2014)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1093/jxb/eru087</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>24638902</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..2344</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Christin,P.-A.</GBAuthor>
+          <GBAuthor>Arakaki,M.</GBAuthor>
+          <GBAuthor>Edwards,E.J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (08-JAN-2014) Animal and Plant Sciences, University of Sheffield, Western Bank, Sheffield S10 2TN, United Kingdom</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2344</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2344</GBInterval_to>
+            <GBInterval_accession>KJ161568.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Leuenbergeria aureiflora</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>specimen_voucher</GBQualifier_name>
+            <GBQualifier_value>B:166-54-83-20</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:307718</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>clone</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;2344</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2344</GBInterval_to>
+            <GBInterval_accession>KJ161568.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ppc-1E1a</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mRNA</GBFeature_key>
+        <GBFeature_location>join(&lt;1..591,1220..1606,2119..&gt;2344)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>591</GBInterval_to>
+            <GBInterval_accession>KJ161568.1</GBInterval_accession>
+          </GBInterval>
+          <GBInterval>
+            <GBInterval_from>1220</GBInterval_from>
+            <GBInterval_to>1606</GBInterval_to>
+            <GBInterval_accession>KJ161568.1</GBInterval_accession>
+          </GBInterval>
+          <GBInterval>
+            <GBInterval_from>2119</GBInterval_from>
+            <GBInterval_to>2344</GBInterval_to>
+            <GBInterval_accession>KJ161568.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_operator>join</GBFeature_operator>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ppc-1E1a</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>phosphoenolpyruvate carboxylase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transcription</GBQualifier_name>
+            <GBQualifier_value>CTCCAGCAACGTGAATGCCATATTAAAAACCCCTTGAGGGTTGTCCCATTGTTTGAGAAACTTGCTGACCTGGAAGCAGCTCCTGCTGCTGTGGCCCGCCTATTCTCCATAGATTGGTACAGAGACGGAATTAATGGAAAACAAGAAGTCATGATTGGATACTCTGATTCTGGTAAGGATGCTGGTCGTCTTTCTGCTGCTTGGCAATTGTACAAGGCTCAGGAGGAGCTGATAAAGGTGGCTAAGCAATTTGGGGTGAAGCTTACGATGTTTCATGGGCGAGGAGGGACTGTAGGAAGAGGAGGCGGTCCCACCCATCTTGCCATTTTGTCTCAGCCACCTGACACTATTCATGGACCACTTCGTGTTACAGTACAAGGCGAAGTAATTGAGCAATCCTTTGGGGAGGAGCACTTATGTTTCAGGACACTACAGAGGTACACTGCTGCTACACTTGAGCATGGGATGCACCCACCTATCCCTCCTAAGCCAGAGTGGCGTGCTCTATTGGATGAGATGGCTGTCGTTTCCACCAAGGAATACCGCTCTATTGTCTTTCAGGAGCCTCGGTTTGTTGAGTATTTCCGCCTGGCAACACCAGAGTTGGAGTATGGACGTATGAACATTGGGAGTCGTCCGTCAAAGAGAAAGCCAAGTGGTGGAATTGAATCTCTTCGTGCGATACCCTGGATCTTTGCATGGACTCAAACTAGGTTCCATCTCCCAGTGTGGCTTGGCTTTGGTGCAGCATTTAAACACGTCATTGAGAAAGACATAAGAAATCTAAACATGCTCAGGGAGATGTACAATATGTGGCCTTTCTTCAGGGTGACAATTGACTTGGTTGAAATGGTGTTTGCCAAGGGAGACCCTGAAATTGCTGCTTTGTATGACAAACTTCTGGTGTCAGAGGAGTTACAATCATTTGGAGAACGCCTGAGAAAGAATTATGAAGAAACCAGTCGTCTTCTCCTTGAGGTTGCTGGGCACAAGGACCTGCTGGAGGGCGATCCTTACTTGAAGCAGAGACTCAGACTTCGTGATCCCTACATCACAACTCTGAATGTCTCCCAAGCATACACCCTGAAGCGCATTCGTGATCCCAACTTCAAAGTAACCGAGAGGCCCCATTTATCCAAGGAGATAATGGAGTCGAACAACCCAGCTGCTGAGCTTGTGAAGCTTAACCCTACAAGTGAGTACG</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>join(&lt;1..591,1220..1606,2119..&gt;2344)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>591</GBInterval_to>
+            <GBInterval_accession>KJ161568.1</GBInterval_accession>
+          </GBInterval>
+          <GBInterval>
+            <GBInterval_from>1220</GBInterval_from>
+            <GBInterval_to>1606</GBInterval_to>
+            <GBInterval_accession>KJ161568.1</GBInterval_accession>
+          </GBInterval>
+          <GBInterval>
+            <GBInterval_from>2119</GBInterval_from>
+            <GBInterval_to>2344</GBInterval_to>
+            <GBInterval_accession>KJ161568.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_operator>join</GBFeature_operator>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ppc-1E1a</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>phosphoenolpyruvate carboxylase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AIF35152.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>LQQRECHIKNPLRVVPLFEKLADLEAAPAAVARLFSIDWYRDGINGKQEVMIGYSDSGKDAGRLSAAWQLYKAQEELIKVAKQFGVKLTMFHGRGGTVGRGGGPTHLAILSQPPDTIHGPLRVTVQGEVIEQSFGEEHLCFRTLQRYTAATLEHGMHPPIPPKPEWRALLDEMAVVSTKEYRSIVFQEPRFVEYFRLATPELEYGRMNIGSRPSKRKPSGGIESLRAIPWIFAWTQTRFHLPVWLGFGAAFKHVIEKDIRNLNMLREMYNMWPFFRVTIDLVEMVFAKGDPEIAALYDKLLVSEELQSFGERLRKNYEETSRLLLEVAGHKDLLEGDPYLKQRLRLRDPYITTLNVSQAYTLKRIRDPNFKVTERPHLSKEIMESNNPAAELVKLNPTSEY</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ctccagcaacgtgaatgccatattaaaaaccccttgagggttgtcccattgtttgagaaacttgctgacctggaagcagctcctgctgctgtggcccgcctattctccatagattggtacagagacggaattaatggaaaacaagaagtcatgattggatactctgattctggtaaggatgctggtcgtctttctgctgcttggcaattgtacaaggctcaggaggagctgataaaggtggctaagcaatttggggtgaagcttacgatgtttcatgggcgaggagggactgtaggaagaggaggcggtcccacccatcttgccattttgtctcagccacctgacactattcatggaccacttcgtgttacagtacaaggcgaagtaattgagcaatcctttggggaggagcacttatgtttcaggacactacagaggtacactgctgctacacttgagcatgggatgcacccacctatccctcctaagccagagtggcgtgctctattggatgagatggctgtcgtttccaccaaggaataccgctctattgtctttcaggagcctcggtttgttgagtatttccgcctggtaagttcgtccattgtgcagggccttcgggccttttgtttttactttgttgctttcaaacccttctgttttgatgaacccaagctttgaggcctttctaacttctaagactgtaattattggcatcatccactggtttgtttaatgtgaggttgtgaactaagtcattgaataagcaaaagatgaatcagcttatgggccgtaagagaataggggaagtgatttcatctctattttctacaatgtttctgggtccccccccccccccccggggggctggaccaccatgactaggcccctgtctagggatagcatagtggagctgtgtaggctcatggggaggagggaaattatcagaaccttggcccaaactggatttagctgcatcccatacaagctctacaaccaggaatttatgcagaccttgggactagaagccagggcggggaagatcctcctgccaactgggcatagcccttgggcgttttccagaatcatagctatattaataccatgattaattataggaaactactgttctccatagcccttccccccctccccccaggaaacctaaaagtggattaacagggaccatcattgaggttcttatttgtacttgttgcaggcaacaccagagttggagtatggacgtatgaacattgggagtcgtccgtcaaagagaaagccaagtggtggaattgaatctcttcgtgcgataccctggatctttgcatggactcaaactaggttccatctcccagtgtggcttggctttggtgcagcatttaaacacgtcattgagaaagacataagaaatctaaacatgctcagggagatgtacaatatgtggcctttcttcagggtgacaattgacttggttgaaatggtgtttgccaagggagaccctgaaattgctgctttgtatgacaaacttctggtgtcagaggagttacaatcatttggagaacgcctgagaaagaattatgaagaaaccagtcgtcttctccttgaggtaatgttgtaggcatgacttctttttgcagctaggttggttcatctctaggctcagattggagctgtttattggactgaactacaccaatctgctccatgcagtttacttataaacctaaaaaaaaaaaaaccctaaaagctcttttttttctctttttttttgtttgaaattatcattgtggcagtgctagggggggaaaaaaaggaaagaaaactaatgtgcccaaaactgggcgggtccaaactgggtcagtttgcactgtaaacttgtctggtgagcgtggtttgtaattgagctattgacctataacaacacaacccagcttgctctgcttcttgaccaggttagaggcataccagaatgagcagagttggcttgcctatctcggtctccacctctgctcttttccccgacttcccagtttttgttgcctgactgatcgagttcgtgaaaagccaaaccagcttgaataactgacaattttccccgaactcccattgtctttgcaggttgctgggcacaaggacctgctggagggcgatccttacttgaagcagagactcagacttcgtgatccctacatcacaactctgaatgtctcccaagcatacaccctgaagcgcattcgtgatcccaacttcaaagtaaccgagaggccccatttatccaaggagataatggagtcgaacaacccagctgctgagcttgtgaagcttaaccctacaagtgagtacg</GBSeq_sequence>
+  </GBSeq>
+
+  <GBSeq>
+
+    <GBSeq_locus>KJ161575</GBSeq_locus>
+    <GBSeq_length>1898</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PLN</GBSeq_division>
+    <GBSeq_update-date>19-JUL-2014</GBSeq_update-date>
+    <GBSeq_create-date>19-JUL-2014</GBSeq_create-date>
+    <GBSeq_definition>Anacampseros retusa voucher ZSS:803518/a clone 1 phosphoenolpyruvate carboxylase (ppc-1E1b) gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>KJ161575</GBSeq_primary-accession>
+    <GBSeq_accession-version>KJ161575.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KJ161575.1|</GBSeqid>
+      <GBSeqid>gi|664679952</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Anacampseros retusa</GBSeq_source>
+    <GBSeq_organism>Anacampseros retusa</GBSeq_organism>
+    <GBSeq_taxonomy>Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta; Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae; Caryophyllales; Cactineae; Anacampserotaceae; Anacampseros</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1898</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Christin,P.A.</GBAuthor>
+          <GBAuthor>Arakaki,M.</GBAuthor>
+          <GBAuthor>Osborne,C.P.</GBAuthor>
+          <GBAuthor>Brautigam,A.</GBAuthor>
+          <GBAuthor>Sage,R.F.</GBAuthor>
+          <GBAuthor>Hibberd,J.M.</GBAuthor>
+          <GBAuthor>Kelly,S.</GBAuthor>
+          <GBAuthor>Covshoff,S.</GBAuthor>
+          <GBAuthor>Wong,G.K.</GBAuthor>
+          <GBAuthor>Hancock,L.</GBAuthor>
+          <GBAuthor>Edwards,E.J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Shared origins of a key enzyme during the evolution of C4 and CAM metabolism</GBReference_title>
+        <GBReference_journal>J. Exp. Bot. 65 (13), 3609-3621 (2014)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1093/jxb/eru087</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>24638902</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1898</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Christin,P.-A.</GBAuthor>
+          <GBAuthor>Arakaki,M.</GBAuthor>
+          <GBAuthor>Edwards,E.J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (08-JAN-2014) Animal and Plant Sciences, University of Sheffield, Western Bank, Sheffield S10 2TN, United Kingdom</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1898</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1898</GBInterval_to>
+            <GBInterval_accession>KJ161575.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Anacampseros retusa</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>specimen_voucher</GBQualifier_name>
+            <GBQualifier_value>ZSS:803518/a</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:107584</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>clone</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;1898</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1898</GBInterval_to>
+            <GBInterval_accession>KJ161575.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ppc-1E1b</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mRNA</GBFeature_key>
+        <GBFeature_location>join(&lt;1..920,1121..1507,1626..&gt;1898)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>920</GBInterval_to>
+            <GBInterval_accession>KJ161575.1</GBInterval_accession>
+          </GBInterval>
+          <GBInterval>
+            <GBInterval_from>1121</GBInterval_from>
+            <GBInterval_to>1507</GBInterval_to>
+            <GBInterval_accession>KJ161575.1</GBInterval_accession>
+          </GBInterval>
+          <GBInterval>
+            <GBInterval_from>1626</GBInterval_from>
+            <GBInterval_to>1898</GBInterval_to>
+            <GBInterval_accession>KJ161575.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_operator>join</GBFeature_operator>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ppc-1E1b</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>phosphoenolpyruvate carboxylase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transcription</GBQualifier_name>
+            <GBQualifier_value>ATTTCATGCGACAAGTTACAACCTTTGGGCTTTGTCTTGTAAGGCTTGATATAAGGCAAGAATCAGACAGGCACACTGATTTGCTGGACGCCATTACTAGGCATATTGAAATTGGTTCCTATCGAGAATGGTCAGAAGAGAAGAGACAAGAATGGCTCTTATCTGAGCTTAAGGGCAAACGGCCTCTGTTTGGGATCGATCTCCCCAAAACTGATGAAATTGCTGATGTTTTGGATACATTTCATGTAATCTCAGAGCTACCACCGGATAATTTTGGGGCTTACATAATCTCCATGGCAACTGCCCCCTCAGATGTGCTTGCTGTTGAGCTTCTGCAACGTGAATGTCAAATTAAAAATCCATTGCGAGTTGTCCCATTGTTTGAGAAGCTTGCTGACCTGGAGGCTGCTCCAGCTGCCATGGCCCGTCTATTCTCTATAGATTGGTATAAAAATAGGATTAACGGGAAGCAAGAAGTGATGATTGGATACTCAGATTCTGGTAAGGATGCTGGCCGACTCTCAGCCGCTTGGCAACTCTACAAGGTTCAAGAGGAGCTAGTAAAGGTAGCGAAAGAATTTGGTGTGAAGCTTACAATGTTTCATGGGCGAGGAGGGACCGTAGGAAGAGGAGGGGGCCCTGCCCATCTTGCGATTTTGTCTCAACCACCAAACACTATCAATGGATCTCTTCGAGTTACAATACAAGGTGAAGTCATTGAACAGTCCTTTGGTGAGGAGCATTTGTGTTTTAGGACACTCCAGAGGTACACAGCTGCTACACTTGAACATGGGATGCACCCACCCAACTCTCCTAAGCCTGAATGGCGTACTTTGTTGGATGAGATGGCTGTTGTTGCCACGAAGGGGTATCGCTCCACCGTTTTTGGAAATCCTCGATTTGTAGAGTACTTTCGTCTTGCAACGCCCGAGACAGAGTATGGTCGCCTGAACATAGGGAGCCGTCCAGCAAAGAGAAAGGCTAGTGGGGGAATTGAATCGCTCCGTGCAATTCCCTGGATCTTTGCATGGACTCAAACAAGGTTCCATCTCCCTGTGTGGCTTGGCTTTGGTGCAGCTTTCAAATATGCAGTCGAGAAAGATCCAAGGAATCTTAACATGCTTAGGGTGATGTATAACATGTGGCCTTTTTTCAGAGTGACTCTGGACTTGGTTGAGATGGTGTTCGCCAAGGGAAACCCTGAAATCACCGCATTATATGACAAACTTCTGGTGTCAGAGGATCTGCAAACCTTTGGTGAACAGTTGAGGGCAAATTATGAAGAAACTAAGCATCTGCTGCTTGAGGCTGAAGGGCACAAGGAGGTGCTGGAAGGAGATCCATACTTGAAACAAAGACTCCGTCTTCGAGACCCCTACATTACAACCCTCAATGTCTTCCAGGCATATACCCTCAAGCGAATTCGTGATCCAAACTTCCAGGTAAAACAGAGGCCACACTTATCCAAAGAAGTAACAGCATCCAACAAGCCTGCTGCCGAGCTTGTGAAGCTGAACCCTTCCAGTGAGTATGCTCCTGGCCTCGAGGACACCCTCATCTTGACCATGAAGGGTATTGCT</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>join(&lt;1..920,1121..1507,1626..&gt;1898)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>920</GBInterval_to>
+            <GBInterval_accession>KJ161575.1</GBInterval_accession>
+          </GBInterval>
+          <GBInterval>
+            <GBInterval_from>1121</GBInterval_from>
+            <GBInterval_to>1507</GBInterval_to>
+            <GBInterval_accession>KJ161575.1</GBInterval_accession>
+          </GBInterval>
+          <GBInterval>
+            <GBInterval_from>1626</GBInterval_from>
+            <GBInterval_to>1898</GBInterval_to>
+            <GBInterval_accession>KJ161575.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_operator>join</GBFeature_operator>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ppc-1E1b</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>phosphoenolpyruvate carboxylase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AIF35158.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>FMRQVTTFGLCLVRLDIRQESDRHTDLLDAITRHIEIGSYREWSEEKRQEWLLSELKGKRPLFGIDLPKTDEIADVLDTFHVISELPPDNFGAYIISMATAPSDVLAVELLQRECQIKNPLRVVPLFEKLADLEAAPAAMARLFSIDWYKNRINGKQEVMIGYSDSGKDAGRLSAAWQLYKVQEELVKVAKEFGVKLTMFHGRGGTVGRGGGPAHLAILSQPPNTINGSLRVTIQGEVIEQSFGEEHLCFRTLQRYTAATLEHGMHPPNSPKPEWRTLLDEMAVVATKGYRSTVFGNPRFVEYFRLATPETEYGRLNIGSRPAKRKASGGIESLRAIPWIFAWTQTRFHLPVWLGFGAAFKYAVEKDPRNLNMLRVMYNMWPFFRVTLDLVEMVFAKGNPEITALYDKLLVSEDLQTFGEQLRANYEETKHLLLEAEGHKEVLEGDPYLKQRLRLRDPYITTLNVFQAYTLKRIRDPNFQVKQRPHLSKEVTASNKPAAELVKLNPSSEYAPGLEDTLILTMKGIA</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atttcatgcgacaagttacaacctttgggctttgtcttgtaaggcttgatataaggcaagaatcagacaggcacactgatttgctggacgccattactaggcatattgaaattggttcctatcgagaatggtcagaagagaagagacaagaatggctcttatctgagcttaagggcaaacggcctctgtttgggatcgatctccccaaaactgatgaaattgctgatgttttggatacatttcatgtaatctcagagctaccaccggataattttggggcttacataatctccatggcaactgccccctcagatgtgcttgctgttgagcttctgcaacgtgaatgtcaaattaaaaatccattgcgagttgtcccattgtttgagaagcttgctgacctggaggctgctccagctgccatggcccgtctattctctatagattggtataaaaataggattaacgggaagcaagaagtgatgattggatactcagattctggtaaggatgctggccgactctcagccgcttggcaactctacaaggttcaagaggagctagtaaaggtagcgaaagaatttggtgtgaagcttacaatgtttcatgggcgaggagggaccgtaggaagaggagggggccctgcccatcttgcgattttgtctcaaccaccaaacactatcaatggatctcttcgagttacaatacaaggtgaagtcattgaacagtcctttggtgaggagcatttgtgttttaggacactccagaggtacacagctgctacacttgaacatgggatgcacccacccaactctcctaagcctgaatggcgtactttgttggatgagatggctgttgttgccacgaaggggtatcgctccaccgtttttggaaatcctcgatttgtagagtactttcgtcttgtaagtttcttaaaaattgttggctttcatattttacttggtgcactgaacccccgggtcccttaattgcaaagctgtatgtattattgacttagttgttcctggtttttcggtgcatatgtgtaggtcaataattctggccaactagtaaagttttttagggtatatcattttctttactcatcttcttcaatctgcaggcaacgcccgagacagagtatggtcgcctgaacatagggagccgtccagcaaagagaaaggctagtgggggaattgaatcgctccgtgcaattccctggatctttgcatggactcaaacaaggttccatctccctgtgtggcttggctttggtgcagctttcaaatatgcagtcgagaaagatccaaggaatcttaacatgcttagggtgatgtataacatgtggccttttttcagagtgactctggacttggttgagatggtgttcgccaagggaaaccctgaaatcaccgcattatatgacaaacttctggtgtcagaggatctgcaaacctttggtgaacagttgagggcaaattatgaagaaactaagcatctgctgcttgaggtaatgttttgcctatttagcctgtgaaccagcaatcatgttggcttgccactttttctgatacgagataaagttatgcattgtgattttgcacaaatatctcaattgttttctacaggctgaagggcacaaggaggtgctggaaggagatccatacttgaaacaaagactccgtcttcgagacccctacattacaaccctcaatgtcttccaggcatataccctcaagcgaattcgtgatccaaacttccaggtaaaacagaggccacacttatccaaagaagtaacagcatccaacaagcctgctgccgagcttgtgaagctgaacccttccagtgagtatgctcctggcctcgaggacaccctcatcttgaccatgaagggtattgct</GBSeq_sequence>
+  </GBSeq>
+
+  <GBSeq>
+
+    <GBSeq_locus>KJ161576</GBSeq_locus>
+    <GBSeq_length>761</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PLN</GBSeq_division>
+    <GBSeq_update-date>19-JUL-2014</GBSeq_update-date>
+    <GBSeq_create-date>19-JUL-2014</GBSeq_create-date>
+    <GBSeq_definition>Grahamia bracteata voucher BRU:Ogburn n.a. clone 1 phosphoenolpyruvate carboxylase (ppc-1E1b) gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>KJ161576</GBSeq_primary-accession>
+    <GBSeq_accession-version>KJ161576.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KJ161576.1|</GBSeqid>
+      <GBSeqid>gi|664679954</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Grahamia bracteata</GBSeq_source>
+    <GBSeq_organism>Grahamia bracteata</GBSeq_organism>
+    <GBSeq_taxonomy>Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta; Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae; Caryophyllales; Cactineae; Anacampserotaceae; Grahamia</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..761</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Christin,P.A.</GBAuthor>
+          <GBAuthor>Arakaki,M.</GBAuthor>
+          <GBAuthor>Osborne,C.P.</GBAuthor>
+          <GBAuthor>Brautigam,A.</GBAuthor>
+          <GBAuthor>Sage,R.F.</GBAuthor>
+          <GBAuthor>Hibberd,J.M.</GBAuthor>
+          <GBAuthor>Kelly,S.</GBAuthor>
+          <GBAuthor>Covshoff,S.</GBAuthor>
+          <GBAuthor>Wong,G.K.</GBAuthor>
+          <GBAuthor>Hancock,L.</GBAuthor>
+          <GBAuthor>Edwards,E.J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Shared origins of a key enzyme during the evolution of C4 and CAM metabolism</GBReference_title>
+        <GBReference_journal>J. Exp. Bot. 65 (13), 3609-3621 (2014)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1093/jxb/eru087</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>24638902</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..761</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Christin,P.-A.</GBAuthor>
+          <GBAuthor>Arakaki,M.</GBAuthor>
+          <GBAuthor>Edwards,E.J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (08-JAN-2014) Animal and Plant Sciences, University of Sheffield, Western Bank, Sheffield S10 2TN, United Kingdom</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..761</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>761</GBInterval_to>
+            <GBInterval_accession>KJ161576.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Grahamia bracteata</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>specimen_voucher</GBQualifier_name>
+            <GBQualifier_value>BRU:Ogburn n.a.</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:107618</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>clone</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;761</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>761</GBInterval_to>
+            <GBInterval_accession>KJ161576.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ppc-1E1b</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mRNA</GBFeature_key>
+        <GBFeature_location>join(&lt;1..340,489..&gt;761)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>340</GBInterval_to>
+            <GBInterval_accession>KJ161576.1</GBInterval_accession>
+          </GBInterval>
+          <GBInterval>
+            <GBInterval_from>489</GBInterval_from>
+            <GBInterval_to>761</GBInterval_to>
+            <GBInterval_accession>KJ161576.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_operator>join</GBFeature_operator>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ppc-1E1b</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>phosphoenolpyruvate carboxylase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transcription</GBQualifier_name>
+            <GBQualifier_value>AGCAAAGAGAAAGCCAAGTGGGGGAATTGAATCGCTCCGTGCAATTCCATGGATCTTTGCATGGACTCAAACAAGGTTCCATCTCCCTGTGTGGTTGGGCCTTGGTGCAGCTTTCAAATATGCTGTCTCGAAAGATCCAAGGAACCTTAACATGCTTAGGGAGATGTACAACATGTGGCCTTTCTTCCGAGTGACCTTGGACTTGGTTGAGATGGTGTTTGCTAAGGGTGACCCTGAAATCGCCGCATTATATGACAAACTCCTGGTGTTAGAGGATCTGCAACCCTTTGGTGAACAGTTAAGGGCAAATTATGAAGAAACTAAGCGTCTGCTCCTTGAGGCTGCTGGGCACAAGGAGGTGCTGGAAGGAGATCCTTACTTGAAACAAAGACTCCGTCTTCGTGATCCCTACATTACAACCCTCAATGTCTTCCAGGCATATACCCTCAAACGAATTCGTGATCCAAACTTCCATGTTAAACAGAGGCCACACTTATCCAAAGAAGTGACAGCACCCAACAAGCCTGCTGCAGAGCTTGTGAAGCTCAATCCCTCCAGTGAGTATGCTCCTGGCCTTGAGGACACCCTCATCTTGACCATGAAGGGTATTGCT</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>join(&lt;1..340,489..&gt;761)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>340</GBInterval_to>
+            <GBInterval_accession>KJ161576.1</GBInterval_accession>
+          </GBInterval>
+          <GBInterval>
+            <GBInterval_from>489</GBInterval_from>
+            <GBInterval_to>761</GBInterval_to>
+            <GBInterval_accession>KJ161576.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_operator>join</GBFeature_operator>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ppc-1E1b</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>phosphoenolpyruvate carboxylase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AIF35159.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>AKRKPSGGIESLRAIPWIFAWTQTRFHLPVWLGLGAAFKYAVSKDPRNLNMLREMYNMWPFFRVTLDLVEMVFAKGDPEIAALYDKLLVLEDLQPFGEQLRANYEETKRLLLEAAGHKEVLEGDPYLKQRLRLRDPYITTLNVFQAYTLKRIRDPNFHVKQRPHLSKEVTAPNKPAAELVKLNPSSEYAPGLEDTLILTMKGIA</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>agcaaagagaaagccaagtgggggaattgaatcgctccgtgcaattccatggatctttgcatggactcaaacaaggttccatctccctgtgtggttgggccttggtgcagctttcaaatatgctgtctcgaaagatccaaggaaccttaacatgcttagggagatgtacaacatgtggcctttcttccgagtgaccttggacttggttgagatggtgtttgctaagggtgaccctgaaatcgccgcattatatgacaaactcctggtgttagaggatctgcaaccctttggtgaacagttaagggcaaattatgaagaaactaagcgtctgctccttgaggtaatgttttgcctgtttaatgagtgaattcagcaatcttataggcatgtcactattatgatctttgaaaaagcaaacaagatattattctttggatctcggacaaagctcaaaagttttgcacaaatttctcaattgttttctgcaggctgctgggcacaaggaggtgctggaaggagatccttacttgaaacaaagactccgtcttcgtgatccctacattacaaccctcaatgtcttccaggcatataccctcaaacgaattcgtgatccaaacttccatgttaaacagaggccacacttatccaaagaagtgacagcacccaacaagcctgctgcagagcttgtgaagctcaatccctccagtgagtatgctcctggccttgaggacaccctcatcttgaccatgaagggtattgct</GBSeq_sequence>
+  </GBSeq>
+
+  <GBSeq>
+
+    <GBSeq_locus>KJ161610</GBSeq_locus>
+    <GBSeq_length>1975</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PLN</GBSeq_division>
+    <GBSeq_update-date>19-JUL-2014</GBSeq_update-date>
+    <GBSeq_create-date>19-JUL-2014</GBSeq_create-date>
+    <GBSeq_definition>Anacampseros retusa voucher ZSS:803518/a clone 1 phosphoenolpyruvate carboxylase (ppc-1E1c) gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>KJ161610</GBSeq_primary-accession>
+    <GBSeq_accession-version>KJ161610.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KJ161610.1|</GBSeqid>
+      <GBSeqid>gi|664680025</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Anacampseros retusa</GBSeq_source>
+    <GBSeq_organism>Anacampseros retusa</GBSeq_organism>
+    <GBSeq_taxonomy>Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta; Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae; Caryophyllales; Cactineae; Anacampserotaceae; Anacampseros</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1975</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Christin,P.A.</GBAuthor>
+          <GBAuthor>Arakaki,M.</GBAuthor>
+          <GBAuthor>Osborne,C.P.</GBAuthor>
+          <GBAuthor>Brautigam,A.</GBAuthor>
+          <GBAuthor>Sage,R.F.</GBAuthor>
+          <GBAuthor>Hibberd,J.M.</GBAuthor>
+          <GBAuthor>Kelly,S.</GBAuthor>
+          <GBAuthor>Covshoff,S.</GBAuthor>
+          <GBAuthor>Wong,G.K.</GBAuthor>
+          <GBAuthor>Hancock,L.</GBAuthor>
+          <GBAuthor>Edwards,E.J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Shared origins of a key enzyme during the evolution of C4 and CAM metabolism</GBReference_title>
+        <GBReference_journal>J. Exp. Bot. 65 (13), 3609-3621 (2014)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1093/jxb/eru087</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>24638902</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1975</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Christin,P.-A.</GBAuthor>
+          <GBAuthor>Arakaki,M.</GBAuthor>
+          <GBAuthor>Edwards,E.J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (08-JAN-2014) Animal and Plant Sciences, University of Sheffield, Western Bank, Sheffield S10 2TN, United Kingdom</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1975</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1975</GBInterval_to>
+            <GBInterval_accession>KJ161610.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Anacampseros retusa</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>specimen_voucher</GBQualifier_name>
+            <GBQualifier_value>ZSS:803518/a</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:107584</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>clone</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;1975</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1975</GBInterval_to>
+            <GBInterval_accession>KJ161610.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ppc-1E1c</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mRNA</GBFeature_key>
+        <GBFeature_location>join(&lt;1..624,843..1229,1743..&gt;1975)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>624</GBInterval_to>
+            <GBInterval_accession>KJ161610.1</GBInterval_accession>
+          </GBInterval>
+          <GBInterval>
+            <GBInterval_from>843</GBInterval_from>
+            <GBInterval_to>1229</GBInterval_to>
+            <GBInterval_accession>KJ161610.1</GBInterval_accession>
+          </GBInterval>
+          <GBInterval>
+            <GBInterval_from>1743</GBInterval_from>
+            <GBInterval_to>1975</GBInterval_to>
+            <GBInterval_accession>KJ161610.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_operator>join</GBFeature_operator>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ppc-1E1c</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>phosphoenolpyruvate carboxylase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transcription</GBQualifier_name>
+            <GBQualifier_value>GCTACTGCCCCTTCCGATGTGCTTGCTGTTGAGCTTCTGCAGCGTGAATGCCGTATCAAGAATCCATTGAGGGTTGTCCCATTGTTTGAGAAACTTGCTGACCTGGAGGCTGCTCCTGCTGCCATGTCCCGCCTATTTTCTATAGAGTGGTATAGAAACAAGATTAAGGGGAAGCAAGAAGTCATGATTGGATACTCTGATTCTGGGAAAGATTGTGGTCGTCTCTCAGCTGCCTGGCAACTCTACAAGGTCCAAGAGGAGCTAGCAATAGTTGCCAGGCAATTTGGGGTGAAGCTTACAATGTTTCACGGACGAGGAGGGACGGTGGGAAGAGGTGGTGGGCCCACTCATCTTACCCTTTTGACTCAGCCACCTAACACTATCAATGGATCACTTCGTGTTACGATACAGGGTGAAGTAATTGAACAATCCTTTGCGGAGGAGCAATTGTGTTTTAAAACACTCCAAAGGTACACAGCTGCTACACTTGTGCATGGGATGCGTCCTGCACTCTCTCCACTGCCAGAATGGCGTGCTCTTTTAGATCAGATGGCAGTGGTTGCAACAAAGGAGTACCGCTCCATTGTTTTTGAAGAGCCTCAATTTGTCAAGTACTTCCGCCTTGCTACACCAGAGACAGAATATGGTCGCCTGAACATTGGGAGCCGTCCAGCAAAGAGGAAAGCAAGTGGGGGAATTGAATCACTCCGTGCAGTTCCTTGGATCTTTTCATGGACACAAACAAGGTTCCATCTCCCTGTGTGGCTGGGCTTTGGTGCAGCATTTAAATATGCTACTGGAAAAGATGCAAAGACTCTTGAAATGCTCAAGCAGATGTACAGTACATGGCCTTTTTTCAGAGTTACTATTGACATGGTTGAAATGATGTTCGCAAAGGGGGATCCTGGAATTGCTGCCCTATATGATAAACTTCTAGTGTCAGAGGATCTGCTGTCTTTTGGGGGACAATTGAGAAAAAAATATGAAGAAACTCAGTGTCTTCTCCTGGAGGTTGCTGGGCACAAGGATCTTCTGGAGGGAAATCCCAGCTTGAAGCAGAGACTCCAGCTTCGCAGTCCCTACATCACAGCCCTTAATGTTCTCCAAGCATATACACTCAAGCAGATTCGTGATCCAAACTTACCCAAAGAAATAATGACATCCAACACCAAGCTGGATGCCGAGCTTGTGAAGCTCAACCCTAGCACTGAACATGCTCCTGGCCTTGAGGACACCCTCATCCT</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>join(&lt;1..624,843..1229,1743..&gt;1975)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>624</GBInterval_to>
+            <GBInterval_accession>KJ161610.1</GBInterval_accession>
+          </GBInterval>
+          <GBInterval>
+            <GBInterval_from>843</GBInterval_from>
+            <GBInterval_to>1229</GBInterval_to>
+            <GBInterval_accession>KJ161610.1</GBInterval_accession>
+          </GBInterval>
+          <GBInterval>
+            <GBInterval_from>1743</GBInterval_from>
+            <GBInterval_to>1975</GBInterval_to>
+            <GBInterval_accession>KJ161610.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_operator>join</GBFeature_operator>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ppc-1E1c</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>phosphoenolpyruvate carboxylase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AIF35196.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>ATAPSDVLAVELLQRECRIKNPLRVVPLFEKLADLEAAPAAMSRLFSIEWYRNKIKGKQEVMIGYSDSGKDCGRLSAAWQLYKVQEELAIVARQFGVKLTMFHGRGGTVGRGGGPTHLTLLTQPPNTINGSLRVTIQGEVIEQSFAEEQLCFKTLQRYTAATLVHGMRPALSPLPEWRALLDQMAVVATKEYRSIVFEEPQFVKYFRLATPETEYGRLNIGSRPAKRKASGGIESLRAVPWIFSWTQTRFHLPVWLGFGAAFKYATGKDAKTLEMLKQMYSTWPFFRVTIDMVEMMFAKGDPGIAALYDKLLVSEDLLSFGGQLRKKYEETQCLLLEVAGHKDLLEGNPSLKQRLQLRSPYITALNVLQAYTLKQIRDPNLPKEIMTSNTKLDAELVKLNPSTEHAPGLEDTLIL</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gctactgccccttccgatgtgcttgctgttgagcttctgcagcgtgaatgccgtatcaagaatccattgagggttgtcccattgtttgagaaacttgctgacctggaggctgctcctgctgccatgtcccgcctattttctatagagtggtatagaaacaagattaaggggaagcaagaagtcatgattggatactctgattctgggaaagattgtggtcgtctctcagctgcctggcaactctacaaggtccaagaggagctagcaatagttgccaggcaatttggggtgaagcttacaatgtttcacggacgaggagggacggtgggaagaggtggtgggcccactcatcttacccttttgactcagccacctaacactatcaatggatcacttcgtgttacgatacagggtgaagtaattgaacaatcctttgcggaggagcaattgtgttttaaaacactccaaaggtacacagctgctacacttgtgcatgggatgcgtcctgcactctctccactgccagaatggcgtgctcttttagatcagatggcagtggttgcaacaaaggagtaccgctccattgtttttgaagagcctcaatttgtcaagtacttccgccttgtaagtttttactggtttttcaattatcatagctttgatgggctgcattgatgggctgcacgtataggccatatacatgcttttcctggctgttgatcgcgatattgttcattgttctaattaagaataaatttgggtgcacacacacatgcacacaaagtgaaaagaaaagaccatcagatgcgatgctagttttcttatcttacttcctggtgcaggctacaccagagacagaatatggtcgcctgaacattgggagccgtccagcaaagaggaaagcaagtgggggaattgaatcactccgtgcagttccttggatcttttcatggacacaaacaaggttccatctccctgtgtggctgggctttggtgcagcatttaaatatgctactggaaaagatgcaaagactcttgaaatgctcaagcagatgtacagtacatggccttttttcagagttactattgacatggttgaaatgatgttcgcaaagggggatcctggaattgctgccctatatgataaacttctagtgtcagaggatctgctgtcttttgggggacaattgagaaaaaaatatgaagaaactcagtgtcttctcctggaggtaatttctgatctacatcattactgaaatgcagactcttacatgctgtcaaatcttccattgttcttgttgacaatatttgctgcagtcttatatgtagtgatggacgtctttggaacctaaaaaatgcttgcttcaggccaggtttgtggggtttatattggaatctgtttgaactttgaacatgattgatggagtacctgatgatgtcaggttacagacaaattcaagtgtcatgaattgtctaacaggcttgttgttgtatggaattcacattggtcagagattacttttgggtttgagtctggtttggctggctgttggatcagtctgggtttccagtggttatgagtcctgaatacaagtcagtttcaccaaattaatttacaatgtatatgcctggtagaatgactcgaaagaaagatttgtactcccctctccattttgacctccctagtttctatcaagaacaaaactgacttcaactaactcaaatttcatttcccccctcaggttgctgggcacaaggatcttctggagggaaatcccagcttgaagcagagactccagcttcgcagtccctacatcacagcccttaatgttctccaagcatatacactcaagcagattcgtgatccaaacttacccaaagaaataatgacatccaacaccaagctggatgccgagcttgtgaagctcaaccctagcactgaacatgctcctggccttgaggacaccctcatcct</GBSeq_sequence>
+  </GBSeq>
+
+  <GBSeq>
+
+    <GBSeq_locus>KJ161611</GBSeq_locus>
+    <GBSeq_length>1176</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PLN</GBSeq_division>
+    <GBSeq_update-date>19-JUL-2014</GBSeq_update-date>
+    <GBSeq_create-date>19-JUL-2014</GBSeq_create-date>
+    <GBSeq_definition>Grahamia bracteata voucher BRU:Ogburn n.a. clone 1 phosphoenolpyruvate carboxylase (ppc-1E1c) gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>KJ161611</GBSeq_primary-accession>
+    <GBSeq_accession-version>KJ161611.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KJ161611.1|</GBSeqid>
+      <GBSeqid>gi|664680027</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Grahamia bracteata</GBSeq_source>
+    <GBSeq_organism>Grahamia bracteata</GBSeq_organism>
+    <GBSeq_taxonomy>Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta; Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae; Caryophyllales; Cactineae; Anacampserotaceae; Grahamia</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1176</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Christin,P.A.</GBAuthor>
+          <GBAuthor>Arakaki,M.</GBAuthor>
+          <GBAuthor>Osborne,C.P.</GBAuthor>
+          <GBAuthor>Brautigam,A.</GBAuthor>
+          <GBAuthor>Sage,R.F.</GBAuthor>
+          <GBAuthor>Hibberd,J.M.</GBAuthor>
+          <GBAuthor>Kelly,S.</GBAuthor>
+          <GBAuthor>Covshoff,S.</GBAuthor>
+          <GBAuthor>Wong,G.K.</GBAuthor>
+          <GBAuthor>Hancock,L.</GBAuthor>
+          <GBAuthor>Edwards,E.J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Shared origins of a key enzyme during the evolution of C4 and CAM metabolism</GBReference_title>
+        <GBReference_journal>J. Exp. Bot. 65 (13), 3609-3621 (2014)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1093/jxb/eru087</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>24638902</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1176</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Christin,P.-A.</GBAuthor>
+          <GBAuthor>Arakaki,M.</GBAuthor>
+          <GBAuthor>Edwards,E.J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (08-JAN-2014) Animal and Plant Sciences, University of Sheffield, Western Bank, Sheffield S10 2TN, United Kingdom</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1176</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1176</GBInterval_to>
+            <GBInterval_accession>KJ161611.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Grahamia bracteata</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>specimen_voucher</GBQualifier_name>
+            <GBQualifier_value>BRU:Ogburn n.a.</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:107618</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>clone</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;1176</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1176</GBInterval_to>
+            <GBInterval_accession>KJ161611.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ppc-1E1c</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mRNA</GBFeature_key>
+        <GBFeature_location>join(&lt;1..340,928..&gt;1176)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>340</GBInterval_to>
+            <GBInterval_accession>KJ161611.1</GBInterval_accession>
+          </GBInterval>
+          <GBInterval>
+            <GBInterval_from>928</GBInterval_from>
+            <GBInterval_to>1176</GBInterval_to>
+            <GBInterval_accession>KJ161611.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_operator>join</GBFeature_operator>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ppc-1E1c</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>phosphoenolpyruvate carboxylase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transcription</GBQualifier_name>
+            <GBQualifier_value>AGCAAAGAGGAAACCAGGGGGGGGGATTAAATCACTCCGTGCAATTCCTTGGATCTTTTCATGGACTCAAACAAGGTTCCATCTCCCTGTGTGGCTGGGCTTTGGTGCAGCATTTAAATATGCTACTGGACAAGATGCAAAGACTCTTGAAATGCTTAAGCAGATGTACAGTACATGGCCTTTCTTCAGAGTGACTATCGACATGGTTGAAATGATGTTCGCAAAGGGGGATCCTGGAATTGCTGCTCTATATGACAAACTTCTAGTGTCAGAGGATCTGTTGTCCTTTGGGGAACAGTTGAGGGAAAAATATGAAGAAACTCTGCGTCTTCTCCTGGAGGTCGCTGGGCACAAGGATCTGCTGGAGGGAAGTCCCAGCTTGAAGCAGAGCCTCCTGCTTCGCAGTCCCTACATCACAGCGCTCAATGTTCTCCAAGCATATACACTGAAGCAGATCCGTGATCCCAATCTACCCAAAGAAATGATGACATCCAACAAGCTGGATGCCGAGCTTGTGAAGCTCAACCCTGCCAGTGAACATGCTCCTGGCCTTGAGGACACCCTAATCCTTACCATGAAGGGTATTGCT</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>join(&lt;1..340,928..&gt;1176)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>340</GBInterval_to>
+            <GBInterval_accession>KJ161611.1</GBInterval_accession>
+          </GBInterval>
+          <GBInterval>
+            <GBInterval_from>928</GBInterval_from>
+            <GBInterval_to>1176</GBInterval_to>
+            <GBInterval_accession>KJ161611.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_operator>join</GBFeature_operator>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ppc-1E1c</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>phosphoenolpyruvate carboxylase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AIF35197.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>AKRKPGGGIKSLRAIPWIFSWTQTRFHLPVWLGFGAAFKYATGQDAKTLEMLKQMYSTWPFFRVTIDMVEMMFAKGDPGIAALYDKLLVSEDLLSFGEQLREKYEETLRLLLEVAGHKDLLEGSPSLKQSLLLRSPYITALNVLQAYTLKQIRDPNLPKEMMTSNKLDAELVKLNPASEHAPGLEDTLILTMKGIA</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>agcaaagaggaaaccagggggggggattaaatcactccgtgcaattccttggatcttttcatggactcaaacaaggttccatctccctgtgtggctgggctttggtgcagcatttaaatatgctactggacaagatgcaaagactcttgaaatgcttaagcagatgtacagtacatggcctttcttcagagtgactatcgacatggttgaaatgatgttcgcaaagggggatcctggaattgctgctctatatgacaaacttctagtgtcagaggatctgttgtcctttggggaacagttgagggaaaaatatgaagaaactctgcgtcttctcctggaggtaatttctgacctacatcattagtgaaatgcagattcttgtaagcatctcactattctgcatctcactattctgattttggaaaagaaagcatgaaaattacaatagtggagttggttctttggacattggaccgctatcaaatttttcattgcttttgttgacaatatctgctgcagtcttaaatgtagcaatagacaacatctttgaacctaaaaaatccttgattcaggtcgggtttgtggggtttatattgaaatttgtttgaactttgaacatgattgatggagtacctcaggatgtcaggttagagacaaattcaagtgtgtcatgcattctctaacatgcttgttgtcgtgagtgtggaattgggtttgagtctggtttggctgagttaaatcagtttggattacctttagttatgagtcctgaatataagtcagcttcatcaaattaatttaaattgtatatgtctgccacaatgagtcgaaagaaagatttgtactccccactcctttattacctcactggtttctatcaagaacgaaactgacttcaactaactcaaatttcattttccccctcaggtcgctgggcacaaggatctgctggagggaagtcccagcttgaagcagagcctcctgcttcgcagtccctacatcacagcgctcaatgttctccaagcatatacactgaagcagatccgtgatcccaatctacccaaagaaatgatgacatccaacaagctggatgccgagcttgtgaagctcaaccctgccagtgaacatgctcctggccttgaggacaccctaatccttaccatgaagggtattgct</GBSeq_sequence>
+  </GBSeq>
+
+  <GBSeq>
+
+    <GBSeq_locus>KJ161613</GBSeq_locus>
+    <GBSeq_length>2390</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PLN</GBSeq_division>
+    <GBSeq_update-date>19-JUL-2014</GBSeq_update-date>
+    <GBSeq_create-date>19-JUL-2014</GBSeq_create-date>
+    <GBSeq_definition>Pereskia aureiflora voucher B:166-54-83-20 clone 1 phosphoenolpyruvate carboxylase (ppc-1E1c) gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>KJ161613</GBSeq_primary-accession>
+    <GBSeq_accession-version>KJ161613.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KJ161613.1|</GBSeqid>
+      <GBSeqid>gi|664680031</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Leuenbergeria aureiflora</GBSeq_source>
+    <GBSeq_organism>Leuenbergeria aureiflora</GBSeq_organism>
+    <GBSeq_taxonomy>Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta; Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae; Caryophyllales; Cactineae; Cactaceae; Leuenbergerioideae; Leuenbergeria</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2390</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Christin,P.A.</GBAuthor>
+          <GBAuthor>Arakaki,M.</GBAuthor>
+          <GBAuthor>Osborne,C.P.</GBAuthor>
+          <GBAuthor>Brautigam,A.</GBAuthor>
+          <GBAuthor>Sage,R.F.</GBAuthor>
+          <GBAuthor>Hibberd,J.M.</GBAuthor>
+          <GBAuthor>Kelly,S.</GBAuthor>
+          <GBAuthor>Covshoff,S.</GBAuthor>
+          <GBAuthor>Wong,G.K.</GBAuthor>
+          <GBAuthor>Hancock,L.</GBAuthor>
+          <GBAuthor>Edwards,E.J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Shared origins of a key enzyme during the evolution of C4 and CAM metabolism</GBReference_title>
+        <GBReference_journal>J. Exp. Bot. 65 (13), 3609-3621 (2014)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1093/jxb/eru087</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>24638902</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..2390</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Christin,P.-A.</GBAuthor>
+          <GBAuthor>Arakaki,M.</GBAuthor>
+          <GBAuthor>Edwards,E.J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (08-JAN-2014) Animal and Plant Sciences, University of Sheffield, Western Bank, Sheffield S10 2TN, United Kingdom</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2390</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2390</GBInterval_to>
+            <GBInterval_accession>KJ161613.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Leuenbergeria aureiflora</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>specimen_voucher</GBQualifier_name>
+            <GBQualifier_value>B:166-54-83-20</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:307718</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>clone</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;2390</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2390</GBInterval_to>
+            <GBInterval_accession>KJ161613.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ppc-1E1c</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mRNA</GBFeature_key>
+        <GBFeature_location>join(&lt;1..591,1124..1510,2189..&gt;2390)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>591</GBInterval_to>
+            <GBInterval_accession>KJ161613.1</GBInterval_accession>
+          </GBInterval>
+          <GBInterval>
+            <GBInterval_from>1124</GBInterval_from>
+            <GBInterval_to>1510</GBInterval_to>
+            <GBInterval_accession>KJ161613.1</GBInterval_accession>
+          </GBInterval>
+          <GBInterval>
+            <GBInterval_from>2189</GBInterval_from>
+            <GBInterval_to>2390</GBInterval_to>
+            <GBInterval_accession>KJ161613.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_operator>join</GBFeature_operator>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ppc-1E1c</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>phosphoenolpyruvate carboxylase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transcription</GBQualifier_name>
+            <GBQualifier_value>CTTCTCCAACGTGAATGCCGTATTAAGAATCCATTGAGGGTTGTCCCATTGTTTGAGAAGCTTGCTGACCTGGAGGCCGCTCCTGATGCGATGGCCCGCCTATTCTCTATAGATTGGTACAAAAATAAGATTAAGGGGAAGCAAGAAGTCATGATTGGATACTCTGATTCTGGTAAGGATTGTGGTCGTCTCTCAGCTGCGTGGCAACTCTACAAGGTCCAAGAGGAGCTAGCAAGAGTTGCCAGGCAATTTGGGGTGAAGCTTACTATGTTTCATGGACGAGGAGGGACGGTAGGAAGAGGCGGTGGCCCCACTCATCTTACCCTTTTGTCTCAGCCACCTAACACTATCAATGGATCACTTCGTGTTACAGTACAAGGTGAAGTAATTGAACAGTCCTTTGCGGAGGAGCATTTGTGTTTTAAAACACTCCAAAGGTACACAGCTGCCACACTTGTACATGGGATGCGTCCTCCGATCTCTCCACTGCCAGAATGGCGTGCTCTATTAGATCAGATGGCAGTTGTTGCAACAAAGGAGTACCGCTCCATTGTTTTTGAAGAGCCTCAATTTGTCAAGTACTTCCGCCTTGCGACACCAGAGACAGAATATGGACGAATGAACATCGGAAGCCGTCCATCAAAGAGAAAACCAAGTGGGGGAATCGAATCACTCCGTGCAATCCCTTGGATCTTTTCATGGACCCAAACGAGGTTCCATCTCCCTGTGTGGCTGGGCTTTGGTGCAGCATTTAAGTATGCTATTGGAAAAGATGCGAGGACTCTTGAAATGCTTAAAGAGATGTACAGTATGTGGCCTTTCTTCAAAGTGACTGTTGACATGGTTGAAATGATGTTCGCCAAGGGGGACCCTGGGATTGCCACCTTATATGACAAACTGCTTGTGTCAAAGGATCTGCTGTCAAAAGGGGAACAGCTGAGGGAAAAATATGAAGAAACTAAGAGTCTTCTCCTAGAGGTTGCTGGCCACAAGGATCTGCTGGGGGGAAATCCCTGCTTGAAGCAGAGACTCTATCTTCGTGTTCCCTACATCACAACCCTCAATGTCTTACAAGCATATACACTAAAGCAGATTCGTGATCCAAACCTATCCAAAGAAACAATGGCATCTAACAAGCAGGATGCCGAGCTAGTGAAGCTCAACCCTACCAGTGAATATG</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>join(&lt;1..591,1124..1510,2189..&gt;2390)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>591</GBInterval_to>
+            <GBInterval_accession>KJ161613.1</GBInterval_accession>
+          </GBInterval>
+          <GBInterval>
+            <GBInterval_from>1124</GBInterval_from>
+            <GBInterval_to>1510</GBInterval_to>
+            <GBInterval_accession>KJ161613.1</GBInterval_accession>
+          </GBInterval>
+          <GBInterval>
+            <GBInterval_from>2189</GBInterval_from>
+            <GBInterval_to>2390</GBInterval_to>
+            <GBInterval_accession>KJ161613.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_operator>join</GBFeature_operator>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ppc-1E1c</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>phosphoenolpyruvate carboxylase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AIF35199.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>LLQRECRIKNPLRVVPLFEKLADLEAAPDAMARLFSIDWYKNKIKGKQEVMIGYSDSGKDCGRLSAAWQLYKVQEELARVARQFGVKLTMFHGRGGTVGRGGGPTHLTLLSQPPNTINGSLRVTVQGEVIEQSFAEEHLCFKTLQRYTAATLVHGMRPPISPLPEWRALLDQMAVVATKEYRSIVFEEPQFVKYFRLATPETEYGRMNIGSRPSKRKPSGGIESLRAIPWIFSWTQTRFHLPVWLGFGAAFKYAIGKDARTLEMLKEMYSMWPFFKVTVDMVEMMFAKGDPGIATLYDKLLVSKDLLSKGEQLREKYEETKSLLLEVAGHKDLLGGNPCLKQRLYLRVPYITTLNVLQAYTLKQIRDPNLSKETMASNKQDAELVKLNPTSEY</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>cttctccaacgtgaatgccgtattaagaatccattgagggttgtcccattgtttgagaagcttgctgacctggaggccgctcctgatgcgatggcccgcctattctctatagattggtacaaaaataagattaaggggaagcaagaagtcatgattggatactctgattctggtaaggattgtggtcgtctctcagctgcgtggcaactctacaaggtccaagaggagctagcaagagttgccaggcaatttggggtgaagcttactatgtttcatggacgaggagggacggtaggaagaggcggtggccccactcatcttacccttttgtctcagccacctaacactatcaatggatcacttcgtgttacagtacaaggtgaagtaattgaacagtcctttgcggaggagcatttgtgttttaaaacactccaaaggtacacagctgccacacttgtacatgggatgcgtcctccgatctctccactgccagaatggcgtgctctattagatcagatggcagttgttgcaacaaaggagtaccgctccattgtttttgaagagcctcaatttgtcaagtacttccgccttgtaagtttttacagtttttcactttgcatcgttttcctgggtgcattgaaacctcctattgccgtacctatagaccatttgcgtcattctcctggttgtttttctctgtattgttcattgatctaattgagataaattaggctagtggagctgcagtagatctgagacattgatcattaatctactaatctccataattatacagaaaaataaaaggtaaacttttatgctttcctccaggatattatttagtagtctttttgtgcgttcatctgatataatatctagtttcaattaataggaatttgcagttgagtacataatcttggaagttggaactacatctttccctcttcctccctgctgtccaaaaccacagccttaaaactaccctctccccaccccctccaacccccccacccccccaaaaaaacaaaaccaaaaaaaaaaaaaaaagatgaagaagaaagaagagaaaagacarggcctcaaagatgtgatattagttttcttatcttatttcctgctgcaggcgacaccagagacagaatatggacgaatgaacatcggaagccgtccatcaaagagaaaaccaagtgggggaatcgaatcactccgtgcaatcccttggatcttttcatggacccaaacgaggttccatctccctgtgtggctgggctttggtgcagcatttaagtatgctattggaaaagatgcgaggactcttgaaatgcttaaagagatgtacagtatgtggcctttcttcaaagtgactgttgacatggttgaaatgatgttcgccaagggggaccctgggattgccaccttatatgacaaactgcttgtgtcaaaggatctgctgtcaaaaggggaacagctgagggaaaaatatgaagaaactaagagtcttctcctagaggtaatatttggcctacatcattagtgaaatgcagtcttataggcatctgattcttttgattttggaaaagaaagcatgtaaagtatagcaatggaattttttttttttggggggatattgaaacactattggattgctttaaagttcatcacgttaatgttgcagagaagtagaagggaggtgggtagacattaatgacttattcttccattgttttgtgttgataatatctaatacagtcttacatgtagccatagatgacagttttggaatctaagaaatggtttcttcaggtcgggtttgtggggtttatttcagatgaagcttgaacatgtttgatgaaatacttgaggatgtcaggtaagggacaaattcgagtgtcataaattatttagcagggttgttgagaaaatggaatcgctattggtccggtaaattttgggtctgagtctggttgggctggtctggatcagtttgggttaccttcaggtctggattcaggtttggctctgaatcttgagtacaagtcagttttgccaagttaatctacattgcatttcccttcaacaattattcaaaagaacgatttgtagttggcactcatttattgcctccctcgcttctaccgagaaggaaaccagcttcaactaactcaaatttcacccttctatttctcaggttgctggccacaaggatctgctggggggaaatccctgcttgaagcagagactctatcttcgtgttccctacatcacaaccctcaatgtcttacaagcatatacactaaagcagattcgtgatccaaacctatccaaagaaacaatggcatctaacaagcaggatgccgagctagtgaagctcaaccctaccagtgaatatg</GBSeq_sequence>
+  </GBSeq>
+
+  <GBSeq>
+
+    <GBSeq_locus>KJ161630</GBSeq_locus>
+    <GBSeq_length>732</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PLN</GBSeq_division>
+    <GBSeq_update-date>19-JUL-2014</GBSeq_update-date>
+    <GBSeq_create-date>19-JUL-2014</GBSeq_create-date>
+    <GBSeq_definition>Anacampseros retusa voucher ZSS:803518/a clone 1 phosphoenolpyruvate carboxylase (ppc-1E1d) gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>KJ161630</GBSeq_primary-accession>
+    <GBSeq_accession-version>KJ161630.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KJ161630.1|</GBSeqid>
+      <GBSeqid>gi|664680065</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Anacampseros retusa</GBSeq_source>
+    <GBSeq_organism>Anacampseros retusa</GBSeq_organism>
+    <GBSeq_taxonomy>Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta; Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae; Caryophyllales; Cactineae; Anacampserotaceae; Anacampseros</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..732</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Christin,P.A.</GBAuthor>
+          <GBAuthor>Arakaki,M.</GBAuthor>
+          <GBAuthor>Osborne,C.P.</GBAuthor>
+          <GBAuthor>Brautigam,A.</GBAuthor>
+          <GBAuthor>Sage,R.F.</GBAuthor>
+          <GBAuthor>Hibberd,J.M.</GBAuthor>
+          <GBAuthor>Kelly,S.</GBAuthor>
+          <GBAuthor>Covshoff,S.</GBAuthor>
+          <GBAuthor>Wong,G.K.</GBAuthor>
+          <GBAuthor>Hancock,L.</GBAuthor>
+          <GBAuthor>Edwards,E.J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Shared origins of a key enzyme during the evolution of C4 and CAM metabolism</GBReference_title>
+        <GBReference_journal>J. Exp. Bot. 65 (13), 3609-3621 (2014)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1093/jxb/eru087</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>24638902</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..732</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Christin,P.-A.</GBAuthor>
+          <GBAuthor>Arakaki,M.</GBAuthor>
+          <GBAuthor>Edwards,E.J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (08-JAN-2014) Animal and Plant Sciences, University of Sheffield, Western Bank, Sheffield S10 2TN, United Kingdom</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..732</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>732</GBInterval_to>
+            <GBInterval_accession>KJ161630.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Anacampseros retusa</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>specimen_voucher</GBQualifier_name>
+            <GBQualifier_value>ZSS:803518/a</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:107584</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>clone</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;732</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>732</GBInterval_to>
+            <GBInterval_accession>KJ161630.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ppc-1E1d</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mRNA</GBFeature_key>
+        <GBFeature_location>join(&lt;1..315,460..&gt;732)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>315</GBInterval_to>
+            <GBInterval_accession>KJ161630.1</GBInterval_accession>
+          </GBInterval>
+          <GBInterval>
+            <GBInterval_from>460</GBInterval_from>
+            <GBInterval_to>732</GBInterval_to>
+            <GBInterval_accession>KJ161630.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_operator>join</GBFeature_operator>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ppc-1E1d</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>phosphoenolpyruvate carboxylase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transcription</GBQualifier_name>
+            <GBQualifier_value>ATTGAGTCACTCCGTGCCATTCCTTGGATCTTTGCCTGGACTCAGACGCGGTTCCATCTGCCTGTGTGGCTAGGCTTTGGTGCAGCACTTGAGTATGCTATTGAGAAAGATCCAAGGAATCTTGACCTTCTGAAGGAGATGTACAGCATGTGGCCTTTCTTCAGAGTGACCATTGACTTGGTTGAAATGGAGCTGGCAAAAGGGAACCCTGGAATTTCCGCTTTATATGACAAGCTTCTTGTGCCGGAGGACCTACAATCTTTCGGAGAAGAGCTGAGAGGAAACTATGAGGATATGAAACGTTTAGTCTTAGAGGTTGCCGGGCATAAGGAGCTGCTGGAAGGAGATCGATACATGAAACAGAGACTGAGTCTTCGCGATCCCTACCTTACCATCCTCAATGTCTTCCAAGCATGCACTCTCAGGCGGATTCGTGACCCACACTCCCTCACAACAGAAAATCCACAATTGTCCAAGGAAACAGTGGCTTTCAACAAGCTGGCTGCTGATCTAGTGGAGCTCAACTCCTCAAGTGAGTATGCGCCTGGCCTGGAGGACACCCTTATTCTGACTATGAAGGGTATTGCT</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>join(&lt;1..315,460..&gt;732)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>315</GBInterval_to>
+            <GBInterval_accession>KJ161630.1</GBInterval_accession>
+          </GBInterval>
+          <GBInterval>
+            <GBInterval_from>460</GBInterval_from>
+            <GBInterval_to>732</GBInterval_to>
+            <GBInterval_accession>KJ161630.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_operator>join</GBFeature_operator>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ppc-1E1d</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>phosphoenolpyruvate carboxylase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AIF35216.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>IESLRAIPWIFAWTQTRFHLPVWLGFGAALEYAIEKDPRNLDLLKEMYSMWPFFRVTIDLVEMELAKGNPGISALYDKLLVPEDLQSFGEELRGNYEDMKRLVLEVAGHKELLEGDRYMKQRLSLRDPYLTILNVFQACTLRRIRDPHSLTTENPQLSKETVAFNKLAADLVELNSSSEYAPGLEDTLILTMKGIA</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>attgagtcactccgtgccattccttggatctttgcctggactcagacgcggttccatctgcctgtgtggctaggctttggtgcagcacttgagtatgctattgagaaagatccaaggaatcttgaccttctgaaggagatgtacagcatgtggcctttcttcagagtgaccattgacttggttgaaatggagctggcaaaagggaaccctggaatttccgctttatatgacaagcttcttgtgccggaggacctacaatctttcggagaagagctgagaggaaactatgaggatatgaaacgtttagtcttagaggtaatactttgcctataaaactagtataattgcaagtatagttggcggatatctcagtgtcgtaatttttcagaaaagaaggaactaagaggaagataagttgctgagtcttgaactgacagaaattatgattgtattttgcaggttgccgggcataaggagctgctggaaggagatcgatacatgaaacagagactgagtcttcgcgatccctaccttaccatcctcaatgtcttccaagcatgcactctcaggcggattcgtgacccacactccctcacaacagaaaatccacaattgtccaaggaaacagtggctttcaacaagctggctgctgatctagtggagctcaactcctcaagtgagtatgcgcctggcctggaggacacccttattctgactatgaagggtattgct</GBSeq_sequence>
+  </GBSeq>
+
+  <GBSeq>
+
+    <GBSeq_locus>KJ161631</GBSeq_locus>
+    <GBSeq_length>751</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PLN</GBSeq_division>
+    <GBSeq_update-date>19-JUL-2014</GBSeq_update-date>
+    <GBSeq_create-date>19-JUL-2014</GBSeq_create-date>
+    <GBSeq_definition>Grahamia bracteata voucher BRU:Ogburn n.a. clone 1 phosphoenolpyruvate carboxylase (ppc-1E1d) gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>KJ161631</GBSeq_primary-accession>
+    <GBSeq_accession-version>KJ161631.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KJ161631.1|</GBSeqid>
+      <GBSeqid>gi|664680067</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Grahamia bracteata</GBSeq_source>
+    <GBSeq_organism>Grahamia bracteata</GBSeq_organism>
+    <GBSeq_taxonomy>Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta; Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae; Caryophyllales; Cactineae; Anacampserotaceae; Grahamia</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..751</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Christin,P.A.</GBAuthor>
+          <GBAuthor>Arakaki,M.</GBAuthor>
+          <GBAuthor>Osborne,C.P.</GBAuthor>
+          <GBAuthor>Brautigam,A.</GBAuthor>
+          <GBAuthor>Sage,R.F.</GBAuthor>
+          <GBAuthor>Hibberd,J.M.</GBAuthor>
+          <GBAuthor>Kelly,S.</GBAuthor>
+          <GBAuthor>Covshoff,S.</GBAuthor>
+          <GBAuthor>Wong,G.K.</GBAuthor>
+          <GBAuthor>Hancock,L.</GBAuthor>
+          <GBAuthor>Edwards,E.J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Shared origins of a key enzyme during the evolution of C4 and CAM metabolism</GBReference_title>
+        <GBReference_journal>J. Exp. Bot. 65 (13), 3609-3621 (2014)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1093/jxb/eru087</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>24638902</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..751</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Christin,P.-A.</GBAuthor>
+          <GBAuthor>Arakaki,M.</GBAuthor>
+          <GBAuthor>Edwards,E.J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (08-JAN-2014) Animal and Plant Sciences, University of Sheffield, Western Bank, Sheffield S10 2TN, United Kingdom</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..751</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>751</GBInterval_to>
+            <GBInterval_accession>KJ161631.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Grahamia bracteata</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>specimen_voucher</GBQualifier_name>
+            <GBQualifier_value>BRU:Ogburn n.a.</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:107618</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>clone</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;751</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>751</GBInterval_to>
+            <GBInterval_accession>KJ161631.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ppc-1E1d</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mRNA</GBFeature_key>
+        <GBFeature_location>join(&lt;1..340,479..&gt;751)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>340</GBInterval_to>
+            <GBInterval_accession>KJ161631.1</GBInterval_accession>
+          </GBInterval>
+          <GBInterval>
+            <GBInterval_from>479</GBInterval_from>
+            <GBInterval_to>751</GBInterval_to>
+            <GBInterval_accession>KJ161631.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_operator>join</GBFeature_operator>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ppc-1E1d</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>phosphoenolpyruvate carboxylase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transcription</GBQualifier_name>
+            <GBQualifier_value>CTCAAAAAGAAAACCAAGTGGGGGAATTGAGTCCCTCCGTGCAATTCCTTGGATTTTTGCATGGACTCAAACACGGTTCCATCTACCGGTGTGGCTGGGTTTCGGAGCAGCATTTAAGTATGCTATCGGGAAAGATCCGAGGAATCTTAACATGCTGAGGGAAATGTACAACATGTGGCCTTTCTTCAGAGTGACAATTGACCTGGTTGAAATGGTGCTGGCAAAAGGGGACCCTGGAATTTCGGCTCTATATGACAAGCTTCTTGTGCCAGAGGAGCTACAATCTTTCGGAGAACAGATGAGGGAAAATTATGAGGATACAAAACGTATAGTCCTAGAGGTTGCCGGGCACAAGGAGCTGCTGGAAGGTGATCCCTACATGAAGCAGAGACTCAGTCTTCGCGATCCCTACCTTACCATCCTCAATGTCTTCCAAGCATACACTCTCCGACAGATTCGTGATCCAAACTTCCCCATAACACAGAATCCACAATTATCCAAGGAAACGGTAGCGTTCAACAAGCCGGCTAACGATCTGGTGGAGCTCAACCCCACAAGTGAGTACGCACCTGGCCTTGAGGACACCCTTATTCTGACTATGAAGGGTATTGCT</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>join(&lt;1..340,479..&gt;751)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>340</GBInterval_to>
+            <GBInterval_accession>KJ161631.1</GBInterval_accession>
+          </GBInterval>
+          <GBInterval>
+            <GBInterval_from>479</GBInterval_from>
+            <GBInterval_to>751</GBInterval_to>
+            <GBInterval_accession>KJ161631.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_operator>join</GBFeature_operator>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ppc-1E1d</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>phosphoenolpyruvate carboxylase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AIF35217.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>SKRKPSGGIESLRAIPWIFAWTQTRFHLPVWLGFGAAFKYAIGKDPRNLNMLREMYNMWPFFRVTIDLVEMVLAKGDPGISALYDKLLVPEELQSFGEQMRENYEDTKRIVLEVAGHKELLEGDPYMKQRLSLRDPYLTILNVFQAYTLRQIRDPNFPITQNPQLSKETVAFNKPANDLVELNPTSEYAPGLEDTLILTMKGIA</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ctcaaaaagaaaaccaagtgggggaattgagtccctccgtgcaattccttggatttttgcatggactcaaacacggttccatctaccggtgtggctgggtttcggagcagcatttaagtatgctatcgggaaagatccgaggaatcttaacatgctgagggaaatgtacaacatgtggcctttcttcagagtgacaattgacctggttgaaatggtgctggcaaaaggggaccctggaatttcggctctatatgacaagcttcttgtgccagaggagctacaatctttcggagaacagatgagggaaaattatgaggatacaaaacgtatagtcctagaggtaatactttgcctacataactagcatgattgcaagtataattggcagatatctcatcactatggtttcagaaaagaagggaagtggaagattactttgaagtgttgaactgacagaaattgtgattgtattttgcaggttgccgggcacaaggagctgctggaaggtgatccctacatgaagcagagactcagtcttcgcgatccctaccttaccatcctcaatgtcttccaagcatacactctccgacagattcgtgatccaaacttccccataacacagaatccacaattatccaaggaaacggtagcgttcaacaagccggctaacgatctggtggagctcaaccccacaagtgagtacgcacctggccttgaggacacccttattctgactatgaagggtattgct</GBSeq_sequence>
+  </GBSeq>
+
+  <GBSeq>
+
+    <GBSeq_locus>KJ161633</GBSeq_locus>
+    <GBSeq_length>2283</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PLN</GBSeq_division>
+    <GBSeq_update-date>19-JUL-2014</GBSeq_update-date>
+    <GBSeq_create-date>19-JUL-2014</GBSeq_create-date>
+    <GBSeq_definition>Pereskia aureiflora voucher B:166-54-83-20 clone 1 phosphoenolpyruvate carboxylase (ppc-1E1d) gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>KJ161633</GBSeq_primary-accession>
+    <GBSeq_accession-version>KJ161633.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KJ161633.1|</GBSeqid>
+      <GBSeqid>gi|664680071</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Leuenbergeria aureiflora</GBSeq_source>
+    <GBSeq_organism>Leuenbergeria aureiflora</GBSeq_organism>
+    <GBSeq_taxonomy>Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta; Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae; Caryophyllales; Cactineae; Cactaceae; Leuenbergerioideae; Leuenbergeria</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2283</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Christin,P.A.</GBAuthor>
+          <GBAuthor>Arakaki,M.</GBAuthor>
+          <GBAuthor>Osborne,C.P.</GBAuthor>
+          <GBAuthor>Brautigam,A.</GBAuthor>
+          <GBAuthor>Sage,R.F.</GBAuthor>
+          <GBAuthor>Hibberd,J.M.</GBAuthor>
+          <GBAuthor>Kelly,S.</GBAuthor>
+          <GBAuthor>Covshoff,S.</GBAuthor>
+          <GBAuthor>Wong,G.K.</GBAuthor>
+          <GBAuthor>Hancock,L.</GBAuthor>
+          <GBAuthor>Edwards,E.J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Shared origins of a key enzyme during the evolution of C4 and CAM metabolism</GBReference_title>
+        <GBReference_journal>J. Exp. Bot. 65 (13), 3609-3621 (2014)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1093/jxb/eru087</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>24638902</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..2283</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Christin,P.-A.</GBAuthor>
+          <GBAuthor>Arakaki,M.</GBAuthor>
+          <GBAuthor>Edwards,E.J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (08-JAN-2014) Animal and Plant Sciences, University of Sheffield, Western Bank, Sheffield S10 2TN, United Kingdom</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2283</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2283</GBInterval_to>
+            <GBInterval_accession>KJ161633.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Leuenbergeria aureiflora</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>specimen_voucher</GBQualifier_name>
+            <GBQualifier_value>B:166-54-83-20</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:307718</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>clone</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;2283</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2283</GBInterval_to>
+            <GBInterval_accession>KJ161633.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ppc-1E1d</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mRNA</GBFeature_key>
+        <GBFeature_location>join(&lt;1..591,1022..1408,2058..&gt;2283)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>591</GBInterval_to>
+            <GBInterval_accession>KJ161633.1</GBInterval_accession>
+          </GBInterval>
+          <GBInterval>
+            <GBInterval_from>1022</GBInterval_from>
+            <GBInterval_to>1408</GBInterval_to>
+            <GBInterval_accession>KJ161633.1</GBInterval_accession>
+          </GBInterval>
+          <GBInterval>
+            <GBInterval_from>2058</GBInterval_from>
+            <GBInterval_to>2283</GBInterval_to>
+            <GBInterval_accession>KJ161633.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_operator>join</GBFeature_operator>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ppc-1E1d</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>phosphoenolpyruvate carboxylase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transcription</GBQualifier_name>
+            <GBQualifier_value>CTTCTGCAACGTGAATGCCACATTAAGAATCCTTTGAGGGTTGTACCTTTGTTTGAGAAGCTTGCTGACCTGGAGGCTGCTCCTGCTACCTTGGCCCGACTTTTTTCTGTAGATTGGTACAAGCATAAGATTATGGGGAAGCAAGAAGTCATGATTGGATACTCTGATTCTGGTAAAGATTGCGGTCGTCTGTCAGCTGCCTGGCAACTCTACAAGGTTCAAGAGGGACTAGTAAAGGTTGCTAGGCAGTTTGGGGTGAAGCTTACAATGTTTCACGGACGAGGTGGGACTGTAGGAAGAGGAGGGGGCCCTACTCATCTTGTCCTTTTGACTCAGCCACCTAACTCTATCAATGGATCACTTCGTGTTACAGTTCAAGGTGAAGTAATTGAACAGTGCTTTGGGGAGGAGCATATGTGTTTTAGGACTCTCCAGAGGTACGCAGCTGCTACACTTGAACATGGGATGCATCCACCCATCTCACCTCGGCCAGAATGGCGTGCTCTATTGGATGAGATGGCAATTGTTTCCACAAAGGAGTTCCGCTCTGTCATTTTTGAAGATCCTCGATTTGTCAACTATTTCCGCCTTGCGACACCTGAGACAGAATATGGACGCATGAACATTGGAAGTCGTCCATCAAAAAGAAAACCAAGTGGAGGAATTGAGTCACTCCGTGCAATCCCTTGGATCTTTGCATGGACCCAGACCCGGTTCCATCTACCTGTGTGGCTGGGCTTTGGTGCAGCATTTAAATATGCTCTTGAGAAAGATCCACGGAATCTTAACTTGCTTAAGGAGATGCACAACATGTGGCCTTTCTTCATAGTAACCATTGACTTGGTTGAAATGGTATTTGCAAAGGGGAACCCTGGAATTTCCGCCTTATATGACAAACTTCTTGTGCCAGAGGACCTGCAATCTTTCGGAGAACAGCTAAGAGAAAATTATGAGGAAACCGAACGTCTACTTCTACAGGTTGCCGGGCACAAGGAGCTGCTTGAAGGAGATCCTTACATGAAACAGAGACTCCGTATTCGAGATCCCTACCTTACAATCCTTAATGCCCTTCAAGCATACACTCTCAAGCGGATTCGTGATCCAAACTTCCACATAACACAGAATCCACGATTATCCAAGGAAATAGTGGCATCCAACAAGCCGGCTGCTGATTTAGTGGAGCTCAACCCCACAAGTGAGTATG</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>join(&lt;1..591,1022..1408,2058..&gt;2283)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>591</GBInterval_to>
+            <GBInterval_accession>KJ161633.1</GBInterval_accession>
+          </GBInterval>
+          <GBInterval>
+            <GBInterval_from>1022</GBInterval_from>
+            <GBInterval_to>1408</GBInterval_to>
+            <GBInterval_accession>KJ161633.1</GBInterval_accession>
+          </GBInterval>
+          <GBInterval>
+            <GBInterval_from>2058</GBInterval_from>
+            <GBInterval_to>2283</GBInterval_to>
+            <GBInterval_accession>KJ161633.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_operator>join</GBFeature_operator>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ppc-1E1d</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>phosphoenolpyruvate carboxylase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AIF35219.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>LLQRECHIKNPLRVVPLFEKLADLEAAPATLARLFSVDWYKHKIMGKQEVMIGYSDSGKDCGRLSAAWQLYKVQEGLVKVARQFGVKLTMFHGRGGTVGRGGGPTHLVLLTQPPNSINGSLRVTVQGEVIEQCFGEEHMCFRTLQRYAAATLEHGMHPPISPRPEWRALLDEMAIVSTKEFRSVIFEDPRFVNYFRLATPETEYGRMNIGSRPSKRKPSGGIESLRAIPWIFAWTQTRFHLPVWLGFGAAFKYALEKDPRNLNLLKEMHNMWPFFIVTIDLVEMVFAKGNPGISALYDKLLVPEDLQSFGEQLRENYEETERLLLQVAGHKELLEGDPYMKQRLRIRDPYLTILNALQAYTLKRIRDPNFHITQNPRLSKEIVASNKPAADLVELNPTSEY</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>cttctgcaacgtgaatgccacattaagaatcctttgagggttgtacctttgtttgagaagcttgctgacctggaggctgctcctgctaccttggcccgacttttttctgtagattggtacaagcataagattatggggaagcaagaagtcatgattggatactctgattctggtaaagattgcggtcgtctgtcagctgcctggcaactctacaaggttcaagagggactagtaaaggttgctaggcagtttggggtgaagcttacaatgtttcacggacgaggtgggactgtaggaagaggagggggccctactcatcttgtccttttgactcagccacctaactctatcaatggatcacttcgtgttacagttcaaggtgaagtaattgaacagtgctttggggaggagcatatgtgttttaggactctccagaggtacgcagctgctacacttgaacatgggatgcatccacccatctcacctcggccagaatggcgtgctctattggatgagatggcaattgtttccacaaaggagttccgctctgtcatttttgaagatcctcgatttgtcaactatttccgccttgtaagttcttacatgttttcggctcgctttccttttgatcctggatttgatttattcctcctattattatatccatagacctatatcctcctattcctataactatagagtatagacctatatgcatcaatctctaaaagttgtttctgtatttctgtattgattcaatggtctgaagaagaaataagttcacctagtggagaaatagtagaactggatattgataactaatctagtaatttctataagactataactacggagaaaaagggtaaggtttatgcttcttatttgcccatcaaggtatcagctacagtccactcttcactcctaagatatgcgttgtggcctttggtgcattcatcatgatataataccaagttcaattactcgatattttcagctgagtagttcttatttcctgttgcaggcgacacctgagacagaatatggacgcatgaacattggaagtcgtccatcaaaaagaaaaccaagtggaggaattgagtcactccgtgcaatcccttggatctttgcatggacccagacccggttccatctacctgtgtggctgggctttggtgcagcatttaaatatgctcttgagaaagatccacggaatcttaacttgcttaaggagatgcacaacatgtggcctttcttcatagtaaccattgacttggttgaaatggtatttgcaaaggggaaccctggaatttccgccttatatgacaaacttcttgtgccagaggacctgcaatctttcggagaacagctaagagaaaattatgaggaaaccgaacgtctacttctacaggtaatatattgcctacattgttagtggagtttgctatcttgcagttgcaggcatctcattattgtgattctgtggaaaataaggaaagaggaagataagtatactcagtttgttctctggatactgcaacactgtcgactgctccaaacttcattttgttaatgtccgagagaattgaaaggaagattgcgacatattgataagctaaattcccttttttttcgcttcattaatatctgatgtagttttacatgtgaccatagacagtatttgagagctacgaaaccgatggctcagtttgggtttatttcgtattgggactgaccaagttggactcagtatttggggcgggcggccagggttgcattcagattgaagcccttgtcaaccgtccaacaagctcatcaagaaaaccaagtctgagtcttgttgggtgggttgggtcaactggatttctcttgagctgtgatatcgggctttggttcaagtcagtggtatcaggtaatagggtacaagttattctggccaaaccaacccacattgtatttccttccaagaataattcaaaccaaatatctctactacctgcccgagttctacaaaaggcaaaccaagtccaactgacccaaatttcaattgtattttgcaggttgccgggcacaaggagctgcttgaaggagatccttacatgaaacagagactccgtattcgagatccctaccttacaatccttaatgcccttcaagcatacactctcaagcggattcgtgatccaaacttccacataacacagaatccacgattatccaaggaaatagtggcatccaacaagccggctgctgatttagtggagctcaaccccacaagtgagtatg</GBSeq_sequence>
+  </GBSeq>
+
+  <GBSeq>
+
+    <GBSeq_locus>KJ161651</GBSeq_locus>
+    <GBSeq_length>1308</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PLN</GBSeq_division>
+    <GBSeq_update-date>19-JUL-2014</GBSeq_update-date>
+    <GBSeq_create-date>19-JUL-2014</GBSeq_create-date>
+    <GBSeq_definition>Pereskia bleo voucher BRU:Ogburn n.a. clone 1 phosphoenolpyruvate carboxylase (ppc-1E1e) gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>KJ161651</GBSeq_primary-accession>
+    <GBSeq_accession-version>KJ161651.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KJ161651.1|</GBSeqid>
+      <GBSeqid>gi|664680104</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Leuenbergeria bleo</GBSeq_source>
+    <GBSeq_organism>Leuenbergeria bleo</GBSeq_organism>
+    <GBSeq_taxonomy>Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta; Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae; Caryophyllales; Cactineae; Cactaceae; Leuenbergerioideae; Leuenbergeria</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1308</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Christin,P.A.</GBAuthor>
+          <GBAuthor>Arakaki,M.</GBAuthor>
+          <GBAuthor>Osborne,C.P.</GBAuthor>
+          <GBAuthor>Brautigam,A.</GBAuthor>
+          <GBAuthor>Sage,R.F.</GBAuthor>
+          <GBAuthor>Hibberd,J.M.</GBAuthor>
+          <GBAuthor>Kelly,S.</GBAuthor>
+          <GBAuthor>Covshoff,S.</GBAuthor>
+          <GBAuthor>Wong,G.K.</GBAuthor>
+          <GBAuthor>Hancock,L.</GBAuthor>
+          <GBAuthor>Edwards,E.J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Shared origins of a key enzyme during the evolution of C4 and CAM metabolism</GBReference_title>
+        <GBReference_journal>J. Exp. Bot. 65 (13), 3609-3621 (2014)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1093/jxb/eru087</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>24638902</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1308</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Christin,P.-A.</GBAuthor>
+          <GBAuthor>Arakaki,M.</GBAuthor>
+          <GBAuthor>Edwards,E.J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (08-JAN-2014) Animal and Plant Sciences, University of Sheffield, Western Bank, Sheffield S10 2TN, United Kingdom</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1308</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1308</GBInterval_to>
+            <GBInterval_accession>KJ161651.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Leuenbergeria bleo</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>specimen_voucher</GBQualifier_name>
+            <GBQualifier_value>BRU:Ogburn n.a.</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:307721</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>clone</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;1308</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1308</GBInterval_to>
+            <GBInterval_accession>KJ161651.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ppc-1E1e</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mRNA</GBFeature_key>
+        <GBFeature_location>join(&lt;1..340,1036..&gt;1308)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>340</GBInterval_to>
+            <GBInterval_accession>KJ161651.1</GBInterval_accession>
+          </GBInterval>
+          <GBInterval>
+            <GBInterval_from>1036</GBInterval_from>
+            <GBInterval_to>1308</GBInterval_to>
+            <GBInterval_accession>KJ161651.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_operator>join</GBFeature_operator>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ppc-1E1e</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>phosphoenolpyruvate carboxylase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transcription</GBQualifier_name>
+            <GBQualifier_value>ATCAAAGAGAAAACCAAGTGCCGGAATCAAATCGCTCCGTGCAATCCCTTGGATCTTTGCATGGACCCAAACGCGGTTCCATCTTCCTGTGTGGCCGGGCATGGGTACGGCATTTAAATACGCTATTGAGAAAGATGCAGAGAACTTTAAAATGCTTAAGGAGATGTACAGCATGTGGCCTTTCTTCAGAGTGACAATTGACTTGGTTGAAATGGTCTTGGCAAAGGGGAACCCTGGAATTTCTGCTTTGTATGACAAACTTCTGGTGTCGGAGGATCTACAATCTTTCGGGGAACGGTTGAGGGAAAATTATGAGGAAACTAAGCGTCTACTCCTAGAGGTTGCTGGGCACAAGGATCTGCTGGAAAAAGATCCTTACTTGAAGCAGAGACTCCATCTTCGTGATCCCTACCTCACAACCCTCAATGTCTTCCAAGCATATACTCTCAAGCGGATTCGTGATGCAAAATTTCATGTAGCATGCAAACCACAAAAATCCGAAGAAATGATGTTGTTCAACAACCTGGCTTCTGAGCTAGTGAAGCTCAACCCCACTAGCGAGTATGCTCCTGGGCTGGAGGACACCCTCCTCCTGACTATGAAGGGTATTGCC</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>join(&lt;1..340,1036..&gt;1308)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>340</GBInterval_to>
+            <GBInterval_accession>KJ161651.1</GBInterval_accession>
+          </GBInterval>
+          <GBInterval>
+            <GBInterval_from>1036</GBInterval_from>
+            <GBInterval_to>1308</GBInterval_to>
+            <GBInterval_accession>KJ161651.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_operator>join</GBFeature_operator>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ppc-1E1e</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>phosphoenolpyruvate carboxylase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AIF35234.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>SKRKPSAGIKSLRAIPWIFAWTQTRFHLPVWPGMGTAFKYAIEKDAENFKMLKEMYSMWPFFRVTIDLVEMVLAKGNPGISALYDKLLVSEDLQSFGERLRENYEETKRLLLEVAGHKDLLEKDPYLKQRLHLRDPYLTTLNVFQAYTLKRIRDAKFHVACKPQKSEEMMLFNNLASELVKLNPTSEYAPGLEDTLLLTMKGIA</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atcaaagagaaaaccaagtgccggaatcaaatcgctccgtgcaatcccttggatctttgcatggacccaaacgcggttccatcttcctgtgtggccgggcatgggtacggcatttaaatacgctattgagaaagatgcagagaactttaaaatgcttaaggagatgtacagcatgtggcctttcttcagagtgacaattgacttggttgaaatggtcttggcaaaggggaaccctggaatttctgctttgtatgacaaacttctggtgtcggaggatctacaatctttcggggaacggttgagggaaaattatgaggaaactaagcgtctactcctagaggtaatttttgccaacatagtgaaataggcaatcttgtgggcagctctctgtagcagcttgttagagatggggtgaaaccaatatttatatactttgttcttacggtgttggaacactgttggattgctttaagcgtcgtcgtgttaatactcttcagaagtgaaagggaggtgggtagacattagtatgttagccttgtgttgttttcttcttttttttttttttttttgggctaatgtcccatctagagtaacaggtagctaatatatcttgagagctaggaaagaggttgttcaggttaggttgagttgggttcatttcagaatgggtttgaacaagtttgacagaatatttggggtggatctggttagggtcaaattcaactatgtcgttaaatgcagtcaatattgttctgacaaattctaggtccaaggaggttggattggttcaagttcaattttgcttgcctttgggtctggtctgctttgcatttgagtcatttaggtcgaataattgaatacaagtcattttaggcaagttgatccaacttctatttccctgggattattcaaaaataactggtcttctctcccccctccccccgggttcggctcaatgctgttgtctgcctgagttctaaataataccaagcccaactgacccaaattttacccgaattcaattgtttttcacaggttgctgggcacaaggatctgctggaaaaagatccttacttgaagcagagactccatcttcgtgatccctacctcacaaccctcaatgtcttccaagcatatactctcaagcggattcgtgatgcaaaatttcatgtagcatgcaaaccacaaaaatccgaagaaatgatgttgttcaacaacctggcttctgagctagtgaagctcaaccccactagcgagtatgctcctgggctggaggacaccctcctcctgactatgaagggtattgcc</GBSeq_sequence>
+  </GBSeq>
+
+</GBSet>

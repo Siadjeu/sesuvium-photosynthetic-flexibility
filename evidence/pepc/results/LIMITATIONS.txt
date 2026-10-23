@@ -1,0 +1,18 @@
+Many external references are partial sequences. Seventeen sequences in the
+main alignment and eighteen in the sensitivity alignment exceeded 50% gaps or
+ambiguity according to IQ-TREE. The main tree also reported one near-zero
+internal branch. Identical topology across these two column masks does not
+establish all branches or subtypes as well supported, nor does it test every
+plausible alignment, taxon-sampling or evolutionary-model choice.
+
+The historical KJ161651 species-metadata conflict remains documented; this
+sequence was retained as a comparator, not an eligible classification anchor.
+Phylogenetic subtype assignment alone does not establish C4 or CAM biochemical
+function, tissue-specific activity, or physiological recruitment. Provisional
+and unresolved assignments must retain their qualifiers in downstream work.
+Identical proteins at distinct SS loci do not justify merging genomic loci.
+
+Earlier reference-dependent tree and subtype conclusions are superseded by
+this corrected assessment. Earlier validated locus counts remain unchanged.
+This release closes the bounded correction/review; it does not claim that all
+subtypes have been resolved. Additional biological validation is outside scope.

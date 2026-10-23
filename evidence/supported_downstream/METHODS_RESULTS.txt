@@ -1,0 +1,28 @@
+SUPPORTED PHOTOSYNTHESIS FAMILY DOWNSTREAM EVIDENCE — v1
+
+METHODS
+We integrated previously generated evidence for the 657 SUPPORTED locus records in the frozen photosynthesis-family evidence release. This is a supported-locus subset, not an exhaustive inventory of functional C4/CAM genes. All input collection checksums were verified. Exact species/original-gene matches in the primary representative-gene maps linked each locus to its harmonized identifier; no suffix stripping or fuzzy matching was used. Representative protein identifiers are retained separately because the integration is at locus level. The original family assignments and limitations were retained.
+
+WGD/segmental status was taken from the complete MCScanX duplication-class table. WGD_SEGMENTAL was counted once per locus; it does not distinguish a whole-genome event from segmental duplication. Orthogroup membership was taken from the complete accepted OrthoFinder run. CAFE5 evidence was joined by orthogroup and terminal species. Primary-model significant expansion requires primary_direction=EXPANSION and primary_significance=SIGNIFICANT. Robust expansion additionally requires the source robust_significant_same_direction=YES with expansion in both models. Branch-tested denominators are reported separately from model-table coverage. FAMILY_NOT_BRANCH_TESTED is not interpreted as a nonsignificant branch test. Counts refer to supported member loci in expanding orthogroups, not independent tests of gene-level expansion or a duplication mechanism.
+
+Positive selection was joined by the exact foreground candidate-gene identifier, using valid aBSREL results and the existing global BH q<0.05 decisions. Multiple-test evidence remains in the long table; each supported locus is counted once. BH correction was not recalculated on this subset. Untested loci are not negative results; BV and SLP_Hap1 were background-only in the supplied analysis.
+
+Differential expression was restricted to the 14 authorized within-species contrasts (12 PO; two SS) and exact harmonized identifiers with an explicit RNA annotation map. The reporting rule uses within-contrast adjusted P<0.05 and absolute apeglm-shrunken log2 fold change>=1. Pooled 14-contrast adjusted-P calls with the same effect-size threshold are retained as sensitivity evidence. Assessable denominators require finite adjusted P and shrunken effect size. Filtered/undefined results and absent records are distinguished from assessed non-DE results. Directions are relative to the registered numerator versus denominator. Per-contrast outputs are authoritative for biological interpretation. DE_any_contrast counts unique loci across contrasts; it combines drought, tissue and/or time-of-day comparisons and must not be called drought-responsive or CAM-regulated without restricting the contrasts.
+
+RESULTS
+All 657 supported records mapped exactly to harmonized loci, representing 657 distinct species/locus pairs. All had duplication classifications; 465 were WGD/segmental. Of 644 loci with an assigned orthogroup, 629 occurred in the CAFE5 comparison table. Only 23 supported loci had a primary-model branch test. Nine PO PEPC loci belonged to OG0000986, which showed significant expansion in the primary model. None of the 629 supported loci in the CAFE5 table had a sensitivity-model branch test. Robust-expansion assessment is therefore unavailable for this subset; it must not be summarized as evidence of no expansion.
+
+Existing aBSREL evidence assessed 296 supported loci and identified six significant loci: MC MDH gene_17069; PO V_ATPase evm.TU.LG04.521; PO ALMT evm.TU.LG19.1304 and evm.TU.LG21.335; SP_Hex MDH gene_Spor0079650.1; SS PPCK g20509. No supported AT locus had a valid supplied test; BV and SLP_Hap1 were outside the foreground scope. SP_Tet had zero significant loci among 56 assessed.
+
+For DE, 1,552 of 1,722 possible supported-locus/contrast records were present, of which 1,534 were assessable. PO had 94 unique DE loci among 114 assessable loci (127 supported total), and SS had 52 among 83 assessable loci (99 supported total). The remaining 13 PO loci had no supplied DE records. Seven SS loci had no supplied DE records and nine additional SS loci had non-assessable results. These missing results do not establish absence of expression or differential expression.
+
+INTERPRETATION AND FILES
+01: 657-row locus evidence ledger, including original limitations.
+02: all 23 families x eight species, with counts and assessment denominators.
+03: species totals, explicitly deduplicated by locus.
+04/05: locus/contrast evidence and family/contrast summaries.
+06/07: existing positive-selection tests and CAFE model evidence.
+08: 13 loci lacking assigned orthogroups; all have exact gene-ID mappings and duplication evidence. These are orthogroup-coverage exceptions, not failed gene mappings.
+09: gene lists by family, species and positive evidence category; genes can occur in several evidence categories and must not be summed across categories.
+matrix_*.tsv: Wang-style species-by-family layouts for counts and denominators.
+MEP and PPA remain definition-blocked (NA). Zero SUPPORTED entries in other families means zero in this frozen supported subset, not genomic absence. NA means unavailable/not assessed; never replace NA with zero. Source definitions, numerical decisions and lineage codes are preserved. No alignment, evolutionary-model fitting, DE test, or other biological analysis was rerun. Original releases were not modified.

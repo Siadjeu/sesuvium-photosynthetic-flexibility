@@ -1,0 +1,23 @@
+LABELS
+SEPARATOR TAB
+DATA
+AT__gene-LOC130820750	AT | gene-LOC130820750
+BV__Bv6_168840_akzu	BV | Bv6_168840_akzu
+MC__gene_24171	MC | gene_24171
+PO__evm.TU.LG03.1456	PO | evm.TU.LG03.1456
+PO__evm.TU.LG05.272	PO | evm.TU.LG05.272
+PO__evm.TU.LG12.122	PO | evm.TU.LG12.122
+PO__evm.TU.LG25.1042	PO | evm.TU.LG25.1042
+SLP_Hap1__SP5G01871	SLP_Hap1 | SP5G01871
+SLP_Hap1__SP5G01872	SLP_Hap1 | SP5G01872
+SLP_Hap1__SP6G00118	SLP_Hap1 | SP6G00118
+SP_Hex__gene_Spor0003400.1	SP_Hex | gene_Spor0003400.1
+SP_Hex__gene_Spor0110240.1	SP_Hex | gene_Spor0110240.1
+SP_Hex__gene_Spor0237980.1	SP_Hex | gene_Spor0237980.1
+SP_Tet__g18244	SP_Tet | g18244
+SP_Tet__g28822	SP_Tet | g28822
+SS__g22095	SS | g22095
+SS__g35511	SS | g35511
+REF__Arabidopsis_thaliana__PUMP4__Q9SB52	REF | Arabidopsis thaliana | PUMP4 | Q9SB52
+REF__Arabidopsis_thaliana__PUMP5__Q9SJY5	REF | Arabidopsis thaliana | PUMP5 | Q9SJY5
+REF__Arabidopsis_thaliana__PUMP6__Q9FY68	REF | Arabidopsis thaliana | PUMP6 | Q9FY68

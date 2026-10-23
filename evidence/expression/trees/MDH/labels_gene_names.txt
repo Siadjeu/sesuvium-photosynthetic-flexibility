@@ -1,0 +1,106 @@
+LABELS
+SEPARATOR TAB
+DATA
+AT__gene-LOC130799129	AT | gene-LOC130799129
+AT__gene-LOC130807353	AT | gene-LOC130807353
+AT__gene-LOC130808194	AT | gene-LOC130808194
+AT__gene-LOC130809460	AT | gene-LOC130809460
+AT__gene-LOC130810481	AT | gene-LOC130810481
+AT__gene-LOC130814494	AT | gene-LOC130814494
+AT__gene-LOC130817461	AT | gene-LOC130817461
+AT__gene-LOC130818176	AT | gene-LOC130818176
+AT__gene-LOC130821375	AT | gene-LOC130821375
+BV__Bv1_009030_zwgx	BV | Bv1_009030_zwgx
+BV__Bv3_060420_tmwd	BV | Bv3_060420_tmwd
+BV__Bv4_109080_gkqg	BV | Bv4_109080_gkqg
+BV__Bv4_112480_rzto	BV | Bv4_112480_rzto
+BV__Bv5_147440_kujg	BV | Bv5_147440_kujg
+BV__Bv6_166670_joyw	BV | Bv6_166670_joyw
+BV__Bv8_231300_wwkd	BV | Bv8_231300_wwkd
+MC__gene_12493	MC | gene_12493
+MC__gene_12521	MC | gene_12521
+MC__gene_15963	MC | gene_15963
+MC__gene_17069	MC | gene_17069
+MC__gene_23188	MC | gene_23188
+MC__gene_24249	MC | gene_24249
+PO__evm.TU.LG01.2132	PO | evm.TU.LG01.2132
+PO__evm.TU.LG01.2637	PO | evm.TU.LG01.2637
+PO__evm.TU.LG04.977	PO | evm.TU.LG04.977
+PO__evm.TU.LG05.500	PO | evm.TU.LG05.500
+PO__evm.TU.LG05.992	PO | evm.TU.LG05.992
+PO__evm.TU.LG07.960	PO | evm.TU.LG07.960
+PO__evm.TU.LG08.1493	PO | evm.TU.LG08.1493
+PO__evm.TU.LG10.50	PO | evm.TU.LG10.50
+PO__evm.TU.LG11.1427	PO | evm.TU.LG11.1427
+PO__evm.TU.LG14.1307	PO | evm.TU.LG14.1307
+PO__evm.TU.LG14.1772	PO | evm.TU.LG14.1772
+PO__evm.TU.LG15.873	PO | evm.TU.LG15.873
+PO__evm.TU.LG17.44	PO | evm.TU.LG17.44
+PO__evm.TU.LG19.733	PO | evm.TU.LG19.733
+PO__evm.TU.LG22.385	PO | evm.TU.LG22.385
+PO__evm.TU.LG24.723	PO | evm.TU.LG24.723
+PO__evm.TU.LG25.332	PO | evm.TU.LG25.332
+PO__evm.TU.LG25.825	PO | evm.TU.LG25.825
+SLP_Hap1__SP11G01628	SLP_Hap1 | SP11G01628
+SLP_Hap1__SP11G01629	SLP_Hap1 | SP11G01629
+SLP_Hap1__SP1G01711	SLP_Hap1 | SP1G01711
+SLP_Hap1__SP1G01713	SLP_Hap1 | SP1G01713
+SLP_Hap1__SP1G02129	SLP_Hap1 | SP1G02129
+SLP_Hap1__SP3G00744	SLP_Hap1 | SP3G00744
+SLP_Hap1__SP5G01961	SLP_Hap1 | SP5G01961
+SLP_Hap1__SP6G00031	SLP_Hap1 | SP6G00031
+SLP_Hap1__SP6G00852	SLP_Hap1 | SP6G00852
+SLP_Hap1__SP6G02041	SLP_Hap1 | SP6G02041
+SLP_Hap1__SP7G00529	SLP_Hap1 | SP7G00529
+SP_Hex__gene_Spor0000500.1	SP_Hex | gene_Spor0000500.1
+SP_Hex__gene_Spor0006320.1	SP_Hex | gene_Spor0006320.1
+SP_Hex__gene_Spor0030670.1	SP_Hex | gene_Spor0030670.1
+SP_Hex__gene_Spor0035900.1	SP_Hex | gene_Spor0035900.1
+SP_Hex__gene_Spor0079650.1	SP_Hex | gene_Spor0079650.1
+SP_Hex__gene_Spor0107300.1	SP_Hex | gene_Spor0107300.1
+SP_Hex__gene_Spor0112170.1	SP_Hex | gene_Spor0112170.1
+SP_Hex__gene_Spor0218750.1	SP_Hex | gene_Spor0218750.1
+SP_Hex__gene_Spor0235590.1	SP_Hex | gene_Spor0235590.1
+SP_Hex__gene_Spor0240710.1	SP_Hex | gene_Spor0240710.1
+SP_Hex__gene_Spor0298820.1	SP_Hex | gene_Spor0298820.1
+SP_Hex__gene_Spor0307740.1	SP_Hex | gene_Spor0307740.1
+SP_Hex__gene_Spor0427980.1	SP_Hex | gene_Spor0427980.1
+SP_Hex__gene_Spor0451090.1	SP_Hex | gene_Spor0451090.1
+SP_Hex__gene_Spor0521380.1	SP_Hex | gene_Spor0521380.1
+SP_Hex__gene_Spor0566680.1	SP_Hex | gene_Spor0566680.1
+SP_Hex__gene_Spor0595920.1	SP_Hex | gene_Spor0595920.1
+SP_Tet__g11611	SP_Tet | g11611
+SP_Tet__g1192	SP_Tet | g1192
+SP_Tet__g14548	SP_Tet | g14548
+SP_Tet__g17951	SP_Tet | g17951
+SP_Tet__g18487	SP_Tet | g18487
+SP_Tet__g21191	SP_Tet | g21191
+SP_Tet__g22758	SP_Tet | g22758
+SP_Tet__g28586	SP_Tet | g28586
+SP_Tet__g29088	SP_Tet | g29088
+SP_Tet__g33048	SP_Tet | g33048
+SP_Tet__g3532	SP_Tet | g3532
+SP_Tet__g4982	SP_Tet | g4982
+SP_Tet__g9348	SP_Tet | g9348
+SS__g11087	SS | g11087
+SS__g20503	SS | g20503
+SS__g22334	SS | g22334
+SS__g29395	SS | g29395
+SS__g29757	SS | g29757
+SS__g29868	SS | g29868
+SS__g3018	SS | g3018
+SS__g36093	SS | g36093
+SS__g36761	SS | g36761
+SS__g39963	SS | g39963
+SS__g4564	SS | g4564
+SS__g5792	SS | g5792
+SS__g9473	SS | g9473
+REF__Arabidopsis_thaliana__PMDH1__O82399	REF | Arabidopsis thaliana | PMDH1 | O82399
+REF__Arabidopsis_thaliana__MDH2__P57106	REF | Arabidopsis thaliana | MDH2 | P57106
+REF__Arabidopsis_thaliana__MDH1__P93819	REF | Arabidopsis thaliana | MDH1 | P93819
+REF__Arabidopsis_thaliana____Q8H1E2	REF | Arabidopsis thaliana |  | Q8H1E2
+REF__Arabidopsis_thaliana__MDH3__Q9FJU0	REF | Arabidopsis thaliana | MDH3 | Q9FJU0
+REF__Arabidopsis_thaliana____Q9LKA3	REF | Arabidopsis thaliana |  | Q9LKA3
+REF__Arabidopsis_thaliana____Q9SN86	REF | Arabidopsis thaliana |  | Q9SN86
+REF__Arabidopsis_thaliana__PMDH2__Q9ZP05	REF | Arabidopsis thaliana | PMDH2 | Q9ZP05
+REF__Arabidopsis_thaliana____Q9ZP06	REF | Arabidopsis thaliana |  | Q9ZP06

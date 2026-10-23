@@ -1,0 +1,38 @@
+DATASET_COLORSTRIP
+SEPARATOR TAB
+DATASET_LABEL	Positive selection
+COLOR	#777777
+LEGEND_TITLE	Positive selection
+LEGEND_SHAPES	1	1	1
+LEGEND_COLORS	#b2182b	#2166ac	#d9d9d9
+LEGEND_LABELS	Positive	Assessed non-positive	Unassessed or reference
+DATA
+AT__gene-LOC130809422	#d9d9d9	Unassessed or reference
+AT__gene-LOC130818144	#d9d9d9	Unassessed or reference
+AT__gene-LOC130828271	#d9d9d9	Unassessed or reference
+BV__Bv3_060480_psio	#d9d9d9	Unassessed or reference
+BV__Bv4_103540_djwd	#d9d9d9	Unassessed or reference
+MC__gene_11565	#2166ac	Assessed non-positive
+MC__gene_15966	#2166ac	Assessed non-positive
+MC__gene_9940	#2166ac	Assessed non-positive
+PO__evm.TU.LG08.451	#2166ac	Assessed non-positive
+PO__evm.TU.LG11.1432	#2166ac	Assessed non-positive
+PO__evm.TU.LG22.1479	#2166ac	Assessed non-positive
+SLP_Hap1__SP2G02971	#d9d9d9	Unassessed or reference
+SLP_Hap1__SP3G00915	#d9d9d9	Unassessed or reference
+SLP_Hap1__SP8G00863	#d9d9d9	Unassessed or reference
+SP_Hex__gene_Spor0090480.1	#2166ac	Assessed non-positive
+SP_Hex__gene_Spor0207580.1	#2166ac	Assessed non-positive
+SP_Hex__gene_Spor0259740.1	#2166ac	Assessed non-positive
+SP_Hex__gene_Spor0566630.1	#2166ac	Assessed non-positive
+SP_Hex__gene_Spor0593180.1	#2166ac	Assessed non-positive
+SP_Tet__g20848	#2166ac	Assessed non-positive
+SP_Tet__g33043	#2166ac	Assessed non-positive
+SP_Tet__g955	#2166ac	Assessed non-positive
+SS__g20508	#2166ac	Assessed non-positive
+SS__g20509	#b2182b	Positive
+SS__g29400	#2166ac	Assessed non-positive
+SS__g32157	#2166ac	Assessed non-positive
+SS__g3304	#2166ac	Assessed non-positive
+REF__Arabidopsis_thaliana__PPCK2__Q93VK0	#d9d9d9	Unassessed or reference
+REF__Arabidopsis_thaliana__PPCK1__Q9SPK4	#d9d9d9	Unassessed or reference

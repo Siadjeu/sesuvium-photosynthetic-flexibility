@@ -1,0 +1,25 @@
+DATASET_COLORSTRIP
+SEPARATOR TAB
+DATASET_LABEL	CAFE5 robust expansion
+COLOR	#777777
+LEGEND_TITLE	CAFE5 robust expansion
+LEGEND_SHAPES	1	1	1
+LEGEND_COLORS	#b2182b	#2166ac	#d9d9d9
+LEGEND_LABELS	Positive	Assessed non-positive	Unassessed or reference
+DATA
+AT__gene-LOC130814653	#d9d9d9	Unassessed or reference
+BV__Bv8_229010_jqid	#d9d9d9	Unassessed or reference
+MC__gene_22053	#d9d9d9	Unassessed or reference
+PO__evm.TU.LG01.1827	#d9d9d9	Unassessed or reference
+PO__evm.TU.LG14.1026	#d9d9d9	Unassessed or reference
+PO__evm.TU.LG18.819	#d9d9d9	Unassessed or reference
+PO__evm.TU.LG20.1068	#d9d9d9	Unassessed or reference
+SLP_Hap1__SP10G01668	#d9d9d9	Unassessed or reference
+SLP_Hap1__SP8G01714	#d9d9d9	Unassessed or reference
+SP_Hex__gene_Spor0050980.1	#d9d9d9	Unassessed or reference
+SP_Hex__gene_Spor0442620.1	#d9d9d9	Unassessed or reference
+SP_Tet__g23146	#d9d9d9	Unassessed or reference
+SS__g19204	#d9d9d9	Unassessed or reference
+SS__g25300	#d9d9d9	Unassessed or reference
+REF__Arabidopsis_thaliana__RP1__O49562	#d9d9d9	Unassessed or reference
+REF__Arabidopsis_thaliana__RP2__Q9MAC9	#d9d9d9	Unassessed or reference

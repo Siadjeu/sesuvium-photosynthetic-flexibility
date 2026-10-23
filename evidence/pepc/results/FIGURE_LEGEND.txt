@@ -1,0 +1,10 @@
+Maximum-likelihood phylogeny of validated PEPC protein representatives from
+eight focal species and external references. The main tree contains 81 tips,
+including 49 representatives of 51 focal-species loci and 32 references.
+Species/accession labels and annotation tracks identify taxa and provisional
+or supported subtype associations. Displayed five-residue windows are mapped
+to maize Q84KR7 positions 519, 780 and 890 (two residues on each side).
+Branch labels are SH-aLRT/UFBoot support. The tree is unrooted; any graphical
+rerooting is for presentation unless justified separately. Identical SS protein
+pairs are represented by g29856 (also g11076) and g7519 (also g17009).
+The sensitivity tree has the same unrooted topology but different support.

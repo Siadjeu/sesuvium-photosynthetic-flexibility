@@ -1,0 +1,19 @@
+LABELS
+SEPARATOR TAB
+DATA
+AT__gene-LOC130814653	AT | gene-LOC130814653
+BV__Bv8_229010_jqid	BV | Bv8_229010_jqid
+MC__gene_22053	MC | gene_22053
+PO__evm.TU.LG01.1827	PO | evm.TU.LG01.1827
+PO__evm.TU.LG14.1026	PO | evm.TU.LG14.1026
+PO__evm.TU.LG18.819	PO | evm.TU.LG18.819
+PO__evm.TU.LG20.1068	PO | evm.TU.LG20.1068
+SLP_Hap1__SP10G01668	SLP_Hap1 | SP10G01668
+SLP_Hap1__SP8G01714	SLP_Hap1 | SP8G01714
+SP_Hex__gene_Spor0050980.1	SP_Hex | gene_Spor0050980.1
+SP_Hex__gene_Spor0442620.1	SP_Hex | gene_Spor0442620.1
+SP_Tet__g23146	SP_Tet | g23146
+SS__g19204	SS | g19204
+SS__g25300	SS | g25300
+REF__Arabidopsis_thaliana__RP1__O49562	REF | Arabidopsis thaliana | RP1 | O49562
+REF__Arabidopsis_thaliana__RP2__Q9MAC9	REF | Arabidopsis thaliana | RP2 | Q9MAC9

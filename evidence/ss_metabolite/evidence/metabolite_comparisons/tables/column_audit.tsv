@@ -1,0 +1,83 @@
+column	name	decision	reason
+2	1-Oleoyl-rac-glycerol	RETAIN	
+3	2-Piperidinecarboxylic acid	EXCLUDE	amino_acid_or_related_compound
+4	Adipic_acid,2-amino-	EXCLUDE	amino_acid_or_related_compound
+5	Alanine	EXCLUDE	amino_acid_or_related_compound
+6	Arabinonic acid	RETAIN	
+7	Arabinose	RETAIN	
+8	Asparagine	EXCLUDE	amino_acid_or_related_compound
+9	Aspartics acid	EXCLUDE	amino_acid_or_related_compound
+10	beta-Galactopyranosyl-1,3-arabinose, D-	EXCLUDE	identical_column_ambiguous_identity
+11	Butanoic acid, 2-hydroxy-	RETAIN	
+12	Citric acid	RETAIN	
+13	Cysteine	EXCLUDE	amino_acid_or_related_compound
+14	Dihydroxyphenylalanine	EXCLUDE	amino_acid_or_related_compound
+15	Erythritol	RETAIN	
+16	Ethanolamine	EXCLUDE	amino_acid_or_related_compound
+17	Ethylenediaminetetraacetic acid	RETAIN	
+18	Fructose	RETAIN	
+19	Fructose-1,6-diphosphate	RETAIN	
+20	Fructose-6-phosphate	RETAIN	
+21	Fucose	RETAIN	
+22	Fumaric acid	RETAIN	
+23	Galactaric acid	RETAIN	
+24	Galactinol	RETAIN	
+25	Galactonic acid	RETAIN	
+26	Galactosamine, N-acetyl-	RETAIN	
+27	Glucoheptonic acid-1,4-lactone	RETAIN	
+28	Gluconic acid	RETAIN	
+29	Glucose	RETAIN	
+30	Glucose-1-phosphoric-acid	RETAIN	
+31	Glucose-6-phosphate	RETAIN	
+32	Glucose-6-phosphate, 2-amino-2-deoxy-, D-	RETAIN	
+33	Glutamic acid	EXCLUDE	amino_acid_or_related_compound
+34	Glutamine, DL-	EXCLUDE	amino_acid_or_related_compound
+35	Glutaric acid, 2-oxo-	RETAIN	
+36	Glyceric acid	RETAIN	
+37	Glycerol	RETAIN	
+38	Glycerol-3-phosphate	RETAIN	
+39	Glycerophosphoglycerol	RETAIN	
+40	Glycine	EXCLUDE	amino_acid_or_related_compound
+41	Glycolic acid	RETAIN	
+42	Hexadecanoic acid	RETAIN	
+43	Homoserine	EXCLUDE	amino_acid_or_related_compound
+44	Hydroxyurea	RETAIN	
+45	Inositol, myo	RETAIN	
+46	Inositol-2-phosphate, myo-	RETAIN	
+47	Isoleucine	EXCLUDE	amino_acid_or_related_compound
+48	Leucine	EXCLUDE	amino_acid_or_related_compound
+49	Lysine	EXCLUDE	amino_acid_or_related_compound
+50	Malic acid	RETAIN	
+51	Malic acid, 2-methyl-	RETAIN	
+52	Maltose	RETAIN	
+53	Melezitose	RETAIN	
+54	Methionine	EXCLUDE	amino_acid_or_related_compound
+55	myo-Inositol-1-phosphate	RETAIN	
+56	Ononitol	RETAIN	
+57	Ornithine	EXCLUDE	amino_acid_or_related_compound
+58	Ornithine-1,5-lactam	EXCLUDE	amino_acid_or_related_compound
+59	Oxalic acid	RETAIN	
+60	Phenethylamine	EXCLUDE	amino_acid_or_related_compound
+61	Phenylalanine	EXCLUDE	amino_acid_or_related_compound;duplicate_name_ambiguous
+62	Phenylalanine	EXCLUDE	amino_acid_or_related_compound;duplicate_name_ambiguous
+63	Phosphoric acid	RETAIN	
+64	Proline	EXCLUDE	amino_acid_or_related_compound
+65	Putrescine	EXCLUDE	amino_acid_or_related_compound
+66	Pyroglutamic acid	EXCLUDE	amino_acid_or_related_compound
+67	Pyruvic acid	RETAIN	
+68	Raffinose	RETAIN	
+69	Ribulose-5-phosphate	RETAIN	
+70	Saccharic acid	RETAIN	
+71	Salicin	EXCLUDE	identical_column_ambiguous_identity
+72	Serine	EXCLUDE	amino_acid_or_related_compound
+73	Succinic acid	RETAIN	
+74	Sucrose	RETAIN	
+75	Threitol	RETAIN	
+76	Threonic acid	RETAIN	
+77	Threonine	EXCLUDE	amino_acid_or_related_compound
+78	Tryptophan	EXCLUDE	amino_acid_or_related_compound
+79	Tyrosine	EXCLUDE	amino_acid_or_related_compound
+80	Uracil	RETAIN	
+81	Uridine	RETAIN	
+82	Valine	EXCLUDE	amino_acid_or_related_compound
+83	Xylose	RETAIN	

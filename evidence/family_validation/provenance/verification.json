@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "deterministic_regeneration": "ALL_GENERATED_FILES_BYTE_IDENTICAL",
+  "ledger_tamper_check": "REJECTED_BEFORE_OUTPUT",
+  "new_slurm_syntax": "PASS",
+  "historical_scripts_syntax_checked": 70,
+  "historical_scripts_runtime": "NOT_RERUN",
+  "source_inventory_released_hashes": "VERIFIED",
+  "source_personal_username_removed": true,
+  "upstream_reanalysis": false
+}

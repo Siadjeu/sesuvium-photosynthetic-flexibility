@@ -1,0 +1,293 @@
+{
+  "step73_manifest_sha256": "68497caf26b4fd5d395e02eb54ce0ea7887cd263705833a6d6afa9b2442c5f18",
+  "source_ledger_sha256": "3c05cd5bece9b7aa4e5c7146ffc5cb6a3beeb4d2e92254d6a1e2712d72686374",
+  "source_documents": [
+    {
+      "source": "Wang supplementary workbook",
+      "sha256": "be4bd29d0932d396be47734cf9bcfc4588352709b11f64edd92e815a3bcfc423",
+      "location": "Table S6",
+      "doi": "10.1093/plphys/kiad451"
+    },
+    {
+      "source": "Wang supplementary information PDF",
+      "sha256": "abcf1aa85553a279ada3aeb836681f25389f339262cf7750a456b48b193528e3",
+      "location": "PDF page8, Supplemental Figure S9 legend",
+      "doi": "10.1093/plphys/kiad451"
+    }
+  ],
+  "upstream": {
+    "step72_manifest_sha256": "57c85ac03380ffcb0246e72445459fc9aad5db5f0fba9fd626baf948e18f5ae3",
+    "upstream": {
+      "step71_manifest_sha256": "3d72734998dee86442a3fa1eecc63724215051d3308a37b49b5345a30816fd17",
+      "upstream": {
+        "step70_manifest_sha256": "06c839aad8925d48071c70a212af282e5a2fb3b392f1cdeab8340d02f8f6f648",
+        "corrected_manifest_sha256": "dac3d138fa5988c1896874f729d0c0943d413dea0d9d5b544a299efbea7696d7",
+        "corrected_proteome_sha256": "c5643d9ce8ba9140cd994eb1518fa7f9cdc242443b3e66532b9ba3f8f039b568",
+        "mapping_hashes": {
+          "AT": "49acc1140ddb84e0ceda7651b6d3a5bf44b5e818b779e876798a98f6124f6895",
+          "BV": "92757f6e79a084d6f6541125bfca3b9b08d5f0067d8389da70d42f0765ef2e33",
+          "MC": "2850262145a6a7e6d70d9eef751165eecc2f1a6f2d5a1fcb567a566e06b6146d",
+          "PO": "a16bf0a5db918ecb768127c4d96b4764fdf0bd34976d7f860a95a710714f1a5d",
+          "SLP_Hap1": "f32598592423d6cba5057ba5c683e210a2cdbc0ea97079e5c70c1971644cfeb6",
+          "SP_Hex": "e54f6b9eb5b3977b3b90289d03859f302b0f234047aaff96f09639e754772548",
+          "SP_Tet": "f8fb19c79b118d62b34563426c73c3fc5261b1b96fd216be60d22439c9e7fe84",
+          "SS": "83d7e662ba09985cc2d31beceb62a2b1b093f38b02fc755270acd154cf3c851b"
+        },
+        "pfam_sha256": "4b0da6399b97d2b23329de82190b2e5705bde1dea4cb2d028a52712d5966739e",
+        "commands": [
+          [
+            "diamond",
+            "makedb",
+            "--threads",
+            "4",
+            "--in",
+            "<RELEASE>/02_LDH_panel.faa",
+            "--db",
+            "<RELEASE>/work/ldh"
+          ],
+          [
+            "diamond",
+            "blastp",
+            "--threads",
+            "4",
+            "--query",
+            "<PROJECT_ROOT>/08_focused_families/validation/step25kz17.21/release_20543244_20261015T214311687124Z/full_outputs/corrected_protein_candidates.faa",
+            "--db",
+            "<RELEASE>/work/ldh",
+            "--out",
+            "<RELEASE>/02_LDH_hits.tsv",
+            "--very-sensitive",
+            "--evalue",
+            "1e-3",
+            "--max-target-seqs",
+            "0",
+            "--max-hsps",
+            "1",
+            "--outfmt",
+            "6",
+            "qseqid",
+            "sseqid",
+            "pident",
+            "length",
+            "qlen",
+            "slen",
+            "qstart",
+            "qend",
+            "sstart",
+            "send",
+            "evalue",
+            "bitscore"
+          ],
+          [
+            "hmmsearch",
+            "--cpu",
+            "4",
+            "--cut_ga",
+            "--noali",
+            "--domtblout",
+            "<RELEASE>/06_Pfam.domtbl",
+            "<PFAM_HMM>",
+            "<RELEASE>/03_deduplicated_domain_input.faa"
+          ],
+          [
+            "hmmsearch",
+            "-h"
+          ],
+          [
+            "diamond",
+            "version"
+          ]
+        ]
+      },
+      "commands": [
+        [
+          "mafft",
+          "--thread",
+          "4",
+          "--threadit",
+          "0",
+          "--auto",
+          "<RELEASE>/PEPCK/PF01293_input.faa"
+        ],
+        [
+          "mafft",
+          "--thread",
+          "4",
+          "--threadit",
+          "0",
+          "--auto",
+          "<RELEASE>/BASS/PF01758_input.faa"
+        ],
+        [
+          "<HOME>/miniforge3/envs/focused_family_env/bin/iqtree",
+          "-s",
+          "<RELEASE>/BASS/03_main_core.faa",
+          "-st",
+          "AA",
+          "-m",
+          "LG+G4",
+          "-nt",
+          "4",
+          "-seed",
+          "17272",
+          "-bb",
+          "1000",
+          "-alrt",
+          "1000",
+          "-bnni",
+          "-keep-ident",
+          "-pre",
+          "<RELEASE>/BASS/main"
+        ],
+        [
+          "mafft",
+          "--thread",
+          "4",
+          "--threadit",
+          "0",
+          "--auto",
+          "<RELEASE>/Malic_enzyme/PF00390_input.faa"
+        ],
+        [
+          "mafft",
+          "--thread",
+          "4",
+          "--threadit",
+          "0",
+          "--auto",
+          "<RELEASE>/Malic_enzyme/PF03949_input.faa"
+        ],
+        [
+          "<HOME>/miniforge3/envs/focused_family_env/bin/iqtree",
+          "-s",
+          "<RELEASE>/Malic_enzyme/03_main_core.faa",
+          "-st",
+          "AA",
+          "-m",
+          "LG+G4",
+          "-nt",
+          "4",
+          "-seed",
+          "17272",
+          "-bb",
+          "1000",
+          "-alrt",
+          "1000",
+          "-bnni",
+          "-keep-ident",
+          "-pre",
+          "<RELEASE>/Malic_enzyme/main"
+        ],
+        [
+          "mafft",
+          "--thread",
+          "4",
+          "--threadit",
+          "0",
+          "--auto",
+          "<RELEASE>/MDH_LDH/PF00056_input.faa"
+        ],
+        [
+          "mafft",
+          "--thread",
+          "4",
+          "--threadit",
+          "0",
+          "--auto",
+          "<RELEASE>/MDH_LDH/PF02866_input.faa"
+        ],
+        [
+          "<HOME>/miniforge3/envs/focused_family_env/bin/iqtree",
+          "-s",
+          "<RELEASE>/MDH_LDH/03_main_core.faa",
+          "-st",
+          "AA",
+          "-m",
+          "LG+G4",
+          "-nt",
+          "4",
+          "-seed",
+          "17272",
+          "-bb",
+          "1000",
+          "-alrt",
+          "1000",
+          "-bnni",
+          "-keep-ident",
+          "-pre",
+          "<RELEASE>/MDH_LDH/main"
+        ],
+        [
+          "mafft",
+          "--thread",
+          "4",
+          "--threadit",
+          "0",
+          "--auto",
+          "<RELEASE>/Aminotransferase/PF00155_input.faa"
+        ],
+        [
+          "<HOME>/miniforge3/envs/focused_family_env/bin/iqtree",
+          "-s",
+          "<RELEASE>/Aminotransferase/03_main_core.faa",
+          "-st",
+          "AA",
+          "-m",
+          "LG+G4",
+          "-nt",
+          "4",
+          "-seed",
+          "17272",
+          "-bb",
+          "1000",
+          "-alrt",
+          "1000",
+          "-bnni",
+          "-keep-ident",
+          "-pre",
+          "<RELEASE>/Aminotransferase/main"
+        ],
+        [
+          "mafft",
+          "--thread",
+          "4",
+          "--threadit",
+          "0",
+          "--auto",
+          "<RELEASE>/MPC/PF03650_input.faa"
+        ]
+      ],
+      "model": "LG+G4",
+      "seed": 17272
+    },
+    "resume": {
+      "status": "COMPLETED",
+      "error": "",
+      "source_checkpoint_sha256": "d6c1a1d5ee8ca4cb28eda451e2e737c3d2e9853b20a9296b473a7a6cad2adbed",
+      "resume_message_observed": true
+    },
+    "commands": [
+      [
+        "<HOME>/miniforge3/envs/focused_family_env/bin/iqtree",
+        "-s",
+        "<RELEASE>/Aminotransferase/03_main_core.faa",
+        "-st",
+        "AA",
+        "-m",
+        "LG+G4",
+        "-nt",
+        "4",
+        "-seed",
+        "17272",
+        "-bb",
+        "1000",
+        "-alrt",
+        "1000",
+        "-bnni",
+        "-keep-ident",
+        "-pre",
+        "<RELEASE>/Aminotransferase/main"
+      ]
+    ]
+  }
+}

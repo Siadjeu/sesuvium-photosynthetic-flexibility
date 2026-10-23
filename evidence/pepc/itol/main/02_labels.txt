@@ -1,0 +1,84 @@
+LABELS
+SEPARATOR TAB
+DATA
+AT__gene-LOC130806734	AT gene-LOC130806734
+AT__gene-LOC130807487	AT gene-LOC130807487
+AH001411-RA	Amaranthus hypochondriacus | AH001411-RA
+AT__gene-LOC130817473	AT gene-LOC130817473
+AH008008-RA	Amaranthus hypochondriacus | AH008008-RA
+BV__Bv4_112300_ihek	BV Bv4_112300_ihek
+MC__gene_7534	MC gene_7534
+SP_Hex__gene_Spor0428090.1	SP_Hex gene_Spor0428090.1
+SP_Tet__g11621	SP_Tet g11621
+SP_Hex__gene_Spor0451220.1	SP_Hex gene_Spor0451220.1
+SP_Tet__g9336	SP_Tet g9336
+SS__g29856	SS g29856 [also g11076; identical protein]
+SS__g9483	SS g9483
+PO__evm.TU.LG02.787	PO evm.TU.LG02.787
+PO__evm.TU.LG09.1958	PO evm.TU.LG09.1958
+KJ161740.1	Anacampseros retusa | KJ161740.1 | ppc-1E2
+KJ161741.1	Grahamia bracteata | KJ161741.1 | ppc-1E2
+KJ161746.1	Leuenbergeria aureiflora | KJ161746.1 | ppc-1E2
+AT__gene-LOC130821049	AT gene-LOC130821049
+BV__Bv6_171660_yout	BV Bv6_171660_yout
+MC__gene_3958	MC gene_3958
+SP_Hex__gene_Spor0508250.1	SP_Hex gene_Spor0508250.1
+SP_Tet__g24447	SP_Tet g24447
+SP_Tet__g5710	SP_Tet g5710
+SS__g7519	SS g7519 [also g17009; identical protein]
+PO__evm.TU.LG03.46	PO evm.TU.LG03.46
+PO__evm.TU.LG03.97	PO evm.TU.LG03.97
+KJ161805.1	Anacampseros retusa | KJ161805.1 | ppc-2
+KJ161806.1	Grahamia bracteata | KJ161806.1 | ppc-2
+SLP_Hap1__SP2G00467	SLP_Hap1 SP2G00467
+KJ161810.1	Leuenbergeria aureiflora | KJ161810.1 | ppc-2
+Q8GVE8	Arabidopsis thaliana | Q8GVE8 | PPC4
+Zm00001d040129_P001	Zea mays | Zm00001d040129_P001
+Q84VW9	Arabidopsis thaliana | Q84VW9 | PPC3
+Q9MAH0	Arabidopsis thaliana | Q9MAH0 | PPC1
+Zm00001d016166_P001	Zea mays | Zm00001d016166_P001
+Zm00001d053453_P002	Zea mays | Zm00001d053453_P002
+Zm00001d046170_P001	Zea mays | Zm00001d046170_P001
+Q84KR7	Zea mays | Q84KR7 [coordinate reference]
+Zm00001d012702_P003	Zea mays | Zm00001d012702_P003
+Zm00001d020057_P004	Zea mays | Zm00001d020057_P004
+Q5GM68	Arabidopsis thaliana | Q5GM68 | PPC2
+MC__gene_21178	MC gene_21178
+SP_Hex__gene_Spor0042710.1	SP_Hex gene_Spor0042710.1
+SP_Hex__gene_Spor0457440.1	SP_Hex gene_Spor0457440.1
+SP_Tet__g9073	SP_Tet g9073
+SP_Tet__g10077	SP_Tet g10077
+SP_Hex__gene_Spor0434450.1	SP_Hex gene_Spor0434450.1
+SS__g2566	SS g2566
+SS__g4086	SS g4086
+SS__g32916	SS g32916
+PO__evm.TU.LG03.2406	PO evm.TU.LG03.2406
+PO__evm.TU.LG03.2407	PO evm.TU.LG03.2407
+PO__evm.TU.LG17.1452	PO evm.TU.LG17.1452
+PO__evm.TU.LG17.1453	PO evm.TU.LG17.1453
+PO__evm.TU.LG06.1001	PO evm.TU.LG06.1001
+PO__evm.TU.LG11.259	PO evm.TU.LG11.259
+SLP_Hap1__SP3G01743	SLP_Hap1 SP3G01743
+KJ161568.1	Leuenbergeria aureiflora | KJ161568.1 | ppc-1E1a
+KJ161565.1	Anacampseros retusa | KJ161565.1 | ppc-1E1a
+KJ161566.1	Grahamia bracteata | KJ161566.1 | ppc-1E1a
+PO__evm.TU.LG05.829	PO evm.TU.LG05.829
+PO__evm.TU.LG25.499	PO evm.TU.LG25.499
+KJ161610.1	Anacampseros retusa | KJ161610.1 | ppc-1E1c
+KJ161611.1	Grahamia bracteata | KJ161611.1 | ppc-1E1c
+KJ161613.1	Leuenbergeria aureiflora | KJ161613.1 | ppc-1E1c
+SLP_Hap1__SP1G00887	SLP_Hap1 SP1G00887
+SLP_Hap1__SP10G01662	SLP_Hap1 SP10G01662
+KJ161651.1	Leuenbergeria bleo | KJ161651.1 | ppc-1E1e
+SLP_Hap1__SP1G00883	SLP_Hap1 SP1G00883
+SLP_Hap1__SP1G00884	SLP_Hap1 SP1G00884
+SLP_Hap1__SP1G00885	SLP_Hap1 SP1G00885
+KJ161633.1	Leuenbergeria aureiflora | KJ161633.1 | ppc-1E1d
+KJ161630.1	Anacampseros retusa | KJ161630.1 | ppc-1E1d
+KJ161631.1	Grahamia bracteata | KJ161631.1 | ppc-1E1d
+PO__evm.TU.LG06.677	PO evm.TU.LG06.677
+SLP_Hap1__SP1G00882	SLP_Hap1 SP1G00882
+KJ161575.1	Anacampseros retusa | KJ161575.1 | ppc-1E1b
+KJ161576.1	Grahamia bracteata | KJ161576.1 | ppc-1E1b
+BV__Bv9_260510_xeaz	BV Bv9_260510_xeaz
+AH000245-RA	Amaranthus hypochondriacus | AH000245-RA

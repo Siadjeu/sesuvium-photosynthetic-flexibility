@@ -1,0 +1,27 @@
+DATASET_COLORSTRIP
+SEPARATOR TAB
+DATASET_LABEL	DE any authorized contrast
+COLOR	#777777
+LEGEND_TITLE	DE any authorized contrast
+LEGEND_SHAPES	1	1	1
+LEGEND_COLORS	#b2182b	#2166ac	#d9d9d9
+LEGEND_LABELS	Positive	Assessed non-positive	Unassessed or reference
+DATA
+AT__gene-LOC130802667	#d9d9d9	Unassessed or reference
+AT__gene-LOC130804077	#d9d9d9	Unassessed or reference
+BV__Bv2_045360_jgtu	#d9d9d9	Unassessed or reference
+MC__gene_12961	#d9d9d9	Unassessed or reference
+PO__evm.TU.LG04.904	#2166ac	Assessed non-positive
+PO__evm.TU.LG05.2036	#2166ac	Assessed non-positive
+PO__evm.TU.LG07.5	#2166ac	Assessed non-positive
+PO__evm.TU.LG07.90	#2166ac	Assessed non-positive
+SLP_Hap1__SP8G00634	#d9d9d9	Unassessed or reference
+SLP_Hap1__SP9G01492	#d9d9d9	Unassessed or reference
+SP_Hex__gene_Spor0193680.1	#d9d9d9	Unassessed or reference
+SP_Hex__gene_Spor0410960.1	#d9d9d9	Unassessed or reference
+SP_Hex__gene_Spor0551860.1	#d9d9d9	Unassessed or reference
+SP_Tet__g13569	#d9d9d9	Unassessed or reference
+SP_Tet__g6978	#d9d9d9	Unassessed or reference
+SS__g15606	#2166ac	Assessed non-positive
+SS__g33285	#2166ac	Assessed non-positive
+REF__Arabidopsis_thaliana__VHA-A__O23654	#d9d9d9	Unassessed or reference

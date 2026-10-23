@@ -1,0 +1,10 @@
+species	sample_id	tissue	condition	time	day_night
+SS	SS_leaves_day_R3	leaf	not_applicable	not_applicable	DAY
+SS	SS_leaves_day_R2	leaf	not_applicable	not_applicable	DAY
+SS	SS_leaves_day_R1	leaf	not_applicable	not_applicable	DAY
+SS	SS_cotyledons_night_R3	cotyledon	not_applicable	not_applicable	NIGHT
+SS	SS_cotyledons_night_R2	cotyledon	not_applicable	not_applicable	NIGHT
+SS	SS_cotyledons_night_R1	cotyledon	not_applicable	not_applicable	NIGHT
+SS	SS_cotyledons_day_R3	cotyledon	not_applicable	not_applicable	DAY
+SS	SS_cotyledons_day_R2	cotyledon	not_applicable	not_applicable	DAY
+SS	SS_cotyledons_day_R1	cotyledon	not_applicable	not_applicable	DAY

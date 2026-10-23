@@ -1,0 +1,18 @@
+{
+  "status": "BOUNDED_PEPC_REVIEW_CLOSED_WITH_LIMITATIONS",
+  "source_release": "08_focused_families/downstream_supported/pepc_reference_review/cds_rebuild_20837873_20261022T235507297244Z",
+  "source_manifest_sha256": "b4154d2af5289004db640669d89a6878b04523ce3742c3ecb25cf59780727fe8",
+  "verified_source_files": 83,
+  "loci": 51,
+  "tree_representatives": 49,
+  "reference_tips": 32,
+  "classification_counts": {
+    "UNRESOLVED": 15,
+    "PROVISIONAL_SUBTYPE": 27,
+    "SUPPORTED_SUBTYPE": 9
+  },
+  "source_files_modified": false,
+  "new_analyses": false,
+  "github_publication": false,
+  "itol_uploaded": false
+}

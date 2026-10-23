@@ -1,0 +1,54 @@
+LABELS
+SEPARATOR TAB
+DATA
+AT__gene-LOC130797255	AT | gene-LOC130797255
+AT__gene-LOC130807537	AT | gene-LOC130807537
+AT__gene-LOC130820426	AT | gene-LOC130820426
+AT__gene-LOC130828851	AT | gene-LOC130828851
+BV__Bv6_183200_uffy	BV | Bv6_183200_uffy
+BV__Bv8_244660_rkme	BV | Bv8_244660_rkme
+BV__Bv9_274020_efeu	BV | Bv9_274020_efeu
+MC__gene_12840	MC | gene_12840
+MC__gene_18131	MC | gene_18131
+MC__gene_26327	MC | gene_26327
+PO__evm.TU.LG03.403	PO | evm.TU.LG03.403
+PO__evm.TU.LG03.404	PO | evm.TU.LG03.404
+PO__evm.TU.LG07.1936	PO | evm.TU.LG07.1936
+PO__evm.TU.LG08.1094	PO | evm.TU.LG08.1094
+PO__evm.TU.LG12.1303	PO | evm.TU.LG12.1303
+PO__evm.TU.LG12.1304	PO | evm.TU.LG12.1304
+PO__evm.TU.LG13.214	PO | evm.TU.LG13.214
+PO__evm.TU.LG15.1221	PO | evm.TU.LG15.1221
+PO__evm.TU.LG16.1053	PO | evm.TU.LG16.1053
+PO__evm.TU.LG20.1506	PO | evm.TU.LG20.1506
+PO__evm.TU.LG22.838	PO | evm.TU.LG22.838
+SLP_Hap1__SP1G00428	SLP_Hap1 | SP1G00428
+SLP_Hap1__SP2G00186	SLP_Hap1 | SP2G00186
+SLP_Hap1__SP3G00376	SLP_Hap1 | SP3G00376
+SLP_Hap1__SP6G01525	SLP_Hap1 | SP6G01525
+SLP_Hap1__SP9G00769	SLP_Hap1 | SP9G00769
+SP_Hex__gene_Spor0095880.1	SP_Hex | gene_Spor0095880.1
+SP_Hex__gene_Spor0164130.1	SP_Hex | gene_Spor0164130.1
+SP_Hex__gene_Spor0375690.1	SP_Hex | gene_Spor0375690.1
+SP_Hex__gene_Spor0471650.1	SP_Hex | gene_Spor0471650.1
+SP_Hex__gene_Spor0513010.1	SP_Hex | gene_Spor0513010.1
+SP_Hex__gene_Spor0572610.1	SP_Hex | gene_Spor0572610.1
+SP_Hex__gene_Spor0572640.1	SP_Hex | gene_Spor0572640.1
+SP_Tet__g24019	SP_Tet | g24019
+SP_Tet__g2884	SP_Tet | g2884
+SP_Tet__g30689	SP_Tet | g30689
+SP_Tet__g31443	SP_Tet | g31443
+SP_Tet__g33615	SP_Tet | g33615
+SP_Tet__g6057	SP_Tet | g6057
+SS__g17514	SS | g17514
+SS__g1780	SS | g1780
+SS__g18678	SS | g18678
+SS__g19756	SS | g19756
+SS__g25842	SS | g25842
+SS__g26146	SS | g26146
+REF__Arabidopsis_thaliana__BCA1__P27140	REF | Arabidopsis thaliana | BCA1 | P27140
+REF__Arabidopsis_thaliana__BCA2__P42737	REF | Arabidopsis thaliana | BCA2 | P42737
+REF__Arabidopsis_thaliana__BCA5__Q94CE3	REF | Arabidopsis thaliana | BCA5 | Q94CE3
+REF__Arabidopsis_thaliana__BCA4__Q94CE4	REF | Arabidopsis thaliana | BCA4 | Q94CE4
+REF__Arabidopsis_thaliana__BCA6__Q9C6F5	REF | Arabidopsis thaliana | BCA6 | Q9C6F5
+REF__Arabidopsis_thaliana__BCA3__Q9ZUC2	REF | Arabidopsis thaliana | BCA3 | Q9ZUC2

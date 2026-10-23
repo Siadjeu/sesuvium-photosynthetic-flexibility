@@ -1,0 +1,22 @@
+{
+  "status": "COMPLETE_EXPLORATORY",
+  "RNA_genes": 99,
+  "families": 18,
+  "metabolite_samples": 9,
+  "target_metabolites": [
+    "Malic acid",
+    "Pyruvic acid",
+    "Citric acid",
+    "Fumaric acid",
+    "Succinic acid",
+    "Glutaric acid, 2-oxo-"
+  ],
+  "excluded_columns": 31,
+  "gene_metabolite_correlation_performed": false,
+  "preprocessing_floor_unresolved": true,
+  "python": "3.14.6",
+  "numpy": "2.5.0",
+  "pandas": "3.0.3",
+  "scipy": "1.18.0",
+  "matplotlib": "3.11.0"
+}

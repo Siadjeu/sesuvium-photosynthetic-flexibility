@@ -1,0 +1,12 @@
+{
+  "status": "COMPLETE_WITH_EXPLICIT_ASSESSMENT_LIMITS",
+  "supported_records": 657,
+  "unique_species_loci": 657,
+  "mapped_loci": 657,
+  "mapping_exceptions": 13,
+  "DE_gene_contrast_records": 1722,
+  "DE_result_rows": 1552,
+  "DE_assessable_rows": 1534,
+  "new_analyses": false,
+  "source_ledger_sha256": "c0c68368361704ea1ef9f6547594ff4faa9b59e65352c471bc7bc4574967bb40"
+}

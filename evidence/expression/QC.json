@@ -1,0 +1,11 @@
+{
+  "status": "COMPLETE",
+  "panels": 36,
+  "expression_loci": 226,
+  "zero_variance_rows": 5,
+  "source_release": "release_20590354_20261019T183844Z",
+  "source_manifest_sha256": "545345aca0717166014fc619e60747995dee9e088fd38affcb1866b8973e2000",
+  "log2FC_folder_present": false,
+  "previous_release_modified": false,
+  "cell_inches": 0.3
+}

@@ -1,0 +1,14 @@
+{
+  "status": "COMPLETE_DESCRIPTIVE",
+  "genes": 99,
+  "assessable": 83,
+  "families": 18,
+  "direct_family_mappings": 6,
+  "mapped_gene_metabolite_rows": 39,
+  "new_DE_tests": false,
+  "gene_metabolite_correlations": false,
+  "python": "3.14.6",
+  "numpy": "2.5.0",
+  "pandas": "3.0.3",
+  "matplotlib": "3.11.0"
+}

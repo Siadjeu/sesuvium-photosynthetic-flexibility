@@ -1,0 +1,21 @@
+LABELS
+SEPARATOR TAB
+DATA
+G0001	AT | gene-LOC130818043
+G0002	BV | Bv4_097970_hagt
+G0003	BV | Bv5_141070_caza
+G0004	MC | gene_19981
+G0005	PO | evm.TU.LG01.2261
+G0006	PO | evm.TU.LG14.1434
+G0007	SLP_Hap1 | SP1G01825
+G0008	SP_Hex | gene_Spor0253230.1
+G0009	SP_Hex | gene_Spor0394930.1
+G0010	SP_Tet | g21873
+G0011	SP_Tet | g5290
+G0012	SS | g40661
+R0001	REF | Arabidopsis thaliana | ASP5 | P46248
+R0002	REF | Arabidopsis thaliana | ASP1 | P46643
+R0003	REF | Arabidopsis thaliana | ASP3 | P46644
+R0004	REF | Arabidopsis thaliana | ASP2 | P46645
+R0005	REF | Arabidopsis thaliana | ASP4 | P46646
+R0006	REF | Arabidopsis thaliana | PAT | Q9SIE1

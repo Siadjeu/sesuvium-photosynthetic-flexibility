@@ -1,0 +1,51 @@
+DATASET_COLORSTRIP
+SEPARATOR TAB
+DATASET_LABEL	CAFE5 robust expansion
+COLOR	#777777
+LEGEND_TITLE	CAFE5 robust expansion
+LEGEND_SHAPES	1	1	1
+LEGEND_COLORS	#b2182b	#2166ac	#d9d9d9
+LEGEND_LABELS	Positive	Assessed non-positive	Unassessed or reference
+DATA
+AT__gene-LOC130815359	#d9d9d9	Unassessed or reference
+AT__gene-LOC130817369	#d9d9d9	Unassessed or reference
+AT__gene-LOC130825115	#d9d9d9	Unassessed or reference
+BV__Bv3_082190_nthw	#d9d9d9	Unassessed or reference
+BV__Bv4_089680_ziqp	#d9d9d9	Unassessed or reference
+MC__gene_12078	#d9d9d9	Unassessed or reference
+MC__gene_12079	#d9d9d9	Unassessed or reference
+MC__gene_4464	#d9d9d9	Unassessed or reference
+PO__evm.TU.LG07.2102	#d9d9d9	Unassessed or reference
+PO__evm.TU.LG13.1038	#d9d9d9	Unassessed or reference
+PO__evm.TU.LG15.1029	#d9d9d9	Unassessed or reference
+PO__evm.TU.LG18.1098	#d9d9d9	Unassessed or reference
+PO__evm.TU.LG18.248	#d9d9d9	Unassessed or reference
+PO__evm.TU.LG20.774	#d9d9d9	Unassessed or reference
+PO__evm.TU.LG21.690	#d9d9d9	Unassessed or reference
+PO__evm.TU.LG26.833	#d9d9d9	Unassessed or reference
+SLP_Hap1__SP10G00826	#d9d9d9	Unassessed or reference
+SLP_Hap1__SP11G00015	#d9d9d9	Unassessed or reference
+SLP_Hap1__SP8G01428	#d9d9d9	Unassessed or reference
+SLP_Hap1__SP9G01566	#d9d9d9	Unassessed or reference
+SLP_Hap1__SP9G01567	#d9d9d9	Unassessed or reference
+SP_Hex__gene_Spor0216770.1	#d9d9d9	Unassessed or reference
+SP_Hex__gene_Spor0216780.1	#d9d9d9	Unassessed or reference
+SP_Hex__gene_Spor0223700.1	#d9d9d9	Unassessed or reference
+SP_Hex__gene_Spor0301010.1	#d9d9d9	Unassessed or reference
+SP_Hex__gene_Spor0583810.1	#d9d9d9	Unassessed or reference
+SP_Hex__gene_Spor0583820.1	#d9d9d9	Unassessed or reference
+SP_Hex__gene_Spor0600380.1	#d9d9d9	Unassessed or reference
+SP_Tet__g13902	#d9d9d9	Unassessed or reference
+SP_Tet__g13903	#d9d9d9	Unassessed or reference
+SP_Tet__g14	#d9d9d9	Unassessed or reference
+SP_Tet__g1423	#d9d9d9	Unassessed or reference
+SP_Tet__g15	#d9d9d9	Unassessed or reference
+SP_Tet__g2489	#d9d9d9	Unassessed or reference
+SS__g18158	#d9d9d9	Unassessed or reference
+SS__g22686	#d9d9d9	Unassessed or reference
+SS__g22687	#d9d9d9	Unassessed or reference
+SS__g23522	#d9d9d9	Unassessed or reference
+SS__g23523	#d9d9d9	Unassessed or reference
+SS__g24775	#d9d9d9	Unassessed or reference
+SS__g38102	#d9d9d9	Unassessed or reference
+REF__Arabidopsis_thaliana__DTC__Q9C5M0	#d9d9d9	Unassessed or reference

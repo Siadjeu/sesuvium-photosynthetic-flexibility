@@ -1,0 +1,10 @@
+wang_family	metabolite	role	reaction	EC	source_url	scope
+MDH	Malic acid	substrate_in_written_reaction; reversible	malate + NAD+ = oxaloacetate + NADH + H+	1.1.1.37	https://iubmb.qmul.ac.uk/enzyme/EC1/1/1/37.html	family-level reaction; no locus-specific activity/localization validation
+NAD-ME	Malic acid	substrate_in_written_reaction	malate + NAD+ = pyruvate + CO2 + NADH	1.1.1.39	https://iubmb.qmul.ac.uk/enzyme/EC1/1/1/39.html	family-level reaction; no locus-specific activity/localization validation
+NAD-ME	Pyruvic acid	product_in_written_reaction	malate + NAD+ = pyruvate + CO2 + NADH	1.1.1.39	https://iubmb.qmul.ac.uk/enzyme/EC1/1/1/39.html	family-level reaction; no locus-specific activity/localization validation
+NADP-ME	Malic acid	substrate_in_written_reaction	malate + NADP+ = pyruvate + CO2 + NADPH	1.1.1.40	https://iubmb.qmul.ac.uk/enzyme/EC1/1/1/40.html	family-level reaction; no locus-specific activity/localization validation
+NADP-ME	Pyruvic acid	product_in_written_reaction	malate + NADP+ = pyruvate + CO2 + NADPH	1.1.1.40	https://iubmb.qmul.ac.uk/enzyme/EC1/1/1/40.html	family-level reaction; no locus-specific activity/localization validation
+PPDK	Pyruvic acid	substrate_in_written_reaction; reversible	ATP + pyruvate + phosphate = AMP + phosphoenolpyruvate + diphosphate	2.7.9.1	https://iubmb.qmul.ac.uk/enzyme/EC2/7/9/1.html	family-level reaction; no locus-specific activity/localization validation
+ASPAT	Glutaric acid, 2-oxo-	substrate_in_written_reaction; reversible	aspartate + 2-oxoglutarate = oxaloacetate + glutamate	2.6.1.1	https://iubmb.qmul.ac.uk/enzyme/EC2/6/1/1.html	family-level reaction; no locus-specific activity/localization validation
+AlaAT	Glutaric acid, 2-oxo-	substrate_in_written_reaction; reversible	alanine + 2-oxoglutarate = pyruvate + glutamate	2.6.1.2	https://iubmb.qmul.ac.uk/enzyme/EC2/6/1/2.html	family-level reaction; no locus-specific activity/localization validation
+AlaAT	Pyruvic acid	product_in_written_reaction; reversible	alanine + 2-oxoglutarate = pyruvate + glutamate	2.6.1.2	https://iubmb.qmul.ac.uk/enzyme/EC2/6/1/2.html	family-level reaction; no locus-specific activity/localization validation

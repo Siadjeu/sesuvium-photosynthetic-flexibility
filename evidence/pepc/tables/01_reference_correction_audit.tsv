@@ -1,0 +1,31 @@
+accession	old_aa	new_aa	status	reason	CDS_location	codon_start	gene	public_species	public_protein_id	exact_old_match	naive_genomic_translation_matches_old	subtype_anchor_eligible
+KJ161565.1	384	204	VERIFIED_ANNOTATED_CDS		join(<1..340,881..>1153)	2	ppc-1E1a	Anacampseros retusa	AIF35148.1	0	1	1
+KJ161566.1	376	204	VERIFIED_ANNOTATED_CDS		join(<1..340,859..>1131)	2	ppc-1E1a	Grahamia bracteata	AIF35149.1	0	1	1
+KJ161575.1	632	526	VERIFIED_ANNOTATED_CDS		join(<1..920,1121..1507,1626..>1898)	3	ppc-1E1b	Anacampseros retusa	AIF35158.1	0	1	1
+KJ161576.1	0	204	VERIFIED_ANNOTATED_CDS		join(<1..340,489..>761)	2	ppc-1E1b	Grahamia bracteata	AIF35159.1	NOT_PREVIOUSLY_RETAINED		1
+KJ161610.1	658	415	VERIFIED_ANNOTATED_CDS	Partial terminal codon checked with ambiguous N completion against annotated translation	join(<1..624,843..1229,1743..>1975)	1	ppc-1E1c	Anacampseros retusa	AIF35196.1	0	1	1
+KJ161611.1	391	196	VERIFIED_ANNOTATED_CDS		join(<1..340,928..>1176)	2	ppc-1E1c	Grahamia bracteata	AIF35197.1	0	1	1
+KJ161630.1	244	196	VERIFIED_ANNOTATED_CDS		join(<1..315,460..>732)	1	ppc-1E1d	Anacampseros retusa	AIF35216.1	0	1	1
+KJ161631.1	250	204	VERIFIED_ANNOTATED_CDS		join(<1..340,479..>751)	2	ppc-1E1d	Grahamia bracteata	AIF35217.1	0	1	1
+KJ161740.1	423	341	VERIFIED_ANNOTATED_CDS	Partial terminal codon checked with ambiguous N completion against annotated translation	join(<1..830,1079..>1272)	3	ppc-1E2	Anacampseros retusa	AIF35318.1	0	1	1
+KJ161741.1	438	344	VERIFIED_ANNOTATED_CDS		join(<1..829,1113..>1317)	2	ppc-1E2	Grahamia bracteata	AIF35319.1	0	1	1
+KJ161805.1	253	253	VERIFIED_ANNOTATED_CDS		<1..>760	2	ppc-2	Anacampseros retusa	AIF35380.1	1	1	1
+KJ161806.1	253	253	VERIFIED_ANNOTATED_CDS		<1..>760	2	ppc-2	Grahamia bracteata	AIF35381.1	1	1	1
+KJ161568.1	781	401	VERIFIED_ANNOTATED_CDS		join(<1..591,1220..1606,2119..>2344)	1	ppc-1E1a	Leuenbergeria aureiflora	AIF35152.1	0	1	1
+KJ161613.1	796	393	VERIFIED_ANNOTATED_CDS		join(<1..591,1124..1510,2189..>2390)	1	ppc-1E1c	Leuenbergeria aureiflora	AIF35199.1	0	1	1
+KJ161633.1	761	401	VERIFIED_ANNOTATED_CDS		join(<1..591,1022..1408,2058..>2283)	1	ppc-1E1d	Leuenbergeria aureiflora	AIF35219.1	0	1	1
+KJ161651.1	435	204	VERIFIED_ANNOTATED_CDS		join(<1..340,1036..>1308)	2	ppc-1E1e	Leuenbergeria bleo	AIF35234.1	0	1	0
+KJ161746.1	441	344	VERIFIED_ANNOTATED_CDS		join(<1..829,1120..>1325)	2	ppc-1E2	Leuenbergeria aureiflora	AIF35324.1	0	1	1
+KJ161810.1	253	253	VERIFIED_ANNOTATED_CDS		<1..>760	2	ppc-2	Leuenbergeria aureiflora	AIF35384.1	1	1	1
+AH008008-RA	943	943	ORIGINAL_PROTEIN_RECORD	Original amino-acid FASTA; no nucleotide translation performed						1		0
+AH004091-RA	0	213	ORIGINAL_PROTEIN_RECORD	Original amino-acid FASTA; no nucleotide translation performed						NOT_PREVIOUSLY_RETAINED		0
+AH000245-RA	934	934	ORIGINAL_PROTEIN_RECORD	Original amino-acid FASTA; no nucleotide translation performed						1		0
+AH001411-RA	921	921	ORIGINAL_PROTEIN_RECORD	Original amino-acid FASTA; no nucleotide translation performed						1		0
+Zm00001d040129_P001	1034	1034	ORIGINAL_PROTEIN_RECORD	Original amino-acid FASTA; no nucleotide translation performed						1		0
+Zm00001d053453_P002	896	896	ORIGINAL_PROTEIN_RECORD	Original amino-acid FASTA; no nucleotide translation performed						1		0
+Zm00001d046170_P001	970	970	ORIGINAL_PROTEIN_RECORD	Original amino-acid FASTA; no nucleotide translation performed						1		0
+Zm00001d024980_P001	0	245	ORIGINAL_PROTEIN_RECORD	Original amino-acid FASTA; no nucleotide translation performed						NOT_PREVIOUSLY_RETAINED		0
+Zm00001d020057_P004	978	978	ORIGINAL_PROTEIN_RECORD	Original amino-acid FASTA; no nucleotide translation performed						1		0
+Zm00001d037294_P001	0	125	ORIGINAL_PROTEIN_RECORD	Original amino-acid FASTA; no nucleotide translation performed						NOT_PREVIOUSLY_RETAINED		0
+Zm00001d012702_P003	966	966	ORIGINAL_PROTEIN_RECORD	Original amino-acid FASTA; no nucleotide translation performed						1		0
+Zm00001d016166_P001	960	960	ORIGINAL_PROTEIN_RECORD	Original amino-acid FASTA; no nucleotide translation performed						1		0

@@ -1,0 +1,12 @@
+Use itol/main/01_PEPC.treefile for the principal visualization.
+Upload the following files onto that tree:
+02_labels.txt; 03_species_strip.txt; 04_window_519.txt; 04_window_780.txt;
+04_window_890.txt; 05_historical_reference_subtypes.txt; 08_subtype_evidence.txt.
+06_windows_in_tree_order.tsv and 07_windows_in_tree_order.txt are standalone
+tables, not iTOL dataset uploads. The sensitivity folder is a separate tree.
+
+Original gene/accession IDs are used throughout. Keep provisional/unresolved
+labels visible. Historical reference labels are not inferred functional labels.
+Branch labels contain SH-aLRT/UFBoot values. Choose layout and text size in iTOL,
+then export SVG/PDF. Do not describe a display root as a biological outgroup.
+Actual iTOL upload and graphical layout are user actions; this job prepares files.

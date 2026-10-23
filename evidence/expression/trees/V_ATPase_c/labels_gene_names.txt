@@ -1,0 +1,37 @@
+LABELS
+SEPARATOR TAB
+DATA
+AT__gene-LOC130802751	AT | gene-LOC130802751
+AT__gene-LOC130811543	AT | gene-LOC130811543
+AT__gene-LOC130811544	AT | gene-LOC130811544
+AT__gene-LOC130811546	AT | gene-LOC130811546
+BV__Bv1_004950_isam	BV | Bv1_004950_isam
+BV__Bv9_268520_mrfn	BV | Bv9_268520_mrfn
+MC__gene_21703	MC | gene_21703
+MC__gene_23056	MC | gene_23056
+PO__evm.TU.LG06.703	PO | evm.TU.LG06.703
+PO__evm.TU.LG09.549	PO | evm.TU.LG09.549
+PO__evm.TU.LG10.1243	PO | evm.TU.LG10.1243
+PO__evm.TU.LG10.1245	PO | evm.TU.LG10.1245
+PO__evm.TU.LG22.338	PO | evm.TU.LG22.338
+PO__evm.TU.LG22.339	PO | evm.TU.LG22.339
+SLP_Hap1__SP11G00989	SLP_Hap1 | SP11G00989
+SLP_Hap1__SP3G00155	SLP_Hap1 | SP3G00155
+SLP_Hap1__SP7G00700	SLP_Hap1 | SP7G00700
+SP_Hex__gene_Spor0137200.1	SP_Hex | gene_Spor0137200.1
+SP_Hex__gene_Spor0264260.1	SP_Hex | gene_Spor0264260.1
+SP_Hex__gene_Spor0347330.1	SP_Hex | gene_Spor0347330.1
+SP_Hex__gene_Spor0468210.1	SP_Hex | gene_Spor0468210.1
+SP_Tet__g12297	SP_Tet | g12297
+SP_Tet__g20429	SP_Tet | g20429
+SP_Tet__g31004	SP_Tet | g31004
+SP_Tet__g31110	SP_Tet | g31110
+SS__g1886	SS | g1886
+SS__g26508	SS | g26508
+SS__g4327	SS | g4327
+SS__g6037	SS | g6037
+REF__Arabidopsis_thaliana__VHA-c1__P0DH92	REF | Arabidopsis thaliana | VHA-c1 | P0DH92
+REF__Arabidopsis_thaliana__VHA-c3__P0DH93	REF | Arabidopsis thaliana | VHA-c3 | P0DH93
+REF__Arabidopsis_thaliana__VHA-c5__P0DH94	REF | Arabidopsis thaliana | VHA-c5 | P0DH94
+REF__Arabidopsis_thaliana__VHA-c2__P59228	REF | Arabidopsis thaliana | VHA-c2 | P59228
+REF__Arabidopsis_thaliana__VHA-c4__P59229	REF | Arabidopsis thaliana | VHA-c4 | P59229

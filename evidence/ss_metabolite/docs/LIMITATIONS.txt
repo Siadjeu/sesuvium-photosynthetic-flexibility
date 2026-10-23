@@ -1,0 +1,12 @@
+Interpretation and reporting limits
+
+1. RNA-seq and metabolomics were measured in different plants. No sample-level gene–metabolite correlation is estimable. Only two overlapping conditions are available, so correlating their two means would be uninformative.
+2. Metabolomics includes daytime samples only. The data cannot test diel acid accumulation or demonstrate CAM cycling.
+3. Metabolite relative abundances do not measure enzyme activity or metabolic flux. Pool changes can reflect production, consumption, transport and compartmentation. Neither same-sign nor opposite-sign changes establish a gene's role.
+4. There are only three cotyledon and six leaf metabolomics samples. Statistical power is limited; lack of FDR significance does not demonstrate absence of an effect. Exact permutation p-values are discrete. Tissue adjustment removes group mean ranks but not unknown confounders or differences in variance.
+5. Laboratory normalization, detection-limit replacement, acquisition method and identification confidence remain incompletely documented. Repeated low values may reflect preprocessing. Their origin must be clarified; they were not silently reinterpreted as concentrations or missing values.
+6. Duplicate metabolite names and identical columns were excluded and recorded. Results concern a predefined six-organic-acid panel, not a comprehensive metabolome survey. Amino acids were intentionally excluded.
+7. Family-level reaction mapping is not locus-specific biochemical validation. Transporter/regulator figures labeled context-only do not claim direct catalytic relationships. Compartmentation and cofactor specificity require independent evidence.
+8. Sixteen unassessable genes remain in the ledger. Their omission from plots does not imply absence, lack of expression or lack of biological importance.
+9. RNA-seq shrunken log2 fold changes and metabolite log2 mean ratios are different estimands. Their magnitudes should not be equated; statistical adjustments apply to separate test sets.
+10. This is a computational evidence freeze, not a declaration that the experimental methods are publication-complete. The laboratory metadata gap remains explicitly open. No GitHub publication is performed by the consolidation script.

@@ -1,17 +1,74 @@
-# Sesuvium Photosynthetic Flexibility
+# Sesuvium photosynthetic flexibility: curated evidence
 
-Reproducible comparative genomics and transcriptomics analyses of photosynthetic flexibility in Sesuvium and related Caryophyllales.
+Comparative gene-family evidence, evolutionary analyses, expression summaries,
+and exploratory metabolite concordance for Sesuvium and related species.
+This publication snapshot replaces the earlier PEPC-only working presentation.
 
-This repository contains the validated PEPC analysis, including candidate classification, corrected translated phylogenies, Wang et al. (2023) Supplementary Table S7 sequences, maize-coordinate alignment windows, iTOL datasets, evidence integration, and PEPC expression heatmaps. It has been partly written with the help of AI, and the scripts have been improved using AI.
+## Start here
 
-## Final PEPC decisions
+| Component | Authoritative files |
+|---|---|
+| Family definitions, evidence tiers and Wang-layout tables | [Family evidence](evidence/family_validation/README.md) and [generated tables](evidence/family_validation/tables/generated/) |
+| Supported-family duplication, CAFE5, positive selection and DE | [Methods/results](evidence/supported_downstream/METHODS_RESULTS.txt), [657-locus ledger](evidence/supported_downstream/01_supported_locus_evidence.tsv), [family/species summaries](evidence/supported_downstream/02_family_species_summary.tsv) |
+| Per-contrast PO/SS differential expression | [Gene/contrast evidence](evidence/supported_downstream/04_DE_locus_contrast_evidence.tsv) and [family/contrast summaries](evidence/supported_downstream/05_DE_family_contrast_summary.tsv) |
+| Positive-selection tests and CAFE5 membership | [Selection tests](evidence/supported_downstream/06_positive_selection_tests.tsv), [CAFE5 evidence](evidence/supported_downstream/07_CAFE_model_evidence.tsv) and [gene lists](evidence/supported_downstream/09_family_species_gene_lists.tsv) |
+| Accepted expression heatmaps | [Replicate-mean z-score figures/tables](evidence/expression/expression_mean_zscore/), [figure index](evidence/expression/FIGURE_INDEX.tsv) |
+| Corrected broad PEPC phylogeny | [Main tree](evidence/pepc/itol/main/01_PEPC.treefile), [iTOL instructions](evidence/pepc/ITOL_START_HERE.txt), [51-locus subtype table](evidence/pepc/tables/10_locus_subtypes.tsv) |
+| SS transcript/metabolite comparison | [Methods](evidence/ss_metabolite/docs/METHODS.txt), [results](evidence/ss_metabolite/docs/RESULTS.txt), [limitations](evidence/ss_metabolite/docs/LIMITATIONS.txt), [figures/evidence](evidence/ss_metabolite/evidence/) |
 
-- Arabidopsis references were restricted to canonical PPC1–PPC4.
-- Wang S7 nucleotide records were translated before alignment.
-- Maize PEPC `Q84KR7_MAIZE` was used as the coordinate reference.
-- Alignment windows contain two amino acids before and after maize positions 519, 780, and 890.
-- `SS__g8156` was translated from its DNA-like sequence.
-- `SS__g24599` was excluded from the final PEPC tree after independent homology assessment.
-- Identical protein copies were deduplicated for the tree but retained where appropriate in expression analyses.
+Read [reproducibility instructions](docs/REPRODUCIBILITY.md) and
+[results and interpretation limits](docs/RESULTS_AND_LIMITATIONS.md).
 
-The current expression figures use row-wise expression z-scores. TMM-normalized log2 fold-change heatmaps are a separate planned analysis.
+## Scope and interpretation
+
+The supported subset contains **657 distinct species/locus pairs**, not an
+exhaustive inventory of functionally demonstrated C4/CAM genes. The wider family
+ledger retains other evidence tiers. **MEP and PPA remain definition-blocked**;
+unavailable values must remain NA, not zero. Species codes are AT, BV, MC, PO,
+SLP_Hap1, SP_Hex, SP_Tet and SS. AT denotes Amaranthus tricolor, not Arabidopsis.
+
+The integrated evidence records 465 WGD/segmental loci, nine PO PEPC loci in one
+primary-model significantly expanded orthogroup, and six positive-selection loci
+among 296 assessed. DE is restricted to PO and SS and its registered contrasts.
+These evidence categories overlap and must not be summed as distinct genes.
+
+The corrected PEPC tree has 81 tips: 49 protein representatives for 51 loci and
+32 references. Subtype assignments comprise nine supported, 27 provisional and
+15 unresolved loci. Maize Q84KR7 positions are **519, 780 and 890**. Historical
+nucleotide references were corrected using annotated exon-aware CDS translations.
+Earlier PEPC trees containing translated introns are superseded. The validated
+51-locus count did not change. The main and sensitivity trees have identical
+unrooted topology, not identical support values or proof of function.
+
+Expression displays use the mean of three replicates per sample group followed
+by row z-scores across group means. They use square 0.30-inch cells. Log2FC
+heatmaps are not part of the accepted expression presentation; log2FC values
+remain in DE evidence tables and the separate metabolite-concordance comparison.
+Other-family presentation trees are provided as context, not new subtype or
+functional validation; their older PEPC panel is omitted in favour of the
+corrected PEPC release above.
+
+SS transcriptomics and metabolomics were measured in **different plants**.
+Their comparison is descriptive, not a paired gene–metabolite correlation.
+Laboratory metabolite preprocessing metadata remain incompletely documented.
+
+## Provenance and history
+
+[Source selection](provenance/SOURCE_SELECTION.tsv) records the original relative
+paths and hashes. [Supersession manifest](provenance/SUPERSESSION_MANIFEST.tsv)
+records replacements for the old manuscript-facing files. Original HPC releases
+remain unchanged. The following historical tags are preserved:
+
+- `photosynthesis-family-evidence-v1.0.0`
+- `supported-family-downstream-evidence-v1.0.0`
+
+Historical tagged releases may contain superseded PEPC conclusions; use this
+snapshot for current PEPC interpretation. No history rewriting is performed.
+Publication checksums describe this curated layout and are regenerated because
+redundant archives/checkpoints and superseded files are omitted.
+
+Verify the publication from its root with `python3 scripts/verify_publication.py`.
+
+## AI assistance
+
+It has been partly written with the help of AI, and the scripts have been improved using AI.

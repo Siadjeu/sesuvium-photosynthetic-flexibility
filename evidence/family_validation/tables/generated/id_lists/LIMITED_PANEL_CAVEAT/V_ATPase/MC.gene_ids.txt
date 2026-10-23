@@ -1,0 +1,11 @@
+gene_10147
+gene_11087
+gene_11090
+gene_14684
+gene_1563
+gene_16116
+gene_17263
+gene_20440
+gene_21427
+gene_21680
+gene_23068

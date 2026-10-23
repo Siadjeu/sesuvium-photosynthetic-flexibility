@@ -1,0 +1,38 @@
+{
+  "status": "CORRECTED_CDS_TREES_AND_SUBTYPE_REVIEW_COMPLETE",
+  "input_tips": 81,
+  "supported_representatives": 49,
+  "supported_loci": 51,
+  "references": 32,
+  "source_columns": 1243,
+  "main_columns": 965,
+  "sensitivity_columns": 1206,
+  "coordinate_reference": "Q84KR7",
+  "positions": [
+    519,
+    780,
+    890
+  ],
+  "historical_KJ_references_verified": 18,
+  "excluded_unverified_references": [],
+  "all_tree_tip_sets_verified": true,
+  "rooting": "UNROOTED_NO_BIOLOGICAL_OUTGROUP_ASSIGNED",
+  "subtype_assignments_to_supported_genes": "RECOMPUTED_FROM_CORRECTED_REFERENCES",
+  "reference_species_conflict_retained": true,
+  "existing_locus_counts_modified": false,
+  "tree_sensitivity": {
+    "main_nontrivial_splits": 78,
+    "sensitivity_nontrivial_splits": 78,
+    "shared_nontrivial_splits": 78,
+    "RF_symmetric_difference": 0,
+    "normalized_RF": 0.0
+  },
+  "eligible_retained_subtype_anchors": 17,
+  "locus_categories": {
+    "UNRESOLVED": 15,
+    "PROVISIONAL_SUBTYPE": 27,
+    "SUPPORTED_SUBTYPE": 9
+  },
+  "functional_validation": false,
+  "previous_reference_dependent_conclusions": "SUPERSEDED_FOR_REASSESSMENT"
+}

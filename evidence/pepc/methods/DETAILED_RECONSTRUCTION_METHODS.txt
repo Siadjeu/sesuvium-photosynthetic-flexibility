@@ -1,0 +1,67 @@
+Historical nucleotide-derived references are corrected before any phylogeny.
+All 18 KJ accession.version records (12 PEPC1E1, 3 PEPC1E2, 3 PEPC2) must have
+one translated CDS, supported local exon coordinates, genetic code 1 and no
+translation exception. Joined exons are extracted in biological order;
+complement locations are reverse complemented; codon_start is applied.
+The computed protein must exactly match the GenBank /translation qualifier.
+An annotated partial terminal codon can be padded with ambiguous N bases for
+verification: it is accepted only if the resulting residue exactly matches
+the annotated residue. Ambiguous codons resolving to one amino acid are
+translated as that amino acid; otherwise X. Internal stops are never replaced
+to manufacture a protein. Any KJ verification failure stops before inference.
+The annotated translation is the protein used for verified KJ references.
+
+Other historical Phytozome reference IDs are NOT treated as NCBI accessions.
+They require a unique original amino-acid record in the two known original
+FASTA files. Nucleotide-only or ambiguous sources are excluded and recorded.
+An original protein FASTA validates provenance, not external biological
+function. The four Arabidopsis protein comparators and Q84KR7 coordinate
+anchor are retained from the checksummed predecessor protein release.
+Previously coverage-excluded references are reconsidered if source-verified.
+
+MAFFT --auto aligns current supported protein representatives and verified
+references. Original gene/accession IDs are used throughout. Coordinates use
+ungapped maize Q84KR7, 970 residues, positions 519, 780 and 890. Coverage means
+one of the 20 standard amino acids at the mapped column; X/gaps are missing.
+Retention requires >=2/3 positions, with explicit exceptions SS g29856 and
+g7519. Five-residue windows map each of the five maize residues separately.
+The two pairs of identical SS proteins remain represented once in the tree,
+but all 51 validated loci remain in the locus table. Coverage-excluded focal
+loci are recorded unresolved, not deleted from counts.
+
+Main alignment retains columns with standard residues in at least half the
+retained focal representatives and at least one reference. Sensitivity
+alignment retains columns containing at least one standard residue. These
+masks do not guarantee alignment accuracy; inspect fragment placement and
+branch support. IQ-TREE ModelFinder selects an amino-acid model independently
+for each alignment; 1000 UFBoot replicates with -bnni and 1000 SH-aLRT replicates
+are used, with fixed seeds 519780 and 519890. -keep-ident preserves explicitly
+retained identical tips. Trees are unrooted; no biological outgroup is imposed.
+
+Subtype anchors require verified CDS, an explicit historical S7 subtype,
+matching GenBank gene subtype, and no original species metadata conflict.
+Public organism labels are displayed while historical labels are preserved.
+KJ161651 remains ineligible as an anchor pending its metadata conflict review.
+For every internal unrooted edge, both sides are considered. A candidate
+association requires subtype-pure reference membership; contradictory
+historical PEPC subtype references block that group. Supported assignment
+requires the same unique subtype in both trees, all retained eligible anchors
+for that subtype in the enclosing group, >=2 anchors from >=2 species, and
+SH-aLRT >=80 plus UFBoot >=95 on both enclosing edges. Concordant weaker
+associations are provisional; other cases are unresolved. These are operational
+reference-guided assignments, not experimental C4/CAM function validation.
+Historical labels lacking sufficient retained anchors cannot establish a
+supported subtype. Loss of partial references after correction is reported,
+not circumvented by relaxation of the user's coverage rule.
+
+Earlier releases remain unchanged. Their reference-dependent tree/subtype
+conclusions require replacement/reassessment using this corrected release.
+No gene-family validation, RNA-seq, synteny or sequence annotation is rerun.
+
+Local validation: all 12 supplied real GenBank PEPC1E1 records reproduce their
+annotated translations with the exon-aware verifier. Location-parser checks
+include reverse complement and rejection of unsupported remote/order locations.
+An end-to-end test with synthetic additional records and mocked MAFFT/IQ-TREE
+checks data flow, 51-locus accounting, original-ID exports and checksums.
+Actual MAFFT/IQ-TREE inference and the six additional public record checks
+will run on the HPC; no new biological results are claimed by this package.

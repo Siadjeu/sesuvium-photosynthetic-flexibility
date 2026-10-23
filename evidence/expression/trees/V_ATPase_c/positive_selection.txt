@@ -1,0 +1,43 @@
+DATASET_COLORSTRIP
+SEPARATOR TAB
+DATASET_LABEL	Positive selection
+COLOR	#777777
+LEGEND_TITLE	Positive selection
+LEGEND_SHAPES	1	1	1
+LEGEND_COLORS	#b2182b	#2166ac	#d9d9d9
+LEGEND_LABELS	Positive	Assessed non-positive	Unassessed or reference
+DATA
+AT__gene-LOC130802751	#d9d9d9	Unassessed or reference
+AT__gene-LOC130811543	#d9d9d9	Unassessed or reference
+AT__gene-LOC130811544	#d9d9d9	Unassessed or reference
+AT__gene-LOC130811546	#d9d9d9	Unassessed or reference
+BV__Bv1_004950_isam	#d9d9d9	Unassessed or reference
+BV__Bv9_268520_mrfn	#d9d9d9	Unassessed or reference
+MC__gene_21703	#2166ac	Assessed non-positive
+MC__gene_23056	#2166ac	Assessed non-positive
+PO__evm.TU.LG06.703	#2166ac	Assessed non-positive
+PO__evm.TU.LG09.549	#d9d9d9	Unassessed or reference
+PO__evm.TU.LG10.1243	#2166ac	Assessed non-positive
+PO__evm.TU.LG10.1245	#2166ac	Assessed non-positive
+PO__evm.TU.LG22.338	#2166ac	Assessed non-positive
+PO__evm.TU.LG22.339	#2166ac	Assessed non-positive
+SLP_Hap1__SP11G00989	#d9d9d9	Unassessed or reference
+SLP_Hap1__SP3G00155	#d9d9d9	Unassessed or reference
+SLP_Hap1__SP7G00700	#d9d9d9	Unassessed or reference
+SP_Hex__gene_Spor0137200.1	#2166ac	Assessed non-positive
+SP_Hex__gene_Spor0264260.1	#2166ac	Assessed non-positive
+SP_Hex__gene_Spor0347330.1	#2166ac	Assessed non-positive
+SP_Hex__gene_Spor0468210.1	#2166ac	Assessed non-positive
+SP_Tet__g12297	#2166ac	Assessed non-positive
+SP_Tet__g20429	#2166ac	Assessed non-positive
+SP_Tet__g31004	#2166ac	Assessed non-positive
+SP_Tet__g31110	#2166ac	Assessed non-positive
+SS__g1886	#2166ac	Assessed non-positive
+SS__g26508	#2166ac	Assessed non-positive
+SS__g4327	#2166ac	Assessed non-positive
+SS__g6037	#2166ac	Assessed non-positive
+REF__Arabidopsis_thaliana__VHA-c1__P0DH92	#d9d9d9	Unassessed or reference
+REF__Arabidopsis_thaliana__VHA-c3__P0DH93	#d9d9d9	Unassessed or reference
+REF__Arabidopsis_thaliana__VHA-c5__P0DH94	#d9d9d9	Unassessed or reference
+REF__Arabidopsis_thaliana__VHA-c2__P59228	#d9d9d9	Unassessed or reference
+REF__Arabidopsis_thaliana__VHA-c4__P59229	#d9d9d9	Unassessed or reference

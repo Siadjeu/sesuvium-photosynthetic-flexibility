@@ -1,0 +1,27 @@
+component	path	reason
+family_validation	SHA256SUMS.txt	Regenerate publication checksums; original hashes recorded in source selection
+family_validation	tables/generated/SHA256SUMS.txt	Regenerate publication checksums; original hashes recorded in source selection
+supported_downstream	SHA256SUMS.txt	Regenerate publication checksums; original hashes recorded in source selection
+supported_downstream	SOURCE_BUNDLE_SHA256SUMS.txt	Regenerate publication checksums; original hashes recorded in source selection
+expression	ALL_TREE_ID_CORRESPONDENCE.tsv	Older PEPC tree/mapping superseded by corrected PEPC release
+expression	SHA256SUMS.txt	Regenerate publication checksums; original hashes recorded in source selection
+expression	reproduction_package/PACKAGE_SHA256SUMS.txt	Regenerate publication checksums; original hashes recorded in source selection
+expression	trees/PEPC/DE_any.txt	Older PEPC tree/mapping superseded by corrected PEPC release
+expression	trees/PEPC/ID_correspondence.tsv	Older PEPC tree/mapping superseded by corrected PEPC release
+expression	trees/PEPC/cafe_primary_expansion.txt	Older PEPC tree/mapping superseded by corrected PEPC release
+expression	trees/PEPC/labels_gene_names.txt	Older PEPC tree/mapping superseded by corrected PEPC release
+expression	trees/PEPC/labels_original_ids.txt	Older PEPC tree/mapping superseded by corrected PEPC release
+expression	trees/PEPC/positive_selection.txt	Older PEPC tree/mapping superseded by corrected PEPC release
+expression	trees/PEPC/robust_expansion.txt	Older PEPC tree/mapping superseded by corrected PEPC release
+expression	trees/PEPC/species_colors.txt	Older PEPC tree/mapping superseded by corrected PEPC release
+expression	trees/PEPC/tree_gene_names.nwk	Older PEPC tree/mapping superseded by corrected PEPC release
+expression	trees/PEPC/tree_original_ids.nwk	Older PEPC tree/mapping superseded by corrected PEPC release
+expression	trees/PEPC/wgd_segmental.txt	Older PEPC tree/mapping superseded by corrected PEPC release
+ss_metabolite	SHA256SUMS.txt	Regenerate publication checksums; original hashes recorded in source selection
+ss_metabolite	evidence/metabolite_comparisons/SHA256SUMS.txt	Regenerate publication checksums; original hashes recorded in source selection
+ss_metabolite	evidence/transcript_metabolite_comparison/SHA256SUMS.txt	Regenerate publication checksums; original hashes recorded in source selection
+pepc	PEPC_iTOL_ready.zip	Redundant archive/checkpoint excluded; unpacked evidence retained
+pepc	SHA256SUMS.txt	Regenerate publication checksums; original hashes recorded in source selection
+pepc	scripts/PACKAGE_SHA256SUMS.txt	Regenerate publication checksums; original hashes recorded in source selection
+pepc	scripts/run.py	HPC consolidation utility; not needed to reproduce scientific results
+pepc	scripts/run.slurm	HPC consolidation utility; not needed to reproduce scientific results

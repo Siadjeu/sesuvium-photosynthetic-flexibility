@@ -1,0 +1,6 @@
+gene_12493
+gene_12521
+gene_15963
+gene_17069
+gene_23188
+gene_24249

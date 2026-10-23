@@ -1,0 +1,18 @@
+Analysis: bounded correction and finalization of the broad PEPC phylogeny.
+Authoritative source release (relative to PROJECT_ROOT):
+08_focused_families/downstream_supported/pepc_reference_review/cds_rebuild_20837873_20261022T235507297244Z
+No new alignment, tree inference, subtype classification or locus merging was
+performed during finalization. The supplied classifications are preserved.
+Use tables/10_locus_subtypes.tsv for gene-level joins, keyed by species+gene_id.
+Use tables/representative_to_locus_mapping.tsv to expand tree representatives.
+Do not join genes across species by gene_id alone. Preserve classification and
+functional_C4_CAM_assignment fields in downstream summaries.
+
+Completed: CDS verification, coverage filter, main/sensitivity trees, conservative
+subtypes, original-ID iTOL tracks, methods/results/limitations and gene lists.
+Remaining presentation task: upload the main tree and tracks to iTOL, adjust
+layout and export figure. No additional sequence analysis is required to close
+this bounded step. Further subtype resolution is optional future work.
+Previous family-validation and downstream evidence freezes remain untouched.
+This HPC release is not automatically published to GitHub. A publication copy
+would need its own path/privacy audit before upload.

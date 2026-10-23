@@ -1,0 +1,27 @@
+DATASET_COLORSTRIP
+SEPARATOR TAB
+DATASET_LABEL	Positive selection
+COLOR	#777777
+LEGEND_TITLE	Positive selection
+LEGEND_SHAPES	1	1	1
+LEGEND_COLORS	#b2182b	#2166ac	#d9d9d9
+LEGEND_LABELS	Positive	Assessed non-positive	Unassessed or reference
+DATA
+AT__gene-LOC130818043	#d9d9d9	Unassessed or reference
+BV__Bv4_097970_hagt	#d9d9d9	Unassessed or reference
+BV__Bv5_141070_caza	#d9d9d9	Unassessed or reference
+MC__gene_19981	#d9d9d9	Unassessed or reference
+PO__evm.TU.LG01.2261	#d9d9d9	Unassessed or reference
+PO__evm.TU.LG14.1434	#d9d9d9	Unassessed or reference
+SLP_Hap1__SP1G01825	#d9d9d9	Unassessed or reference
+SP_Hex__gene_Spor0253230.1	#d9d9d9	Unassessed or reference
+SP_Hex__gene_Spor0394930.1	#d9d9d9	Unassessed or reference
+SP_Tet__g21873	#d9d9d9	Unassessed or reference
+SP_Tet__g5290	#d9d9d9	Unassessed or reference
+SS__g40661	#d9d9d9	Unassessed or reference
+REF__Arabidopsis_thaliana__ASP5__P46248	#d9d9d9	Unassessed or reference
+REF__Arabidopsis_thaliana__ASP1__P46643	#d9d9d9	Unassessed or reference
+REF__Arabidopsis_thaliana__ASP3__P46644	#d9d9d9	Unassessed or reference
+REF__Arabidopsis_thaliana__ASP2__P46645	#d9d9d9	Unassessed or reference
+REF__Arabidopsis_thaliana__ASP4__P46646	#d9d9d9	Unassessed or reference
+REF__Arabidopsis_thaliana__PAT__Q9SIE1	#d9d9d9	Unassessed or reference

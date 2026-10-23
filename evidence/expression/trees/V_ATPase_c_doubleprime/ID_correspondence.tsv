@@ -1,0 +1,17 @@
+panel	old_tip_id	new_tip_id	display_label	role	species	gene_id	accession	description
+V_ATPase_c_doubleprime	G0001	AT__gene-LOC130801565	AT | gene-LOC130801565	SUPPORTED_LOCUS	AT	gene-LOC130801565		
+V_ATPase_c_doubleprime	G0002	AT__gene-LOC130818021	AT | gene-LOC130818021	SUPPORTED_LOCUS	AT	gene-LOC130818021		
+V_ATPase_c_doubleprime	G0003	BV__Bv2_057300_msgr	BV | Bv2_057300_msgr	SUPPORTED_LOCUS	BV	Bv2_057300_msgr		
+V_ATPase_c_doubleprime	G0004	MC__gene_25150	MC | gene_25150	SUPPORTED_LOCUS	MC	gene_25150		
+V_ATPase_c_doubleprime	G0005	PO__evm.TU.LG18.395	PO | evm.TU.LG18.395	SUPPORTED_LOCUS	PO	evm.TU.LG18.395		
+V_ATPase_c_doubleprime	G0006	PO__evm.TU.LG26.643	PO | evm.TU.LG26.643	SUPPORTED_LOCUS	PO	evm.TU.LG26.643		
+V_ATPase_c_doubleprime	G0007	SLP_Hap1__SP11G00103	SLP_Hap1 | SP11G00103	SUPPORTED_LOCUS	SLP_Hap1	SP11G00103		
+V_ATPase_c_doubleprime	G0008	SP_Hex__gene_Spor0104310.1	SP_Hex | gene_Spor0104310.1	SUPPORTED_LOCUS	SP_Hex	gene_Spor0104310.1		
+V_ATPase_c_doubleprime	G0009	SP_Hex__gene_Spor0536290.1	SP_Hex | gene_Spor0536290.1	SUPPORTED_LOCUS	SP_Hex	gene_Spor0536290.1		
+V_ATPase_c_doubleprime	G0010	SP_Hex__gene_Spor0580900.1	SP_Hex | gene_Spor0580900.1	SUPPORTED_LOCUS	SP_Hex	gene_Spor0580900.1		
+V_ATPase_c_doubleprime	G0011	SP_Tet__g34805	SP_Tet | g34805	SUPPORTED_LOCUS	SP_Tet	g34805		
+V_ATPase_c_doubleprime	G0012	SP_Tet__g4315	SP_Tet | g4315	SUPPORTED_LOCUS	SP_Tet	g4315		
+V_ATPase_c_doubleprime	G0013	SS__g31043	SS | g31043	SUPPORTED_LOCUS	SS	g31043		
+V_ATPase_c_doubleprime	G0014	SS__g34802	SS | g34802	SUPPORTED_LOCUS	SS	g34802		
+V_ATPase_c_doubleprime	R0001	REF__Arabidopsis_thaliana__VHA-c_2__Q9SLA2	REF | Arabidopsis thaliana | VHA-c''2 | Q9SLA2	REFERENCE	Arabidopsis thaliana	VHA-c''2	Q9SLA2	V-type proton ATPase subunit c''2
+V_ATPase_c_doubleprime	R0002	REF__Arabidopsis_thaliana__VHA-c_1__Q9SZY7	REF | Arabidopsis thaliana | VHA-c''1 | Q9SZY7	REFERENCE	Arabidopsis thaliana	VHA-c''1	Q9SZY7	V-type proton ATPase subunit c''1

@@ -1,0 +1,18 @@
+{
+  "status": "PREPARED_REVIEW_REQUIRED",
+  "supported_loci": 657,
+  "pepc_loci": 51,
+  "source_files": 1734,
+  "source_data_modified": false,
+  "publication_checksum_manifests_regenerated": true,
+  "expression_wrapper_adapted": true,
+  "source_releases_unchanged": true,
+  "path_audit": {
+    "status": "PASS",
+    "files_inspected": 1752,
+    "pdf_streams_inspected": 792,
+    "findings": [],
+    "scope": "Prepared publication file tree, raw bytes and decodable Flate PDF streams; not historical Git commits; not visual/OCR secret detection"
+  },
+  "github_publication": false
+}

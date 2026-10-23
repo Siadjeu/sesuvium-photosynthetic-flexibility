@@ -1,0 +1,10 @@
+sample	zero_count	most_repeated_value	repetitions	interpretation
+C1	0	8.0	13	possible_preprocessing_floor_unconfirmed
+C2	0	9.523809524	18	possible_preprocessing_floor_unconfirmed
+C3	0	7.692307692	22	possible_preprocessing_floor_unconfirmed
+SS1	0	1.360544218	9	possible_preprocessing_floor_unconfirmed
+SS2	1	1.834862385	7	possible_preprocessing_floor_unconfirmed
+SS3	0	2.777777778	18	possible_preprocessing_floor_unconfirmed
+SS4	0	1.754385965	12	possible_preprocessing_floor_unconfirmed
+SS5	0	1.5625	2	possible_preprocessing_floor_unconfirmed
+SS6	1	1.869158879	4	possible_preprocessing_floor_unconfirmed

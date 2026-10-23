@@ -1,0 +1,112 @@
+DATASET_COLORSTRIP
+SEPARATOR TAB
+DATASET_LABEL	Positive selection
+COLOR	#777777
+LEGEND_TITLE	Positive selection
+LEGEND_SHAPES	1	1	1
+LEGEND_COLORS	#b2182b	#2166ac	#d9d9d9
+LEGEND_LABELS	Positive	Assessed non-positive	Unassessed or reference
+DATA
+AT__gene-LOC130799129	#d9d9d9	Unassessed or reference
+AT__gene-LOC130807353	#d9d9d9	Unassessed or reference
+AT__gene-LOC130808194	#d9d9d9	Unassessed or reference
+AT__gene-LOC130809460	#d9d9d9	Unassessed or reference
+AT__gene-LOC130810481	#d9d9d9	Unassessed or reference
+AT__gene-LOC130814494	#d9d9d9	Unassessed or reference
+AT__gene-LOC130817461	#d9d9d9	Unassessed or reference
+AT__gene-LOC130818176	#d9d9d9	Unassessed or reference
+AT__gene-LOC130821375	#d9d9d9	Unassessed or reference
+BV__Bv1_009030_zwgx	#d9d9d9	Unassessed or reference
+BV__Bv3_060420_tmwd	#d9d9d9	Unassessed or reference
+BV__Bv4_109080_gkqg	#d9d9d9	Unassessed or reference
+BV__Bv4_112480_rzto	#d9d9d9	Unassessed or reference
+BV__Bv5_147440_kujg	#d9d9d9	Unassessed or reference
+BV__Bv6_166670_joyw	#d9d9d9	Unassessed or reference
+BV__Bv8_231300_wwkd	#d9d9d9	Unassessed or reference
+MC__gene_12493	#2166ac	Assessed non-positive
+MC__gene_12521	#2166ac	Assessed non-positive
+MC__gene_15963	#2166ac	Assessed non-positive
+MC__gene_17069	#b2182b	Positive
+MC__gene_23188	#2166ac	Assessed non-positive
+MC__gene_24249	#d9d9d9	Unassessed or reference
+PO__evm.TU.LG01.2132	#2166ac	Assessed non-positive
+PO__evm.TU.LG01.2637	#2166ac	Assessed non-positive
+PO__evm.TU.LG04.977	#2166ac	Assessed non-positive
+PO__evm.TU.LG05.500	#2166ac	Assessed non-positive
+PO__evm.TU.LG05.992	#2166ac	Assessed non-positive
+PO__evm.TU.LG07.960	#d9d9d9	Unassessed or reference
+PO__evm.TU.LG08.1493	#2166ac	Assessed non-positive
+PO__evm.TU.LG10.50	#2166ac	Assessed non-positive
+PO__evm.TU.LG11.1427	#2166ac	Assessed non-positive
+PO__evm.TU.LG14.1307	#2166ac	Assessed non-positive
+PO__evm.TU.LG14.1772	#2166ac	Assessed non-positive
+PO__evm.TU.LG15.873	#d9d9d9	Unassessed or reference
+PO__evm.TU.LG17.44	#2166ac	Assessed non-positive
+PO__evm.TU.LG19.733	#2166ac	Assessed non-positive
+PO__evm.TU.LG22.385	#2166ac	Assessed non-positive
+PO__evm.TU.LG24.723	#2166ac	Assessed non-positive
+PO__evm.TU.LG25.332	#2166ac	Assessed non-positive
+PO__evm.TU.LG25.825	#2166ac	Assessed non-positive
+SLP_Hap1__SP11G01628	#d9d9d9	Unassessed or reference
+SLP_Hap1__SP11G01629	#d9d9d9	Unassessed or reference
+SLP_Hap1__SP1G01711	#d9d9d9	Unassessed or reference
+SLP_Hap1__SP1G01713	#d9d9d9	Unassessed or reference
+SLP_Hap1__SP1G02129	#d9d9d9	Unassessed or reference
+SLP_Hap1__SP3G00744	#d9d9d9	Unassessed or reference
+SLP_Hap1__SP5G01961	#d9d9d9	Unassessed or reference
+SLP_Hap1__SP6G00031	#d9d9d9	Unassessed or reference
+SLP_Hap1__SP6G00852	#d9d9d9	Unassessed or reference
+SLP_Hap1__SP6G02041	#d9d9d9	Unassessed or reference
+SLP_Hap1__SP7G00529	#d9d9d9	Unassessed or reference
+SP_Hex__gene_Spor0000500.1	#2166ac	Assessed non-positive
+SP_Hex__gene_Spor0006320.1	#2166ac	Assessed non-positive
+SP_Hex__gene_Spor0030670.1	#2166ac	Assessed non-positive
+SP_Hex__gene_Spor0035900.1	#2166ac	Assessed non-positive
+SP_Hex__gene_Spor0079650.1	#b2182b	Positive
+SP_Hex__gene_Spor0107300.1	#2166ac	Assessed non-positive
+SP_Hex__gene_Spor0112170.1	#2166ac	Assessed non-positive
+SP_Hex__gene_Spor0218750.1	#2166ac	Assessed non-positive
+SP_Hex__gene_Spor0235590.1	#2166ac	Assessed non-positive
+SP_Hex__gene_Spor0240710.1	#2166ac	Assessed non-positive
+SP_Hex__gene_Spor0298820.1	#2166ac	Assessed non-positive
+SP_Hex__gene_Spor0307740.1	#2166ac	Assessed non-positive
+SP_Hex__gene_Spor0427980.1	#2166ac	Assessed non-positive
+SP_Hex__gene_Spor0451090.1	#2166ac	Assessed non-positive
+SP_Hex__gene_Spor0521380.1	#2166ac	Assessed non-positive
+SP_Hex__gene_Spor0566680.1	#2166ac	Assessed non-positive
+SP_Hex__gene_Spor0595920.1	#d9d9d9	Unassessed or reference
+SP_Tet__g11611	#2166ac	Assessed non-positive
+SP_Tet__g1192	#2166ac	Assessed non-positive
+SP_Tet__g14548	#2166ac	Assessed non-positive
+SP_Tet__g17951	#2166ac	Assessed non-positive
+SP_Tet__g18487	#2166ac	Assessed non-positive
+SP_Tet__g21191	#2166ac	Assessed non-positive
+SP_Tet__g22758	#2166ac	Assessed non-positive
+SP_Tet__g28586	#2166ac	Assessed non-positive
+SP_Tet__g29088	#2166ac	Assessed non-positive
+SP_Tet__g33048	#2166ac	Assessed non-positive
+SP_Tet__g3532	#2166ac	Assessed non-positive
+SP_Tet__g4982	#2166ac	Assessed non-positive
+SP_Tet__g9348	#2166ac	Assessed non-positive
+SS__g11087	#2166ac	Assessed non-positive
+SS__g20503	#2166ac	Assessed non-positive
+SS__g22334	#2166ac	Assessed non-positive
+SS__g29395	#2166ac	Assessed non-positive
+SS__g29757	#2166ac	Assessed non-positive
+SS__g29868	#2166ac	Assessed non-positive
+SS__g3018	#2166ac	Assessed non-positive
+SS__g36093	#2166ac	Assessed non-positive
+SS__g36761	#2166ac	Assessed non-positive
+SS__g39963	#2166ac	Assessed non-positive
+SS__g4564	#2166ac	Assessed non-positive
+SS__g5792	#2166ac	Assessed non-positive
+SS__g9473	#2166ac	Assessed non-positive
+REF__Arabidopsis_thaliana__PMDH1__O82399	#d9d9d9	Unassessed or reference
+REF__Arabidopsis_thaliana__MDH2__P57106	#d9d9d9	Unassessed or reference
+REF__Arabidopsis_thaliana__MDH1__P93819	#d9d9d9	Unassessed or reference
+REF__Arabidopsis_thaliana____Q8H1E2	#d9d9d9	Unassessed or reference
+REF__Arabidopsis_thaliana__MDH3__Q9FJU0	#d9d9d9	Unassessed or reference
+REF__Arabidopsis_thaliana____Q9LKA3	#d9d9d9	Unassessed or reference
+REF__Arabidopsis_thaliana____Q9SN86	#d9d9d9	Unassessed or reference
+REF__Arabidopsis_thaliana__PMDH2__Q9ZP05	#d9d9d9	Unassessed or reference
+REF__Arabidopsis_thaliana____Q9ZP06	#d9d9d9	Unassessed or reference

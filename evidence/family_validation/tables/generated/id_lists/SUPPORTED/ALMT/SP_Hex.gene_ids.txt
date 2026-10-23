@@ -1,0 +1,16 @@
+gene_Spor0024440.1
+gene_Spor0056590.1
+gene_Spor0056600.1
+gene_Spor0056620.1
+gene_Spor0075210.1
+gene_Spor0189820.1
+gene_Spor0252760.1
+gene_Spor0283090.1
+gene_Spor0283110.1
+gene_Spor0312110.1
+gene_Spor0318720.1
+gene_Spor0338390.1
+gene_Spor0380840.1
+gene_Spor0395360.1
+gene_Spor0507660.1
+gene_Spor0556250.1

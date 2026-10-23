@@ -1,0 +1,3 @@
+gene_Spor0138850.1
+gene_Spor0349070.1
+gene_Spor0469860.1

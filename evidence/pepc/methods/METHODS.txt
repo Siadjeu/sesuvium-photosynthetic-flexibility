@@ -1,0 +1,34 @@
+PEPC reference correction and phylogenetic subtype assessment
+
+Previously validated PEPC loci from eight focal species were represented by
+49 protein sequences corresponding to 51 loci. Two pairs of SS loci encoding
+identical proteins were represented once per pair in the trees while retaining
+all loci in the counting ledger. Historical nucleotide-derived references were
+reconstructed from annotated GenBank CDS features, respecting exon joins,
+strand and codon_start. Computed translations were checked against annotated
+proteins; partial terminal codons were accepted only when ambiguous completion
+reproduced the annotated residue. All 18 KJ records passed these checks.
+Other historical reference proteins were reconciled with their source FASTA
+records. Previously excluded references were reconsidered.
+
+MAFFT --auto aligned the protein panel. Reference coordinates corresponded to
+ungapped maize Q84KR7. Sequences were retained when at least two of positions
+519, 780 and 890 contained standard amino acids, with predefined exceptions
+for SS g29856 and g7519. Both exceptions independently covered all three sites.
+Five-residue windows were extracted by separately mapping positions p-2 to p+2.
+Main alignment columns required standard residues in at least half of retained
+focal representatives and at least one reference. The sensitivity alignment
+retained columns containing at least one standard amino acid.
+
+IQ-TREE 3.1.3 inferred unrooted maximum-likelihood trees, with ModelFinder BIC
+selection, 1000 ultrafast bootstrap replicates with -bnni, and 1000 SH-aLRT
+replicates. Main and sensitivity models were Q.PLANT+R4 and
+Q.PLANT+I+R4, respectively. Identical tips were preserved.
+
+Supported subtype assignments required concordant exclusive reference-group
+placement in both trees, all retained eligible anchors of that subtype in the
+enclosing group, at least two anchors from two species, SH-aLRT >=80 and
+UFBoot >=95 in both trees. Concordant weaker associations were provisional;
+other loci were unresolved. Historical metadata conflicts were excluded from
+anchor eligibility. Assignment refers to phylogenetic subtype, not proven
+photosynthetic function. Detailed algorithms accompany this release.

@@ -1,0 +1,6 @@
+MC__gene_11085
+MC__gene_21307
+MC__gene_21309
+MC__gene_24691
+MC__gene_5426
+MC__gene_8424

@@ -1,0 +1,46 @@
+LABELS
+SEPARATOR TAB
+DATA
+AT__gene-LOC130812591	AT | gene-LOC130812591
+AT__gene-LOC130812762	AT | gene-LOC130812762
+AT__gene-LOC130815985	AT | gene-LOC130815985
+AT__gene-LOC130827889	AT | gene-LOC130827889
+AT__gene-LOC130828224	AT | gene-LOC130828224
+BV__Bv7_209960_gzfm	BV | Bv7_209960_gzfm
+BV__Bv8_243430_cnng	BV | Bv8_243430_cnng
+BV__Bv9_271870_zhcs	BV | Bv9_271870_zhcs
+MC__gene_26220	MC | gene_26220
+MC__gene_8950	MC | gene_8950
+PO__evm.TU.LG03.1221	PO | evm.TU.LG03.1221
+PO__evm.TU.LG12.559	PO | evm.TU.LG12.559
+PO__evm.TU.LG15.1365	PO | evm.TU.LG15.1365
+PO__evm.TU.LG16.1602	PO | evm.TU.LG16.1602
+PO__evm.TU.LG26.66	PO | evm.TU.LG26.66
+SLP_Hap1__SP1G00585	SLP_Hap1 | SP1G00585
+SLP_Hap1__SP2G00618	SLP_Hap1 | SP2G00618
+SLP_Hap1__SP3G02701	SLP_Hap1 | SP3G02701
+SLP_Hap1__SP8G01483	SLP_Hap1 | SP8G01483
+SP_Hex__gene_Spor0062550.1	SP_Hex | gene_Spor0062550.1
+SP_Hex__gene_Spor0130220.1	SP_Hex | gene_Spor0130220.1
+SP_Hex__gene_Spor0142280.1	SP_Hex | gene_Spor0142280.1
+SP_Hex__gene_Spor0177660.1	SP_Hex | gene_Spor0177660.1
+SP_Hex__gene_Spor0276560.1	SP_Hex | gene_Spor0276560.1
+SP_Hex__gene_Spor0352720.1	SP_Hex | gene_Spor0352720.1
+SP_Hex__gene_Spor0473630.1	SP_Hex | gene_Spor0473630.1
+SP_Hex__gene_Spor0498820.1	SP_Hex | gene_Spor0498820.1
+SP_Tet__g22599	SP_Tet | g22599
+SP_Tet__g25073	SP_Tet | g25073
+SP_Tet__g26080	SP_Tet | g26080
+SP_Tet__g27326	SP_Tet | g27326
+SP_Tet__g30465	SP_Tet | g30465
+SP_Tet__g31642	SP_Tet | g31642
+SS__g11458	SS | g11458
+SS__g1570	SS | g1570
+SS__g25939	SS | g25939
+SS__g28508	SS | g28508
+SS__g31583	SS | g31583
+SS__g8927	SS | g8927
+SS__g9001	SS | g9001
+REF__Arabidopsis_thaliana__AVP1__P31414	REF | Arabidopsis thaliana | AVP1 | P31414
+REF__Arabidopsis_thaliana__AVPL1__Q56ZN6	REF | Arabidopsis thaliana | AVPL1 | Q56ZN6
+REF__Arabidopsis_thaliana__AVPL2__Q9FWR2	REF | Arabidopsis thaliana | AVPL2 | Q9FWR2

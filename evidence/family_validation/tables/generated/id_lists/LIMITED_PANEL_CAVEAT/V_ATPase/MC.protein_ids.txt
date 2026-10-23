@@ -1,0 +1,11 @@
+MC__gene_10147
+MC__gene_11087
+MC__gene_11090
+MC__gene_14684
+MC__gene_1563
+MC__gene_16116
+MC__gene_17263
+MC__gene_20440
+MC__gene_21427
+MC__gene_21680
+MC__gene_23068

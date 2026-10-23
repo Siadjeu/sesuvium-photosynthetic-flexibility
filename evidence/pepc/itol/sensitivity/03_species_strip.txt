@@ -1,0 +1,96 @@
+DATASET_COLORSTRIP
+SEPARATOR TAB
+DATASET_LABEL	Species / reference
+COLOR	#777777
+COLOR_BRANCHES	0
+STRIP_WIDTH	18
+MARGIN	5
+BORDER_WIDTH	0.5
+BORDER_COLOR	#FFFFFF
+COMPLETE_BORDER	1
+LEGEND_TITLE	Species codes
+LEGEND_SHAPES	1	1	1	1	1	1	1	1	1
+LEGEND_COLORS	#D55E00	#0072B2	#009E73	#CC79A7	#E69F00	#56B4E9	#8C6BB1	#CC3311	#777777
+LEGEND_LABELS	AT	BV	MC	PO	SLP_Hap1	SP_Hex	SP_Tet	SS	REFERENCE
+DATA
+AT__gene-LOC130806734	#D55E00	Amaranthus tricolor
+AT__gene-LOC130807487	#D55E00	Amaranthus tricolor
+AH001411-RA	#777777	Amaranthus hypochondriacus
+AT__gene-LOC130817473	#D55E00	Amaranthus tricolor
+AH008008-RA	#777777	Amaranthus hypochondriacus
+BV__Bv4_112300_ihek	#0072B2	Beta vulgaris
+MC__gene_7534	#009E73	Mesembryanthemum crystallinum
+SP_Hex__gene_Spor0428090.1	#56B4E9	Sesuvium portulacastrum (hexaploid)
+SP_Tet__g11621	#8C6BB1	Sesuvium portulacastrum (tetraploid)
+SP_Hex__gene_Spor0451220.1	#56B4E9	Sesuvium portulacastrum (hexaploid)
+SP_Tet__g9336	#8C6BB1	Sesuvium portulacastrum (tetraploid)
+SS__g29856	#CC3311	Sesuvium sesuvioides
+SS__g9483	#CC3311	Sesuvium sesuvioides
+PO__evm.TU.LG02.787	#CC79A7	Portulaca oleracea
+PO__evm.TU.LG09.1958	#CC79A7	Portulaca oleracea
+KJ161740.1	#777777	Anacampseros retusa
+KJ161741.1	#777777	Grahamia bracteata
+KJ161746.1	#777777	Leuenbergeria aureiflora
+AT__gene-LOC130821049	#D55E00	Amaranthus tricolor
+BV__Bv6_171660_yout	#0072B2	Beta vulgaris
+MC__gene_3958	#009E73	Mesembryanthemum crystallinum
+SP_Hex__gene_Spor0508250.1	#56B4E9	Sesuvium portulacastrum (hexaploid)
+SP_Tet__g24447	#8C6BB1	Sesuvium portulacastrum (tetraploid)
+SP_Tet__g5710	#8C6BB1	Sesuvium portulacastrum (tetraploid)
+SS__g7519	#CC3311	Sesuvium sesuvioides
+PO__evm.TU.LG03.46	#CC79A7	Portulaca oleracea
+PO__evm.TU.LG03.97	#CC79A7	Portulaca oleracea
+KJ161805.1	#777777	Anacampseros retusa
+KJ161806.1	#777777	Grahamia bracteata
+SLP_Hap1__SP2G00467	#E69F00	Selenicereus megalanthus
+KJ161810.1	#777777	Leuenbergeria aureiflora
+Q8GVE8	#777777	Arabidopsis thaliana
+Zm00001d040129_P001	#777777	Zea mays
+Q84VW9	#777777	Arabidopsis thaliana
+Q9MAH0	#777777	Arabidopsis thaliana
+Zm00001d016166_P001	#777777	Zea mays
+Zm00001d053453_P002	#777777	Zea mays
+Zm00001d046170_P001	#777777	Zea mays
+Q84KR7	#777777	Zea mays
+Zm00001d012702_P003	#777777	Zea mays
+Zm00001d020057_P004	#777777	Zea mays
+Q5GM68	#777777	Arabidopsis thaliana
+MC__gene_21178	#009E73	Mesembryanthemum crystallinum
+SP_Hex__gene_Spor0042710.1	#56B4E9	Sesuvium portulacastrum (hexaploid)
+SP_Hex__gene_Spor0457440.1	#56B4E9	Sesuvium portulacastrum (hexaploid)
+SP_Tet__g9073	#8C6BB1	Sesuvium portulacastrum (tetraploid)
+SP_Tet__g10077	#8C6BB1	Sesuvium portulacastrum (tetraploid)
+SP_Hex__gene_Spor0434450.1	#56B4E9	Sesuvium portulacastrum (hexaploid)
+SS__g2566	#CC3311	Sesuvium sesuvioides
+SS__g4086	#CC3311	Sesuvium sesuvioides
+SS__g32916	#CC3311	Sesuvium sesuvioides
+PO__evm.TU.LG03.2406	#CC79A7	Portulaca oleracea
+PO__evm.TU.LG03.2407	#CC79A7	Portulaca oleracea
+PO__evm.TU.LG17.1452	#CC79A7	Portulaca oleracea
+PO__evm.TU.LG17.1453	#CC79A7	Portulaca oleracea
+PO__evm.TU.LG06.1001	#CC79A7	Portulaca oleracea
+PO__evm.TU.LG11.259	#CC79A7	Portulaca oleracea
+SLP_Hap1__SP3G01743	#E69F00	Selenicereus megalanthus
+KJ161568.1	#777777	Leuenbergeria aureiflora
+KJ161565.1	#777777	Anacampseros retusa
+KJ161566.1	#777777	Grahamia bracteata
+PO__evm.TU.LG05.829	#CC79A7	Portulaca oleracea
+PO__evm.TU.LG25.499	#CC79A7	Portulaca oleracea
+KJ161610.1	#777777	Anacampseros retusa
+KJ161611.1	#777777	Grahamia bracteata
+KJ161613.1	#777777	Leuenbergeria aureiflora
+SLP_Hap1__SP1G00887	#E69F00	Selenicereus megalanthus
+SLP_Hap1__SP10G01662	#E69F00	Selenicereus megalanthus
+KJ161651.1	#777777	Leuenbergeria bleo
+SLP_Hap1__SP1G00883	#E69F00	Selenicereus megalanthus
+SLP_Hap1__SP1G00884	#E69F00	Selenicereus megalanthus
+SLP_Hap1__SP1G00885	#E69F00	Selenicereus megalanthus
+KJ161633.1	#777777	Leuenbergeria aureiflora
+KJ161630.1	#777777	Anacampseros retusa
+KJ161631.1	#777777	Grahamia bracteata
+PO__evm.TU.LG06.677	#CC79A7	Portulaca oleracea
+SLP_Hap1__SP1G00882	#E69F00	Selenicereus megalanthus
+KJ161575.1	#777777	Anacampseros retusa
+KJ161576.1	#777777	Grahamia bracteata
+BV__Bv9_260510_xeaz	#0072B2	Beta vulgaris
+AH000245-RA	#777777	Amaranthus hypochondriacus
